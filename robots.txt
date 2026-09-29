@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.nura-interiors.com/sitemap.xml
+
+# Keep non-public utility files out of search results
+Disallow: /README.md
