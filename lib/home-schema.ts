@@ -21,7 +21,7 @@ export const homeSchema={
  {'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:'Nura Interiors',publisher:{'@id':organization['@id']},inLanguage:'en-GB'},
  {'@type':'WebPage','@id':siteUrl+'/#webpage',url:siteUrl+'/',name:'Nura — Bespoke kitchens & joinery',isPartOf:{'@id':siteUrl+'/#website'},about:{'@id':organization['@id']},mainEntity:{'@id':siteUrl+'/#interior-services'},inLanguage:'en-GB'},
  studio('London','367 Fulham Palace Road','GB','SW6 6TA'),
- studio('Dubai','Burlington Tower, Marasi Dr, Business Bay','AE'),
+ studio('Dubai','Burlington Tower, Marasi Dr, Business Bay','AE','00000'),
  {'@type':'Service','@id':siteUrl+'/#interior-services',name:'Bespoke kitchens and architectural joinery',serviceType:'Bespoke kitchen and fitted furniture design, manufacture and installation',provider:{'@id':organization['@id']},areaServed:organization.areaServed,hasOfferCatalog:{'@id':siteUrl+'/#service-catalog'}},
  {'@type':'OfferCatalog','@id':siteUrl+'/#service-catalog',name:'Nura bespoke interiors services',itemListElement:[
   {'@type':'Offer',itemOffered:{'@type':'Service',name:'Bespoke kitchens',url:siteUrl+'/services/bespoke-kitchens'}},
