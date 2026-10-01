@@ -1023,6 +1023,242 @@
           "children": [
             {
               "type": "text",
+              "text": "Compare the practical details"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "This comparison uses two named manufacturers as examples, not a ranking of every porcelain or composite product. Appearance, fabrication and the exact finish still matter."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "A practical starting point for comparing two surface types",
+          "children": [
+            {
+              "type": "thead",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Surface"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Everyday care"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What to check before ordering"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Porcelain (Laminam example)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A damp microfibre cloth and neutral detergent, followed by rinsing and drying."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Finish-specific cleaning rules, edge detail, support and fabrication requirements."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Mineral-based composite (Silestone example)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Neutral soap and a damp microfibre cloth; remove the residue and dry."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Use trivets for hot objects. Confirm the current care sheet and suitability for the intended location."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Laminam cleaning and maintenance",
+              "link": "https://www.laminam.com/usa/en/cleaning-and-maintenance/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Silestone maintenance and heat guidance",
+              "link": "https://www.cosentino.com/silestone/maintenance/"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Your pre-order checklist"
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "children": [
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "View the exact sample in daylight and under your kitchen lighting."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Approve the edge profile, visible joints and sink cut-out with the fabricator."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Confirm support, overhangs and installation responsibilities in writing."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Compare like-for-like fitted quotes, including cut-outs, delivery and installation."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Keep the current care sheet, warranty and repair contact for the chosen product."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
               "text": "Sources and further reading"
             }
           ]
@@ -1051,7 +1287,7 @@
           ]
         }
       ],
-      "modified_date": "2026-10-01T11:11:33.688Z",
+      "modified_date": "2026-10-01T13:25:32.099Z",
       "author_name": "Joanne H"
     }
   },
@@ -3366,7 +3602,7 @@
       "title": "How to Choose the Right Worktop for Your Kitchen",
       "location": "",
       "category": "Journal",
-      "summary": "When it comes to renovating your kitchen, choosing the right worktop is a critical decision. Worktops are the most visible and frequently...",
+      "summary": "Compare kitchen worktops by appearance, care, fabrication and fitted cost. Use a practical checklist to choose a surface that suits your kitchen.",
       "body": "When it comes to renovating your kitchen, choosing the right worktop is a critical decision. Worktops are the most visible and frequently used surface in your kitchen, and therefore, it’s important to select one that not only looks good but also performs well and fits your lifestyle. Here are some factors to consider when choosing the right worktop for your kitchen. Durability and Maintenance: The first thing to consider when selecting a worktop is how durable it is and how much maintenance it requires. Some materials, such as granite and marble, are beautiful but are prone to damage or marking if not looked after. Porcelain is more resistant to damage and are more sustainable as a material. Consider your lifestyle and how much time and effort you are willing to put into maintaining your worktop. Style and Aesthetics: The look and feel of your worktop should complement the overall style and aesthetic of your kitchen. There are a variety of materials and finishes to choose from, including solid wood, porcelain, granite, quartz, and more. Consider the colour, texture, and pattern of your worktop to ensure it fits with the rest of your kitchen Cost: Worktops can range in price from budget-friendly options like porcelain to more expensive options like granite and marble. Set a budget for your worktop and choose a material that fits within your budget while still providing the durability and style you desire. Functionality: Consider how you will be using your worktop and choose a material that can handle the wear and tear of daily use. If you do a lot of cooking and food preparation, consider a heat-resistant material like  porcelain. Sustainability: Sustainability is an increasingly important factor in kitchen design. Consider the origin and sustainability of the materials you choose for your worktop. Options like porcelain and sustainable wood can help reduce your carbon footprint and are a great choice for those looking for an eco-friendly option. In conclusion, choosing the right worktop for your kitchen involves considering a variety of factors, including durability, style, cost, functionality, and sustainability. Take the time to research and compare different materials and finishes to find the right worktop for your kitchen and your lifestyle. With so many options available, you're sure to find the perfect worktop to fit your needs.",
       "specifications": "",
       "hero": {
@@ -3374,8 +3610,8 @@
         "alt": "How to Choose the Right Worktop for Your Kitchen"
       },
       "gallery": [],
-      "seo_title": "How to Choose the Right Worktop for Your Kitchen | NURA Interiors",
-      "seo_description": "When it comes to renovating your kitchen, choosing the right worktop is a critical decision. Worktops are the most visible and frequently...",
+      "seo_title": "Choosing a Kitchen Worktop: Materials & Care | Nura Interiors",
+      "seo_description": "Compare kitchen worktops by appearance, care, fabrication and fitted cost. Use a practical checklist to choose a surface that suits your kitchen.",
       "published_date": "2023-03-02T10:02:56.264Z",
       "image_rights_status": "review",
       "source_publish_status": "unknown",
@@ -3383,14 +3619,10 @@
       "body_nodes": [
         {
           "type": "paragraph",
-          "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "When it comes to renovating your kitchen, choosing the right worktop is a critical decision. ",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "The right kitchen worktop balances how you want the room to look with how you cook, clean and use it. Start with your priorities, then compare the exact products and fitted quotations on your shortlist."
             }
           ]
         },
@@ -3401,171 +3633,148 @@
           "caption": ""
         },
         {
-          "type": "paragraph",
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "Worktops are the most visible and frequently used surface in your kitchen, and therefore, it’s important to select one that not only looks good but also performs well and fits your lifestyle. Here are some factors to consider when choosing the right worktop for your kitchen.",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "Start with everyday use"
             }
           ]
         },
         {
-          "type": "ul",
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Think about food preparation, cleaning routines, family use and the areas around the sink and hob. Ask the supplier to explain the stated limits of the specific surface and finish, rather than relying on a material name alone."
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "level": 2,
           "children": [
             {
-              "type": "li",
-              "level": 2,
+              "type": "text",
+              "text": "Compare materials and care"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Porcelain, mineral-based composite surfaces, natural stone and timber are different choices. Review a sample and the current supplier care sheet for each product. Do not assume that one material is always cheaper, tougher or more sustainable than another."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "A practical starting point for comparing two surface types",
+          "children": [
+            {
+              "type": "thead",
               "children": [
                 {
-                  "type": "paragraph",
-                  "level": 2,
+                  "type": "tr",
                   "children": [
                     {
-                      "type": "text",
-                      "text": "Durability and Maintenance:",
-                      "bold": true,
-                      "italic": false,
-                      "link": ""
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Surface"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "text": " The first thing to consider when selecting a worktop is how durable it is and how much maintenance it requires. Some materials, such as granite and marble, are beautiful but are prone to damage or marking if not looked after. Porcelain is more resistant to damage and are more sustainable as a material. Consider your lifestyle and how much time and effort you are willing to put into maintaining your worktop.",
-                      "bold": false,
-                      "italic": false,
-                      "link": ""
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Everyday care"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What to check before ordering"
+                        }
+                      ]
                     }
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "ul",
-          "level": 2,
-          "children": [
+            },
             {
-              "type": "li",
-              "level": 2,
+              "type": "tbody",
               "children": [
                 {
-                  "type": "paragraph",
-                  "level": 2,
+                  "type": "tr",
                   "children": [
                     {
-                      "type": "text",
-                      "text": "Style and Aesthetics:",
-                      "bold": true,
-                      "italic": false,
-                      "link": ""
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Porcelain (Laminam example)"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "text": " The look and feel of your worktop should complement the overall style and aesthetic of your kitchen. There are a variety of materials and finishes to choose from, including solid wood, porcelain, granite, quartz, and more. Consider the colour, texture, and pattern of your worktop to ensure it fits with the rest of your kitchen",
-                      "bold": false,
-                      "italic": false,
-                      "link": ""
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A damp microfibre cloth and neutral detergent, followed by rinsing and drying."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Finish-specific cleaning rules, edge detail, support and fabrication requirements."
+                        }
+                      ]
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "ul",
-          "level": 2,
-          "children": [
-            {
-              "type": "li",
-              "level": 2,
-              "children": [
+                },
                 {
-                  "type": "paragraph",
-                  "level": 2,
+                  "type": "tr",
                   "children": [
                     {
-                      "type": "text",
-                      "text": "Cost:",
-                      "bold": true,
-                      "italic": false,
-                      "link": ""
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Mineral-based composite (Silestone example)"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "text": " Worktops can range in price from budget-friendly options like porcelain to more expensive options like granite and marble. Set a budget for your worktop and choose a material that fits within your budget while still providing the durability and style you desire.",
-                      "bold": false,
-                      "italic": false,
-                      "link": ""
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "ul",
-          "level": 2,
-          "children": [
-            {
-              "type": "li",
-              "level": 2,
-              "children": [
-                {
-                  "type": "paragraph",
-                  "level": 2,
-                  "children": [
-                    {
-                      "type": "text",
-                      "text": "Functionality:",
-                      "bold": true,
-                      "italic": false,
-                      "link": ""
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Neutral soap and a damp microfibre cloth; remove the residue and dry."
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "text": " Consider how you will be using your worktop and choose a material that can handle the wear and tear of daily use. If you do a lot of cooking and food preparation, consider a heat-resistant material like  porcelain. ",
-                      "bold": false,
-                      "italic": false,
-                      "link": ""
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "ul",
-          "level": 2,
-          "children": [
-            {
-              "type": "li",
-              "level": 2,
-              "children": [
-                {
-                  "type": "paragraph",
-                  "level": 2,
-                  "children": [
-                    {
-                      "type": "text",
-                      "text": "Sustainability:",
-                      "bold": true,
-                      "italic": false,
-                      "link": ""
-                    },
-                    {
-                      "type": "text",
-                      "text": " Sustainability is an increasingly important factor in kitchen design. Consider the origin and sustainability of the materials you choose for your worktop. Options like porcelain and sustainable wood can help reduce your carbon footprint and are a great choice for those looking for an eco-friendly option.",
-                      "bold": false,
-                      "italic": false,
-                      "link": ""
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Use trivets for hot objects. Confirm the current care sheet and suitability for the intended location."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3575,19 +3784,236 @@
         },
         {
           "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The table summarises manufacturer guidance for the named products. These instructions do not apply automatically to other brands or finishes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Laminam cleaning and maintenance",
+              "link": "https://www.laminam.com/usa/en/cleaning-and-maintenance/"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Silestone maintenance and heat guidance",
+              "link": "https://www.cosentino.com/silestone/maintenance/"
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "In conclusion, choosing the right worktop for your kitchen involves considering a variety of factors, including durability, style, cost, functionality, and sustainability. Take the time to research and compare different materials and finishes to find the right worktop for your kitchen and your lifestyle. With so many options available, you're sure to find the perfect worktop to fit your needs.",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "Look at the whole surface"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "View a sample in the room and examine a full-slab image where a strong pattern is involved. Consider how the worktop, cabinetry, splashback and lighting work together. Check how the proposed edge will look, including whether its appearance differs from the face of the slab."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Review fabrication before ordering"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Agree the joints, sink and hob cut-outs, overhangs and supporting cabinetry with the designer and fabricator. Ask who measures, delivers and installs the worktop, how the installation is scheduled and who handles any damage or repair enquiry."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare fitted costs"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare quotations for the same layout and specification. Include the material, fabrication, cut-outs, edge treatment, transport and installation. A lower slab price does not necessarily mean a lower completed-project price."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Check environmental evidence"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ask for product-specific evidence about recycled content, manufacturing, transport and expected service life. A natural-material description or a general eco-friendly label is not enough to compare environmental performance."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Your selection checklist"
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "children": [
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Choose a finish you have seen in the intended lighting."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Confirm the routine care you are comfortable carrying out."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Approve the fabrication drawing and visible edge details."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Compare complete fitted quotations and written exclusions."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Keep the supplier care sheet and warranty details."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore the next step"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Read our porcelain worktop guide for benefits, care and details to consider.",
+              "link": "/post/the-power-of-porcelain"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore bespoke kitchen design with Nura.",
+              "link": "/services/bespoke-kitchens"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Discuss your layout and materials with the studio.",
+              "link": "/consultation"
             }
           ]
         }
       ],
-      "modified_date": "2023-03-02T10:02:56.264Z",
+      "modified_date": "2026-10-01T13:25:32.100Z",
       "author_name": "Joanne H"
     }
   },
