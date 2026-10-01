@@ -3,6 +3,16 @@
  const holder=document.createElement('div');holder.className='nura-lead';
  holder.innerHTML=`<button class="nura-lead-trigger" type="button" aria-haspopup="dialog" aria-controls="nura-lead-dialog"><span>Begin a conversation</span><span aria-hidden="true">↗</span></button><dialog id="nura-lead-dialog" class="nura-lead-dialog" aria-labelledby="nura-lead-title"><button class="nura-lead-close" type="button" aria-label="Close enquiry form">×</button><p class="nura-lead-kicker">NURA / YOUR NEXT CHAPTER</p><h2 id="nura-lead-title">A space, made around you.</h2><p class="nura-lead-intro">Tell us what you have in mind. Our studio will help you explore the next step.</p><form class="nura-lead-form"><label>Your name<input name="name" autocomplete="name" maxlength="150" required></label><label>Email address<input name="email" type="email" autocomplete="email" maxlength="254" required></label><label>What are you planning?<textarea name="message" rows="3" maxlength="9500" placeholder="A kitchen, fitted furniture or a whole-home project…" required></textarea></label><label class="nura-lead-trap" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label><p class="nura-lead-note">We’ll use these details to respond to your project enquiry.</p><button class="nura-lead-submit" type="submit">Send your enquiry <span aria-hidden="true">↗</span></button><p class="nura-lead-status" role="status" aria-live="polite"></p></form><a class="nura-lead-email" href="mailto:studio@nura-interiors.com">Prefer email? studio@nura-interiors.com</a></dialog>`;
  document.body.append(holder);
+ const trigger=holder.querySelector('.nura-lead-trigger');
+ if(location.pathname==='/'){
+  const contact=document.getElementById('contact');
+  if(contact){
+   const sync=()=>{const box=contact.getBoundingClientRect();trigger.hidden=box.top<innerHeight&&box.bottom>0;};
+   sync();
+   const observer=new IntersectionObserver(entries=>{trigger.hidden=entries[0].isIntersecting;});
+   observer.observe(contact);
+  }
+ }
  const dialog=holder.querySelector('dialog'),form=holder.querySelector('form'),submit=holder.querySelector('.nura-lead-submit'),status=holder.querySelector('.nura-lead-status');
  holder.querySelector('.nura-lead-trigger').addEventListener('click',()=>dialog.showModal());
  holder.querySelector('.nura-lead-close').addEventListener('click',()=>dialog.close());
