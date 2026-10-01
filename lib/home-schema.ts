@@ -4,10 +4,9 @@ const clientReviews=[
  {author:'Florina Trusescu',body:'Visited Nura recently at their newly opened showroom.'},
  {author:'Adam Tariq',body:'What impressed us just as much was the service throughout the project.'}
 ].map((review,index)=>({
- '@type':'Review','@id':siteUrl+'/#client-review-'+(index+1),
- author:{'@type':'Person',name:review.author},reviewBody:review.body,
- reviewRating:{'@type':'Rating',ratingValue:5,bestRating:5,worstRating:1},
- itemReviewed:{'@id':organization['@id']}
+ '@type':'Quotation','@id':siteUrl+'/#client-review-'+(index+1),
+ author:{'@type':'Person',name:review.author},text:review.body,
+ about:{'@id':organization['@id']},isPartOf:{'@id':siteUrl+'/#webpage'}
 }));
 const hours=[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday'],opens:'09:30',closes:'18:00'}];
 const studio=(city:string,street:string,country:string,postalCode?:string)=>({
@@ -17,7 +16,8 @@ const studio=(city:string,street:string,country:string,postalCode?:string)=>({
 });
 export const homeSchema={
  '@context':'https://schema.org','@graph':[
- {...organization,review:clientReviews},
+ organization,
+ ...clientReviews,
  {'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:'Nura Interiors',publisher:{'@id':organization['@id']},inLanguage:'en-GB'},
  {'@type':'WebPage','@id':siteUrl+'/#webpage',url:siteUrl+'/',name:'Nura — Bespoke kitchens & joinery',isPartOf:{'@id':siteUrl+'/#website'},about:{'@id':organization['@id']},mainEntity:{'@id':siteUrl+'/#interior-services'},inLanguage:'en-GB'},
  studio('London','367 Fulham Palace Road','GB','SW6 6TA'),
