@@ -2,5 +2,15 @@
   "framework": "nextjs",
   "buildCommand": "npm run build:verified",
   "installCommand": "npm ci",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "headers": [
+    {
+      "source": "/favicon.png",
+      "headers": [{"key":"Cache-Control","value":"public, max-age=86400, stale-while-revalidate=604800"}]
+    },
+    {
+      "source": "/favicon-glow.png",
+      "headers": [{"key":"Cache-Control","value":"public, max-age=86400, stale-while-revalidate=604800"}]
+    }
+  ]
 }
