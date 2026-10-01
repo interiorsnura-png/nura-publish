@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 import {Photo} from './Editorial';
-export type ArticleNode={type:string;text?:string;bold?:boolean;italic?:boolean;link?:string;level?:number;children?:ArticleNode[];src?:string;alt?:string;caption?:string;url?:string};
+export type ArticleNode={type:string;text?:string;bold?:boolean;italic?:boolean;link?:string;level?:number;children?:ArticleNode[];src?:string;alt?:string;caption?:string;url?:string;anchor?:string};
 export default function RichArticle({nodes}:{nodes:ArticleNode[]}) {
   return <>{nodes.map((node,index)=>{
     const key=index;
@@ -13,7 +13,7 @@ export default function RichArticle({nodes}:{nodes:ArticleNode[]}) {
     }
     const children=<RichArticle nodes={node.children||[]}/>;
     if(node.type==='paragraph')return <p key={key}>{children}</p>;
-    if(node.type==='heading'){const Tag=node.level===3?'h3':node.level===4?'h4':'h2';return <Tag key={key}>{children}</Tag>;}
+    if(node.type==='heading'){const Tag=node.level===3?'h3':node.level===4?'h4':'h2';return <Tag id={node.anchor} key={key}>{children}</Tag>;}
     if(node.type==='ul')return <ul key={key}>{children}</ul>;
     if(node.type==='ol')return <ol key={key}>{children}</ol>;
     if(node.type==='li')return <li key={key}>{children}</li>;
