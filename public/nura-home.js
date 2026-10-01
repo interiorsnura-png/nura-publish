@@ -79,6 +79,8 @@ enquiryForm?.addEventListener('submit', async (event) => {
     const result = await response.json();
     if (!response.ok || result.ok !== true) throw new Error('Enquiry request failed');
     enquiryForm.reset();
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({event:'generate_lead', form_id:'nura_enquiry'});
     status.textContent = 'Thank you. We’ll be in touch shortly.';
   } catch (error) {
     status.textContent = 'We could not send your enquiry. Please email studio@nura-interiors.com.';

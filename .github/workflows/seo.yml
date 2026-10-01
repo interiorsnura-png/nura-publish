@@ -1,0 +1,38 @@
+﻿name: Nura SEO quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      VERCEL_ENV: production
+      SITE_ENV: production
+      CONTENT_SOURCE: local
+      SEO_BASE_URL: http://localhost:3126
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Check all public pages
+        run: |
+          npm run start -- --port 3126 > /tmp/nura-server.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://localhost:3126/ > /dev/null; then break; fi
+            sleep 1
+          done
+          npm run seo:check
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nura-seo-check-results
+          path: .seo-reports/

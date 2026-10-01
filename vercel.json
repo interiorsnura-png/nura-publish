@@ -1,1 +1,6 @@
-{"framework":"nextjs","buildCommand":"npm run build","installCommand":"npm ci","outputDirectory":".next"}
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build:verified",
+  "installCommand": "npm ci",
+  "outputDirectory": ".next"
+}
