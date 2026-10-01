@@ -659,6 +659,12 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/assets/case-studies/nura-kitchen-cabinetry.webp",
+          "alt": "Dark veined cabinetry and warm metallic storage in the Amersham Road kitchen.",
+          "caption": "Dark veined cabinetry and warm metallic storage in the Amersham Road kitchen."
+        },
+        {
           "type": "heading",
           "level": 2,
           "children": [
@@ -676,6 +682,12 @@
               "text": "According to Nura’s project account, the porcelain weight made conventional cabinet construction unsuitable. The team developed a lightweight aluminium honeycomb structure, considering the load on the Blum hardware."
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/case-studies/nura-island-detail.webp",
+          "alt": "Faceted porcelain island with continuous veining at Amersham Road.",
+          "caption": "Faceted porcelain island with continuous veining at Amersham Road."
         },
         {
           "type": "heading",
@@ -697,6 +709,12 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/assets/case-studies/nura-island-delivery.webp",
+          "alt": "Delivery of the assembled porcelain kitchen island to the Amersham Road property.",
+          "caption": "Delivery of the assembled porcelain kitchen island to the Amersham Road property."
+        },
+        {
           "type": "heading",
           "level": 2,
           "children": [
@@ -714,6 +732,12 @@
               "text": "The installation realised the client’s chosen concept. Nura’s account identifies Infinity Surfaces as the surface brand and Clay International as its sole UK distributor. It does not establish a measured increase in property value."
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/case-studies/nura-concealed-storage.webp",
+          "alt": "Illuminated gold-toned shelving and appliances behind dark veined cabinet doors.",
+          "caption": "Illuminated gold-toned shelving and appliances behind dark veined cabinet doors."
         },
         {
           "type": "heading",
@@ -811,7 +835,7 @@
             {
               "type": "text",
               "text": "Read Nura’s published project account",
-              "link": "https://www.linkedin.com/company/nura-interiors/"
+              "link": "https://www.linkedin.com/pulse/how-we-designed-delivered-1-tonne-porcelain-kitchen-island-tayebi-96jbe/"
             }
           ]
         },
@@ -820,7 +844,17 @@
           "children": [
             {
               "type": "text",
-              "text": "This editorial account is based on Nura’s public description. It is not assigned to a named portfolio project and does not use photographs from another installation."
+              "text": "This account and project photographs are based on Hootan Tayebi’s published Amersham Road case study in Gerrards Cross."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore the Amersham Road kitchen project",
+              "link": "/kitchens/amersham-road"
             }
           ]
         }
@@ -830,7 +864,36 @@
       "published_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H",
       "source_publish_status": "published",
-      "category": "Kitchen planning"
+      "category": "Kitchen planning",
+      "hero": {
+        "filename": "/assets/case-studies/nura-island-overview.webp",
+        "alt": "Porcelain island and kitchen at Amersham Road, Gerrards Cross.",
+        "caption": "Porcelain island and kitchen at Amersham Road, Gerrards Cross."
+      },
+      "gallery": [
+        {
+          "filename": "/assets/case-studies/nura-kitchen-cabinetry.webp",
+          "alt": "Dark veined cabinetry and warm metallic storage in the Amersham Road kitchen.",
+          "caption": "Dark veined cabinetry and warm metallic storage in the Amersham Road kitchen."
+        },
+        {
+          "filename": "/assets/case-studies/nura-island-detail.webp",
+          "alt": "Faceted porcelain island with continuous veining at Amersham Road.",
+          "caption": "Faceted porcelain island with continuous veining at Amersham Road."
+        },
+        {
+          "filename": "/assets/case-studies/nura-island-delivery.webp",
+          "alt": "Delivery of the assembled porcelain kitchen island to the Amersham Road property.",
+          "caption": "Delivery of the assembled porcelain kitchen island to the Amersham Road property."
+        },
+        {
+          "filename": "/assets/case-studies/nura-concealed-storage.webp",
+          "alt": "Illuminated gold-toned shelving and appliances behind dark veined cabinet doors.",
+          "caption": "Illuminated gold-toned shelving and appliances behind dark veined cabinet doors."
+        }
+      ],
+      "image_rights_status": "owned",
+      "modified_date": "2026-10-01T14:23:46.393Z"
     }
   }
 ]
