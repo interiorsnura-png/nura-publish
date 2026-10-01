@@ -3,7 +3,7 @@ const hours=[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday',
 const studio=(city:string,street:string,country:string,postalCode?:string)=>({
  '@type':'ProfessionalService','@id':siteUrl+'/'+city.toLowerCase()+'#showroom',name:'Nura Interiors — '+city+' showroom',url:siteUrl+'/'+city.toLowerCase(),
  parentOrganization:{'@id':organization['@id']},email:organization.email,...(city==='London'?{telephone:'+442071236949'}:{}),
- image:siteUrl+'/assets/selected/nura-hero-shot.jpeg',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:hours
+ priceRange:'GBP 5,000 - 100,000', image:siteUrl+'/assets/selected/nura-hero-shot.jpeg',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:hours
 });
 export const homeSchema={
  '@context':'https://schema.org','@graph':[
