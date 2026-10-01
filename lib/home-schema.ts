@@ -16,7 +16,7 @@ const studio=(city:string,street:string,country:string,postalCode?:string)=>({
 });
 export const homeSchema={
  '@context':'https://schema.org','@graph':[
- organization,
+ {...organization,aggregateRating:{'@type':'AggregateRating',ratingValue:5,bestRating:5,worstRating:1,reviewCount:3,name:'Three featured client reviews',description:'Average of the three selected Google reviews displayed on this page; not the overall Google Business rating.'}},
  ...clientReviews,
  {'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:'Nura Interiors',publisher:{'@id':organization['@id']},inLanguage:'en-GB'},
  {'@type':'WebPage','@id':siteUrl+'/#webpage',url:siteUrl+'/',name:'Nura — Bespoke kitchens & joinery',isPartOf:{'@id':siteUrl+'/#website'},about:{'@id':organization['@id']},mainEntity:{'@id':siteUrl+'/#interior-services'},inLanguage:'en-GB'},
