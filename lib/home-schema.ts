@@ -13,7 +13,7 @@ const hours=[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday',
 const studio=(city:string,street:string,country:string,postalCode?:string)=>({
  '@type':'ProfessionalService','@id':siteUrl+'/'+city.toLowerCase()+'#showroom',name:'Nura Interiors — '+city+' showroom',url:siteUrl+'/'+city.toLowerCase(),
  parentOrganization:{'@id':organization['@id']},email:organization.email,telephone:city==='London'?'+442071236949':'+971506691090',
- ...(city==='Dubai'?{hasMap:'https://www.google.com/maps/search/?api=1&query=Burlington%20Tower%2C%20Marasi%20Dr%2C%20Business%20Bay%2C%20Dubai'}:{}), priceRange:'GBP 5,000 - 100,000', image:siteUrl+'/assets/selected/nura-hero-shot.jpeg',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:hours
+ ...(city==='Dubai'?{hasMap:'https://www.google.com/maps/search/?api=1&query=Burlington%20Tower%2C%20Marasi%20Dr%2C%20Business%20Bay%2C%20Dubai'}:{}), priceRange:'Quoted individually according to the brief and specification', image:siteUrl+'/assets/selected/nura-hero-shot.jpeg',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:hours
 });
 export const homeSchema={
  '@context':'https://schema.org','@graph':[

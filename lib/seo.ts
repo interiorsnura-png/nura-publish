@@ -4,7 +4,7 @@ export const organization = {
   '@context':'https://schema.org', '@type':'ProfessionalService', '@id':siteUrl+'/#organization',
   name:'Nura Interiors', url:siteUrl+'/', email:'studio@nura-interiors.com', telephone:'+44 20 7123 6949',
   address:{'@type':'PostalAddress',streetAddress:'367 Fulham Palace Road',addressLocality:'London',postalCode:'SW6 6TA',addressCountry:'GB'},
-  image:siteUrl+'/assets/selected/nura-hero-shot.jpeg', priceRange:'GBP 5,000 - 100,000',
+  image:siteUrl+'/assets/selected/nura-hero-shot.jpeg', priceRange:'Quoted individually according to the brief and specification',
   description:'Bespoke kitchens and architectural joinery for private homes, architects and interior designers.',
   areaServed:[{ '@type':'City', name:'London' },{ '@type':'City', name:'Dubai' }],
   sameAs:['https://www.linkedin.com/company/nura-interiors'],
