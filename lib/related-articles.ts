@@ -16,6 +16,8 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+ 'bespoke-kitchens':['how-to-choose-the-right-worktop-for-your-kitchen','solid-wood-or-veneer'],
+ 'one-tonne-porcelain-kitchen-island':['the-power-of-porcelain','how-to-choose-the-right-worktop-for-your-kitchen'],
  'transform-your-space-with-custom-interior-services-london':['our-design-process','the-urban-renovation'],
  'the-power-of-porcelain':['how-to-choose-the-right-worktop-for-your-kitchen','exploring-white-variations-in-kitchen-design'],
  'kitchen-design-trends-in-2023':['exploring-white-variations-in-kitchen-design','how-to-choose-the-right-worktop-for-your-kitchen'],

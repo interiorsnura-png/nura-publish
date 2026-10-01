@@ -788,6 +788,25 @@
       "source_rank": 0,
       "body_nodes": [
         {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Is porcelain right for your kitchen worktop?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Porcelain can be considered for a kitchen worktop when the named product, finish and fabrication details suit the brief. Compare care instructions, edge details, cut-outs and installation requirements before ordering; the material name alone does not establish suitability."
+            }
+          ]
+        },
+        {
           "type": "paragraph",
           "children": [
             {
@@ -1285,9 +1304,29 @@
               "text": " — manufacturer information consulted for this update. Consult your chosen supplier for advice about its own product."
             }
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Plan the whole kitchen"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Bespoke kitchen guide: layout, materials, costs and installation",
+              "link": "/guides/bespoke-kitchens"
+            }
+          ]
         }
       ],
-      "modified_date": "2026-10-01T13:25:32.099Z",
+      "modified_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H"
     }
   },
@@ -2904,19 +2943,19 @@
     },
     "content": {
       "component": "article",
-      "title": "Solid Wood or Veneer",
+      "title": "Solid Wood or Veneer: Choosing Kitchen Cabinetry",
       "location": "",
       "category": "Journal",
       "summary": "When it comes to choosing which wooden finish for cabinets, there are a lot of factors to consider, including style, durability, and cost. One decision you'll need to make is whether to go with real wooden cabinets or wooden veneer cabinets. While both options have their advantages and disadvantages, understanding the differences between them can help you make the best choice for your home. Real Wooden Kitchen Cabinets Real wooden cabinets are made entirely of solid wood, with no additional...",
-      "body": "When it comes to choosing which wooden finish for cabinets, there are a lot of factors to consider, including style, durability, and cost. One decision you'll need to make is whether to go with real wooden cabinets or wooden veneer cabinets. While both options have their advantages and disadvantages, understanding the differences between them can help you make the best choice for your home. Real Wooden Kitchen Cabinets Real wooden cabinets are made entirely of solid wood, with no additional layers or veneers. They offer a timeless, natural look and can be customised to suit your specific style and taste. Wooden cabinets are also extremely durable and can last for decades if properly cared for. One of the main benefits of real wooden cabinets is their ability to be sanded and refinished, which means you can easily change their appearance if you want to update your kitchen without replacing the cabinets. However, real wooden cabinets can be expensive, especially if you choose a hardwood like oak or maple. Wooden Veneer Kitchen Cabinets Wooden veneer cabinets are made with a thin layer of real wood applied over a core of engineered wood or plywood. This layer of wood is typically very thin, measuring around 1/16 of an inch, and can be made from a variety of different wood species. Veneer cabinets are more affordable than real wooden cabinets, and they offer a similar natural look. They are also more consistent in appearance, as the veneer layer is created in a controlled environment. However, veneer cabinets cannot be sanded and refinished like real wooden cabinets, so they may not last as long. Comparing Reel Wooden Cabinets to Wooden Veneer Cabinets While both types of cabinets offer a natural look, real wooden cabinets are generally considered more luxurious and high-end, while wooden veneer cabinets are more affordable. Real wooden cabinets are also more durable and can be refinished, while veneer cabinets are consistent in appearance but cannot be refinished. Ultimately, the choice between real wooden cabinets and wooden veneer cabinets will depend on your budget, style preferences, and how long you plan to keep your cabinets. If you want a high-end, durable option that can be refinished, real wooden cabinets may be the best choice for you. If affordability and consistency are more important then, wooden veneer cabinets may be the way to go.",
+      "body": "",
       "specifications": "",
       "hero": {
         "filename": "https://static.wixstatic.com/media/259fff_236186238e92443388dd34f7e2f8567f~mv2.jpg",
         "alt": "Solid Wood or Veneer"
       },
       "gallery": [],
-      "seo_title": "Solid Wood or Veneer | NURA Interiors",
-      "seo_description": "When it comes to choosing which wooden finish for cabinets, there are a lot of factors to consider, including style, durability, and cost. One decision you",
+      "seo_title": "Solid Wood vs Veneer for Kitchen Cabinets | Nura",
+      "seo_description": "Compare solid wood and real wood veneer for kitchen cabinetry. Understand construction, finish, repair considerations and questions to ask before specifying.",
       "published_date": "2023-05-17T08:00:50.550Z",
       "image_rights_status": "review",
       "source_publish_status": "unknown",
@@ -2924,14 +2963,29 @@
       "body_nodes": [
         {
           "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Both solid wood and natural wood veneer can bring genuine timber grain to cabinetry. Veneer is real wood applied as a thin layer to a substrate; it is not the same as a printed wood-effect laminate. Compare the complete construction, finish and intended use rather than choosing by the label alone."
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "When it comes to choosing which wooden finish for cabinets, there are a lot of factors to consider, including style, durability, and cost.",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "What is the difference?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Solid wood uses timber through the component. Natural veneer uses a thin wood face bonded to a supporting panel, commonly MDF or plywood. A kitchen can combine these approaches in different parts. Ask which construction is specified for the doors, frames, cabinet interiors and visible edges."
             }
           ]
         },
@@ -2942,143 +2996,311 @@
           "caption": ""
         },
         {
-          "type": "paragraph",
-          "level": 2,
-          "children": [
-            {
-              "type": "text",
-              "text": "One decision you'll need to make is whether to go with real wooden cabinets or wooden veneer cabinets. While both options have their advantages and disadvantages, understanding the differences between them can help you make the best choice for your home.",
-              "bold": false,
-              "italic": false,
-              "link": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "level": 2,
-          "children": [
-            {
-              "type": "text",
-              "text": "Real Wooden Kitchen Cabinets",
-              "bold": true,
-              "italic": false,
-              "link": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "level": 2,
-          "children": [
-            {
-              "type": "text",
-              "text": "Real wooden cabinets are made entirely of solid wood, with no additional layers or veneers. They offer a timeless, natural look and can be customised to suit your specific style and taste. Wooden cabinets are also extremely durable and can last for decades if properly cared for.",
-              "bold": false,
-              "italic": false,
-              "link": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "level": 2,
-          "children": [
-            {
-              "type": "text",
-              "text": "One of the main benefits of real wooden cabinets is their ability to be sanded and refinished, which means you can easily change their appearance if you want to update your kitchen without replacing the cabinets. However, real wooden cabinets can be expensive, especially if you choose a hardwood like oak or maple.",
-              "bold": false,
-              "italic": false,
-              "link": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "level": 2,
-          "children": [
-            {
-              "type": "text",
-              "text": "Wooden Veneer Kitchen Cabinets",
-              "bold": true,
-              "italic": false,
-              "link": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "level": 2,
-          "children": [
-            {
-              "type": "text",
-              "text": "Wooden veneer cabinets are made with a thin layer of real wood applied over a core of engineered wood or plywood. This layer of wood is typically very thin, measuring around 1/16 of an inch, and can be made from a variety of different wood species.",
-              "bold": false,
-              "italic": false,
-              "link": ""
-            }
-          ]
-        },
-        {
           "type": "image",
           "src": "https://static.wixstatic.com/media/22c124_460ba5484177410c91e0637972bc3e87~mv2.webp",
           "alt": "",
           "caption": ""
         },
         {
-          "type": "paragraph",
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "Veneer cabinets are more affordable than real wooden cabinets, and they offer a similar natural look. They are also more consistent in appearance, as the veneer layer is created in a controlled environment. However, veneer cabinets cannot be sanded and refinished like real wooden cabinets, so they may not last as long.",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "Compare the complete specification"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Questions for your cabinetry specification",
+          "children": [
+            {
+              "type": "thead",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Detail"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What to establish"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Visible timber"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Species, grain direction, sample and colour variation."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Panel construction"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Substrate, thickness, edge treatment and how components meet."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Finish"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Coating, cleaning instructions and suitability for the intended use."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Repair"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What repair or refinishing is feasible for the actual construction?"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Is veneer a lower-quality choice?"
             }
           ]
         },
         {
           "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The word veneer does not determine quality or price. The wood face, supporting panel, bonding, edge detailing and finish all form part of the specification. A considered design may use veneer on a broad panel and solid timber elsewhere. Review a physical sample and ask for the construction to be explained."
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "Comparing Reel Wooden Cabinets to Wooden Veneer Cabinets",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "Can you sand or refinish it?"
             }
           ]
         },
         {
           "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Do not assume either construction can be refinished in the same way. A thin wood face limits what can be removed. Repair options depend on the material, its thickness, the coating and the condition of the component. Ask the manufacturer or joiner before sanding, stripping or treating a finished door."
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "While both types of cabinets offer a natural look, real wooden cabinets are generally considered more luxurious and high-end, while wooden veneer cabinets are more affordable. Real wooden cabinets are also more durable and can be refinished, while veneer cabinets are consistent in appearance but cannot be refinished.",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "What should you ask before ordering?"
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "children": [
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Is the visible surface natural wood, a decorative laminate or another finish?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What substrate and edge construction are included?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "How will grain and colour variation be handled across adjacent doors?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which care instructions apply to the finish supplied?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What repair options and written warranty terms apply?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Bring the sample into the wider kitchen palette"
             }
           ]
         },
         {
           "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare timber beside the worktop, flooring and wall finishes under relevant lighting. Review how grain direction and junctions work across the room, not only on a single door. Your specification should describe the approved sample and details clearly enough for manufacture."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare kitchen worktop materials",
+              "link": "/post/how-to-choose-the-right-worktop-for-your-kitchen"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Plan the wider bespoke kitchen brief",
+              "link": "/guides/bespoke-kitchens"
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "level": 2,
           "children": [
             {
               "type": "text",
-              "text": "Ultimately, the choice between real wooden cabinets and wooden veneer cabinets will depend on your budget, style preferences, and how long you plan to keep your cabinets. If you want a high-end, durable option that can be refinished, real wooden cabinets may be the best choice for you. If affordability and consistency are more important then, wooden veneer cabinets may be the way to go.",
-              "bold": false,
-              "italic": false,
-              "link": ""
+              "text": "Material reference"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "EGGER: wood veneers, substrates and decorative surfaces",
+              "link": "https://www.egger.com/en/support/blog/smart-surface-materials?country=US"
             }
           ]
         }
       ],
-      "modified_date": "2026-03-29T17:26:28.834Z",
+      "modified_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H"
     }
   },
@@ -3618,6 +3840,25 @@
       "source_rank": 0,
       "body_nodes": [
         {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "How should you choose a kitchen worktop?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Begin with everyday use, the desired finish and your complete fitted budget. Compare physical samples and the manufacturer’s guidance for each named product, then confirm fabrication and installation requirements. A material comparison is useful only when the actual specification is clear."
+            }
+          ]
+        },
+        {
           "type": "paragraph",
           "children": [
             {
@@ -4011,9 +4252,29 @@
               "link": "/consultation"
             }
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Plan the whole kitchen"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Bespoke kitchen guide: layout, materials, costs and installation",
+              "link": "/guides/bespoke-kitchens"
+            }
+          ]
         }
       ],
-      "modified_date": "2026-10-01T13:25:32.100Z",
+      "modified_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H"
     }
   },
