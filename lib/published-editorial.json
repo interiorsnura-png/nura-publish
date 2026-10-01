@@ -200,6 +200,12 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/assets/guides/nura-guide-timber-cabinetry.webp",
+          "alt": "Close-up of timber cabinetry with integrated oven and vertical grain",
+          "caption": "Review the grain direction, handles and appliance junctions together, not only the door finish."
+        },
+        {
           "type": "paragraph",
           "children": [
             {
@@ -226,6 +232,12 @@
               "text": "Describe how you cook, how many people use the room and whether it also serves as a place to work or entertain. Think through a normal day: where groceries arrive, where preparation happens and where clean dishes are stored. These routines help establish practical priorities before the island or door style is chosen."
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/guides/nura-guide-controls.webp",
+          "alt": "Three circular appliance controls integrated into a light-coloured kitchen panel",
+          "caption": "Small operational details belong in the early discussion about how the kitchen will be used."
         },
         {
           "type": "paragraph",
@@ -264,6 +276,12 @@
               "text": "View physical samples under the lighting you expect to use. A finish that works in a showroom may feel different beside the floor, wall colour or natural light at home. Review the grain direction, edges, junctions and cleaning requirements alongside the larger material palette."
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/guides/nura-guide-sink-worktop.webp",
+          "alt": "Brass-coloured sink and tap set into a pale veined worktop",
+          "caption": "Consider the sink, tap, surface and cabinet finish as a complete material palette."
         },
         {
           "type": "paragraph",
@@ -573,7 +591,31 @@
       "published_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H",
       "source_publish_status": "published",
-      "category": "Kitchen planning"
+      "category": "Kitchen planning",
+      "hero": {
+        "filename": "/assets/guides/nura-guide-kitchen-layout.webp",
+        "alt": "Kitchen island with seating, pendant lighting and integrated cabinetry",
+        "caption": "A kitchen layout brings preparation, seating, lighting and storage into one space."
+      },
+      "gallery": [
+        {
+          "filename": "/assets/guides/nura-guide-timber-cabinetry.webp",
+          "alt": "Close-up of timber cabinetry with integrated oven and vertical grain",
+          "caption": "Review the grain direction, handles and appliance junctions together, not only the door finish."
+        },
+        {
+          "filename": "/assets/guides/nura-guide-sink-worktop.webp",
+          "alt": "Brass-coloured sink and tap set into a pale veined worktop",
+          "caption": "Consider the sink, tap, surface and cabinet finish as a complete material palette."
+        },
+        {
+          "filename": "/assets/guides/nura-guide-controls.webp",
+          "alt": "Three circular appliance controls integrated into a light-coloured kitchen panel",
+          "caption": "Small operational details belong in the early discussion about how the kitchen will be used."
+        }
+      ],
+      "image_rights_status": "owned",
+      "modified_date": "2026-10-01T14:07:07.925Z"
     }
   },
   {
