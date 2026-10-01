@@ -2,7 +2,7 @@ import {organization,siteUrl} from './seo';
 const hours=[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday'],opens:'09:30',closes:'18:00'}];
 const studio=(city:string,street:string,country:string,postalCode?:string)=>({
  '@type':'ProfessionalService','@id':siteUrl+'/'+city.toLowerCase()+'#showroom',name:'Nura Interiors — '+city+' showroom',url:siteUrl+'/'+city.toLowerCase(),
- parentOrganization:{'@id':organization['@id']},email:organization.email,...(city==='London'?{telephone:'+442071236949'}:{}),
+ parentOrganization:{'@id':organization['@id']},email:organization.email,telephone:city==='London'?'+442071236949':'+971506691090',
  priceRange:'GBP 5,000 - 100,000', image:siteUrl+'/assets/selected/nura-hero-shot.jpeg',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:hours
 });
 export const homeSchema={
