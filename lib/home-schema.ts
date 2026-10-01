@@ -19,7 +19,7 @@ export const homeSchema={
  {...organization,aggregateRating:{'@type':'AggregateRating',ratingValue:5,bestRating:5,worstRating:1,reviewCount:3,name:'Three featured client reviews',description:'Average of the three selected Google reviews displayed on this page; not the overall Google Business rating.'}},
  ...clientReviews,
  {'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:'Nura Interiors',publisher:{'@id':organization['@id']},inLanguage:'en-GB'},
- {'@type':'WebPage','@id':siteUrl+'/#webpage',url:siteUrl+'/',name:'Nura — Bespoke kitchens & joinery',isPartOf:{'@id':siteUrl+'/#website'},about:{'@id':organization['@id']},mainEntity:{'@id':siteUrl+'/#interior-services'},inLanguage:'en-GB'},
+ {'@type':'WebPage','@id':siteUrl+'/#webpage',url:siteUrl+'/',name:'Nura Interiors | Bespoke Kitchens & Joinery, Made Around You',description:'From the first conversation to installation, Nura creates bespoke kitchens and joinery around your life. Discover our studios in London and Dubai.',isPartOf:{'@id':siteUrl+'/#website'},about:{'@id':organization['@id']},mainEntity:{'@id':siteUrl+'/#interior-services'},inLanguage:'en-GB'},
  studio('London','367 Fulham Palace Road','GB','SW6 6TA'),
  studio('Dubai','Burlington Tower, Marasi Dr, Business Bay','AE','00000'),
  {'@type':'Service','@id':siteUrl+'/#interior-services',name:'Bespoke kitchens and architectural joinery',serviceType:'Bespoke kitchen and fitted furniture design, manufacture and installation',provider:{'@id':organization['@id']},areaServed:organization.areaServed,hasOfferCatalog:{'@id':siteUrl+'/#service-catalog'}},
