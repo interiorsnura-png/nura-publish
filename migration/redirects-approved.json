@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "source": "/book-your-consultation",
+    "destination": "/consultation",
+    "permanent": true
+  },
+  {
+    "source": "/our-philisophy",
+    "destination": "/about",
+    "permanent": true
+  }
+]

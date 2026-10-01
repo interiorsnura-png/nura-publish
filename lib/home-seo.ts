@@ -3,6 +3,7 @@ export function improveHomeSeo(html:string){
  html=html.replace(/\s*<nav class="desktop-nav"[^>]*>[\s\S]*?<\/nav>/,'')
   .replace('class="site-nav" aria-label="Mobile navigation"','class="site-nav nura-main-nav" aria-label="Main navigation"');
  html=html.replace(/<footer[\s\S]*?<\/footer>/,footer=>footer
+  .replace('</footer>','<nav aria-label="Policies and materials"><a href="/sustainability">Sustainability</a> · <a href="/privacy-policy">Privacy policy</a></nav></footer>')
   .replace('href="/services">Services</a>','href="/services">Our services</a>')
   .replace('href="/contact">Contact</a>','href="/contact">Contact the studio</a>')
   .replace('href="/london">London</a>','href="/london">London showroom</a>')
@@ -10,6 +11,7 @@ export function improveHomeSeo(html:string){
   .replace('href="/london">London</a>','href="/london">Visit our London showroom</a>')
   .replace('href="/dubai">Dubai</a>','href="/dubai">Visit our Dubai studio</a>'));
  return html
+  .replace('A considered reply from the studio. No automated sales sequence.','A considered reply from the studio. No automated sales sequence. <a href="/privacy-policy">How we use your information</a>')
   .replace('</head>','<link rel="stylesheet" href="/nura-navigation.css"/></head>')
   .replace('</body>','<script src="/nura-navigation.js" defer></script></body>')
   .replace('We design spaces that feel inevitable: considered from the first line, resolved down to the last hinge.',
