@@ -37,3 +37,7 @@ Keywords are editorial hypotheses, not measured search-volume data. One primary 
 ## Final integration
 
 Contextual onward links added to legacy articles where the relevant destination was absent. Existing article topics and publication dates preserved. New guide recommendations and llms.txt updated. London production form test displayed successful submission on 2 October 2026; inbox delivery not independently verified. Desktop and 390px mobile layout checked; no horizontal overflow.
+
+## Fulham storefront photograph — 2 October 2026
+
+Added the close-up of the Nura sign and entrance number 367, uploaded by Nura Bespoke Interiors in Google Maps (June 2026). Source photo ID: CIABIhDNEEeIZgSPOvGjgvRHjIFy. Owner publication verified in browser. User approved inclusion. Image optimised to 900×1200 WebP, descriptive alt text and visible caption; existing Photo component generates image licence JSON-LD. The separate August photograph credited to Digi Charter was not republished.
