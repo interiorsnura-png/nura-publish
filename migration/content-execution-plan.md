@@ -41,3 +41,7 @@ Contextual onward links added to legacy articles where the relevant destination 
 ## Fulham storefront photograph — 2 October 2026
 
 Added the close-up of the Nura sign and entrance number 367, uploaded by Nura Bespoke Interiors in Google Maps (June 2026). Source photo ID: CIABIhDNEEeIZgSPOvGjgvRHjIFy. Owner publication verified in browser. User approved inclusion. Image optimised to 900×1200 WebP, descriptive alt text and visible caption; existing Photo component generates image licence JSON-LD. The separate August photograph credited to Digi Charter was not republished.
+
+## Punctuation preference, 2 October 2026
+
+Removed em dashes from public copy, titles, image descriptions and schema. Recorded the explicit prohibition in AGENTS.md and migration/writing-style.md. Preserved historical homepage snapshots and applied corrections through home-seo.ts.

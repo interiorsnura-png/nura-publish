@@ -1,8 +1,8 @@
 import JsonLd from './JsonLd';
 import {siteUrl,organization} from '../lib/seo';
 const locations={
- london:{name:'Nura Interiors — London showroom',street:'367 Fulham Palace Road',city:'London',postcode:'SW6 6TA',country:'GB',address:'367 Fulham Palace Road, London, SW6 6TA, United Kingdom'},
- dubai:{name:'Nura Interiors — Dubai showroom',street:'Burlington Tower, Marasi Dr, Business Bay',city:'Dubai',postcode:'00000',country:'AE',address:'Burlington Tower, Marasi Dr, Business Bay, Dubai, United Arab Emirates'}
+ london:{name:'Nura Interiors: London showroom',street:'367 Fulham Palace Road',city:'London',postcode:'SW6 6TA',country:'GB',address:'367 Fulham Palace Road, London, SW6 6TA, United Kingdom'},
+ dubai:{name:'Nura Interiors: Dubai showroom',street:'Burlington Tower, Marasi Dr, Business Bay',city:'Dubai',postcode:'00000',country:'AE',address:'Burlington Tower, Marasi Dr, Business Bay, Dubai, United Arab Emirates'}
 };
 export default function StudioDetails({path}:{path:string}){
  if(!['/london','/dubai','/contact','/consultation'].includes(path))return null;
