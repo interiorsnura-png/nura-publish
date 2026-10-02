@@ -33,3 +33,7 @@ Keywords are editorial hypotheses, not measured search-volume data. One primary 
 - Existing price band is explicitly smaller-project scope, not a full-kitchen tariff. Numerical full-kitchen cost and lead times await owner input.
 - No new reviews, credentials, service-area exclusions or measured keyword demand invented.
 - 15 original editorial entries classified; 2 new guides bring the journal to 17 entries.
+
+## Final integration
+
+Contextual onward links added to legacy articles where the relevant destination was absent. Existing article topics and publication dates preserved. New guide recommendations and llms.txt updated. London production form test displayed successful submission on 2 October 2026; inbox delivery not independently verified. Desktop and 390px mobile layout checked; no horizontal overflow.

@@ -1,6 +1,10 @@
 import type {Entry} from './content';
 
 const topics:Record<string,{category:string;description:string;tags:string[]}>={
+ 'bespoke-joinery-london':{category:'Joinery planning',description:'Prepare the brief, materials and technical details for fitted furniture.',tags:['planning','interiors']},
+ 'bespoke-vs-made-to-measure-kitchens':{category:'Kitchen planning',description:'Compare dimensions, scope and installation responsibilities.',tags:['planning','kitchens']},
+ 'bespoke-kitchens':{category:'Kitchen planning',description:'Plan layout, materials, scope and installation.',tags:['planning','kitchens']},
+ 'one-tonne-porcelain-kitchen-island':{category:'Case study',description:'Design and delivery lessons from the Amersham Road island.',tags:['materials','kitchens','worktops']},
  'transform-your-space-with-custom-interior-services-london':{category:'Interior design',description:'Explore a considered approach to custom interiors in London.',tags:['planning','interiors']},
  'the-power-of-porcelain':{category:'Materials',description:'Explore the benefits, care and considerations of porcelain surfaces.',tags:['materials','kitchens','worktops']},
  'kitchen-design-trends-in-2023':{category:'Design archive',description:'Revisit the kitchen ideas and influences discussed in our 2023 journal.',tags:['kitchens','style']},
@@ -16,8 +20,10 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
- 'bespoke-kitchens':['how-to-choose-the-right-worktop-for-your-kitchen','solid-wood-or-veneer'],
- 'one-tonne-porcelain-kitchen-island':['the-power-of-porcelain','how-to-choose-the-right-worktop-for-your-kitchen'],
+ 'bespoke-joinery-london':['solid-wood-or-veneer','exploring-the-advantages-of-pocket-doors'],
+ 'bespoke-vs-made-to-measure-kitchens':['bespoke-kitchens','our-design-process'],
+ 'bespoke-kitchens':['bespoke-vs-made-to-measure-kitchens','one-tonne-porcelain-kitchen-island'],
+ 'one-tonne-porcelain-kitchen-island':['the-power-of-porcelain','bespoke-kitchens'],
  'transform-your-space-with-custom-interior-services-london':['our-design-process','the-urban-renovation'],
  'the-power-of-porcelain':['how-to-choose-the-right-worktop-for-your-kitchen','exploring-white-variations-in-kitchen-design'],
  'kitchen-design-trends-in-2023':['exploring-white-variations-in-kitchen-design','how-to-choose-the-right-worktop-for-your-kitchen'],
