@@ -45,3 +45,7 @@ Added the close-up of the Nura sign and entrance number 367, uploaded by Nura Be
 ## Punctuation preference, 2 October 2026
 
 Removed em dashes from public copy, titles, image descriptions and schema. Recorded the explicit prohibition in AGENTS.md and migration/writing-style.md. Preserved historical homepage snapshots and applied corrections through home-seo.ts.
+
+
+## GA4 setup, 2 October 2026
+Owner authorised setup with interiors.nura@gmail.com and confirmed 1–10 employees. GA4 Nura Interiors Website, UK reporting, GBP, stream Nura Website, stream ID 15960208452, measurement ID G-5ZNSJY31TD. Optional sharing disabled. Basic consent: no Google tag before opt-in. generate_lead fires after successful server response; contact_click records method only. Form auto-tracking/site search disabled. Frozen original homepage and script retained, measured script variant used in runtime response. Privacy notice updated. No identity/message fields transmitted to GA4.
