@@ -18,7 +18,8 @@
       "gallery": [],
       "seo_title": "Hampstead House",
       "seo_description": "A considered kitchen design study for a period home in Hampstead, balancing rich timber, natural stone and the rhythm of everyday family life.",
-      "source_publish_status": "published"
+      "source_publish_status": "published",
+      "image_rights_status": "owned"
     }
   },
   {
@@ -40,7 +41,8 @@
       "gallery": [],
       "seo_title": "Park View",
       "seo_description": "A kitchen design study for a London home, exploring full-height cabinetry, a tactile stone island and a calm architectural order.",
-      "source_publish_status": "published"
+      "source_publish_status": "published",
+      "image_rights_status": "owned"
     }
   },
   {
@@ -62,7 +64,8 @@
       "gallery": [],
       "seo_title": "Clay House",
       "seo_description": "An interiors design study shaped around pale surfaces, generous light and the easy flow of hosting.",
-      "source_publish_status": "published"
+      "source_publish_status": "published",
+      "image_rights_status": "owned"
     }
   }
 ]
