@@ -22,7 +22,14 @@ Keywords are editorial hypotheses, not measured search-volume data. One primary 
 
 ## Execution log
 
-1. London landing rebuilt: genuine project cards, confirmed showroom details, two calls to action, accessible inline enquiry form and real FAQ. Local build, 16 tests, TypeScript, 64-route SEO and all-image licence checks passed. Production verification pending.
-2. Kitchen guide: scope, stage responsibilities and case-study lessons next. Full-kitchen price and numerical lead times require owner confirmation.
-3. Joinery pillar and comparison guide: next.
+1. London landing rebuilt: genuine project cards, confirmed showroom details, two calls to action, accessible inline enquiry form and real FAQ. Local build, 16 tests, TypeScript, 64-route SEO and all-image licence checks passed. Production verification pending at time of first commit.
+2. Kitchen guide upgraded with scope table, stage responsibilities and three Amersham Road case-study lessons. Full-kitchen price and numerical lead times require owner confirmation.
+3. Joinery pillar published at /guides/bespoke-joinery-london and comparison guide at /guides/bespoke-vs-made-to-measure-kitchens. Both connect to /london; service and main guide provide contextual incoming links.
 4. Legacy editorial rewrites: queued in table; existing dates and paths retained until changes are reviewed.
+
+## Evidence and limits
+
+- Blum product planning reference: https://www.blum.com/us/en/services/e-services/onlineproductconfigurator/ (consulted 2 October 2026). Product-specific dimensions must be confirmed against the selected hardware.
+- Existing price band is explicitly smaller-project scope, not a full-kitchen tariff. Numerical full-kitchen cost and lead times await owner input.
+- No new reviews, credentials, service-area exclusions or measured keyword demand invented.
+- 15 original editorial entries classified; 2 new guides bring the journal to 17 entries.
