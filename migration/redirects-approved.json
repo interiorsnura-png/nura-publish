@@ -8,5 +8,10 @@
     "source": "/our-philisophy",
     "destination": "/about",
     "permanent": true
+  },
+  {
+    "source": "/jointery/westover-road",
+    "destination": "/joinery/westover-road",
+    "permanent": true
   }
 ]

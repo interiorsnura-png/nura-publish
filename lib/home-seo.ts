@@ -11,6 +11,7 @@ export function improveHomeSeo(html:string){
   .replace('href="/london">London</a>','href="/london">Visit our London showroom</a>')
   .replace('href="/dubai">Dubai</a>','href="/dubai">Visit our Dubai studio</a>'));
  return html
+  .replaceAll('/jointery/westover-road','/joinery/westover-road')
   .replace('<option>£25k–£50k</option>','<option>£5k–£25k</option><option>£25k–£50k</option>')
   .replace('A considered reply from the studio. No automated sales sequence.','A considered reply from the studio. No automated sales sequence. <a href="/privacy-policy">How we use your information</a>')
   .replace('</head>','<link rel="stylesheet" href="/nura-navigation.css"/></head>')
