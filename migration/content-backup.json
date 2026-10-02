@@ -6960,13 +6960,14 @@
     },
     "content": {
       "component": "site_page",
-      "title": "London",
-      "summary": "Discuss your project with the NURA studio.",
-      "body": "Contact the studio to arrange a conversation about your kitchen or joinery project.",
-      "seo_title": "Bespoke Kitchens & Joinery in London | Nura Interiors",
-      "seo_description": "Discuss your London kitchen or architectural joinery project with Nura Interiors. Explore local work and prepare a brief for the studio.",
+      "title": "Bespoke kitchens & joinery in Fulham, London",
+      "summary": "Visit the Nura showroom to discuss your home, materials and cabinetry details.",
+      "body": "Our London showroom is at 367 Fulham Palace Road, London SW6 6TA. Begin with a conversation about your brief, or contact the studio to arrange a visit. Bring plans, photographs and references where available; these help us discuss the decisions relevant to your space.",
+      "seo_title": "Kitchen & Joinery Showroom in Fulham | Nura London",
+      "seo_description": "Visit Nura’s Fulham showroom for bespoke kitchens and architectural joinery. Explore London projects and arrange a visit with the studio.",
       "image_rights_status": "review",
-      "source_publish_status": "draft"
+      "source_publish_status": "draft",
+      "modified_date": "2026-10-02"
     }
   },
   {
