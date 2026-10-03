@@ -4,6 +4,8 @@ export function improveHomeSeo(html:string){
  html=html.replace(/\s*<nav class="desktop-nav"[^>]*>[\s\S]*?<\/nav>/,'')
   .replace('class="site-nav" aria-label="Mobile navigation"','class="site-nav nura-main-nav" aria-label="Main navigation"');
  html=html.replace(/<footer[\s\S]*?<\/footer>/,footerHtml);
+ html=html.replace(/(<body\b[^>]*>)/,'$1<a class="nura-skip-link" href="#top">Skip to content</a>')
+  .replace('<main id="top">','<main id="top" tabindex="-1">');
  return html
   .replaceAll("01 \u2014 06","01 / 06")
   .replaceAll("feel easier\u2014not more complicated","feel easier, without adding complexity")
