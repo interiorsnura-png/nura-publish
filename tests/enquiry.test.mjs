@@ -23,9 +23,10 @@ test('retries use stable provider key, email source and shared lead reference; f
  }finally{global.fetch=prior.fetch;for(const [k,v] of [['RESEND_API_KEY',prior.key],['ENQUIRY_FROM',prior.from]])if(v===undefined)delete process.env[k];else process.env[k]=v;}
 });
 test('client retains accepted entry source across pages, stable retry payload and one success event',()=>{
- const storage=new Map(),events=[],window={dispatchEvent(e){events.push(e);}},location={origin:'https://www.nura-interiors.com',pathname:'/london',search:'?utm_source=google&utm_campaign=verification&email=private'},consent={value:'accepted',time:Date.now()};
+ const storage=new Map(),events=[],listeners={},window={addEventListener(n,f){listeners[n]=f;},dispatchEvent(e){events.push(e);}},location={origin:'https://www.nura-interiors.com',pathname:'/london',search:'?utm_source=google&utm_campaign=verification&email=private'},consent={value:'declined',time:Date.now()};
  const context={window,location,document:{referrer:'https://example.com/?private=secret'},localStorage:{getItem(){return JSON.stringify(consent);}},sessionStorage:{getItem(k){return storage.get(k)||null;},setItem(k,v){storage.set(k,v);},removeItem(k){storage.delete(k);}},URL,URLSearchParams,crypto:{randomUUID},Date,CustomEvent:class {constructor(type,{detail}){this.type=type;this.detail=detail;}}};
  vm.runInNewContext(readFileSync(new URL('../public/nura-enquiry.js',import.meta.url),'utf8'),context);
+ assert.equal(storage.size,0);consent.value='accepted';listeners['nura:analytics-consent']();assert.equal(storage.size,1);
  location.pathname='/consultation';location.search='';const form={};
  const a=window.nuraEnquiry.prepare(form,{name:'Test',message:'Brief'}),b=window.nuraEnquiry.prepare(form,{name:'Test',message:'Brief'});
  assert.equal(a,b);assert.equal(a.landing_page,'/london');assert.equal(a.enquiry_page,'/consultation');assert.equal(a.utm_source,'google');assert.equal(a.referrer_host,'example.com');assert.ok(!JSON.stringify(storage).includes('private'));

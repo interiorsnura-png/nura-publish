@@ -7,9 +7,9 @@ const source=readFileSync(new URL('../public/nura-analytics.js',import.meta.url)
 function browser(saved=null){
  const nodes=[],scripts=[],listeners={},writes=[];
  const element=()=>({hidden:false,dataset:{},setAttribute(){},addEventListener(n,f){this[n]=f;}});
- const window={addEventListener(n,f){listeners[n]=f;}};
+ const window={dispatchEvent(){},addEventListener(n,f){listeners[n]=f;}};
  const document={referrer:'https://example.com/?private=secret',cookie:'_ga=test',createElement:element,head:{append(n){scripts.push(n);}},body:{classList:{add(){},remove(){}},append(...n){nodes.push(...n);}},addEventListener(){}};
- vm.runInNewContext(source,{window,document,location:{hostname:'www.nura-interiors.com',origin:'https://www.nura-interiors.com',pathname:'/london',search:'?email=secret'},localStorage:{getItem(){return saved;},setItem(k,v){writes.push(v);}},Date});
+ vm.runInNewContext(source,{window,document,location:{hostname:'www.nura-interiors.com',origin:'https://www.nura-interiors.com',pathname:'/london',search:'?email=secret'},localStorage:{getItem(){return saved;},setItem(k,v){writes.push(v);}},CustomEvent:class {constructor(type){this.type=type;}},Date});
  return {window,nodes,scripts,writes,choose(value){nodes[0].click({target:{closest(){return {dataset:{choice:value}};}}});},lead(detail){listeners['nura:enquiry-success']({detail});}};
 }
 test('analytics remains offline until explicit acceptance and stops tracking on withdrawal',()=>{

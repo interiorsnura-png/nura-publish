@@ -1,21 +1,24 @@
 (() => {
  if(window.nuraEnquiry)return;
  const attempts=new WeakMap(),key='nura-enquiry-attribution-v1';
+ let entry=null;
  const consent=()=>{try{const c=JSON.parse(localStorage.getItem('nura-analytics-consent-v1'));return c?.value==='accepted'&&Date.now()-c.time<180*86400000;}catch{return false;}};
  const clean=value=>/^[a-zA-Z0-9 _./:+-]{1,200}$/.test(value||'')?value:'';
  function attribution(){
   const params=new URLSearchParams(location.search),current={landing_page:location.pathname,referrer_host:''};
   for(const k of ['utm_source','utm_medium','utm_campaign'])current[k]=clean(params.get(k));
   try{const ref=new URL(document.referrer);if(ref.origin!==location.origin)current.referrer_host=ref.hostname;}catch{}
+  entry=entry||current;
   try{
    if(!consent()){sessionStorage.removeItem(key);return current;}
    const saved=JSON.parse(sessionStorage.getItem(key));
    if(saved&&Date.now()-saved.time<86400000)return saved.fields;
-   sessionStorage.setItem(key,JSON.stringify({time:Date.now(),fields:current}));
+   sessionStorage.setItem(key,JSON.stringify({time:Date.now(),fields:entry}));return entry;
   }catch{}
   return current;
  }
  attribution();
+ window.addEventListener('nura:analytics-consent',attribution);
  window.nuraEnquiry={
   prepare(form,fields){
    const fingerprint=JSON.stringify(fields),prior=attempts.get(form);
