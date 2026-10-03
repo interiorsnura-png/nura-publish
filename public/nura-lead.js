@@ -10,7 +10,7 @@
  const wardrobePage=location.pathname.replace(/\/$/,'')==='/services/wardrobes-dressing-rooms';
  const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
- const inlineActions=[contact,document.querySelector('.nura-footer')].filter(Boolean);
+ const inlineActions=[contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq')].filter(Boolean);
  const sync=()=>{const privacy=document.querySelector('.nura-privacy-control'),footer=document.querySelector('.nura-footer');if(privacy&&footer){const r=footer.getBoundingClientRect();privacy.hidden=r.top<innerHeight&&r.bottom>0;}trigger.hidden=inlineActions.some(el=>{const box=el.getBoundingClientRect();return box.top<innerHeight&&box.bottom>0;});};
  sync();
  const observer=new IntersectionObserver(sync);inlineActions.forEach(el=>observer.observe(el));
