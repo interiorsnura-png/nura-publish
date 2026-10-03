@@ -1,6 +1,7 @@
 import handler from '../../../lib/enquiry-handler.cjs';
 
 export const runtime = 'nodejs';
+export const maxDuration = 60;
 export async function POST(request) {
   let status = 200;
   let body;
