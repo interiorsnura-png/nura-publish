@@ -21,6 +21,6 @@
  document.addEventListener('click',e=>{if(!holder.contains(e.target))close()});
  const author=document.querySelector('.article-meta');
  if(author)author.after(holder);
- else if(path==='/')document.querySelector('footer')?.prepend(holder);
+ else if(path==='/')document.querySelector('.nura-footer-base')?.append(holder);
  else document.querySelector('main h1')?.parentElement.append(holder);
 })();
