@@ -65,5 +65,5 @@ const sections:Record<string,Section[]>={
 };
 export default function ServiceContent({path}:{path:string}){
  const content=sections[path];if(!content)return null;
- return <div className="service-detail">{content.map(section=><section key={section.title}><h2>{section.title}</h2><p>{section.body}</p>{section.links?<ul>{section.links.map(link=><li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>:null}</section>)}</div>;
+ return <div className="service-detail">{content.map(section=><section key={section.title}><h2>{section.title}</h2><p>{section.body}</p>{section.links?<ul>{section.links.map(link=><li key={link.href}><a href={path==="/consultation"&&link.href==="/#contact"?"#consultation-enquiry":link.href}>{link.label}</a></li>)}</ul>:null}</section>)}</div>;
 }
