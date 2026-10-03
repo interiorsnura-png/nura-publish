@@ -14,6 +14,7 @@
  const control=document.createElement('button');control.type='button';control.className='nura-privacy-control';control.textContent='Privacy settings';
  function show(){banner.hidden=false;document.body.classList.add('nura-consent-open');}
  function hide(){banner.hidden=true;document.body.classList.remove('nura-consent-open');}
+ document.addEventListener('click',e=>{if(e.target.closest('[data-nura-privacy]'))show();});
  function choose(value){accepted=value==='accepted';try{localStorage.setItem(key,JSON.stringify({value,time:Date.now()}))}catch{}if(accepted)start();else if(loaded){window['ga-disable-'+id]=true;window.gtag('consent','update',{analytics_storage:'denied'});document.cookie.split(';').forEach(c=>{const n=c.trim().split('=')[0];if(n.startsWith('_ga'))for(const domain of ['', '; domain=.nura-interiors.com','; domain=www.nura-interiors.com'])document.cookie=n+'=; max-age=0; path=/'+domain;});}if(accepted){window['ga-disable-'+id]=false;if(loaded)window.gtag('consent','update',{analytics_storage:'granted'});}hide();}
  banner.addEventListener('click',e=>{const b=e.target.closest('[data-choice]');if(b)choose(b.dataset.choice)});control.addEventListener('click',show);document.body.append(banner,control);
  const saved=read();if(saved){accepted=saved==='accepted';if(accepted)start();hide();}else show();
