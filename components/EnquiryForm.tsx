@@ -1,6 +1,6 @@
 'use client';
 import {useState,type FormEvent} from 'react';
-export default function EnquiryForm({formLocation='london'}:{formLocation?:'london'|'consultation'}){
+export default function EnquiryForm({formLocation='london'}:{formLocation?:'london'|'consultation'|'wardrobes'}){
  const [status,setStatus]=useState(''),[sending,setSending]=useState(false);
  async function submit(event:FormEvent<HTMLFormElement>){event.preventDefault();if(sending)return;const form=event.currentTarget;if(!form.reportValidity())return;setSending(true);setStatus('Sending your enquiry…');let fields=Object.fromEntries(new FormData(form));fields.message=String(fields.message)+'\n\nEnquiry page: '+location.origin+location.pathname;fields=window.nuraEnquiry.prepare(form,fields);
  try{const response=await fetch('/api/enquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(fields),signal:AbortSignal.timeout(18000)});const data=await response.json();if(!response.ok||!data.ok)throw Error();window.nuraEnquiry.complete(form,data,{form_location:formLocation,enquiry_type:fields.projectType==='Fulham showroom visit'?'showroom':'consultation'});setStatus('Thank you. Your enquiry has been sent to the Nura studio.');form.reset();}catch{setStatus('Your enquiry could not be sent. Please try again or email studio@nura-interiors.com.');}finally{setSending(false);}}
