@@ -3,6 +3,7 @@
  if(window.__nuraAnalyticsInstalled||location.hostname!=='www.nura-interiors.com')return;
  window.__nuraAnalyticsInstalled=true;
  let accepted=false,loaded=false;
+ const measuredLeads=new Set();
  function read(){try{const v=JSON.parse(localStorage.getItem(key));return v&&Date.now()-v.time<180*86400000?v.value:null}catch{return null}}
  function track(name,params={}){if(!accepted)return;window.gtag('event',name,{...params,page_location:location.origin+location.pathname});}
  function start(){if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};
@@ -19,6 +20,6 @@
  banner.addEventListener('click',e=>{const b=e.target.closest('[data-choice]');if(b)choose(b.dataset.choice)});control.addEventListener('click',()=>{show();banner.querySelector('button').focus();});document.body.append(banner,control);if(document.body.prepend)document.body.prepend(banner);
  if(typeof ResizeObserver!=='undefined')new ResizeObserver(()=>document.documentElement.style.setProperty('--nura-consent-height',banner.getBoundingClientRect().height+'px')).observe(banner);
  const saved=read();if(saved){accepted=saved==='accepted';if(accepted)start();hide();}else show();
- window.addEventListener('nura:enquiry-success',e=>{const loc=['home','london','floating'].includes(e.detail?.form_location)?e.detail.form_location:'other';track('generate_lead',{form_location:loc,enquiry_type:e.detail?.enquiry_type==='showroom'?'showroom':'consultation'});});
+ window.addEventListener('nura:enquiry-success',e=>{const lead=e.detail?.lead_id;if(!accepted||typeof lead!=='string'||!/^[0-9a-f-]{36}$/i.test(lead)||measuredLeads.has(lead))return;measuredLeads.add(lead);const loc=['home','london','consultation','floating'].includes(e.detail?.form_location)?e.detail.form_location:'other';track('generate_lead',{lead_id:lead,form_location:loc,enquiry_type:e.detail?.enquiry_type==='showroom'?'showroom':'consultation'});});
  document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a)return;let method=null;if(a.href.startsWith('tel:'))method='telephone';else if(a.href.startsWith('mailto:'))method='email';else if(a.href.startsWith('https://wa.me/'))method='whatsapp';if(method)track('contact_click',{contact_method:method});});
 })();

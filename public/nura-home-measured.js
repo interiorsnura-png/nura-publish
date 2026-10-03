@@ -67,7 +67,7 @@ enquiryForm?.addEventListener('submit', async (event) => {
   const button = enquiryForm.querySelector('[type="submit"]');
   if (button.disabled) return;
   button.disabled = true;
-  const data = Object.fromEntries(new FormData(enquiryForm));
+  const data = window.nuraEnquiry.prepare(enquiryForm,Object.fromEntries(new FormData(enquiryForm)));
   const endpoint = enquiryForm.dataset.endpoint;
   status.textContent = 'Sending your enquiry…';
   try {
@@ -79,7 +79,7 @@ enquiryForm?.addEventListener('submit', async (event) => {
     const result = await response.json();
     if (!response.ok || result.ok !== true) throw new Error('Enquiry request failed');
     enquiryForm.reset();
-      window.dispatchEvent(new CustomEvent('nura:enquiry-success',{detail:{form_location:'home',enquiry_type:'consultation'}}));
+      window.nuraEnquiry.complete(enquiryForm,result,{form_location:'home',enquiry_type:'consultation'});
     status.textContent = 'Thank you. We’ll be in touch shortly.';
   } catch (error) {
     status.textContent = 'We could not send your enquiry. Please email studio@nura-interiors.com.';

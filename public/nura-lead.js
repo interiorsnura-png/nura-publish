@@ -21,10 +21,10 @@
  form.addEventListener('submit',async e=>{
   e.preventDefault();if(sending||!form.reportValidity())return;
   sending=true;submit.disabled=true;status.textContent='Sending your enquiry…';
-  const fields=Object.fromEntries(new FormData(form));
+  let fields=Object.fromEntries(new FormData(form));
   fields.message+='\n\nEnquiry page: '+location.origin+location.pathname;
-  const params=new URLSearchParams(location.search);for(const key of ['utm_source','utm_medium','utm_campaign'])fields[key]=(params.get(key)||'').slice(0,200);
-  try{const response=await fetch('/api/enquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(fields),signal:AbortSignal.timeout(18000)});const data=await response.json();if(!response.ok||!data.ok)throw new Error('Enquiry not accepted');window.dispatchEvent(new CustomEvent('nura:enquiry-success',{detail:{form_location:'floating',enquiry_type:'consultation'}}));status.textContent='Thank you. Your enquiry has been sent to the Nura studio.';form.reset();}
+  fields=window.nuraEnquiry.prepare(form,fields);
+  try{const response=await fetch('/api/enquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(fields),signal:AbortSignal.timeout(18000)});const data=await response.json();if(!response.ok||!data.ok)throw new Error('Enquiry not accepted');window.nuraEnquiry.complete(form,data,{form_location:'floating',enquiry_type:'consultation'});status.textContent='Thank you. Your enquiry has been sent to the Nura studio.';form.reset();}
   catch{status.textContent='Your enquiry could not be sent. Please try again or email studio@nura-interiors.com.';}
   finally{sending=false;submit.disabled=false;}
  });

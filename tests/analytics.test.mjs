@@ -16,9 +16,9 @@ test('analytics remains offline until explicit acceptance and stops tracking on 
  const b=browser(); b.lead({}); assert.equal(b.scripts.length,0); assert.equal(b.window.dataLayer,undefined);
  b.choose('declined'); assert.equal(b.scripts.length,0);
  b.choose('accepted'); assert.equal(b.scripts.length,1);
- b.lead({form_location:'london',enquiry_type:'showroom',email:'secret@example.com',message:'private'});
+ b.lead({lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'london',enquiry_type:'showroom',email:'secret@example.com',message:'private'});
  const event=Array.from(b.window.dataLayer.at(-1)); assert.equal(event[1],'generate_lead');
- assert.deepEqual(JSON.parse(JSON.stringify(event[2])),{form_location:'london',enquiry_type:'showroom',page_location:'https://www.nura-interiors.com/london'});
+ assert.deepEqual(JSON.parse(JSON.stringify(event[2])),{lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'london',enquiry_type:'showroom',page_location:'https://www.nura-interiors.com/london'});
  b.choose('declined'); const count=b.window.dataLayer.length; b.lead({}); assert.equal(b.window.dataLayer.length,count);
  assert.equal(b.window['ga-disable-G-5ZNSJY31TD'],true);
  b.choose('accepted'); assert.equal(b.scripts.length,1);
@@ -26,4 +26,10 @@ test('analytics remains offline until explicit acceptance and stops tracking on 
 test('saved consent expires without being renewed by visits',()=>{
  const recent=browser(JSON.stringify({value:'accepted',time:Date.now()-86400000})); assert.equal(recent.scripts.length,1); assert.equal(recent.writes.length,0);
  const expired=browser(JSON.stringify({value:'accepted',time:Date.now()-181*86400000})); assert.equal(expired.scripts.length,0); assert.equal(expired.nodes[0].hidden,false);
+});
+test('same successful lead is counted once and consultation location is preserved',()=>{
+ const b=browser();b.choose('accepted');
+ const detail={lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'consultation'};
+ b.lead(detail);const count=b.window.dataLayer.length;b.lead(detail);assert.equal(b.window.dataLayer.length,count);
+ assert.equal(Array.from(b.window.dataLayer.at(-1))[2].form_location,'consultation');
 });

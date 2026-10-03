@@ -5,6 +5,7 @@ export const dynamic='force-static';
 export function GET(){
  const schema=JSON.stringify(homeSchema).replace(/</g,'\\u003c');
  let html=improveHomeSeo(publishedHome.html).replace('</head>',`<script type="application/ld+json">${schema}</script></head>`);
+ html=html.replace('</head>','<script src="/nura-enquiry.js" defer></script></head>');
  html=html.replace('src="nura-home.js"','src="/nura-home-measured.js"');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-analytics.css"/></head>').replace('</body>','<script src="/nura-analytics.js" defer></script></body>');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-lead.css"/></head>').replace('</body>','<script src="/nura-lead.js" defer></script></body>');
