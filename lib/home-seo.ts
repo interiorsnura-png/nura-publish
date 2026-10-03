@@ -3,7 +3,7 @@ import {homeFaqHtml} from './home-faq';
 // Apply reviewed enhancements without rewriting the preserved migration source.
 export function improveHomeSeo(html:string){
  html=html.replace(/<section class="faq\b[^>]*>[\s\S]*?<\/section>/,homeFaqHtml)
-  .replace('</head>','<link rel="stylesheet" href="/nura-faq.css"/></head>');
+  .replace('</head>','<link rel="stylesheet" href="/nura-faq.css"/><meta name="msvalidate.01" content="164A92F684156746CF0F2F92F87ED5C0"/></head>');
  html=html.replace(/\s*<nav class="desktop-nav"[^>]*>[\s\S]*?<\/nav>/,'')
   .replace('class="site-nav" aria-label="Mobile navigation"','class="site-nav nura-main-nav" aria-label="Main navigation"');
  html=html.replace(/<footer[\s\S]*?<\/footer>/,footerHtml);
