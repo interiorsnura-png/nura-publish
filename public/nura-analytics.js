@@ -1,17 +1,26 @@
 (() => {
- const id='G-5ZNSJY31TD', key='nura-analytics-consent-v1';
+ const id='G-5ZNSJY31TD', key='nura-analytics-consent-v2';
  if(window.__nuraAnalyticsInstalled||location.hostname!=='www.nura-interiors.com')return;
  window.__nuraAnalyticsInstalled=true;
  let accepted=false,loaded=false;
  const measuredLeads=new Set();
  function read(){try{const v=JSON.parse(localStorage.getItem(key));return v&&Date.now()-v.time<180*86400000?v.value:null}catch{return null}}
  function track(name,params={}){if(!accepted)return;window.gtag('event',name,{...params,page_location:location.origin+location.pathname});}
- function start(){if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};
+ function start(){startClarity();if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};
  window.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
  window.gtag('consent','update',{analytics_storage:'granted'});window.gtag('js',new Date());
  window.gtag('config',id,{page_location:location.origin+location.pathname,page_referrer:document.referrer?document.referrer.split('?')[0].split('#')[0]:'',allow_google_signals:false,allow_ad_personalization_signals:false});
  const tag=document.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(tag);}
- const banner=document.createElement('section');banner.className='nura-consent';banner.setAttribute('aria-label','Analytics preferences');banner.innerHTML='<p>We use optional analytics to improve your experience. You can accept or decline. <a href="/privacy-policy">Privacy policy</a></p><div><button type="button" data-choice="accepted">Accept analytics</button><button type="button" data-choice="declined">Decline analytics</button></div>';
+ function startClarity(){
+ if(window.__nuraClarityLoaded){window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'});return;}
+ window.__nuraClarityLoaded=true;
+ window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments)};
+ document.querySelectorAll('form').forEach(form=>form.setAttribute('data-clarity-mask','true'));
+ window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'});
+ const script=document.createElement('script');script.async=true;script.src='https://www.clarity.ms/tag/ys3qfmnu6r?ref=bwt';document.head.append(script);
+ }
+ window.addEventListener('nura:analytics-consent',()=>{if(!accepted&&window.__nuraClarityLoaded){window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'denied'});window.clarity('consent',false);}});
+ const banner=document.createElement('section');banner.className='nura-consent';banner.setAttribute('aria-label','Analytics preferences');banner.innerHTML='<p>With your permission, Google Analytics and Microsoft Clarity help us understand visits, clicks and scrolling, including session replays. You can accept or decline. <a href="/privacy-policy">Privacy policy</a></p><div><button type="button" data-choice="accepted">Accept analytics</button><button type="button" data-choice="declined">Decline analytics</button></div>';
  const control=document.createElement('button');control.type='button';control.className='nura-privacy-control';control.textContent='Privacy settings';
  function show(){banner.hidden=false;document.body.classList.add('nura-consent-open');}
  function hide(){banner.hidden=true;document.body.classList.remove('nura-consent-open');}

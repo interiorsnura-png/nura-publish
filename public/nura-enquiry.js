@@ -2,7 +2,7 @@
  if(window.nuraEnquiry)return;
  const attempts=new WeakMap(),key='nura-enquiry-attribution-v1';
  let entry=null;
- const consent=()=>{try{const c=JSON.parse(localStorage.getItem('nura-analytics-consent-v1'));return c?.value==='accepted'&&Date.now()-c.time<180*86400000;}catch{return false;}};
+ const consent=()=>{try{const c=JSON.parse(localStorage.getItem('nura-analytics-consent-v2'));return c?.value==='accepted'&&Date.now()-c.time<180*86400000;}catch{return false;}};
  const clean=value=>/^[a-zA-Z0-9 _./:+-]{1,200}$/.test(value||'')?value:'';
  function attribution(){
   const params=new URLSearchParams(location.search),current={landing_page:location.pathname,referrer_host:''};
