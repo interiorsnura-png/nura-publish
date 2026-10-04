@@ -2,6 +2,14 @@ import {footerHtml} from './footer';
 import {homeFaqHtml} from './home-faq';
 // Apply reviewed enhancements without rewriting the preserved migration source.
 export function improveHomeSeo(html:string){
+ // Match responsive downloads to the existing layout; keep the migration snapshot intact.
+ const imageSizes:Record<string,string>={a52b5a2e5310:'42vw','72c3c43b54a8':'52vw','7aad5d45dd89':'36vw','5ac97f1b40d0':'36vw','788c8e2871c4':'51vw','1d6e31d7ac38':'29vw',dcc75e6202a9:'29vw','4280cc3dbd32':'29vw','62ee06975f86':'50vw'};
+ html=html.replace(/<img\b[^>]*>/g,img=>{
+  const key=Object.keys(imageSizes).find(id=>img.includes('/'+id+'-'));
+  if(key)img=img.replace(/sizes="[^"]*"/,`sizes="(max-width: 800px) 100vw, ${imageSizes[key]}"`);
+  if(img.includes('/490b3031fc2f-')&&!/\bloading=/.test(img))img=img.replace('<img ','<img loading="lazy" decoding="async" ');
+  return img;
+ });
  html=html.replace(/<section class="faq\b[^>]*>[\s\S]*?<\/section>/,homeFaqHtml)
   .replace('</head>','<link rel="stylesheet" href="/nura-faq.css"/><meta name="msvalidate.01" content="164A92F684156746CF0F2F92F87ED5C0"/></head>');
  html=html.replace(/\s*<nav class="desktop-nav"[^>]*>[\s\S]*?<\/nav>/,'')
