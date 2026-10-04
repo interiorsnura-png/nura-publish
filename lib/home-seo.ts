@@ -14,7 +14,7 @@ export function improveHomeSeo(html:string){
   .replaceAll("feel easier\u2014not more complicated","feel easier, without adding complexity")
   .replaceAll("Dubai project \u2014 discuss in AED","Dubai project: discuss in AED")
   .replaceAll('/jointery/westover-road','/joinery/westover-road')
-  .replace('<option>£25k–£50k</option>','<option>£5k–£25k</option><option>£25k–£50k</option>')
+  .replace('<option>£25k–£50k</option>','<option>Under £25k</option><option>£25k–£50k</option>')
   .replace('A considered reply from the studio. No automated sales sequence.','A considered reply from the studio. No automated sales sequence. <a href="/privacy-policy">How we use your information</a>')
   .replace('</head>','<link rel="stylesheet" href="/nura-navigation.css"/><link rel="stylesheet" href="/nura-footer.css"/></head>')
   .replace('</body>','<script src="/nura-navigation.js" defer></script></body>')
