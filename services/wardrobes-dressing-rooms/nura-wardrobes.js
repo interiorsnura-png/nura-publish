@@ -1,4 +1,11 @@
 document.documentElement.classList.add('js-ready');
+
+const wardrobeForm = document.querySelector('[data-wardrobe-form]');
+if (wardrobeForm) {
+  const projectType = wardrobeForm.elements.namedItem('projectType');
+  if (projectType && !projectType.value) projectType.value = 'Wardrobes and dressing rooms';
+}
+
 const hero = document.querySelector('.hero');
 const heroAurora = document.querySelector('.hero-aurora');
 const heroImage = document.querySelector('.hero-image');
@@ -64,9 +71,6 @@ enquiryForm?.addEventListener('submit', async (event) => {
     status.textContent = 'Please complete the required fields.';
     return;
   }
-  const button = enquiryForm.querySelector('[type="submit"]');
-  if (button.disabled) return;
-  button.disabled = true;
   const data = Object.fromEntries(new FormData(enquiryForm));
   const endpoint = enquiryForm.dataset.endpoint;
   status.textContent = 'Sending your enquiry…';
@@ -76,14 +80,11 @@ enquiryForm?.addEventListener('submit', async (event) => {
       headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
       body: JSON.stringify(data)
     });
-    const result = await response.json();
-    if (!response.ok || result.ok !== true) throw new Error('Enquiry request failed');
+    if (!response.ok) throw new Error('Enquiry request failed');
     enquiryForm.reset();
     status.textContent = 'Thank you. We’ll be in touch shortly.';
   } catch (error) {
     status.textContent = 'We could not send your enquiry. Please email studio@nura-interiors.com.';
-  } finally {
-    button.disabled = false;
   }
 });
 
