@@ -2,6 +2,4 @@
 
 .site-footer .nura-social-links img{filter:none;width:24px;height:24px}
 
-.nura-consent{position:relative;inset:auto;z-index:1;box-sizing:border-box;width:100%;padding:12px max(20px,4.2vw);border:0;border-bottom:1px solid #c7b995;border-radius:0;box-shadow:none;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:13px;line-height:1.5}.nura-consent p{margin:0;max-width:760px}.nura-consent div{flex-shrink:0}.nura-consent button{min-height:44px;padding:8px 16px;white-space:nowrap}.nura-consent-open .nura-privacy-control{display:none}.nura-consent-open .nura-lead-trigger{visibility:visible}@media(max-width:600px){.nura-consent{inset:auto;padding:12px 16px;display:block}.nura-consent p{margin:0 0 10px}.nura-consent div{gap:10px}.nura-consent button{padding:8px 10px}}
-
-.nura-consent-open .site-header{top:var(--nura-consent-height,118px)}
+.nura-consent{box-sizing:border-box;max-height:calc(100svh - 40px);overflow-y:auto}.nura-consent button{min-height:44px}.nura-consent-open .nura-privacy-control{display:none}
