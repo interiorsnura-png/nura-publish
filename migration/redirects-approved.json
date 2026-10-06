@@ -1,5 +1,10 @@
 [
   {
+    "source": "/bespoke-joinery",
+    "destination": "/services/architectural-joinery",
+    "permanent": true
+  },
+  {
     "source": "/portfolio",
     "destination": "/projects",
     "permanent": true
