@@ -16,11 +16,7 @@ export function improveHomePerformance(html:string){
  return html.replace(/<link\b[^>]*rel="stylesheet"[^>]*>/g,tag=>{
   const href=tag.match(/href="([^"]+)"/)?.[1];
   if(!href || !/^\/?nura-[a-z-]+\.css$/.test(href))return tag;
-  let css=readFileSync(join(process.cwd(),'public',href.replace(/^\//,'')),'utf8');
-  if(href==='/nura-fonts.css')for(const name of ['dm-web-3.woff2','dm-web-5.woff2']){
-   const font=readFileSync(join(process.cwd(),'public','assets','fonts',name));
-   css=css.replace(`/assets/fonts/${name}`,`data:font/woff2;base64,${font.toString('base64')}`);
-  }
+  const css=readFileSync(join(process.cwd(),'public',href.replace(/^\//,'')),'utf8');
   return `<style data-nura-style="${href}">${css.replace(/<\/style/gi,'<\\/style')}</style>`;
- }).replace('</head>',`<style>:root{--sans:'DM Sans','Nura Sans Fallback',Arial,sans-serif;--serif:'DM Serif Display','Nura Serif Fallback',Georgia,serif}</style></head>`);
+ }).replace('</head>',`<style>${readFileSync(join(process.cwd(),'public','nura-hero-fonts.css'),'utf8')}:root{--sans:'DM Sans','Nura Sans Fallback',Arial,sans-serif;--serif:'DM Serif Display','Nura Serif Fallback',Georgia,serif}.hero h1{font-family:'Nura Hero Serif','DM Serif Display','Nura Serif Fallback',Georgia,serif}</style></head>`);
 }
