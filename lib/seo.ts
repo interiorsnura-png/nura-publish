@@ -1,5 +1,10 @@
 import assetMap from './asset-map.json';
 export const siteUrl = 'https://www.nura-interiors.com';
+export const articleTitleOverrides:Record<string,string>={
+  '/post/transform-your-space-with-custom-interior-services-london':'Custom Interiors in London | Nura Interiors',
+  '/post/a-paradigm-shift-towards-sustainable-design-and-conscious-living':'Sustainable Interior Design | Nura Interiors',
+  '/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers':'Working with Kitchen Designers: Common Problems | Nura'
+};
 export const organization = {
   '@context':'https://schema.org', '@type':'ProfessionalService', '@id':siteUrl+'/#organization',
   name:'Nura Interiors', url:siteUrl+'/', email:'studio@nura-interiors.com', telephone:'+44 20 7123 6949',

@@ -11,7 +11,7 @@ import RichArticle from '../../components/RichArticle';
 import ServiceContent from '../../components/ServiceContent';
 import StudioDetails from '../../components/StudioDetails';
 import JsonLd from '../../components/JsonLd';
-import {siteUrl,organization,absoluteImage,listingMetadata} from '../../lib/seo';
+import {siteUrl,organization,absoluteImage,listingMetadata,articleTitleOverrides} from '../../lib/seo';
 type Props={params:Promise<{slug:string[]}>;searchParams:Promise<{category?:string}>};
 export const dynamic='force-dynamic';
 const localAsset=(filename:string):Asset=>({filename:'/assets/selected/'+filename,alt:''});
@@ -19,7 +19,7 @@ const pageImages:Record<string,string>={'/about':'nura-approach-new.jpg','/proce
 const listingTitles:Record<string,string>={'/projects':'Our work.','/journal':'Stories & perspectives.','/services':'Considered interiors.','/inspiration':'Material possibilities.'};
 export async function generateMetadata({params}:Props):Promise<Metadata>{
  const {slug}=await params;const path='/'+slug.join('/');const entry=(await getEntries()).find(x=>x.path===path);const listing=listingMetadata[path];
- const title=path==='/services/wardrobes-dressing-rooms'?wardrobeTitle:entry?.content.seo_title||listing?.title||entry?.content.title||'Nura Interiors';
+ const title=path==='/services/wardrobes-dressing-rooms'?wardrobeTitle:articleTitleOverrides[path]||entry?.content.seo_title||listing?.title||entry?.content.title||'Nura Interiors';
  const description=path==='/services/wardrobes-dressing-rooms'?wardrobeDescription:entry?.content.seo_description||listing?.description||entry?.content.summary||'Explore bespoke kitchens and architectural joinery with Nura Interiors.';
  const image=path==='/services/wardrobes-dressing-rooms'?siteUrl+'/assets/archive/58c6cefb8485754a-local.webp':absoluteImage(entry?.content.hero?.filename)||siteUrl+'/assets/selected/nura-hero-shot.jpeg';
  return {title:{absolute:title},description,alternates:{canonical:path},openGraph:{title,description,url:siteUrl+path,type:entry?.content.component==='article'?'article':'website',images:[image]},twitter:{card:'summary_large_image',title,description,images:[image]}};
