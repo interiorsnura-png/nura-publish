@@ -1,5 +1,10 @@
 [
   {
+    "source": "/portfolio",
+    "destination": "/projects",
+    "permanent": true
+  },
+  {
     "source": "/book-your-consultation",
     "destination": "/consultation",
     "permanent": true
