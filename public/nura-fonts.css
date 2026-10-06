@@ -72,3 +72,7 @@
 }
 
 
+@font-face{font-family:'Nura Sans Fallback';src:local('Arial');ascent-override:94.90%;descent-override:29.66%;line-gap-override:0%;size-adjust:104.53%}
+@font-face{font-family:'Nura Serif Fallback';src:local('Times New Roman');ascent-override:94.37%;descent-override:30.51%;line-gap-override:0%;size-adjust:109.78%}
+@font-face{font-family:'Nura Serif Fallback';font-style:italic;src:local('Times New Roman Italic');ascent-override:94.37%;descent-override:30.51%;line-gap-override:0%;size-adjust:109.78%}
+:root{--sans:'DM Sans','Nura Sans Fallback',Arial,sans-serif;--serif:'DM Serif Display','Nura Serif Fallback',Georgia,serif}
