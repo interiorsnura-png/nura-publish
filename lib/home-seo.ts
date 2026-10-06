@@ -6,7 +6,10 @@ export function improveHomeSeo(html:string){
  const imageSizes:Record<string,string>={a52b5a2e5310:'42vw','72c3c43b54a8':'52vw','7aad5d45dd89':'36vw','5ac97f1b40d0':'36vw','788c8e2871c4':'51vw','1d6e31d7ac38':'29vw',dcc75e6202a9:'29vw','4280cc3dbd32':'29vw','62ee06975f86':'50vw'};
  html=html.replace(/<img\b[^>]*>/g,img=>{
   const key=Object.keys(imageSizes).find(id=>img.includes('/'+id+'-'));
-  if(key)img=img.replace(/sizes="[^"]*"/,`sizes="(max-width: 800px) 100vw, ${imageSizes[key]}"`);
+  if(key)img=img.replace(/sizes="[^"]*"/,`sizes="(max-width: 800px) 88vw, ${imageSizes[key]}"`);
+  if(key && ['a52b5a2e5310','72c3c43b54a8','7aad5d45dd89'].includes(key)){
+   img=img.replace(/srcset="[^"]*"/,`srcset="/assets/selected/${key}-480.webp 480w, /assets/selected/${key}-640.webp 640w, /assets/selected/${key}-960.webp 960w, /assets/selected/${key}-${key==='a52b5a2e5310'?'1228':key==='72c3c43b54a8'?'1333':'1920'}.webp ${key==='a52b5a2e5310'?'1228':key==='72c3c43b54a8'?'1333':'1920'}w"`);
+  }
   if(img.includes('/490b3031fc2f-')&&!/\bloading=/.test(img))img=img.replace('<img ','<img loading="lazy" decoding="async" ');
   return img;
  });
@@ -30,8 +33,7 @@ export function improveHomeSeo(html:string){
    'A room can change a life when it is designed around the people who use it. Our bespoke kitchens and joinery are considered from the first line, resolved down to the last hinge.')
   .replace('</head>','<link rel="apple-touch-icon" sizes="192x192" href="/favicon.png"/><style>.proof-row .nura-display-number{font:31px var(--serif);font-weight:400}.outcome-grid .nura-display-number{font-size:10px;letter-spacing:.15em}.nura-link-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}@media(max-width:800px){.proof-row .nura-display-number{font-size:27px}}</style></head>')
   .replace(/<strong>(0[123]|∞)<\/strong>/g,'<span class="nura-display-number">$1</span>')
-  .replace('src="/assets/linkedin.svg" alt=""','src="/assets/linkedin.svg" alt="LinkedIn"')
-  .replace('src="/assets/instagram.svg" alt=""','src="/assets/instagram.svg" alt="Instagram"')
+  .replaceAll('class="nura-review-stars" aria-label=', 'class="nura-review-stars" role="img" aria-label=')
   .replace(/(<a[^>]+href="\/services\/bespoke-kitchens"[^>]*>)↗(<\/a>)/g,'$1<span class="nura-link-label">Explore bespoke kitchens</span>↗$2')
   .replace(/(<a[^>]+href="\/services\/architectural-joinery"[^>]*>)↗(<\/a>)/g,'$1<span class="nura-link-label">Explore architectural joinery</span>↗$2')
   .replace(/(<a[^>]+href="\/services\/living-spaces"[^>]*>)↗(<\/a>)/g,'$1<span class="nura-link-label">Explore bespoke living spaces</span>↗$2');

@@ -1,6 +1,6 @@
 .nura-faq{background:var(--cream);color:var(--ink);padding-block:clamp(72px,8vw,124px)}
 .nura-faq-layout{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);gap:clamp(48px,7vw,112px);max-width:1440px;margin:auto;align-items:start}
-.nura-faq-intro .section-mark{margin:0 0 36px;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+.nura-faq-intro .section-mark{margin:0 0 36px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#4b5048}
 .nura-faq-intro h2{font:400 clamp(44px,4.8vw,76px)/1.04 var(--serif);letter-spacing:-.035em;margin:0 0 24px}
 .nura-faq-intro h2 em{font-weight:400}
 .nura-faq-lede{font-size:16px;line-height:1.7;max-width:30ch;margin:0 0 28px;color:#4b5048}
