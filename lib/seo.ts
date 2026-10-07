@@ -3,7 +3,7 @@ export const siteUrl = 'https://www.nura-interiors.com';
 export const articleTitleOverrides:Record<string,string>={
   '/post/transform-your-space-with-custom-interior-services-london':'Custom Interiors in London | Nura Interiors',
   '/post/a-paradigm-shift-towards-sustainable-design-and-conscious-living':'Sustainable Interior Design | Nura Interiors',
-  '/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers':'Working with Kitchen Designers: Common Problems | Nura'
+  '/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers':'Common Problems When Working With a Kitchen Designer | NURA Interiors'
 };
 export const organization = {
   '@context':'https://schema.org', '@type':'ProfessionalService', '@id':siteUrl+'/#organization',
