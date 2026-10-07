@@ -18,4 +18,10 @@ Local validation: 27 tests, typecheck, production build and image-license verifi
 - 106 images, 14 video files, fonts, styles and compiled interaction runtime are stored under public/assets/portfolio. Asset manifest records source URLs, sizes and hashes. This imports the published runtime, not unavailable original TypeScript source.
 - The route has canonical metadata, breadcrumb schema, 106 licensed ImageObject entries, sitemap inclusion and the existing consent-gated analytics script.
 - Local verification: 28 tests, successful production build, 67 SEO-checked pages, 723 photo instances, 508 unique photos, zero missing licenses. Browser tests at 1440x1000 and 390x844 verified native content, zoom/reset, locally served film playback, zero foreign requests, no overflow or browser errors.
-- Production verification pending the current release.
+- Production verified on 2026-10-07: Vercel deployment AaqcmtpZxBib3C4Pw7yBBpNkNoRg reports success for c58809d. /projects/catalogue returns 200; browser checks on desktop/mobile passed with no iframe, no outside requests, working section navigation, zoom/reset and local film playback. Video byte ranges return HTTP 206 and video/mp4. Sitemap contains the native route.
+
+## Projects catalogue preview, 2026-10-07
+- /projects presents a visual Portfolio 2026 preview immediately below the hero and above the existing category filters and project cards.
+- The preview links to the complete native /projects/catalogue experience and provides a direct project-films link. Kitchen and Joinery filters remain unchanged.
+- The preview uses a locally hosted portfolio photograph with image-license schema. It introduces no iframe or third-party catalogue request.
+- Local verification: 28 tests, successful production build, 67 SEO-checked pages, 724 photo instances, 508 unique photos and zero missing licenses. Desktop and mobile browser checks passed for layout order, image loading, filters, catalogue navigation, console errors and horizontal overflow.

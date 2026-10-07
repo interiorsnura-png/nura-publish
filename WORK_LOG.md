@@ -20,3 +20,11 @@
 - /projects/catalogue is a local static rewrite, discoverable through /projects and sitemap. Existing portfolio redirect remains unchanged.
 - Added image-license schema and media inventory integrity test. Browser interaction and zero-foreign-request checks passed locally. 28 tests and verified build passed across 67 pages.
 - Previous local release-evidence documentation delta is included in this release. Current release status to be checked after push.
+
+- Native release c58809d verified on production through its Vercel GitHub status, HTTP 200, live desktop/mobile browser checks, local video HTTP 206 and sitemap inclusion. No iframe, foreign requests, failed resources, console exceptions or horizontal overflow were observed. Verification-only documentation remains local to avoid a redundant deployment.
+
+## 2026-10-07: projects catalogue preview
+- Added an editorial Portfolio 2026 preview above the /projects filters and cards, linking to the complete native catalogue and its films section.
+- Preserved the existing Kitchen and Joinery filters and all project records.
+- Local desktop and mobile checks confirmed correct content order, loaded imagery, working filters and catalogue link, no iframe, no console errors and no horizontal overflow.
+- Verified build passed: 28 tests, 67 SEO-checked pages, 724 photo instances, 508 unique photos and zero missing image licenses.
