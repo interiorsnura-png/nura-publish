@@ -6,3 +6,6 @@
 - [ ] Complete interactive mobile and desktop checks for the live article.
 - [ ] Verify consented `article_cta_click` receipt in GA4 DebugView.
 - [ ] Verify the Vercel deployment details map to the intended source commit.
+
+- [ ] Optional native migration of the externally hosted interactive catalogue source/assets; current /projects integration preserves the original hosted viewer.
+
