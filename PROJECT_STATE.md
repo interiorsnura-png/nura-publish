@@ -1,5 +1,11 @@
 # NURA Project State
 
+## Projects photography-first release, 2026-10-07
+- Integrated the local redesign ordering into the current production source while retaining the native catalogue preview and assets.
+- The first three /projects cards are Tansley Farm, Elm Park Road and Westover Road. Project records and category filters are preserved.
+- Verified 28 tests, production build, 67 page checks and zero missing image licenses. Direct execution of the ordering module confirms the three intended paths.
+- Deployment and live browser verification remain pending until this release is pushed.
+
 - Repository: interiorsnura-png/nura-publish
 - Production branch: main
 - Content source: migration/content-backup.json, combined by lib/content.ts in local/backup mode

@@ -1,5 +1,10 @@
 # NURA Work Log
 
+## 2026-10-07: release local projects ordering
+- Integrated only the project ordering module, listing usage and featured-image treatment from Desktop/nura-publish into the current production checkout.
+- Preserved the previously released catalogue preview and all unrelated local work. No local branch switch or reset was performed.
+- 28 tests, production build, 67 page checks and image-license verification passed. Direct ordering-module execution confirmed Tansley Farm, Elm Park Road and Westover Road as the first cards.
+
 ## 2026-10-07
 
 - Started the approved update for the kitchen designer problems article.
