@@ -1,0 +1,71 @@
+[
+  {
+    "path": "/projects-hampstead-house.html",
+    "source": {
+      "collection": "live-vercel",
+      "id": "projects-hampstead-house.html"
+    },
+    "content": {
+      "component": "published_project",
+      "title": "Hampstead House",
+      "category": "Bespoke kitchen",
+      "location": "London",
+      "body": "A considered kitchen design study for a period home in Hampstead, balancing rich timber, natural stone and the rhythm of everyday family life.\n\nNura developed the spatial direction, material palette and joinery language for the proposal.",
+      "hero": {
+        "filename": "/assets/hampstead-house.webp",
+        "alt": "Dark timber kitchen at Hampstead House"
+      },
+      "gallery": [],
+      "seo_title": "Hampstead House",
+      "seo_description": "A considered kitchen design study for a period home in Hampstead, balancing rich timber, natural stone and the rhythm of everyday family life.",
+      "source_publish_status": "published",
+      "image_rights_status": "owned"
+    }
+  },
+  {
+    "path": "/projects-park-view.html",
+    "source": {
+      "collection": "live-vercel",
+      "id": "projects-park-view.html"
+    },
+    "content": {
+      "component": "published_project",
+      "title": "Park View",
+      "category": "Bespoke kitchen",
+      "location": "London",
+      "body": "A kitchen design study for a London home, exploring full-height cabinetry, a tactile stone island and a calm architectural order.\n\nNura shaped the spatial planning, storage strategy and material direction for the proposal.Design language",
+      "hero": {
+        "filename": "/assets/park-view.webp",
+        "alt": "Natural stone kitchen at Park View"
+      },
+      "gallery": [],
+      "seo_title": "Park View",
+      "seo_description": "A kitchen design study for a London home, exploring full-height cabinetry, a tactile stone island and a calm architectural order.",
+      "source_publish_status": "published",
+      "image_rights_status": "owned"
+    }
+  },
+  {
+    "path": "/projects-clay-house.html",
+    "source": {
+      "collection": "live-vercel",
+      "id": "projects-clay-house.html"
+    },
+    "content": {
+      "component": "published_project",
+      "title": "Clay House",
+      "category": "Bespoke kitchen",
+      "location": "Dubai",
+      "body": "An interiors design study shaped around pale surfaces, generous light and the easy flow of hosting.\n\nNura developed the material direction and quietly detailed joinery language for the proposal.A Nura principle",
+      "hero": {
+        "filename": "/assets/clay-house.webp",
+        "alt": "Minimal cream kitchen at Clay House"
+      },
+      "gallery": [],
+      "seo_title": "Clay House",
+      "seo_description": "An interiors design study shaped around pale surfaces, generous light and the easy flow of hosting.",
+      "source_publish_status": "published",
+      "image_rights_status": "owned"
+    }
+  }
+]

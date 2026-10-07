@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {wixImage,normalisePath} from '../lib/transform.mjs';
+const entries=JSON.parse(await readFile(new URL('../migration/content-backup.json',import.meta.url),'utf8'));
+const map=JSON.parse(await readFile(new URL('../migration/url-map.json',import.meta.url),'utf8'));
+test('all source records retained with unique legacy paths',()=>{const original=entries.filter(x=>x.source.collection!=='proposed-copy');assert.equal(original.length,41);assert.equal(new Set(original.map(x=>x.path)).size,41);assert.equal(original.filter(x=>x.content.component==='project').length,19);assert.equal(original.filter(x=>x.content.component==='article').length,13);assert.equal(original.filter(x=>x.content.component==='inspiration').length,9);});
+test('Wix image conversion preserves media id; invalid protocols rejected',()=>{assert.equal(wixImage('wix:image://v1/abc~mv2.jpg/Name.jpg#originWidth=100'),'https://static.wixstatic.com/media/abc~mv2.jpg');assert.equal(wixImage('javascript:alert(1)'),'');assert.equal(wixImage('https://unknown.example/image.jpg'),'');});
+test('paths reject external destinations and traversal',()=>{for(const p of ['//evil.example','/../private','/x?bad=1','/x\\evil'])assert.equal(normalisePath(p),null);assert.equal(normalisePath('/kitchens/pier-house-/'),'/kitchens/pier-house-');});
+test('original kitchen paths and uncertain public identities are protected',()=>{assert.ok(entries.some(x=>x.path==='/kitchens/tansley-farm'&&x.content.title==='Tansley Farm'));assert.ok(map.filter(x=>x.source_collection==='live-vercel').every(x=>x.decision==='REVIEW_IDENTITY'&&x.redirect_enabled===false));});
+test('every enabled redirect has a real destination, no chains or homepage blanket redirects',async()=>{const redirects=JSON.parse(await readFile(new URL('../migration/redirects-approved.json',import.meta.url),'utf8'));for(const r of redirects){assert.ok(entries.some(x=>x.path===r.destination)||['/projects','/journal','/services'].includes(r.destination));assert.notEqual(r.destination,'/');assert.ok(!redirects.some(x=>x.source===r.destination));}});

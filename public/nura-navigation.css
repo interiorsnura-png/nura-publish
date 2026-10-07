@@ -1,0 +1,12 @@
+/* One set of crawlable links for both desktop and mobile navigation. */
+.nura-skip-link{position:fixed;top:12px;left:12px;z-index:10030;padding:12px 18px;background:#f7f5ef;color:#1e211d;transform:translateY(-180%);font:14px/1.5 sans-serif}
+.nura-skip-link:focus{transform:none;outline:3px solid #b58c3f;outline-offset:3px}
+@media(min-width:801px){
+ .nura-main-nav{display:flex;position:static;flex-direction:row;gap:clamp(20px,3vw,52px);width:auto;height:auto;min-height:0;padding:0;background:none;transform:none;visibility:visible;font-size:11px;letter-spacing:.1em;text-transform:none}
+ .nura-main-nav a{padding-bottom:5px;border-bottom:1px solid transparent}
+ .nura-main-nav a:hover{border-color:currentColor}
+}
+@media(max-width:800px){
+ .nura-main-nav{visibility:hidden;pointer-events:none}
+ .nura-main-nav.is-open{visibility:visible;pointer-events:auto}
+}

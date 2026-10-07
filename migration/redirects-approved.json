@@ -1,0 +1,27 @@
+[
+  {
+    "source": "/bespoke-joinery",
+    "destination": "/services/architectural-joinery",
+    "permanent": true
+  },
+  {
+    "source": "/portfolio",
+    "destination": "/projects",
+    "permanent": true
+  },
+  {
+    "source": "/book-your-consultation",
+    "destination": "/consultation",
+    "permanent": true
+  },
+  {
+    "source": "/our-philisophy",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/jointery/westover-road",
+    "destination": "/joinery/westover-road",
+    "permanent": true
+  }
+]
