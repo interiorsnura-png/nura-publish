@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import * as cheerio from 'cheerio';
 const base=process.env.SEO_BASE_URL||'http://localhost:3126';
 const entries=(await Promise.all(['migration/content-backup.json','lib/published-projects.json','lib/published-editorial.json','lib/published-pages.json'].map(p=>fs.readFile(new URL('../'+p,import.meta.url),'utf8').then(JSON.parse)))).flat();
-const paths=[...new Set(['/','/projects','/services','/journal','/inspiration',...entries.map(e=>e.path)])];
+const paths=[...new Set(['/','/projects','/projects/catalogue','/services','/journal','/inspiration',...entries.map(e=>e.path)])];
 const failures=[],unique=new Set();let instances=0;
 const normalise=src=>{let u=new URL(src,'https://www.nura-interiors.com');if(u.pathname==='/_next/image')u=new URL(u.searchParams.get('url'),'https://www.nura-interiors.com');return u.href;};
 const walk=(x,out)=>{if(!x||typeof x!=='object')return;if(x['@type']==='ImageObject')out.push(x);for(const v of Object.values(x))if(Array.isArray(v))v.forEach(y=>walk(y,out));else if(v&&typeof v==='object')walk(v,out);};

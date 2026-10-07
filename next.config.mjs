@@ -4,7 +4,7 @@ const siteEnv = process.env.SITE_ENV || (process.env.VERCEL_ENV === 'preview' ? 
 export default {
   poweredByHeader: false,
   env: {SITE_ENV: siteEnv, NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nura-interiors.com'},
-  async rewrites(){return [{source:'/_functions/enquiry',destination:'/api/enquiry'}];},
+  async rewrites(){return {beforeFiles:[{source:'/projects/catalogue',destination:'/portfolio/index.html'}],afterFiles:[{source:'/_functions/enquiry',destination:'/api/enquiry'}],fallback:[]};},
   images: {remotePatterns:[{protocol:'https',hostname:'static.wixstatic.com',pathname:'/media/**'},{protocol:'https',hostname:'a.storyblok.com',pathname:'/f/**'}]},
   async redirects(){return [{source:"/index.html",destination:"/",permanent:true},...redirects];},
   async headers(){return [{source:'/:path*',headers:[{key:'X-Content-Type-Options',value:'nosniff'},{key:'Referrer-Policy',value:'strict-origin-when-cross-origin'},...(siteEnv==='production'?[]:[{key:'X-Robots-Tag',value:'noindex, nofollow'}])]}];}

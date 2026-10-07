@@ -7,5 +7,4 @@
 - [ ] Verify consented `article_cta_click` receipt in GA4 DebugView.
 - [ ] Verify the Vercel deployment details map to the intended source commit.
 
-- [ ] Optional native migration of the externally hosted interactive catalogue source/assets; current /projects integration preserves the original hosted viewer.
-
+- [x] Migrate the full published interactive catalogue, images, fonts and video files onto NURA without an iframe. Original editable application source is not available in this account; compiled runtime and media are versioned locally.

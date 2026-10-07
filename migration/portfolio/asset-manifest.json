@@ -1,0 +1,759 @@
+{
+  "source": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site",
+  "sourceWix": "https://humakitchens.wixsite.com/website/portfolio",
+  "checked": "2026-10-07",
+  "assets": [
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p05-linework.svg",
+      "path": "/assets/portfolio/p05-linework.svg",
+      "bytes": 89608,
+      "sha256": "c46e19e159c47480afdcaa46881e021d4eecd9e5f87d42e768bf7b79eaff931f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/nura-wordmark.svg",
+      "path": "/assets/portfolio/nura-wordmark.svg",
+      "bytes": 12065,
+      "sha256": "8d741cc66ff2ef006efe527e72a777457da56b26f39d42d9be896c9869e60177"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/teaser/nura-teaser-desktop.jpg",
+      "path": "/assets/portfolio/teaser/nura-teaser-desktop.jpg",
+      "bytes": 32623,
+      "sha256": "62df094a26632e6df216cd5cb415bd5263b76f55e90fee0b0a94cebb88240c6f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/teaser/nura-teaser-mobile.jpg",
+      "path": "/assets/portfolio/teaser/nura-teaser-mobile.jpg",
+      "bytes": 18558,
+      "sha256": "1bdefae67b66fb37658da409709d265f0642561a5a2fb5582213d11410b3bedc"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p06-1.webp",
+      "path": "/assets/portfolio/p06-1.webp",
+      "bytes": 52094,
+      "sha256": "d5a5723fd55e310ca21e590cd16c2a1cdf6a9991a1ad0310febbc86b347deb5f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p04-linework.svg",
+      "path": "/assets/portfolio/p04-linework.svg",
+      "bytes": 55120,
+      "sha256": "170fc2fb9df3a2c6bef38363edb137ea9ae785986d327b71e5cc670c5a98a224"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p07-1.webp",
+      "path": "/assets/portfolio/p07-1.webp",
+      "bytes": 255636,
+      "sha256": "2c468eebc56f9771418beb0122a80cac7ed036aaf1d869d19a3a4e876e2bf6df"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p08-1.webp",
+      "path": "/assets/portfolio/p08-1.webp",
+      "bytes": 52740,
+      "sha256": "0a954ade7dbb0e1d5d9a213f222cbb98467cd56620c7b43566aed739eadbacab"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p11-1.webp",
+      "path": "/assets/portfolio/p11-1.webp",
+      "bytes": 235972,
+      "sha256": "e3da4c397d9e371535ca3749e0c1f71f168d16a98c18a55da21dc71ce31ba95d"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p09-1.webp",
+      "path": "/assets/portfolio/p09-1.webp",
+      "bytes": 195832,
+      "sha256": "8af83e4c2d2446b2dc980ffbf2bfd5a4ee794e716bc82e52a3c992e5216619fa"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p10-1.webp",
+      "path": "/assets/portfolio/p10-1.webp",
+      "bytes": 248532,
+      "sha256": "73546acdc9a82050d8f581f4421bb4d1e174406c4c1e5700b092c0320cac6a10"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p12-1.webp",
+      "path": "/assets/portfolio/p12-1.webp",
+      "bytes": 220082,
+      "sha256": "01a7ab329d97f1821156d9a613dae6164226c894fb974e912160820b7b45db86"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p13-2.webp",
+      "path": "/assets/portfolio/p13-2.webp",
+      "bytes": 109020,
+      "sha256": "b72b9d5e1a0aee109461c83aa6b38e003dd22f453b5e4a02ac3189bca845ad87"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p14-1.webp",
+      "path": "/assets/portfolio/p14-1.webp",
+      "bytes": 135464,
+      "sha256": "58c231a3fb36c2f29bee2bb3c73fba1901e192e2b97fd05dc786e1c67413177f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p15-1.webp",
+      "path": "/assets/portfolio/p15-1.webp",
+      "bytes": 231968,
+      "sha256": "2a0759aaee853b22e3a19271c00645a1b140f92b7072bed16cdb850fea80940b"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p17-1.webp",
+      "path": "/assets/portfolio/p17-1.webp",
+      "bytes": 143462,
+      "sha256": "00a0e9c5138f40880ff03730823dda4903ad3896284a85546e4f1373358a3fd1"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p16-1.webp",
+      "path": "/assets/portfolio/p16-1.webp",
+      "bytes": 61758,
+      "sha256": "df0d90680b9b037ad708b5188c54ad61ec8789c8d6abf17281c7cee6af25954d"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p19-1.webp",
+      "path": "/assets/portfolio/p19-1.webp",
+      "bytes": 169112,
+      "sha256": "bb484dfc360a597e8f583a2b826dd3cb79d5f1c4e310c1517d0f091647f1170c"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p18-1.webp",
+      "path": "/assets/portfolio/p18-1.webp",
+      "bytes": 285294,
+      "sha256": "af31192b089dd98913ef75cfb78bed65641fc5109eb4e9972af7898f66bdf3fa"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p22-1.webp",
+      "path": "/assets/portfolio/p22-1.webp",
+      "bytes": 102828,
+      "sha256": "b50f341a8ed9853fd22ad4e7afe4b0469c6a75065b2c4e46ba69379886eade1c"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p21-1.webp",
+      "path": "/assets/portfolio/p21-1.webp",
+      "bytes": 106358,
+      "sha256": "cd110f4133c38dcd933bbaa90c1bcfb2cf7286a79412d4738523f8f8e7721afd"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p23-1.webp",
+      "path": "/assets/portfolio/p23-1.webp",
+      "bytes": 115902,
+      "sha256": "a6b5207d7f0d846d5b95a64f6eacc897dca7a92b604d2c9f4c1c7499b6575c5a"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p24-1.webp",
+      "path": "/assets/portfolio/p24-1.webp",
+      "bytes": 141876,
+      "sha256": "3ad3651dcf95c68a71878230ba0de2578bf9b6955d6dfc17ef8992bb63c66940"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p25-1.webp",
+      "path": "/assets/portfolio/p25-1.webp",
+      "bytes": 77018,
+      "sha256": "87b590d4f986d4014da0adee90fb3d3c8baf11bf80940d8108e42a62ab990ef3"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p20-1.webp",
+      "path": "/assets/portfolio/p20-1.webp",
+      "bytes": 127500,
+      "sha256": "044c2e6c04106621864bf2face3fe30f3a57ac5b2b2c1639bedc0a5e0b05e9e6"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p26-1.webp",
+      "path": "/assets/portfolio/p26-1.webp",
+      "bytes": 87328,
+      "sha256": "7762caf3b5286ea4f3367a0b516a3912b76963455ac8a31fcb22300dd6bca00d"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p27-1.webp",
+      "path": "/assets/portfolio/p27-1.webp",
+      "bytes": 212454,
+      "sha256": "4ff4e5ad0dc4592b2364591975cc0a723e4d74ffa2e1a49bdb8877b5a19529d3"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p29-1.webp",
+      "path": "/assets/portfolio/p29-1.webp",
+      "bytes": 8772,
+      "sha256": "9694f8bd393fcdf08c001d9f9d5d1819d8e4446ccd5daecf4dbf52bb0ea2e27b"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p28-1.webp",
+      "path": "/assets/portfolio/p28-1.webp",
+      "bytes": 88280,
+      "sha256": "a175cefd210461993ce3bf50f971b07de871ba87a3527c76f639c419a18eaf7c"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p29-2.webp",
+      "path": "/assets/portfolio/p29-2.webp",
+      "bytes": 110256,
+      "sha256": "6bb23e7a70eb65a0cf377ca15c4bfb657726ba1e8e3fa2e9911d9ba661d40292"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p31-1.webp",
+      "path": "/assets/portfolio/p31-1.webp",
+      "bytes": 33882,
+      "sha256": "32558b805e89c784c1a60c67b89e65e5a93f2a82f03d998aba88dd6928bd0bd5"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p30-1.webp",
+      "path": "/assets/portfolio/p30-1.webp",
+      "bytes": 25154,
+      "sha256": "c957d18d78fd80b6af2c07b7709faeb8934fb4117fbfe1b805b6c475a53fd5b4"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p32-1.webp",
+      "path": "/assets/portfolio/p32-1.webp",
+      "bytes": 105908,
+      "sha256": "505b74cf553a70c94fa3e3fb5d9868ad5fcf1c6aa4c602308dea6aabdaa4ef95"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p35-2.webp",
+      "path": "/assets/portfolio/p35-2.webp",
+      "bytes": 54318,
+      "sha256": "c2430d2bb4f334483bf62e12943448074ad921a5ceaf23fcdedfc28795bf7603"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p34-1.webp",
+      "path": "/assets/portfolio/p34-1.webp",
+      "bytes": 88532,
+      "sha256": "e75cbcac3c500e19349ce507b57f1b48efdf52c46206ca63f3aaf4bdbe797fd4"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p36-1.webp",
+      "path": "/assets/portfolio/p36-1.webp",
+      "bytes": 38452,
+      "sha256": "10e8e9958f02596d88c7a82bb8209d989b6d65c52451272845651c49e9fa1975"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p37-1.webp",
+      "path": "/assets/portfolio/p37-1.webp",
+      "bytes": 90508,
+      "sha256": "84a18f09e684f9946f1b5bb1de224ad7cba745f960d4ba729806d3a8caeeb6d1"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p33-1.webp",
+      "path": "/assets/portfolio/p33-1.webp",
+      "bytes": 116764,
+      "sha256": "dccdcc36df18509150391e83b881eccb616fb4318b857cee53a0264332733a4a"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p39-1.webp",
+      "path": "/assets/portfolio/p39-1.webp",
+      "bytes": 41170,
+      "sha256": "36497287df924b0fdab03780a0473dfb775c233450cf45a7618a4e90099919e1"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p38-1.webp",
+      "path": "/assets/portfolio/p38-1.webp",
+      "bytes": 50972,
+      "sha256": "ae5705420694c4a78a8811c86257fb4ed297e959be361bf2bc8e590c4b1b2069"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p40-2.webp",
+      "path": "/assets/portfolio/p40-2.webp",
+      "bytes": 54614,
+      "sha256": "7db560de80754fa482d8a108069b254a054abdbe30d8943af9e9468b209525ee"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p40-3.webp",
+      "path": "/assets/portfolio/p40-3.webp",
+      "bytes": 4326,
+      "sha256": "7a18c04600bae9ee17fac9e0d8794d9750c49b7992fca8c06748987dbf12f93a"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p40-1.webp",
+      "path": "/assets/portfolio/p40-1.webp",
+      "bytes": 19704,
+      "sha256": "32ca36b7f520e9f2b6f3de788c1bc39e8e069622a45068f0f77b2eac566a6487"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p41-2.webp",
+      "path": "/assets/portfolio/p41-2.webp",
+      "bytes": 12650,
+      "sha256": "d448f0d33eb2ca938e5d16ce692a8082ad993ab35f56976c5b245c335822d8c5"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p41-1.webp",
+      "path": "/assets/portfolio/p41-1.webp",
+      "bytes": 59192,
+      "sha256": "060898437a96ebb7a4afd08e58f929ea3a6d9963dc4e4546f6282d1ae3708ceb"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p41-3.webp",
+      "path": "/assets/portfolio/p41-3.webp",
+      "bytes": 22810,
+      "sha256": "a24287231bffae1d7fb04a632dab1778759f4ae759aed48db46253d8663f4d33"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p44-1.webp",
+      "path": "/assets/portfolio/p44-1.webp",
+      "bytes": 66924,
+      "sha256": "5ec5525c06e66dc2e47398cea494acf4ff38615419394e510eadfc4ccc7ad748"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p42-1.webp",
+      "path": "/assets/portfolio/p42-1.webp",
+      "bytes": 58376,
+      "sha256": "6b29db813a9eb8203eb0963cc3c6b3a0d5c17dae0b027b4a1061d5ea1e703854"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p43-1.webp",
+      "path": "/assets/portfolio/p43-1.webp",
+      "bytes": 65314,
+      "sha256": "29ce7c46807dac6efc8637d60c259f71f133bd36bf38c92ed12c9094929bf580"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p45-1.webp",
+      "path": "/assets/portfolio/p45-1.webp",
+      "bytes": 22954,
+      "sha256": "e3d2160db875ca4efdbd9284892382fdedd5467c5b63b32f97a1493c9d1afdb3"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p46-1.webp",
+      "path": "/assets/portfolio/p46-1.webp",
+      "bytes": 116280,
+      "sha256": "89bb33bae7a8eadc32125eab80cd03b461f91c3bd58bc045ba5ddc1842da0ea2"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p47-1.webp",
+      "path": "/assets/portfolio/p47-1.webp",
+      "bytes": 213362,
+      "sha256": "7f80ec26622590753e1d4598eff94036eca3fc5d826be004939ebccd559e143b"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p47-2.webp",
+      "path": "/assets/portfolio/p47-2.webp",
+      "bytes": 14790,
+      "sha256": "9fa7448f28104c322e7aa362d9f54defd72853a7f53f8bdd687e272d1b92d8e9"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p49-1.webp",
+      "path": "/assets/portfolio/p49-1.webp",
+      "bytes": 172050,
+      "sha256": "678e8b7eef5ab2c65098add0c70cc9be7866ec821c28d7619714702c5d88d005"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p48-1.webp",
+      "path": "/assets/portfolio/p48-1.webp",
+      "bytes": 178728,
+      "sha256": "cef60df13e32556537ebbb2c6c52bf28b943e92d40f88beb0d7001e8ce6830f0"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p50-1.webp",
+      "path": "/assets/portfolio/p50-1.webp",
+      "bytes": 143898,
+      "sha256": "d490026d1e904fa7ebf822a2b536533e862a50f63cfbc59ef63fc9a001e6e472"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p53-2.webp",
+      "path": "/assets/portfolio/p53-2.webp",
+      "bytes": 143642,
+      "sha256": "26c101d00dd311d62161983ee078d199dc3b02a4c2616a068f296a79ce84f28e"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p51-1.webp",
+      "path": "/assets/portfolio/p51-1.webp",
+      "bytes": 180186,
+      "sha256": "cdb565ea754246778baf1373f367d7762558197cd121f864b3f2896fd8264edc"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p54-1.webp",
+      "path": "/assets/portfolio/p54-1.webp",
+      "bytes": 197184,
+      "sha256": "530a3d67331aec1fe898c53ca3981f2711064996ab4e618b8dc19f504bcb662c"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p55-1.webp",
+      "path": "/assets/portfolio/p55-1.webp",
+      "bytes": 246026,
+      "sha256": "991c1bf62b752bd191c6813d67b4a27177c94c80d8966de4a5ee2e663661a85b"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p56-1.webp",
+      "path": "/assets/portfolio/p56-1.webp",
+      "bytes": 112792,
+      "sha256": "8c9bbe2f9321eb0fb4f55804a0dabd3b08de9ec2342a1202fe6359894bd3d287"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p52-1.webp",
+      "path": "/assets/portfolio/p52-1.webp",
+      "bytes": 154472,
+      "sha256": "e3e1e30c67e35e34754d773ab3e22f271c606c8164a9ecd2d0ce5792dae3f0a8"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p57-1.webp",
+      "path": "/assets/portfolio/p57-1.webp",
+      "bytes": 137572,
+      "sha256": "b1463a43384b6a4d6b3a77a7ad56f9c333797bba0932d3e298a0c2d618a37d8d"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p59-1.webp",
+      "path": "/assets/portfolio/p59-1.webp",
+      "bytes": 148878,
+      "sha256": "b9001d9fc5f8d16b9db0a0867a6a08b2b6b3b2c9d9ae3a02560b61ebe8ec2deb"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p60-1.webp",
+      "path": "/assets/portfolio/p60-1.webp",
+      "bytes": 169402,
+      "sha256": "1abeee92a3de98bc4b032ab2ad5beb26c6333c52484cedc3d5a5b966233a30b9"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p61-1.webp",
+      "path": "/assets/portfolio/p61-1.webp",
+      "bytes": 230658,
+      "sha256": "078a9e9a5695ec99325336661d08398b5b95b3da83e46b44e7c11d8248470e9b"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p58-1.webp",
+      "path": "/assets/portfolio/p58-1.webp",
+      "bytes": 240634,
+      "sha256": "9930ed29d2c3c3741b2c55f28f02a8ba7a530d82af04a49bd239dfc6d21ad8f3"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p63-1.webp",
+      "path": "/assets/portfolio/p63-1.webp",
+      "bytes": 15058,
+      "sha256": "193759512af2ceabf87a9fbfe5806d4af36977b8970ad79791af1d95abfb9a13"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p62-1.webp",
+      "path": "/assets/portfolio/p62-1.webp",
+      "bytes": 184504,
+      "sha256": "576f4d099011604a51e42edd02c29f2c860163d554f0a2123bb8804c6a3fe108"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p64-1.webp",
+      "path": "/assets/portfolio/p64-1.webp",
+      "bytes": 93382,
+      "sha256": "984cde3d289d851e3898ce6c7066818845974065958c20508e1789df0b889276"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p63-2.webp",
+      "path": "/assets/portfolio/p63-2.webp",
+      "bytes": 80628,
+      "sha256": "ba43ef0dd921510d660d178d2238c6731c64f50e448742c38045bbaa3672745d"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p64-2.webp",
+      "path": "/assets/portfolio/p64-2.webp",
+      "bytes": 46576,
+      "sha256": "6d50ffaa6e972c36abe445494589a2198f4648e11774291d9dafad4447dcfbef"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p65-1.webp",
+      "path": "/assets/portfolio/p65-1.webp",
+      "bytes": 210112,
+      "sha256": "95145b813c2b8dfb83a02e331e7ade7ac9dc2bdd96a84ee94a19dfb814dae7ab"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p66-1.webp",
+      "path": "/assets/portfolio/p66-1.webp",
+      "bytes": 25514,
+      "sha256": "2489bdf25233778195fd6872f30f48b83317f6e05f2db75e7df2774c72bafe4a"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p67-1.webp",
+      "path": "/assets/portfolio/p67-1.webp",
+      "bytes": 134260,
+      "sha256": "d8c9a2cbc76bc9f690e0696bfdc069d1c38430a5d1a19c04b37bda8ff0080285"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p68-1.webp",
+      "path": "/assets/portfolio/p68-1.webp",
+      "bytes": 46636,
+      "sha256": "521b2c93d4de773e090abfa866dfdf1cac3b3fd60f6e807ff4d50132c49276f3"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p69-1.webp",
+      "path": "/assets/portfolio/p69-1.webp",
+      "bytes": 70812,
+      "sha256": "c0d36a3fa11e70302ed48d4c1105969583d839b727975705b96c0984e2bc4bfa"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p73-1.webp",
+      "path": "/assets/portfolio/p73-1.webp",
+      "bytes": 74756,
+      "sha256": "6a53203dea1d888ee831dca47b765e509325265518526816eebaa655976d799d"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p71-1.webp",
+      "path": "/assets/portfolio/p71-1.webp",
+      "bytes": 42978,
+      "sha256": "2504a8cbfa7cbca32c32fc855ca29312dc7bff91a7e0d831baf62aa6207bd8f1"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p70-1.webp",
+      "path": "/assets/portfolio/p70-1.webp",
+      "bytes": 92062,
+      "sha256": "0ef2161c70939c4e8b01b890cf5926ddf9060b930ec033ab2b9fc36c549ebbb7"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p74-1.webp",
+      "path": "/assets/portfolio/p74-1.webp",
+      "bytes": 75316,
+      "sha256": "5ed9a487f5f0ad09130ba10114966b55c6cb1e3fb533ee12b254d0e6c6f872d2"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p75-2.webp",
+      "path": "/assets/portfolio/p75-2.webp",
+      "bytes": 91534,
+      "sha256": "1701a43d9d68b7e98e03ce3da2e35b1aacab6f04e8b95ca4c95ee506055acfa9"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p76-1.webp",
+      "path": "/assets/portfolio/p76-1.webp",
+      "bytes": 67002,
+      "sha256": "a9b1673c2e68499e8f2b594440bdf5fbefe067fad99a14f6c8f6dd691272b448"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p77-1.webp",
+      "path": "/assets/portfolio/p77-1.webp",
+      "bytes": 46262,
+      "sha256": "64dadfafe07ac569fc10f8a4a9e09de74dac13c24c65f36691fc1d5589ce3086"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p78-2.webp",
+      "path": "/assets/portfolio/p78-2.webp",
+      "bytes": 9902,
+      "sha256": "7d097dc19fac774058af50ece6dc1c05298f80a8b70beccda07b16a2821f5a9f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p78-1.webp",
+      "path": "/assets/portfolio/p78-1.webp",
+      "bytes": 9940,
+      "sha256": "63d4fe8d69fe81234984789ae166404cdcdaae29fcc2cbafcd8a6305a6482c5f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p72-1.webp",
+      "path": "/assets/portfolio/p72-1.webp",
+      "bytes": 64088,
+      "sha256": "ae0339248fe49092d9d184300947edccb1c01ea1d1b57df9dcc0340aeedebd17"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p78-3.webp",
+      "path": "/assets/portfolio/p78-3.webp",
+      "bytes": 47372,
+      "sha256": "d630865b79a12e320ea76ee4b4bc0a2f208c9804965844ace8024b3b10ec84b2"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p79-1.webp",
+      "path": "/assets/portfolio/p79-1.webp",
+      "bytes": 153414,
+      "sha256": "0ebe5beba9aca3107f471dfc1c1511d0b81b3c6b9b939ee094498266eb3ebd7a"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p80-1.webp",
+      "path": "/assets/portfolio/p80-1.webp",
+      "bytes": 206416,
+      "sha256": "6eab20fe5593fdb02c52d61e4afca25ce8aa0b1976807f7a7d72f6ea9a10eb2e"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p82-1.webp",
+      "path": "/assets/portfolio/p82-1.webp",
+      "bytes": 158780,
+      "sha256": "d2ceea1864252092bec0ac2176dc2d8e29ae08ae5118cc4d484609521220792e"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p81-1.webp",
+      "path": "/assets/portfolio/p81-1.webp",
+      "bytes": 143350,
+      "sha256": "88ebca62e576fb1664545eed36af549c1b04efe169382a709a0c34157011da4e"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p83-1.webp",
+      "path": "/assets/portfolio/p83-1.webp",
+      "bytes": 284924,
+      "sha256": "1c0155975ba44d10ce658df8ef9eea911445a36827bdc145f691e4ba4385baf4"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-1.webp",
+      "path": "/assets/portfolio/films/film-1.webp",
+      "bytes": 28156,
+      "sha256": "6c6c538f1180b9a6aa5cfeda442d5604b8631a7cf0c8e8558490951276787360"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p83-2.webp",
+      "path": "/assets/portfolio/p83-2.webp",
+      "bytes": 488952,
+      "sha256": "d12e51505fcbb0a0a3cf02379e4f9d74d1d633bea300c30a08cec6de8bc3ebbd"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p84-1.webp",
+      "path": "/assets/portfolio/p84-1.webp",
+      "bytes": 557512,
+      "sha256": "8a65c8bdfed5782567eb95202b351e8bba6d18bd74073b14a5d3ad26c100ddb2"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p85-2.webp",
+      "path": "/assets/portfolio/p85-2.webp",
+      "bytes": 113856,
+      "sha256": "ffafdfa0dfc716ce7d771ac234e18bf01c1c3be61b2688c454f7d3297b2c63bb"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-2.webp",
+      "path": "/assets/portfolio/films/film-2.webp",
+      "bytes": 32102,
+      "sha256": "ff6dd7c0c2fe1dd4477c0fa6d2b93070aa47b748467308dd7c69443ba65e2bd0"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/p85-1.webp",
+      "path": "/assets/portfolio/p85-1.webp",
+      "bytes": 187914,
+      "sha256": "4f6101ae28f3f8a3a5a517d8a82b9928dbd3b148699332eada064072422e2591"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-3.webp",
+      "path": "/assets/portfolio/films/film-3.webp",
+      "bytes": 15186,
+      "sha256": "201d974f4f10c2390ad5d3985d90fea323c169482c08c3e49a65fbb1830237f6"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-5.webp",
+      "path": "/assets/portfolio/films/film-5.webp",
+      "bytes": 18860,
+      "sha256": "f856cbaa7bc0b5b6d2a93b75e0dcd86bece299194f97bcb15de31271065d6247"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-4.webp",
+      "path": "/assets/portfolio/films/film-4.webp",
+      "bytes": 20114,
+      "sha256": "df7d64d89803591c030bba4342f716654b2ae30a18a3da5814dfa9058ff5872f"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-6.webp",
+      "path": "/assets/portfolio/films/film-6.webp",
+      "bytes": 14492,
+      "sha256": "23066a381197b78af92212da1b49aa8444555c78b538bd15754fd276fe996ca0"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-7.webp",
+      "path": "/assets/portfolio/films/film-7.webp",
+      "bytes": 54088,
+      "sha256": "5de0ec2b81598b59037c2b99755c4ee46c2f062f6de25524c01513bba2186ed6"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-8.webp",
+      "path": "/assets/portfolio/films/film-8.webp",
+      "bytes": 29858,
+      "sha256": "56493d0e123cefbf6993735a3d10d6d692983b2bf9fb475457f71bac38f886fa"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-10.webp",
+      "path": "/assets/portfolio/films/film-10.webp",
+      "bytes": 29896,
+      "sha256": "dc57e3cb25ae17ce12adb9807ddc9beab35090020e55b07f7118a0d0e634a442"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-9.webp",
+      "path": "/assets/portfolio/films/film-9.webp",
+      "bytes": 43836,
+      "sha256": "905ab1d788c9611f06fbed2b66e241f7dcb42a84a13597785d2e96bb15fedbb9"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/nura-sans.woff2",
+      "path": "/assets/portfolio/nura-sans.woff2",
+      "bytes": 16644,
+      "sha256": "11261cdc407a0b199839dc35d492506c92e923d4abfc1d3ebe86608b227f2bea"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/film-11.webp",
+      "path": "/assets/portfolio/films/film-11.webp",
+      "bytes": 38524,
+      "sha256": "f630852fdf9825ef42cfcf0f127568d41124f483ad326467808da2d4742e4f3e"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/nura-serif.woff2",
+      "path": "/assets/portfolio/nura-serif.woff2",
+      "bytes": 6024,
+      "sha256": "0cc5b7d6ecd1fee9be009a7672ed9b57254d04c91b279d00ae0d400d148e17d9"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/elm-park-road.webp",
+      "path": "/assets/portfolio/films/elm-park-road.webp",
+      "bytes": 29830,
+      "sha256": "9943a2a4c35af6290958c5230406e1aa630086f6e4070bbefd42e71bb07f7737"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/teaser/nura-teaser-mobile.mp4",
+      "path": "/assets/portfolio/teaser/nura-teaser-mobile.mp4",
+      "bytes": 3899199,
+      "sha256": "242bc90deaa500df12bd313f107ceec91faa39136a1f4bf0792f141a618718ff"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_e8297a1118ab468f9dd0b89e3d40360a/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_e8297a1118ab468f9dd0b89e3d40360a.mp4",
+      "bytes": 3290083,
+      "sha256": "34ba5dd67833940d3b481c5eca2554a78b477d2c773ac244af4b2c23443bad0f"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_3796a29956f5417c8a8b6c3a5277c650/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_3796a29956f5417c8a8b6c3a5277c650.mp4",
+      "bytes": 3918194,
+      "sha256": "3f57fe7b31850b369dc1f7e4419046cc549b26aba79be46684a1984250b453db"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/films/elm-park-road.mp4",
+      "path": "/assets/portfolio/films/elm-park-road.mp4",
+      "bytes": 5298266,
+      "sha256": "a2853befce14d342936eaf140ccc764d8b8e94a9bca941a3482a75ee64899df5"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_9aae8920128d42d19ff539db49b0857a/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_9aae8920128d42d19ff539db49b0857a.mp4",
+      "bytes": 2375618,
+      "sha256": "0cc3ae651969acd014cdce8693085aeb479939755c64d378c8adc35f4a1f6469"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/51aeea_3b1b6da853b9436f86413b80172cd8de/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/51aeea_3b1b6da853b9436f86413b80172cd8de.mp4",
+      "bytes": 13321422,
+      "sha256": "51c6c0503f75e697f7abc32cb3bc47558f7b7b47d2669d855582a0be5a06c238"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_9181ec9814724a5d8c48ad840d2297d1/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_9181ec9814724a5d8c48ad840d2297d1.mp4",
+      "bytes": 10178425,
+      "sha256": "4ca23789e838ec7bf7a2961e8dc701fd63f1a8b707e1f1489ca05574eee7c097"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_04d4597870a94f0680776c4cb1f59247/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_04d4597870a94f0680776c4cb1f59247.mp4",
+      "bytes": 1906823,
+      "sha256": "c927b54612f4d23bb881a1531af94dbd423c551fd9395f27267edb187e7f53bb"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_cf6943270a37465ea1d5f885a3dbd3d8/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_cf6943270a37465ea1d5f885a3dbd3d8.mp4",
+      "bytes": 5455030,
+      "sha256": "d3dfe67dbe16711d690be9343950d958f24e9ff80b4a2b4fee6b47de389313bc"
+    },
+    {
+      "url": "https://nura-catalogue-2026.nura-interio-7002.chatgpt.site/assets/teaser/nura-teaser-desktop.mp4",
+      "path": "/assets/portfolio/teaser/nura-teaser-desktop.mp4",
+      "bytes": 7751609,
+      "sha256": "3af83235bd90cf4738f983e6f69163b9626e49e82397b29563fdeca5da7161d9"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_5ffc3cea4f0549f2bdfc42dac5a4dc50/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_5ffc3cea4f0549f2bdfc42dac5a4dc50.mp4",
+      "bytes": 4431335,
+      "sha256": "873b4b4e7ff3581977baeb3aed8c3e099ff5636e228766985bbbf7efac0aa41a"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_4c23be77ceec4c92902f7c5fd98c7e80/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_4c23be77ceec4c92902f7c5fd98c7e80.mp4",
+      "bytes": 8262295,
+      "sha256": "d5ac65b90bb89924e4874f16bb8f5abe7ad2cb3f728cf1bdd0528649c8fe7b48"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_0cd1b8f1ef4a4b82b10acafc20c2865e/480p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_0cd1b8f1ef4a4b82b10acafc20c2865e.mp4",
+      "bytes": 16491251,
+      "sha256": "f80417f0c9bd8a79a43fff7e6d229b21b7f8fbfdbb44986b8078312e62c44cc8"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/22c124_7ce6431a25144921a0942fa9b1f7cc79/720p/mp4/file.mp4",
+      "path": "/assets/portfolio/films/22c124_7ce6431a25144921a0942fa9b1f7cc79.mp4",
+      "bytes": 25990452,
+      "sha256": "6bf87f5ec6065ef25e0619be8706c0c024a9f32a79aad859865dc52c2ec861dd"
+    }
+  ],
+  "photos": 106,
+  "films": 14
+}
