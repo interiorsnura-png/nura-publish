@@ -27,6 +27,7 @@ export function improveHomeSeo(html:string){
   .replaceAll('/jointery/westover-road','/joinery/westover-road')
   .replace('<option>£25k–£50k</option>','<option>Under £25k</option><option>£25k–£50k</option>')
   .replace('A considered reply from the studio. No automated sales sequence.','A considered reply from the studio. No automated sales sequence. <a href="/privacy-policy">How we use your information</a>')
+  .replace('<h1 id="hero-title">A room can<br><em>change a life.</em></h1>','<h1 id="hero-title" aria-label="A room can change a life.">A room can<br><em aria-hidden="true">change a life.</em></h1>')
   .replace('</head>','<link rel="stylesheet" href="/nura-navigation.css"/><link rel="stylesheet" href="/nura-footer.css"/></head>')
   .replace('</body>','<script src="/nura-navigation.js" defer></script></body>')
   .replace('We design spaces that feel inevitable: considered from the first line, resolved down to the last hinge.',
