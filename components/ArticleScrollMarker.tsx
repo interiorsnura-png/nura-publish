@@ -10,20 +10,28 @@ export default function ArticleScrollMarker(){
   const lists=Array.from(article.querySelectorAll<HTMLOListElement>('.article-toc ol,.article-toc-mobile ol'));
   if(!headings.length)return;
   let frame=0;
+  let activeId=headings[0].id;
+  const linksByList=lists.map(list=>({list,links:Array.from(list.querySelectorAll<HTMLAnchorElement>('a')),active:null as HTMLAnchorElement|null,marker:''}));
   const update=()=>{
    frame=0;
    const threshold=Math.min(180,window.innerHeight*.25);
    let active=headings[0];
    for(const heading of headings){if(heading.getBoundingClientRect().top<=threshold)active=heading;else break;}
-   for(const list of lists){
-    const links=Array.from(list.querySelectorAll<HTMLAnchorElement>('a'));
-    const link=links.find(a=>a.hash==='#'+active.id);
-    for(const a of links){if(a===link)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');}
-    if(!link||!list.getClientRects().length)continue;
-    const box=link.getBoundingClientRect(),parent=list.getBoundingClientRect();
-    list.style.setProperty('--marker-y',`${box.top-parent.top}px`);
-    list.style.setProperty('--marker-height',`${box.height}px`);
-    list.dataset.marker='ready';
+   const activeChanged=active.id!==activeId;
+   activeId=active.id;
+   for(const item of linksByList){
+    const link=item.links.find(a=>a.hash==='#'+active.id)||null;
+    if(activeChanged||link!==item.active){
+     for(const a of item.links){if(a===link)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');}
+     item.active=link;
+    }
+    if(!link||!item.list.getClientRects().length)continue;
+    const box=link.getBoundingClientRect(),parent=item.list.getBoundingClientRect(),marker=`${box.top-parent.top}px|${box.height}px`;
+    if(marker===item.marker)continue;
+    item.marker=marker;
+    item.list.style.setProperty('--marker-y',`${box.top-parent.top}px`);
+    item.list.style.setProperty('--marker-height',`${box.height}px`);
+    item.list.dataset.marker='ready';
    }
   };
   const schedule=()=>{if(!frame)frame=requestAnimationFrame(update);};

@@ -46,3 +46,8 @@
 - Added Saturday hours to homepage London schema.
 - 29 tests passed, including campaign sanitisation, consent transitions and server click-ID suppression. Live release verification pending.
 - CRM qualified-lead feedback requires the actual qualification stage and authorised Google Ads API configuration. A genuine ad-origin conversion test remains pending; no synthetic ad click or sale is generated.
+
+## 2026-10-08: Clarity performance remediation
+- Used the Clarity export for 2026-10-06 through 2026-10-08 as baseline evidence: score 46.67, LCP 1.964s, INP 816ms and CLS 0.6975.
+- Added a stable height contract to shared `.inner-photo` wrappers, removed automatic project-card image priority, cached article TOC links and skipped unchanged marker DOM writes, and deferred gtag/Clarity script insertion after consent using idle scheduling with a timeout fallback.
+- Verification passed: 29 tests, TypeScript typecheck and production build. No commit, push or deployment performed. Browser trace and a later Clarity export are still required to validate field improvement.

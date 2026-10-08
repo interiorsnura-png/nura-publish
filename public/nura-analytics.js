@@ -9,11 +9,13 @@
  function adsConsent(){return {ad_storage:advertising?'granted':'denied',ad_user_data:advertising?'granted':'denied',ad_personalization:'denied'};}
  function read(){try{const v=JSON.parse(localStorage.getItem(key));return v&&Date.now()-v.time<180*86400000?v.value:null}catch{return null}}
  function track(name,params={}){if(!accepted)return;window.gtag('event',name,{...params,page_location:pageLocation()});}
- function start(){startClarity();if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};
+ let idleStart=0;
+ function scheduleIdle(callback){if(idleStart)return;const run=()=>{idleStart=0;callback();};if('requestIdleCallback' in window)idleStart=window.requestIdleCallback(run,{timeout:2000});else if(typeof setTimeout==='function')idleStart=setTimeout(run,2000);else run();}
+ function start(){if(loaded)return;loaded=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};
  window.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
  window.gtag('consent','update',{analytics_storage:'granted',...adsConsent()});window.gtag('js',new Date());
  window.gtag('config',id,{page_location:pageLocation(),page_referrer:document.referrer?document.referrer.split('?')[0].split('#')[0]:'',allow_google_signals:false,allow_ad_personalization_signals:false});
- const tag=document.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(tag);}
+ scheduleIdle(()=>{if(!accepted)return;startClarity();const tag=document.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(tag);});}
  function startClarity(){
  if(window.__nuraClarityLoaded){window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'});return;}
  window.__nuraClarityLoaded=true;

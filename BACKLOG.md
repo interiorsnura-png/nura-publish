@@ -13,3 +13,6 @@
 
 - [ ] Activate qualified-lead CRM feedback after actual stage mapping and Google Ads API authorisation.
 - [ ] Confirm a real ad-origin lead attribution after release.
+
+- [ ] Run browser performance traces for `/`, `/projects`, `/projects/catalogue`, `/consultation`, `/london` and one article at 390x844 and 1440x1000; capture CLS sources, INP interactions, long tasks, console errors and failed requests.
+- [ ] Export a later Clarity performance overview after the performance remediation and compare against the 2026-10-06 to 2026-10-08 baseline; do not treat local tests or traces as field-user proof.

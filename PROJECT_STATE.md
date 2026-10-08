@@ -44,3 +44,8 @@ Local validation: 27 tests, typecheck, production build and image-license verifi
 - Added Saturday hours to homepage London schema.
 - 29 tests passed, including campaign sanitisation, consent transitions and server click-ID suppression. Live release verification pending.
 - CRM qualified-lead feedback requires the actual qualification stage and authorised Google Ads API configuration. A genuine ad-origin conversion test remains pending; no synthetic ad click or sale is generated.
+
+## 2026-10-08: Clarity performance remediation
+- Clarity export for 2026-10-06 through 2026-10-08 recorded score 46.67, LCP 1.964s, INP 816ms and CLS 0.6975. CrUX remains unavailable for this URL/domain; this export is the real-user baseline, not a field improvement claim.
+- Hardened shared editorial image wrappers, removed competing project-card image priority, reduced article TOC scroll DOM work, and deferred post-consent third-party analytics script insertion until browser idle time.
+- Local verification: 29 tests, typecheck and production build passed. Browser performance trace and a later Clarity export remain pending.
