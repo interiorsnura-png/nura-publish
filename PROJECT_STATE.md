@@ -49,3 +49,8 @@ Local validation: 27 tests, typecheck, production build and image-license verifi
 - Clarity export for 2026-10-06 through 2026-10-08 recorded score 46.67, LCP 1.964s, INP 816ms and CLS 0.6975. CrUX remains unavailable for this URL/domain; this export is the real-user baseline, not a field improvement claim.
 - Hardened shared editorial image wrappers, removed competing project-card image priority, reduced article TOC scroll DOM work, and deferred post-consent third-party analytics script insertion until browser idle time.
 - Local verification: 29 tests, typecheck and production build passed. Browser performance trace and a later Clarity export remain pending.
+
+## 2026-10-09: wardrobe service page implementation
+- Updated only `components/WardrobeLanding.tsx` and the focused content test. Preserved the target URL, H1, SEO title, canonical metadata, Service schema, enquiry form, analytics, consent logic, existing reviews and verified Westover Road link.
+- Reworked the introduction around storage, circulation, proportions, material direction and the brief. Added distinct on-page CTAs for sending plans and arranging a Fulham showroom visit. Added the two approved visible FAQs for awkward spaces and dressing rooms. No FAQ schema, unsupported claim or new case study was added.
+- Local verification passed: 30 tests, TypeScript typecheck and production build. Visual browser preview and interactive route checks remain pending because preview tooling was unavailable in this session.

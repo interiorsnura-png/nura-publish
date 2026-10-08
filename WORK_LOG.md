@@ -51,3 +51,8 @@
 - Used the Clarity export for 2026-10-06 through 2026-10-08 as baseline evidence: score 46.67, LCP 1.964s, INP 816ms and CLS 0.6975.
 - Added a stable height contract to shared `.inner-photo` wrappers, removed automatic project-card image priority, cached article TOC links and skipped unchanged marker DOM writes, and deferred gtag/Clarity script insertion after consent using idle scheduling with a timeout fallback.
 - Verification passed: 29 tests, TypeScript typecheck and production build. No commit, push or deployment performed. Browser trace and a later Clarity export are still required to validate field improvement.
+
+## 2026-10-09: wardrobe service page implementation
+- Implemented the approved Mission 02 direction locally in `components/WardrobeLanding.tsx`: tightened the introductory copy, added distinct plans and showroom appointment CTAs pointing to the existing enquiry anchor, and added the two approved visible FAQs for awkward spaces and dressing rooms.
+- Preserved metadata, H1, URL, Service schema, existing reviews, enquiry form, analytics and consent logic. Added structural regression assertions to `tests/seo-content.test.mjs`; no FAQ schema or unsupported claims were introduced.
+- 30 tests, typecheck, production build and whitespace checks passed. No commit, push or deployment performed. Browser visual/interaction preview remains pending.

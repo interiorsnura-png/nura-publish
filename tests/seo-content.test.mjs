@@ -24,3 +24,17 @@ test('original article structure and publication dates survive migration',()=>{
  for(const p of posts){assert.ok(p.content.body_nodes?.length,p.path);assert.ok(!Number.isNaN(Date.parse(p.content.published_date)),p.path);}
  assert.ok(posts.some(p=>p.content.body_nodes.some(n=>n.type==='heading')));
 });
+test('wardrobe landing preserves approved SEO and lead-generation structure',async()=>{
+ const source=await readFile(new URL('../components/WardrobeLanding.tsx',import.meta.url),'utf8');
+ assert.match(source,/export const wardrobeTitle='Bespoke Fitted Wardrobes in London \| Nura Interiors'/);
+ assert.match(source,/title="Bespoke fitted wardrobes in London\."/);
+ assert.match(source,/href="\/joinery\/westover-road"/);
+ assert.match(source,/formLocation="wardrobes"/);
+ assert.match(source,/id="wardrobe-enquiry"/);
+ assert.equal((source.match(/<details>/g)||[]).length,6);
+ assert.match(source,/Can fitted wardrobes work in rooms with alcoves, slopes or awkward corners\?/);
+ assert.match(source,/Do you design dressing rooms as well as fitted wardrobes\?/);
+ assert.match(source,/Arrange a Fulham showroom visit/);
+ assert.match(source,/Send your plans and brief/);
+ assert.doesNotMatch(source,/'@type':'FAQPage'/);
+});
