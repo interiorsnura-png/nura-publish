@@ -33,3 +33,8 @@
 - Preserved the existing Kitchen and Joinery filters and all project records.
 - Local desktop and mobile checks confirmed correct content order, loaded imagery, working filters and catalogue link, no iframe, no console errors and no horizontal overflow.
 - Verified build passed: 28 tests, 67 SEO-checked pages, 724 photo instances, 508 unique photos and zero missing image licenses.
+
+## 2026-10-08: London showroom hours
+- Owner confirmed Monday-Friday 09:30-18:00, Saturday 10:00-16:00 and Sunday by prior appointment.
+- Updated shared footer, homepage, London studio details and Saturday schema, visit FAQ, published editorial and native catalogue. Dubai hours preserved.
+- Typecheck and 28 tests passed. Production build and live deployment verification pending.

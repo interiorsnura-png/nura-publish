@@ -31,3 +31,8 @@ Local validation: 27 tests, typecheck, production build and image-license verifi
 - The preview links to the complete native /projects/catalogue experience and provides a direct project-films link. Kitchen and Joinery filters remain unchanged.
 - The preview uses a locally hosted portfolio photograph with image-license schema. It introduces no iframe or third-party catalogue request.
 - Local verification: 28 tests, successful production build, 67 SEO-checked pages, 724 photo instances, 508 unique photos and zero missing licenses. Desktop and mobile browser checks passed for layout order, image loading, filters, catalogue navigation, console errors and horizontal overflow.
+
+## 2026-10-08: London showroom hours
+- Owner confirmed Monday-Friday 09:30-18:00, Saturday 10:00-16:00 and Sunday by prior appointment.
+- Updated shared footer, homepage, London studio details and Saturday schema, visit FAQ, published editorial and native catalogue. Dubai hours preserved.
+- Typecheck and 28 tests passed. Production build and live deployment verification pending.

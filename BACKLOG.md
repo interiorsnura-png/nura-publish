@@ -8,3 +8,5 @@
 - [ ] Verify the Vercel deployment details map to the intended source commit.
 
 - [x] Migrate the full published interactive catalogue, images, fonts and video files onto NURA without an iframe. Original editable application source is not available in this account; compiled runtime and media are versioned locally.
+
+- [ ] Verify production London hours release and its deployment after push.
