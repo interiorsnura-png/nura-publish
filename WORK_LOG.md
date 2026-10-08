@@ -37,4 +37,12 @@
 ## 2026-10-08: London showroom hours
 - Owner confirmed Monday-Friday 09:30-18:00, Saturday 10:00-16:00 and Sunday by prior appointment.
 - Updated shared footer, homepage, London studio details and Saturday schema, visit FAQ, published editorial and native catalogue. Dubai hours preserved.
-- Typecheck and 28 tests passed. Production build and live deployment verification pending.
+- Typecheck, 28 tests, production build and build verifier passed. Commit a7459f7 pushed to main. Live in-app browser verification confirms the new hours on /london and /. Vercel commit status is still pending for deployment 2aUCTCc1BwZ7TFjm4yftzMzwEPKu; final status remains to be confirmed.
+
+## 2026-10-08: advertising attribution integration
+- Preserved allowlisted campaign parameters in GA4 page locations, without arbitrary query strings.
+- Added separate opt-in for advertising measurement; legacy analytics-only choices do not grant ad consent. Ad personalisation remains denied. Updated privacy copy and responsive consent controls.
+- Capture click IDs only after advertising consent; remove them on withdrawal and preserve the original landing page. Server validates consent before recording IDs in email/CRM details.
+- Added Saturday hours to homepage London schema.
+- 29 tests passed, including campaign sanitisation, consent transitions and server click-ID suppression. Live release verification pending.
+- CRM qualified-lead feedback requires the actual qualification stage and authorised Google Ads API configuration. A genuine ad-origin conversion test remains pending; no synthetic ad click or sale is generated.

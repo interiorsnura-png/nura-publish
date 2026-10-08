@@ -3,3 +3,4 @@
 .site-footer .nura-social-links img{filter:none;width:24px;height:24px}
 
 .nura-consent{box-sizing:border-box;max-height:calc(100svh - 40px);overflow-y:auto}.nura-consent button{min-height:44px}.nura-consent-open .nura-privacy-control{display:none}
+.nura-consent div{flex-wrap:wrap}.nura-consent button{flex:1 1 120px}

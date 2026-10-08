@@ -9,4 +9,7 @@
 
 - [x] Migrate the full published interactive catalogue, images, fonts and video files onto NURA without an iframe. Original editable application source is not available in this account; compiled runtime and media are versioned locally.
 
-- [ ] Verify production London hours release and its deployment after push.
+- [ ] Confirm final Vercel status for a7459f7; production hours on /london and / are already verified.
+
+- [ ] Activate qualified-lead CRM feedback after actual stage mapping and Google Ads API authorisation.
+- [ ] Confirm a real ad-origin lead attribution after release.

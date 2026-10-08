@@ -5,7 +5,7 @@ import vm from 'node:vm';
 import {readFileSync} from 'node:fs';
 import {randomUUID} from 'node:crypto';
 const id='12345678-1234-4234-8234-123456789abc';
-const fields={name:'Verification',email:'test@example.com',message:'Test',lead_id:id,landing_page:'/london',enquiry_page:'/consultation',utm_source:'google',utm_campaign:'verification'};
+const fields={name:'Verification',email:'test@example.com',message:'Test',lead_id:id,landing_page:'/london',enquiry_page:'/consultation',utm_source:'google',utm_campaign:'verification',gclid:'Click_123',ad_user_data:'granted'};
 async function request(body){let status=200,result;await handler({method:'POST',headers:{origin:'https://www.nura-interiors.com','content-type':'application/json'},body},{setHeader(){},status(n){status=n;return this;},json(v){result=v;return this;}});return {status,result};}
 test('retries use stable provider key, email source and shared lead reference; failures are not success',async()=>{
  const prior={fetch:global.fetch,key:process.env.RESEND_API_KEY,from:process.env.ENQUIRY_FROM,token:process.env.HUBSPOT_ACCESS_TOKEN},sent=[];
@@ -16,7 +16,8 @@ test('retries use stable provider key, email source and shared lead reference; f
   const a=await request(fields);await request(fields);
   assert.deepEqual(a,{status:200,result:{ok:true,lead_id:id}});
   assert.equal(sent[0].headers['Idempotency-Key'],sent[1].headers['Idempotency-Key']);
-  const mail=JSON.parse(sent[0].body);assert.match(mail.text,/lead_id: 12345678/);assert.match(mail.text,/landing_page: \/london/);assert.match(mail.text,/utm_source: google/);
+  const mail=JSON.parse(sent[0].body);assert.match(mail.text,/lead_id: 12345678/);assert.match(mail.text,/landing_page: \/london/);assert.match(mail.text,/utm_source: google/);assert.match(mail.text,/gclid: Click_123/);
+  await request({...fields,ad_user_data:"denied"});assert.ok(!JSON.parse(sent.at(-1).body).text.includes("gclid:"));
   await request({...fields,message:'Different brief'});assert.notEqual(sent[2].headers['Idempotency-Key'],sent[0].headers['Idempotency-Key']);
   const n=sent.length;assert.equal((await request({...fields,lead_id:'invalid'})).status,400);assert.equal(sent.length,n);
   global.fetch=async()=>({ok:false,json:async()=>({})});assert.equal((await request(fields)).status,502);

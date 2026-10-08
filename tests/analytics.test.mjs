@@ -4,12 +4,12 @@ import vm from 'node:vm';
 import {readFileSync} from 'node:fs';
 
 const source=readFileSync(new URL('../public/nura-analytics.js',import.meta.url),'utf8');
-function browser(saved=null){
+function browser(saved=null,search="?email=secret"){
  const nodes=[],scripts=[],listeners={},writes=[],clickHandlers=[];
  const element=()=>({hidden:false,dataset:{},setAttribute(){},addEventListener(n,f){this[n]=f;}});
  const window={dispatchEvent(e){listeners[e.type]?.(e);},addEventListener(n,f){listeners[n]=f;}};
  const document={querySelectorAll(){return [];},referrer:'https://example.com/?private=secret',cookie:'_ga=test',createElement:element,head:{append(n){scripts.push(n);}},body:{classList:{add(){},remove(){}},append(...n){nodes.push(...n);}},addEventListener(n,f){if(n==='click')clickHandlers.push(f);}};
- vm.runInNewContext(source,{window,document,location:{hostname:'www.nura-interiors.com',origin:'https://www.nura-interiors.com',pathname:'/london',search:'?email=secret'},localStorage:{getItem(){return saved;},setItem(k,v){writes.push(v);}},CustomEvent:class {constructor(type){this.type=type;}},Date});
+ vm.runInNewContext(source,{window,document,location:{hostname:'www.nura-interiors.com',origin:'https://www.nura-interiors.com',pathname:'/london',search},localStorage:{getItem(){return saved;},setItem(k,v){writes.push(v);}},URL,URLSearchParams,CustomEvent:class {constructor(type){this.type=type;}},Date});
  return {window,nodes,scripts,writes,click(target){for(const f of clickHandlers)f({target});},choose(value){nodes[0].click({target:{closest(){return {dataset:{choice:value}};}}});},lead(detail){listeners['nura:enquiry-success']({detail});}};
 }
 test('analytics remains offline until explicit acceptance and stops tracking on withdrawal',()=>{
@@ -36,4 +36,12 @@ test('same successful lead is counted once and consultation location is preserve
  const detail={lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'consultation'};
  b.lead(detail);const count=b.window.dataLayer.length;b.lead(detail);assert.equal(b.window.dataLayer.length,count);
  assert.equal(Array.from(b.window.dataLayer.at(-1))[2].form_location,'consultation');
+});
+
+test('campaign attribution keeps allowlisted values and ad consent is separate',()=>{
+ const b=browser(null,'?utm_source=google&utm_medium=cpc&gclid=Click_123&email=private');
+ b.choose('accepted');let config=Array.from(b.window.dataLayer).find(a=>a[0]==='config')[2];assert.ok(config.page_location.includes('utm_source=google'));assert.ok(!config.page_location.includes('email'));assert.ok(!config.page_location.includes('gclid'));
+ b.choose('accepted_ads');let update=Array.from(b.window.dataLayer).filter(a=>a[0]==='consent').at(-1)[2];assert.equal(update.ad_storage,'granted');assert.equal(update.ad_personalization,'denied');
+ b.lead({lead_id:'12345678-1234-4234-8234-123456789abc'});assert.ok(Array.from(b.window.dataLayer.at(-1))[2].page_location.includes('gclid=Click_123'));
+ b.choose('declined');update=Array.from(b.window.dataLayer).filter(a=>a[0]==='consent').at(-1)[2];assert.equal(update.ad_storage,'denied');
 });
