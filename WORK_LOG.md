@@ -56,3 +56,6 @@
 - Implemented the approved Mission 02 direction locally in `components/WardrobeLanding.tsx`: tightened the introductory copy, added distinct plans and showroom appointment CTAs pointing to the existing enquiry anchor, and added the two approved visible FAQs for awkward spaces and dressing rooms.
 - Preserved metadata, H1, URL, Service schema, existing reviews, enquiry form, analytics and consent logic. Added structural regression assertions to `tests/seo-content.test.mjs`; no FAQ schema or unsupported claims were introduced.
 - 30 tests, typecheck, production build and whitespace checks passed. No commit, push or deployment performed. Browser visual/interaction preview remains pending.
+
+## London landing content and enquiry, 2026-10-09
+Primary CTA now invites a Fulham showroom visit. London enquiry exposes four main fields and collapses optional project details; hash links select showroom or consultation intent. Added existing Google review excerpts, project context and explicit follow-up explanation. Local mobile 390x844 CTA switching, details expansion, empty required-field validity and overflow checks passed. Production release authorized by user; pending live verification. No real enquiry submitted.
