@@ -10,8 +10,11 @@ test('native portfolio retains its local media and licensed image inventory',()=
  assert.equal(manifest.films,14);
  for(const asset of manifest.assets){
   const bytes=fs.readFileSync(new URL('../public'+asset.path,import.meta.url));
-  assert.equal(bytes.length,asset.bytes,asset.path);
-  if(asset.sha256)assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256,asset.path);
+  const normalized=asset.path.endsWith('.svg')
+    ?Buffer.from(bytes.toString().replace(/\r\n/g,'\n'))
+    :bytes;
+  assert.equal(normalized.length,asset.bytes,asset.path);
+  if(asset.sha256)assert.equal(createHash('sha256').update(normalized).digest('hex'),asset.sha256,asset.path);
  }
  const html=fs.readFileSync(new URL('../public/portfolio/index.html',import.meta.url),'utf8');
  const $=cheerio.load(html);
