@@ -87,3 +87,5 @@
 .london-showroom-photo{margin:0 0 28px}.london-showroom-photo .inner-photo{height:auto;aspect-ratio:3/4}.london-showroom-photo img{object-fit:contain}.london-showroom-photo figcaption{font-size:14px;line-height:1.5;margin-top:12px;color:#5c5d53}
 
 .consultation-enquiry h2{font:400 clamp(38px,4.5vw,64px)/1.06 var(--serif);letter-spacing:-.035em;margin:24px 0}.consultation-enquiry p{line-height:1.7}.consultation-enquiry:focus{outline:none}
+
+.london-enquiry{position:relative}.london-enquiry-anchor{position:absolute;top:0;scroll-margin-top:100px}.enquiry-extra summary{cursor:pointer;padding:12px 0;text-decoration:underline}.enquiry-extra-fields{display:grid;gap:18px;padding-top:18px}.london-reviews figure{margin:0}.london-reviews blockquote{margin:0;font-size:clamp(20px,2vw,28px)}.london-reviews figcaption{margin-top:20px;font-size:14px}

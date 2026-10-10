@@ -17,3 +17,5 @@
 - [ ] Run browser performance traces for `/`, `/projects`, `/projects/catalogue`, `/consultation`, `/london` and one article at 390x844 and 1440x1000; capture CLS sources, INP interactions, long tasks, console errors and failed requests.
 - [ ] Export a later Clarity performance overview after the performance remediation and compare against the 2026-10-06 to 2026-10-08 baseline; do not treat local tests or traces as field-user proof.
 - [ ] Run local browser preview checks for `/services/wardrobes-dressing-rooms` at desktop, tablet and mobile widths; verify FAQ interaction, CTA destinations, metadata, internal routes, console errors and horizontal overflow.
+
+- [ ] Verify London landing content release on Production; real submission and GA4 receipt are not covered by this UI check.
