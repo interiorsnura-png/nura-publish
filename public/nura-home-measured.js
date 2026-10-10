@@ -3,13 +3,22 @@ const hero = document.querySelector('.hero');
 const heroAurora = document.querySelector('.hero-aurora');
 const heroImage = document.querySelector('.hero-image');
 if (hero && heroImage && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && window.matchMedia('(pointer: fine)').matches) {
-  hero.addEventListener('pointermove', (event) => {
-    const bounds = hero.getBoundingClientRect();
-    const x = (event.clientX - bounds.left) / bounds.width - 0.5;
-    const y = (event.clientY - bounds.top) / bounds.height - 0.5;
+  let frame = 0;
+  let pointer = null;
+  let bounds = hero.getBoundingClientRect();
+  const update = () => {
+    frame = 0;
+    if (!pointer) return;
+    const x = (pointer.clientX - bounds.left) / bounds.width - 0.5;
+    const y = (pointer.clientY - bounds.top) / bounds.height - 0.5;
     heroImage.style.transform = `scale(1.035) translate(${x * -10}px, ${y * -8}px)`;
     if (heroAurora) heroAurora.style.transform = `translate(${x * 10}px, ${y * 8}px)`;
+  };
+  hero.addEventListener('pointermove', (event) => {
+    pointer = event;
+    if (!frame) frame = requestAnimationFrame(update);
   });
+  window.addEventListener('resize', () => { bounds = hero.getBoundingClientRect(); }, {passive: true});
   hero.addEventListener('pointerleave', () => {
     heroImage.style.transform = '';
     if (heroAurora) heroAurora.style.transform = '';

@@ -8,6 +8,7 @@ export function GET(){
  let html=improveHomeSeo(publishedHome.html).replace('</head>',`<script type="application/ld+json">${schema}</script></head>`);
  html=html.replace('</head>','<script src="/nura-enquiry.js" defer></script></head>');
  html=html.replace('src="nura-home.js"','src="/nura-home-measured.js"');
+ html=html.replace('Begin a conversation','Request a consultation');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-analytics.css"/></head>').replace('</body>','<script src="/nura-analytics.js" defer></script></body>');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-lead.css"/></head>').replace('</body>','<script src="/nura-lead.js" defer></script></body>');
  if(process.env.SITE_ENV!=='production')html=html.replace('index, follow, max-image-preview:large','noindex, nofollow');
