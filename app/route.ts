@@ -9,6 +9,10 @@ export function GET(){
  html=html.replace('</head>','<script src="/nura-enquiry.js" defer></script></head>');
  html=html.replace('src="nura-home.js"','src="/nura-home-measured.js"');
  html=html.replace('Begin a conversation','Request a consultation');
+ html=html.replace('Discuss your space','Request a consultation');
+ html=html.replace('Discuss a similar direction','Request a consultation');
+ html=html.replace('Request a Consultation','Request a consultation');
+ html=html.replace('Discuss your project','Request a consultation');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-analytics.css"/></head>').replace('</body>','<script src="/nura-analytics.js" defer></script></body>');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-lead.css"/></head>').replace('</body>','<script src="/nura-lead.js" defer></script></body>');
  if(process.env.SITE_ENV!=='production')html=html.replace('index, follow, max-image-preview:large','noindex, nofollow');
