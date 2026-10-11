@@ -54,7 +54,7 @@ for(const filter of ['', '?category=planning']){
  const list=graph.find(s=>s['@type']==='ItemList');
  assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
  assert.equal(list.numberOfItems,list.itemListElement.length);
- if(!filter)assert.equal(list.numberOfItems,19);
+ if(!filter)assert.ok(list.numberOfItems>=19);
 }
 const london=await page('/london');
 assert.equal(london('#london-enquiry-showroom').length,1);

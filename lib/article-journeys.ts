@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/planning-a-galley-kitchen-in-london':{proof:'/kitchens/westover-road',proofLabel:'Explore the Westover Road project',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your galley kitchen with Nura'}},
   '/post/how-to-compare-bespoke-kitchen-quotes-in-london':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a completed kitchen in Chelsea',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen project with Nura'}},
   '/post/choosing-a-kitchen-showroom-in-fulham':{proof:'/kitchens/elm-park-road',proofLabel:'See a kitchen in a Chelsea home',service:'/services/bespoke-kitchens',enquiry:{href:'/london#london-enquiry-showroom',label:'Arrange your Fulham showroom visit'}},
   '/post/transform-your-space-with-custom-interior-services-london':{proof:'/kitchens/westover-road',proofLabel:'See a finished Nura interior',service:'/services/living-spaces'},

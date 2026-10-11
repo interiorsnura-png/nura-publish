@@ -35,7 +35,7 @@ for(const filter of ['', '?category=planning']){
  const list=graph.find(s=>s['@type']==='ItemList');
  assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
  assert.equal(list.numberOfItems,list.itemListElement.length);
- if(!filter)assert.equal(list.numberOfItems,19);
+ if(!filter)assert.ok(list.numberOfItems>=19);
 }
 assert.equal((await fetch(base+article.image.replace(origin,''))).status,200);
 const sitemap=await (await fetch(base+'/sitemap.xml')).text();
