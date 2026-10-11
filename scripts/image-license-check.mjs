@@ -9,7 +9,7 @@ const walk=(x,out)=>{if(!x||typeof x!=='object')return;if(x['@type']==='ImageObj
 for(let i=0;i<paths.length;i+=6)await Promise.all(paths.slice(i,i+6).map(async path=>{
  const r=await fetch(base+path),$=cheerio.load(await r.text()),schemas=[];
  $('script[type="application/ld+json"]').each((_,s)=>walk(JSON.parse($(s).text()),schemas));
- $('img').each((_,img)=>{const src=$(img).attr('src');if(!src)return;const url=normalise(src);if(/\.(svg|ico)(\?|$)/i.test(url)||/favicon|wordmark|logo/i.test(url))return;
+ $('img').each((_,img)=>{const src=$(img).attr('src');if(!src)return;const url=normalise(src);if($(img).closest('.article-author-avatar').length||/\.(svg|ico)(\?|$)/i.test(url)||/favicon|wordmark|logo/i.test(url))return;
  instances++;unique.add(url);const schema=schemas.find(s=>s.contentUrl&&normalise(s.contentUrl)===url);
  if(!schema||!schema.license||!schema.acquireLicensePage||!schema.creditText||!schema.creator?.name||!schema.copyrightNotice)failures.push({path,image:url});
  });
