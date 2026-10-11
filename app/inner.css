@@ -38,3 +38,7 @@
 .article-content .article-takeaways p{margin:0 0 .6rem}
 .article-content .article-takeaways ul{margin-bottom:0}
 .article-reviewer{font-size:.9rem}
+
+/* Preserve the complete portrait checklist, including its footer branding. */
+.article-photo.article-photo-infographic .inner-photo{aspect-ratio:3/4}
+.article-photo.article-photo-infographic .inner-photo img{object-fit:contain}
