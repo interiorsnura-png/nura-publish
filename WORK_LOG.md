@@ -3,7 +3,8 @@
 ## 2026-10-11: Tansley Farm preservation release preparation
 - The older local checkout was behind current production. Created an isolated release checkout at `origin/main` and integrated only the five Tansley record fields, two homepage text corrections, and preservation test.
 - The historical source remains unchanged; the test applies exactly two scoped expected corrections and compares every remaining HTML byte after newline normalization.
-- Verified 32 tests and production build, 67 page checks and no missing photo licenses. Production push and live verification are the next release actions.
+- Verified 32 tests and production build, 67 page checks and no missing photo licenses. Commit `5a189d41aea19796dbb82c34a77376431a52cad0` was pushed to main; Vercel confirms Production READY at `dpl_3FUCWUbDTci4QuRvwvFiQs85nzwB`, with the custom domains assigned.
+- Live homepage and project HTTP checks passed for corrections, copy and SEO. Desktop/mobile browser checks confirmed image loading, no overflow, working article destinations and consultation form rendering. No browser errors or matching runtime error/fatal records were observed. Screenshots are stored outside the repository at `C:/Users/Asus/Documents/Codex/2026-10-11/context-md/outputs/nura-live-tansley-desktop.jpg` and `nura-live-tansley-mobile.jpg`. Post-release documentation is retained locally to avoid another documentation-only deployment.
 
 ## 2026-10-11: journal journeys prepared for release
 - Reapplied the approved journal pathways to the latest `origin/main` while retaining the newer article early CTA and other intervening changes.
@@ -71,3 +72,19 @@
 
 ## London landing content and enquiry, 2026-10-09
 Primary CTA now invites a Fulham showroom visit. London enquiry exposes four main fields and collapses optional project details; hash links select showroom or consultation intent. Added existing Google review excerpts, project context and explicit follow-up explanation. Local mobile 390x844 CTA switching, details expansion, empty required-field validity and overflow checks passed. Production release authorized by user; pending live verification. No real enquiry submitted.
+
+## 2026-10-11: local journal design prototype
+- Local /journal now uses JournalLanding and a scoped CSS module: Amersham story hero, three reader entry paths, asymmetric studio edit, three existing guides, material edit, all 17 articles with query filters, and showroom/consultation links.
+- Local preview runs at http://127.0.0.1:3011/journal in nura-release. TypeScript and 32 existing tests passed. Browser checks at 1440x900 and 390x844 found no horizontal overflow; visible images loaded and the Materials filter returned five articles. No browser errors were observed in the inspected logs.
+- No commit, push or production deployment for this prototype. Next step: user review of the local design. Desktop/mobile screenshots are in ../outputs/nura-journal-local-desktop.jpg and nura-journal-local-mobile.jpg. Next dev also generated its standard AGENTS block and development type paths.
+
+## 2026-10-11: local journal structured data
+- Added CollectionPage and ItemList linked to the existing breadcrumb and publisher. The archive list uses the actual visible article order and count for each filter, with stable absolute URLs and query-specific identifiers.
+- Journal images now emit their license schema once per unique image URL. Deduplication is request-local; shared Photo keeps schema enabled by default for other pages.
+- Typecheck and rendered-output assertions passed for all, materials, planning, joinery, stories, design and invalid-filter fallback. Full archive: 17 items and 16 unique image definitions; Materials: 5 items and 7 unique image definitions. Sample Article schema and image licensing preserved.
+- This remains local and uncommitted; no push/deployment or external Google validation performed.
+
+## 2026-10-11: journal release preparation
+- User authorized committing the journal design and structured-data changes to main and verifying Vercel publication.
+- Base matches origin/main at 5a189d4. Verified 32 tests and the production build with two temporary local workers after a 13-worker memory failure; next.config.mjs restored. Build verification passed for 67 pages, 730 photo instances, 508 unique photographs and zero missing image licenses.
+- Prepared changes are the dedicated journal landing, scoped styles, collection/list schema, journal image deduplication and breadcrumb identifiers. Deployment status will be recorded after push and authoritative Vercel inspection.

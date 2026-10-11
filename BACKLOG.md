@@ -1,8 +1,8 @@
 # NURA Backlog
 
-- [ ] Confirm the Tansley Farm preservation release deployment commit and the corrected homepage card and project metadata on production.
+- [x] Confirm the Tansley Farm preservation release deployment commit and the corrected homepage card and project metadata on production: `5a189d4`, deployment `dpl_3FUCWUbDTci4QuRvwvFiQs85nzwB`, READY and live HTTP/browser checks passed.
 
-- [ ] Verify the journal journey release on Production: confirm the Vercel deployment commit, inspect live article and destination links, and check mobile and desktop rendering.
+- [x] Verify the journal journey release on Production: Vercel confirmed `5a8e90e` and subsequent `5a189d4`; live porcelain article proof/service/consultation links passed at desktop and mobile sizes.
 
 - [x] Verify live article metadata, headings, CTA placement, and analytics script after merge.
 - [ ] Verify consented `article_cta_click` delivery in GA4 DebugView; the live script and payload are present, but receipt in GA4 has not been independently observed.
@@ -23,3 +23,7 @@
 - [ ] Run local browser preview checks for `/services/wardrobes-dressing-rooms` at desktop, tablet and mobile widths; verify FAQ interaction, CTA destinations, metadata, internal routes, console errors and horizontal overflow.
 
 - [ ] Verify London landing content release on Production; real submission and GA4 receipt are not covered by this UI check.
+
+- [ ] Review local journal prototype at http://127.0.0.1:3011/journal before any production release.
+
+- [ ] Validate journal structured data with an external validator before production release; local JSON, graph references, archive correspondence and image deduplication checks passed.
