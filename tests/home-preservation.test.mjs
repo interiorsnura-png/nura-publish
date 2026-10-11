@@ -1,10 +1,12 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-test('published homepage HTML matches the source except for approved Tansley Farm corrections',async()=>{
+test('published homepage HTML matches the source except for approved project and social icon corrections',async()=>{
  const snapshot=await readFile(new URL('../migration/source/live-home.html',import.meta.url),'utf8');
  const served=JSON.parse(await readFile(new URL('../lib/published-home.json',import.meta.url),'utf8'));
  const corrections=[
+  ['src="/assets/linkedin.svg" alt=""','src="/assets/linkedin.svg" alt="LinkedIn"'],
+  ['src="/assets/instagram.svg" alt=""','src="/assets/instagram.svg" alt="Instagram"'],
   ['alt="Tansley Farm kitchen detail with white cabinetry, brass trim and tactile control dials"','alt="Tansley Farm kitchen detail"'],
   ['<b>Tansley Farm</b><small>London · Bespoke kitchen</small>','<b>Tansley Farm</b><small>Cotswold District · Bespoke kitchen</small>'],
  ];
