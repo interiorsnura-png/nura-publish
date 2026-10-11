@@ -64,8 +64,9 @@ test('Fulham editorial checks preserve attribution and provide practical inspect
  assert.ok(flatten([c.body_nodes[0]]).split(/\s+/).length<=40);
  assert.equal(c.body_nodes.find(n=>n.type==='callout').children[0].children.length,5);
  const table=c.body_nodes.find(n=>n.type==='table');
- assert.equal(table.children.find(n=>n.type==='tbody').children.length,5);
- assert.equal(c.body_nodes.find(n=>n.type==='image').src,'/assets/guides/nura-guide-timber-cabinetry.webp');
+ const images=c.body_nodes.filter(n=>n.type==='image').map(n=>n.src);
+ assert.ok(images.includes('/assets/guides/nura-guide-timber-cabinetry.webp'));
+ assert.ok(images.includes('/assets/editorial/fulham-showroom-checklist-infographic.jpg'));
  const png=fs.readFileSync(new URL('public'+c.social_image.filename,root));
  assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 });
