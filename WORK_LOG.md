@@ -1,5 +1,12 @@
 # NURA Work Log
 
+## 2026-10-11: journal journeys prepared for release
+- Reapplied the approved journal pathways to the latest `origin/main` while retaining the newer article early CTA and other intervening changes.
+- Added a route-checked pathway for all 17 articles: related reading, relevant proof or supporting page, matching service, and consultation.
+- Replaced the generic article footer CTA with the pathway and aligned the desktop sidebar service link with the article topic.
+- Local evidence: 32 tests passed, typecheck passed, production build passed with a temporary two-worker configuration, and all 17 article routes plus 13 distinct linked routes returned HTTP 200 in the built server.
+- Production deployment and live verification remain pending at the time of this entry.
+
 ## 2026-10-07: release local projects ordering
 - Integrated only the project ordering module, listing usage and featured-image treatment from Desktop/nura-publish into the current production checkout.
 - Preserved the previously released catalogue preview and all unrelated local work. No local branch switch or reset was performed.

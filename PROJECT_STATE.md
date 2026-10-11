@@ -1,5 +1,12 @@
 # NURA Project State
 
+## Journal content journey, 2026-10-11
+- The 17 current journal articles now connect related reading to a relevant project or supporting page, a matching service, and the existing `/consultation` route.
+- The article sidebar points to its matching service. The new journey replaces the duplicated generic end-of-article CTA.
+- Built from `origin/main` at `23212b3dae58c44f01f0b93358c1e3f987d30ae6` in a clean release worktree, preserving other local checkouts.
+- Local verification passed: 32 tests, TypeScript, production build with two temporary build workers, and HTTP checks of all 17 articles and 13 distinct journey destinations. The build configuration was restored after the local build.
+- Production publication and live verification are pending for this release.
+
 ## Projects photography-first release, 2026-10-07
 - Integrated the local redesign ordering into the current production source while retaining the native catalogue preview and assets.
 - The first three /projects cards are Tansley Farm, Elm Park Road and Westover Road. Project records and category filters are preserved.
