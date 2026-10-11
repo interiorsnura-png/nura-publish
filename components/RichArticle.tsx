@@ -12,6 +12,7 @@ export default function RichArticle({nodes}:{nodes:ArticleNode[]}) {
       return <Fragment key={key}>{text}</Fragment>;
     }
     const children=<RichArticle nodes={node.children||[]}/>;
+    if(node.type==='callout')return <section className="article-takeaways" aria-label={node.caption||'Key takeaways'} key={key}>{node.caption?<p><strong>{node.caption}</strong></p>:null}{children}</section>;
     if(node.type==='table')return <div className="article-table-wrap" key={key}><table>{node.caption?<caption>{node.caption}</caption>:null}{children}</table></div>;
     if(node.type==='thead')return <thead key={key}>{children}</thead>;
     if(node.type==='tbody')return <tbody key={key}>{children}</tbody>;

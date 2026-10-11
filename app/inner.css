@@ -32,3 +32,9 @@
 @media(max-width:800px){.wardrobe-grid,.wardrobe-detail{grid-template-columns:1fr;gap:28px}.wardrobe-detail .inner-photo{height:420px}.wardrobe-reviews figure{padding:26px}.wardrobe-landing h2{font-size:clamp(32px,8vw,50px)}}
 
 .article-reading .article-journey{margin-top:36px;padding:28px;background:var(--paper);border:1px solid var(--line)}.article-journey>.eyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}.article-reading .article-journey h2{font-family:var(--serif);font-size:30px;line-height:1.2;margin:0 0 18px}.article-journey ol{list-style:none;margin:0;padding:0;display:grid;gap:0}.article-journey li{display:grid;grid-template-columns:minmax(130px,.7fr) minmax(0,1.3fr);gap:16px;padding:14px 0;border-top:1px solid var(--line);font-size:14px;line-height:1.5}.article-journey li>span{color:#55594e}.article-reading .article-journey li a{font-weight:500;text-decoration:none}.article-reading .article-journey li a:hover{text-decoration:underline}.article-journey li a span{white-space:nowrap}@media(max-width:600px){.article-reading .article-journey{padding:22px 18px}.article-journey li{grid-template-columns:1fr;gap:4px}}
+
+/* Practical summaries within journal articles. */
+.article-content .article-takeaways{margin:1.5rem 0 2rem;padding:1.25rem 1.5rem;background:#f4f1ea;border-left:3px solid #8b7354;border-radius:2px}
+.article-content .article-takeaways p{margin:0 0 .6rem}
+.article-content .article-takeaways ul{margin-bottom:0}
+.article-reviewer{font-size:.9rem}

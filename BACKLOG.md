@@ -33,3 +33,8 @@
 - [ ] Release Fulham showroom article to main and verify exact Vercel source SHA and live route.
 
 User authorised commit and push to main on 2026-10-11; release verification follows the push.
+
+- [x] Apply Fulham editorial/SEO audit fixes locally: direct summary, takeaways, comparison table, licensed detail photo, Alex J review, author bio/URL and 1200x630 OG/Twitter card; 36 tests, build and browser checks passed.
+- [x] Validate corrected Fulham Article/Breadcrumb in Google Rich Results Test code mode; 8 valid items, Article date warnings resolved with actual timestamps.
+- [ ] Release Fulham audit corrections to production and verify exact Vercel source SHA and live results.
+- [x] Resolve the duplicate Organization URL warning and retest: final Google code test reports all 8 items valid without warnings.

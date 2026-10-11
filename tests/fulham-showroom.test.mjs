@@ -22,7 +22,7 @@ const links=nodes=>nodes.flatMap(n=>[...(n.link?[n.link]:[]),...links(n.children
 test('Fulham article is unique, complete and uses real internal destinations',()=>{
  assert.equal(entries.filter(e=>e.path===path).length,1);
  assert.equal(article.content.title,'Choosing a Kitchen Showroom in Fulham: What to Check Before You Commit');
- assert.equal(article.content.published_date,'2026-10-11');
+ assert.equal(article.content.published_date,'2026-10-11T05:40:22Z');
  assert.equal(article.content.author_name,'Nura Interiors');
  const nodes=article.content.body_nodes,text=flatten(nodes);
  assert.ok(text.split(/\s+/).length>=650);
@@ -32,7 +32,8 @@ test('Fulham article is unique, complete and uses real internal destinations',()
  const destinations=links(nodes);
  assert.equal(destinations.filter(href=>href==='/london#london-enquiry-showroom').length,2);
  assert.ok(!destinations.includes('/consultation'));
- for(const href of destinations)assert.ok(entries.some(e=>e.path===href.split('#')[0]),href);
+ for(const href of destinations.filter(href=>href.startsWith('/')))assert.ok(entries.some(e=>e.path===href.split('#')[0]),href);
+ assert.ok(destinations.includes('https://www.blum.com/gb/en/products/runnersystems/movento/programme/'));
  assert.ok(fs.existsSync(new URL('public'+article.content.hero.filename,root)));
 });
 test('rendered Fulham journey books a showroom visit and existing journeys retain consultation',()=>{
@@ -54,4 +55,17 @@ test('Fulham appears in planning recommendations and journal ItemList with canon
  const list=journal.journalCollectionSchema(articles,'all',article.content.hero)['@graph'].find(s=>s['@type']==='ItemList');
  assert.equal(list.numberOfItems,articles.length);
  assert.equal(list.itemListElement.filter(i=>i.url==='https://www.nura-interiors.com'+path).length,1);
+});
+
+test('Fulham editorial checks preserve attribution and provide practical inspection aids',()=>{
+ const c=article.content;
+ assert.deepEqual(c.reviewer,{name:'Alex J',role:'Execution and installation lead',reviewed_date:'2026-10-11'});
+ assert.match(c.author_bio,/private homeowners and design teams/);
+ assert.ok(flatten([c.body_nodes[0]]).split(/\s+/).length<=40);
+ assert.equal(c.body_nodes.find(n=>n.type==='callout').children[0].children.length,5);
+ const table=c.body_nodes.find(n=>n.type==='table');
+ assert.equal(table.children.find(n=>n.type==='tbody').children.length,5);
+ assert.equal(c.body_nodes.find(n=>n.type==='image').src,'/assets/guides/nura-guide-timber-cabinetry.webp');
+ const png=fs.readFileSync(new URL('public'+c.social_image.filename,root));
+ assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 });

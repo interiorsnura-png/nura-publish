@@ -2271,8 +2271,8 @@
       "category": "Showroom planning",
       "seo_title": "Kitchen Showroom Checklist in Fulham | Nura Interiors",
       "seo_description": "Choosing a kitchen showroom in Fulham? Check cabinet quality, hinges, material samples and what to bring. Request a visit to Nura’s London showroom.",
-      "published_date": "2026-10-11",
-      "modified_date": "2026-10-11",
+      "published_date": "2026-10-11T05:40:22Z",
+      "modified_date": "2026-10-11T05:55:29Z",
       "author_name": "Nura Interiors",
       "source_publish_status": "published",
       "hero": {
@@ -2285,7 +2285,63 @@
           "children": [
             {
               "type": "text",
-              "text": "A showroom visit is an opportunity to test how a kitchen works, not just how it photographs. If you are choosing a kitchen showroom in Fulham, arrive with a short brief and use the displays to ask specific questions about construction, materials and the work included in a proposal. A beautiful finish is only one part of the decision."
+              "text": "Before choosing a kitchen showroom in Fulham, inspect cabinet construction, operate the hardware and compare actual material samples. Bring your plans and appliance details, then request a written specification and installation scope before committing."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "caption": "Key takeaways",
+          "children": [
+            {
+              "type": "ul",
+              "children": [
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Look inside cabinets: check joints, shelf supports and edge sealing."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Operate doors and drawers; confirm the specified fitting and load rating."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Compare named finish samples and request the relevant care information."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Bring room plans, photographs, appliance details, priorities and budget."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Confirm survey, installation, exclusions and payment stages in writing."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2370,6 +2426,12 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/assets/guides/nura-guide-timber-cabinetry.webp",
+          "alt": "Close-up of timber cabinetry with integrated oven and vertical grain",
+          "caption": "A detail from Nura’s kitchen guide: review grain direction, handles and appliance junctions together. This photograph illustrates what to look at; confirm the construction and fittings in your own specification."
+        },
+        {
           "type": "heading",
           "level": 2,
           "children": [
@@ -2417,6 +2479,24 @@
                   "text": "Discuss adjustment, cleaning and maintenance, and how replacement parts can be sourced. Ask for the applicable warranty terms rather than assuming a lifetime guarantee."
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For an example of how a manufacturer documents runner options and load classes, consult "
+            },
+            {
+              "type": "text",
+              "text": "Blum’s MOVENTO product range",
+              "link": "https://www.blum.com/gb/en/products/runnersystems/movento/programme/"
+            },
+            {
+              "type": "text",
+              "text": ". Use the documentation for the exact fitting in your proposal; this reference does not identify the hardware supplied in any particular Nura kitchen."
             }
           ]
         },
@@ -2621,6 +2701,214 @@
           ]
         },
         {
+          "type": "table",
+          "caption": "Showroom checks to record before you commit",
+          "children": [
+            {
+              "type": "thead",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Check"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Ask at the showroom"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Request in writing"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Cabinet construction"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "How are the carcass, shelves and edges made?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Material and construction specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Hardware"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Which model is included and what is its rated load?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Manufacturer, model, load rating and warranty"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Finishes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Does this sample match the proposed finish?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Named finish reference and care sheet"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Installation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Who surveys, coordinates services and installs?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Written scope, responsibilities and exclusions"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Approval and payment"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What must be signed off before manufacture?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Approved drawings, samples and payment stages"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "heading",
           "level": 2,
           "children": [
@@ -2649,7 +2937,17 @@
             }
           ]
         }
-      ]
+      ],
+      "author_bio": "Nura Interiors works with private homeowners and design teams on bespoke kitchens and architectural joinery, with a focus on detail, material and execution. Use this guide to prepare questions for the studio; confirm product-specific construction, load ratings and care against the proposed specification.",
+      "reviewer": {
+        "name": "Alex J",
+        "role": "Execution and installation lead",
+        "reviewed_date": "2026-10-11"
+      },
+      "social_image": {
+        "filename": "/assets/editorial/fulham-showroom-share.png",
+        "alt": "Nura Interiors: kitchen showroom checklist in Fulham, with a photograph of the showroom entrance"
+      }
     }
   }
 ]
