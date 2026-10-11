@@ -20,6 +20,7 @@ test('every published journal article has a valid proof, service and enquiry pat
   assert.ok(journey.proof,`missing proof destination for ${article.path}`);
   assert.ok(journey.service,`missing service destination for ${article.path}`);
   assert.notEqual(journey.proof.path,article.path);
-  assert.ok(entries.some(entry=>entry.path==='/consultation'));
+  assert.ok(entries.some(entry=>entry.path===journey.enquiry.href.split('#')[0]),`missing enquiry destination for ${article.path}`);
+  if(article.path!=='/post/choosing-a-kitchen-showroom-in-fulham')assert.equal(journey.enquiry.href,'/consultation');
  }
 });

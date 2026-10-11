@@ -1,0 +1,45 @@
+import assert from 'node:assert/strict';
+import * as cheerio from 'cheerio';
+const base=process.env.SEO_BASE_URL||'http://127.0.0.1:3011';
+const path='/post/choosing-a-kitchen-showroom-in-fulham',origin='https://www.nura-interiors.com';
+async function page(path){const r=await fetch(base+path);assert.equal(r.status,200,path);return cheerio.load(await r.text());}
+const $=await page(path);
+assert.equal($('h1').length,1);
+assert.equal($('h1').text(),'Choosing a Kitchen Showroom in Fulham: What to Check Before You Commit');
+assert.equal($('link[rel="canonical"]').attr('href'),origin+path);
+assert.match($('title').text(),/Kitchen Showroom Checklist in Fulham/);
+assert.match($('meta[name="description"]').attr('content'),/cabinet quality/);
+assert.equal($('meta[property="og:type"]').attr('content'),'article');
+const schemas=$('script[type="application/ld+json"]').toArray().map(el=>JSON.parse($(el).text()));
+const article=schemas.find(s=>s['@type']==='Article');
+assert.ok(article);
+assert.equal(article.mainEntityOfPage,origin+path);
+assert.equal(article.headline,$('h1').text());
+assert.equal(article.datePublished,'2026-10-11');
+assert.equal(article.dateModified,'2026-10-11');
+assert.equal(article.author['@type'],'Organization');
+assert.equal(article.author['@id'],origin+'/#organization');
+assert.equal(article.image,origin+'/assets/selected/nura-fulham-showroom-sign.webp');
+const crumb=schemas.find(s=>s['@type']==='BreadcrumbList');
+assert.deepEqual(crumb.itemListElement.map(i=>i.item),[origin+'/',origin+'/journal',origin+path]);
+assert.equal($('.article-content a[href="/london#london-enquiry-showroom"]').length,2);
+assert.equal($('.hero a').attr('href'),'/london#london-enquiry-showroom');
+assert.equal($('.article-journey li').last().find('a').attr('href'),'/london#london-enquiry-showroom');
+assert.equal($('.article-sidebar-guide a').attr('href'),'/london#london-enquiry-showroom');
+assert.equal($('.article-meta a').attr('href'),'/about');
+for(const filter of ['', '?category=planning']){
+ const journal=await page('/journal'+filter);
+ assert.equal(journal(`a[href="${path}"]`).length,1);
+ const graph=journal('script[type="application/ld+json"]').toArray().map(el=>JSON.parse(journal(el).text())).find(s=>s['@graph'])['@graph'];
+ const list=graph.find(s=>s['@type']==='ItemList');
+ assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
+ assert.equal(list.numberOfItems,list.itemListElement.length);
+ if(!filter)assert.equal(list.numberOfItems,18);
+}
+const london=await page('/london');
+assert.equal(london('#london-enquiry-showroom').length,1);
+assert.equal(london('#london-enquiry-showroom form').length,1);
+assert.equal((await fetch(base+article.image.replace(origin,''))).status,200);
+const sitemap=await (await fetch(base+'/sitemap.xml')).text();
+if(process.env.SEO_EXPECT_INDEX!=='false')assert.ok(sitemap.includes('<loc>'+origin+path+'</loc>'));
+console.log('Fulham article: metadata, Article/Breadcrumb schemas, journal full/planning ItemLists, image, sitemap and London booking journey passed.');

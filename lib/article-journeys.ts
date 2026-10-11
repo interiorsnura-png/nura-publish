@@ -1,7 +1,8 @@
 import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
-export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string}>={
+export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/choosing-a-kitchen-showroom-in-fulham':{proof:'/kitchens/elm-park-road',proofLabel:'See a kitchen in a Chelsea home',service:'/services/bespoke-kitchens',enquiry:{href:'/london#london-enquiry-showroom',label:'Arrange your Fulham showroom visit'}},
   '/post/transform-your-space-with-custom-interior-services-london':{proof:'/kitchens/westover-road',proofLabel:'See a finished Nura interior',service:'/services/living-spaces'},
   '/post/the-power-of-porcelain':{proof:'/kitchens/amersham-road',proofLabel:'See porcelain in a completed kitchen',service:'/services/bespoke-kitchens'},
   '/post/kitchen-design-trends-in-2023':{proof:'/kitchens/tansley-farm',proofLabel:'See a completed kitchen',service:'/services/bespoke-kitchens'},
@@ -25,5 +26,5 @@ export function getArticleJourney(path:string,entries:Entry[]){
   const targets=articleJourneyTargets[path];
   if(!targets)return null;
   const find=(target:string)=>entries.find(entry=>entry.path===target)||null;
-  return {proof:find(targets.proof),proofLabel:targets.proofLabel,service:find(targets.service)};
+  return {proof:find(targets.proof),proofLabel:targets.proofLabel,service:find(targets.service),enquiry:targets.enquiry||{href:'/consultation',label:'Discuss your project with Nura'}};
 }

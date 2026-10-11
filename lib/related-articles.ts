@@ -1,6 +1,7 @@
 import type {Entry} from './content';
 
 const topics:Record<string,{category:string;description:string;tags:string[]}>={
+ 'choosing-a-kitchen-showroom-in-fulham':{category:'Showroom planning',description:'Check cabinetry, hardware and material samples before your Fulham showroom visit.',tags:['planning','kitchens','showroom']},
  'bespoke-joinery-london':{category:'Joinery planning',description:'Prepare the brief, materials and technical details for fitted furniture.',tags:['planning','interiors']},
  'bespoke-vs-made-to-measure-kitchens':{category:'Kitchen planning',description:'Compare dimensions, scope and installation responsibilities.',tags:['planning','kitchens']},
  'bespoke-kitchens':{category:'Kitchen planning',description:'Plan layout, materials, scope and installation.',tags:['planning','kitchens']},
@@ -20,9 +21,10 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+ 'choosing-a-kitchen-showroom-in-fulham':['bespoke-kitchens','solid-wood-or-veneer'],
  'bespoke-joinery-london':['solid-wood-or-veneer','exploring-the-advantages-of-pocket-doors'],
  'bespoke-vs-made-to-measure-kitchens':['bespoke-kitchens','our-design-process'],
- 'bespoke-kitchens':['bespoke-vs-made-to-measure-kitchens','one-tonne-porcelain-kitchen-island'],
+ 'bespoke-kitchens':['choosing-a-kitchen-showroom-in-fulham','one-tonne-porcelain-kitchen-island'],
  'one-tonne-porcelain-kitchen-island':['the-power-of-porcelain','bespoke-kitchens'],
  'transform-your-space-with-custom-interior-services-london':['our-design-process','the-urban-renovation'],
  'the-power-of-porcelain':['how-to-choose-the-right-worktop-for-your-kitchen','exploring-white-variations-in-kitchen-design'],

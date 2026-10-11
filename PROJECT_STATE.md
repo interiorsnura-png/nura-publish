@@ -87,3 +87,14 @@ Primary CTA now invites a Fulham showroom visit. London enquiry exposes four mai
 - User authorized committing the journal design and structured-data changes to main and verifying Vercel publication.
 - Base matches origin/main at 5a189d4. Verified 32 tests and the production build with two temporary local workers after a 13-worker memory failure; next.config.mjs restored. Build verification passed for 67 pages, 730 photo instances, 508 unique photographs and zero missing image licenses.
 - Prepared changes are the dedicated journal landing, scoped styles, collection/list schema, journal image deduplication and breadcrumb identifiers. Deployment status will be recorded after push and authoritative Vercel inspection.
+
+## 2026-10-11: Fulham showroom checklist, local implementation verified
+- Added /post/choosing-a-kitchen-showroom-in-fulham to published-editorial.json with the requested title, cabinet construction, hinges/runners, physical material samples, first-meeting documents and written scope checklists. Existing editorial records preserved.
+- New article appears in journal archive and Planning filter (18 total articles). Related reading links to bespoke kitchen planning and wood/veneer; the kitchen guide now recommends the new checklist.
+- Hero, body, sidebar and ArticleJourney conversion links go directly to /london#london-enquiry-showroom. Browser click confirmed the London form selects Fulham showroom visit automatically. Existing article journeys retain consultation destinations.
+- Article/Breadcrumb schemas, canonical, description, Open Graph, journal ItemLists, sitemap and licensed showroom hero image verified on the local production build. Nura Interiors uses Organization author schema and /about author links; Joanne H attribution retained for her existing articles.
+- 35 automated tests, TypeScript and production build passed. Build verifier checked 68 pages, 734 photo instances and 508 unique images with no missing licenses. Dedicated verify-fulham.mjs is now part of build verification. Local desktop1440x900 and mobile390x844: loaded hero, no horizontal overflow; inspected browser errors empty.
+- Screenshots: ../outputs/nura-fulham-article-desktop.jpg, nura-fulham-article-mobile.jpg and nura-fulham-booking-journey.jpg. Local preview http://127.0.0.1:3011/post/choosing-a-kitchen-showroom-in-fulham; production server kept running.
+- Local implementation only: no commit, push or deployment. No booking enquiry submitted. Build used two temporary local workers; next.config.mjs restored. Live publication and live SEO verification remain pending.
+
+User authorised commit and push to main on 2026-10-11; release verification follows the push.

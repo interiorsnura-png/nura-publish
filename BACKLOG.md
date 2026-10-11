@@ -27,3 +27,9 @@
 - [ ] Review local journal prototype at http://127.0.0.1:3011/journal before any production release.
 
 - [ ] Validate journal structured data with an external validator before production release; local JSON, graph references, archive correspondence and image deduplication checks passed.
+
+
+- [x] Implement and locally verify Fulham showroom checklist, ArticleJourney, Article/Breadcrumb schemas and London booking selection.
+- [ ] Release Fulham showroom article to main and verify exact Vercel source SHA and live route.
+
+User authorised commit and push to main on 2026-10-11; release verification follows the push.

@@ -10,7 +10,7 @@ export default function ArticleJourney({path,entries}:{path:string;entries:Entry
   <ol>
    {journey.proof?<li><span>{journey.proofLabel}</span><a href={journey.proof.path}>{journey.proof.content.title} <span aria-hidden="true">↗</span></a></li>:null}
    {journey.service?<li><span>Explore the service</span><a href={journey.service.path}>{journey.service.content.title} <span aria-hidden="true">↗</span></a></li>:null}
-   <li><span>Start a conversation</span><a href="/consultation">Discuss your project with Nura <span aria-hidden="true">↗</span></a></li>
+   <li><span>Start a conversation</span><a href={journey.enquiry.href}>{journey.enquiry.label} <span aria-hidden="true">↗</span></a></li>
   </ol>
  </section>;
 }
