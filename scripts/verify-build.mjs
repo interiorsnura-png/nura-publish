@@ -7,4 +7,5 @@ try{
  const code=await new Promise(resolve=>check.once('exit',resolve));if(code!==0)process.exitCode=1;
  const photos=spawn(process.execPath,['scripts/image-license-check.mjs'],{stdio:'inherit',env:{...process.env,SEO_BASE_URL:'http://localhost:'+port}});if(await new Promise(resolve=>photos.once('exit',resolve))!==0)process.exitCode=1;
  const fulham=spawn(process.execPath,['scripts/verify-fulham.mjs'],{stdio:'inherit',env:{...process.env,SEO_BASE_URL:'http://localhost:'+port,SEO_EXPECT_INDEX:process.env.SITE_ENV==='staging'||(!process.env.SITE_ENV&&process.env.VERCEL_ENV==='preview')?'false':'true'}});if(await new Promise(resolve=>fulham.once('exit',resolve))!==0)process.exitCode=1;
+ const quotes=spawn(process.execPath,['scripts/verify-kitchen-quotes.mjs'],{stdio:'inherit',env:{...process.env,SEO_BASE_URL:'http://localhost:'+port,SEO_EXPECT_INDEX:process.env.SITE_ENV==='staging'||(!process.env.SITE_ENV&&process.env.VERCEL_ENV==='preview')?'false':'true'}});if(await new Promise(resolve=>quotes.once('exit',resolve))!==0)process.exitCode=1;
 }catch(error){console.error(error.message);process.exitCode=1;}finally{server.kill();}

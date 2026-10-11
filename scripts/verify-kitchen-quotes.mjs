@@ -1,0 +1,43 @@
+import assert from 'node:assert/strict';
+import * as cheerio from 'cheerio';
+const base=process.env.SEO_BASE_URL||'http://127.0.0.1:3011';
+const path='/post/how-to-compare-bespoke-kitchen-quotes-in-london',origin='https://www.nura-interiors.com';
+async function page(path){const r=await fetch(base+path);assert.equal(r.status,200,path);return cheerio.load(await r.text());}
+const $=await page(path);
+assert.equal($('h1').length,1);
+assert.equal($('h1').text(),'How to Compare Bespoke Kitchen Quotes in London: Scope, Materials and Hidden Costs');
+assert.equal($('link[rel="canonical"]').attr('href'),origin+path);
+assert.equal($('meta[property="og:type"]').attr('content'),'article');
+assert.equal($('meta[name="twitter:card"]').attr('content'),'summary_large_image');
+const schemas=$('script[type="application/ld+json"]').toArray().map(el=>JSON.parse($(el).text()));
+const article=schemas.find(s=>s['@type']==='Article');
+assert.ok(article);assert.equal(article.mainEntityOfPage,origin+path);
+assert.equal(article.author['@type'],'Person');assert.equal(article.author.name,'Joanne H');assert.equal(article.author.url,'https://www.linkedin.com/in/joanne-h/');assert.deepEqual(article.author.sameAs,['https://www.linkedin.com/in/joanne-h/']);assert.equal($('.article-meta a').attr('href'),'https://www.linkedin.com/in/joanne-h/');
+assert.equal(article.datePublished,'2026-10-11T06:19:18Z');
+assert.equal(article.reviewedBy,undefined);assert.equal(article.lastReviewed,undefined);
+assert.match($('.article-reviewer-pending').text(),/Alex J.*Technical review pending/);
+assert.equal($('.article-reviewer').length,0);
+assert.equal($('.article-takeaways li').length,5);
+assert.equal($('.article-content table tbody tr').length,8);
+assert.equal($('.article-content table th[scope="col"]').length,3);
+assert.equal($('.article-content a[href="/consultation"]').length,2);
+assert.equal($('.hero a').attr('href'),'/consultation');
+assert.equal($('.article-sidebar-guide a').attr('href'),'/consultation');
+assert.equal($('.article-journey li').last().find('a').attr('href'),'/consultation');
+assert.equal($('.article-content a[href="/guides/bespoke-kitchens"]').length,1);
+assert.equal($('.article-content a[href="/kitchens/elm-park-road"]').length,1);
+const crumb=schemas.find(s=>s['@type']==='BreadcrumbList');
+assert.deepEqual(crumb.itemListElement.map(i=>i.item),[origin+'/',origin+'/journal',origin+path]);
+for(const filter of ['', '?category=planning']){
+ const journal=await page('/journal'+filter);
+ assert.equal(journal(`a[href="${path}"]`).length,1);
+ const graph=journal('script[type="application/ld+json"]').toArray().map(el=>JSON.parse(journal(el).text())).find(s=>s['@graph'])['@graph'];
+ const list=graph.find(s=>s['@type']==='ItemList');
+ assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
+ assert.equal(list.numberOfItems,list.itemListElement.length);
+ if(!filter)assert.equal(list.numberOfItems,19);
+}
+assert.equal((await fetch(base+article.image.replace(origin,''))).status,200);
+const sitemap=await (await fetch(base+'/sitemap.xml')).text();
+if(process.env.SEO_EXPECT_INDEX!=='false')assert.ok(sitemap.includes('<loc>'+origin+path+'</loc>'));
+console.log('Quote guide: Article/Breadcrumb, honest pending review, Planning membership, table, sitemap and consultation CTAs passed.');

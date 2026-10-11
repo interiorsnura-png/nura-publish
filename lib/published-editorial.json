@@ -2949,5 +2949,795 @@
         "alt": "Nura Interiors: kitchen showroom checklist in Fulham, with a photograph of the showroom entrance"
       }
     }
+  },
+  {
+    "path": "/post/how-to-compare-bespoke-kitchen-quotes-in-london",
+    "content": {
+      "component": "article",
+      "title": "How to Compare Bespoke Kitchen Quotes in London: Scope, Materials and Hidden Costs",
+      "category": "Planning",
+      "summary": "Compare kitchen quotations on the same brief, specification and installation scope, with a checklist for exclusions and provisional costs.",
+      "seo_title": "Compare Bespoke Kitchen Quotes in London | Nura Interiors",
+      "seo_description": "Compare bespoke kitchen quotes in London: check scope, cabinet materials, hardware, installation, allowances and excluded costs. Plan your consultation.",
+      "published_date": "2026-10-11T06:19:18Z",
+      "modified_date": "2026-10-11T06:19:18Z",
+      "author_name": "Joanne H",
+      "author_bio": "Joanne H writes for the Nura journal. Explore her professional profile on LinkedIn.",
+      "pending_reviewer": {
+        "name": "Alex J",
+        "role": "Execution and installation lead"
+      },
+      "source_publish_status": "published",
+      "hero": {
+        "filename": "/assets/selected/elm-park-road.jpg",
+        "alt": "Nura kitchen at Elm Park Road in Chelsea, London"
+      },
+      "body_nodes": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare bespoke kitchen quotes in London against the same brief, drawings and itemised specification. Check what each price includes, which amounts remain provisional and who is responsible for delivery, installation and other trades before comparing the totals."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "caption": "Key takeaways",
+          "children": [
+            {
+              "type": "ul",
+              "children": [
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Give each supplier the same layout, appliance list and scope to price."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Compare named cabinet, hardware and worktop specifications, not broad material labels."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Separate fixed prices, provisional allowances and work excluded from the contract."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Record access, services, removal, making good and VAT presentation in your comparison."
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Get responsibilities, variation approvals, payment stages and aftercare in writing."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Discuss your kitchen project with Nura",
+              "link": "/consultation"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Start with the same brief and drawing revision"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A lower total may cover fewer cabinets, a different worktop or less installation work. Send the same room information and priorities to each supplier. Record the drawing revision, appliance list and finish assumptions used for every proposal so a later design change does not distort the comparison."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An initial estimate can be useful before a detailed survey. Ask whether the price relies on your measurements, an architectural drawing or a completed site survey, and what still needs checking. Note who will confirm final dimensions, service positions and access before manufacture. A drawing attached to a quote is not, by itself, proof that the site has been surveyed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Use the bespoke kitchen planning guide to prepare your brief",
+              "link": "/guides/bespoke-kitchens"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare the specification and materials line by line"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ask for cabinet carcasses, doors, backs and internal finishes to be described separately. Solid timber, veneer and other substrates serve different purposes; a broad label does not establish construction quality or suitability. Record the actual proposed specification and the details you can inspect in a sample or drawing."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Bespoke kitchen quote comparison: complete these checks for every proposal",
+          "children": [
+            {
+              "type": "thead",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Record in each quote"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Question to resolve"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "children": [
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Cabinet construction"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Carcass and door substrates, thicknesses, backs and internal finish"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Are shelves, edge sealing and exposed ends specified separately?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Doors and visible finishes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Named finish, colour reference, grain direction and sample approval"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Is the sample the exact finish included in the price?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Hinges and drawer runners"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Manufacturer, model, opening or extension type and configuration"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What is the stated drawer load rating, and which fitting is included?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Worktops and splashbacks"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Named material, thickness, edge profile, joins and cut-outs"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Are templating, fabrication, delivery and fitting all included?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Appliances and accessories"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Exact model numbers and a list of included internal fittings"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Who supplies each item and checks its installation requirements?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Installation and services"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Survey, cabinet fitting, worktop coordination and other trades"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Who handles plumbing, electrical work and making good?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Allowances and exclusions"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Fixed items, provisional amounts, exclusions and tax presentation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "What can change the total, and who approves that change?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tr",
+                  "children": [
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Delivery and aftercare"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Access assumptions, protection, handover and warranty terms"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Who resolves snagging and supplies replacement parts?"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For worktops, check whether the named material and thickness apply to the island, perimeter runs and splashback. Record edge profiles, visible joins, sink and hob cut-outs, upstands and any special fabrication. Ask who templates the installed cabinets and who coordinates fitting. A material allowance alone does not describe the finished installation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Match appliance models and internal accessories exactly. A quote that includes integrated bins, lighting and pull-out storage cannot be compared directly with one that lists only cabinetry. Ask for an alternative to be identified clearly if the proposed product is unavailable; do not assume a substitute has the same dimensions or finish."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Compare solid wood and veneer for kitchen cabinetry",
+              "link": "/post/solid-wood-or-veneer"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Separate fixed prices from provisional allowances"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Mark each line as included at a fixed price, included as an allowance, excluded or awaiting clarification. An allowance is a placeholder for a defined part of the brief. Ask what it covers, what assumption produced the amount and when the actual cost will be confirmed. Do not treat an allowance as a guaranteed final price."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Record whether the totals include VAT and request a clear breakdown of the amount payable. Compare the same tax presentation across proposals. Ask for the quotation’s validity period and the process for pricing changes after approval. Keep the original scope and approved revisions together so an addition can be traced to a decision."
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "children": [
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Request a written description of every provisional item and its basis."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ask how substitutions, extra work and design changes will be priced."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Confirm that the cost and programme effect of a variation are agreed before the additional work proceeds."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Record payment stages and what design, manufacturing or installation milestone each stage covers."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Check costs outside the kitchen contract"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An exclusion is not necessarily a hidden charge, but it still belongs in your project budget. Add a separate column for work paid to other contractors and another for unresolved items. Ask for a written answer where a responsibility is unclear; leaving the cell blank can conceal a gap between suppliers."
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "children": [
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Removal of the old kitchen, disconnection of appliances, waste collection and disposal."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Plumbing, electrical work, ventilation changes and coordination with the relevant trades."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Flooring, plaster repairs, decorating and making good around the new installation."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Delivery access, parking arrangements, stairs, lift restrictions and any specialist handling."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Protection of existing finishes, storage if the site is not ready and any return visit assumptions."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Worktop templating, cut-outs, splashbacks and fitting where these are quoted separately."
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Client-supplied appliances, sinks or taps, including who checks dimensions and arranges connections."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For a London property, discuss the route from the delivery vehicle to the kitchen and any building management requirements. Ask which access assumptions are included in the proposal. Do not assume that a narrow entrance or upper-floor delivery creates a charge; establish the actual arrangements and who is responsible for them."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Ask these validation questions before committing"
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "children": [
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which drawing revision and survey information does this price rely on, and what remains to be confirmed?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Can you identify the cabinet construction, hardware models and approved material samples in the written specification?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What does installation include, who coordinates other trades, and who confirms site readiness?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which comparable completed projects can I see, and what parts of those projects are relevant to this proposal?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What must I approve before manufacture, and how are changes recorded?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which programme dates depend on survey, approvals, material availability or work by others?"
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What happens at handover, how is snagging recorded, and who is my aftercare contact?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Use a completed project to discuss execution and design decisions, rather than to infer a price for your own kitchen. Room dimensions, materials and installation conditions differ. Nura’s Elm Park Road kitchen in Chelsea provides a relevant London project to explore alongside your own brief."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore the Elm Park Road kitchen project in Chelsea",
+              "link": "/kitchens/elm-park-road"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Bring a clear brief to your kitchen consultation"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Bring your current plans, room photographs, appliance list and the comparison notes you have prepared. Include your priorities, approximate budget and target dates, with provisional information marked clearly. These details help the studio discuss the scope and specification for your own Nura project."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Submitting an enquiry starts a conversation; it does not confirm a booking, price or delivery programme. The studio will review your brief and contact you about the next step."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Request a kitchen consultation with Nura",
+              "link": "/consultation"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
