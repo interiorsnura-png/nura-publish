@@ -42,3 +42,6 @@
 /* Preserve the complete portrait checklist, including its footer branding. */
 .article-photo.article-photo-infographic .inner-photo{aspect-ratio:3/4}
 .article-photo.article-photo-infographic .inner-photo img{object-fit:contain}
+
+.article-reading .article-meta{align-items:center;column-gap:4px;row-gap:8px}.article-byline{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-right:6px}.article-author-avatar{display:inline-flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;border-radius:50%;overflow:hidden;background:#262924;color:#f2ecdf;font-family:var(--serif);font-size:15px;line-height:1;letter-spacing:.01em}.article-author-avatar img{display:block;width:32px;height:auto;max-height:32px;object-fit:contain;filter:brightness(0) invert(1)}
+.article-author-avatar .article-author-portrait{width:100%;height:100%;max-height:none;object-fit:cover;object-position:center 35%;filter:none}
