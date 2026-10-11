@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- [ ] Confirm the Tansley Farm preservation release deployment commit and the corrected homepage card and project metadata on production.
+
 - [ ] Verify the journal journey release on Production: confirm the Vercel deployment commit, inspect live article and destination links, and check mobile and desktop rendering.
 
 - [x] Verify live article metadata, headings, CTA placement, and analytics script after merge.

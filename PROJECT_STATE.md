@@ -1,5 +1,11 @@
 # NURA Project State
 
+## Tansley Farm preservation release, 2026-10-11
+- Prepared from production source `5a8e90effbdffc37bb7c5c7d73069e1228881957`, preserving the newer portfolio, article CTA, showroom and analytics changes.
+- Integrated only the existing Tansley Farm content corrections, homepage image alt and Cotswold District location, and the exact two-exception homepage preservation test. Historical migration HTML is unchanged.
+- Local `npm run build:verified` passed: 32 tests, TypeScript, production build, 67 checked pages, 724 photo instances and 508 unique photos with zero missing licenses.
+- Vercel confirmed journal release `5a8e90e` as production READY at `dpl_ERjXAdaEvcBfqDsja8oxxcSgJv1D`. The live porcelain article already contains its journey card. New Tansley release deployment and live browser verification are pending.
+
 ## Journal content journey, 2026-10-11
 - The 17 current journal articles now connect related reading to a relevant project or supporting page, a matching service, and the existing `/consultation` route.
 - The article sidebar points to its matching service. The new journey replaces the duplicated generic end-of-article CTA.

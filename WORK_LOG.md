@@ -1,5 +1,10 @@
 # NURA Work Log
 
+## 2026-10-11: Tansley Farm preservation release preparation
+- The older local checkout was behind current production. Created an isolated release checkout at `origin/main` and integrated only the five Tansley record fields, two homepage text corrections, and preservation test.
+- The historical source remains unchanged; the test applies exactly two scoped expected corrections and compares every remaining HTML byte after newline normalization.
+- Verified 32 tests and production build, 67 page checks and no missing photo licenses. Production push and live verification are the next release actions.
+
 ## 2026-10-11: journal journeys prepared for release
 - Reapplied the approved journal pathways to the latest `origin/main` while retaining the newer article early CTA and other intervening changes.
 - Added a route-checked pathway for all 17 articles: related reading, relevant proof or supporting page, matching service, and consultation.
