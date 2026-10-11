@@ -2960,13 +2960,9 @@
       "seo_title": "Compare Bespoke Kitchen Quotes in London | Nura Interiors",
       "seo_description": "Compare bespoke kitchen quotes in London: check scope, cabinet materials, hardware, installation, allowances and excluded costs. Plan your consultation.",
       "published_date": "2026-10-11T06:19:18Z",
-      "modified_date": "2026-10-11T06:19:18Z",
+      "modified_date": "2026-10-11T06:37:33Z",
       "author_name": "Joanne H",
       "author_bio": "Joanne H writes for the Nura journal. Explore her professional profile on LinkedIn.",
-      "pending_reviewer": {
-        "name": "Alex J",
-        "role": "Execution and installation lead"
-      },
       "source_publish_status": "published",
       "hero": {
         "filename": "/assets/selected/elm-park-road.jpg",
@@ -3737,7 +3733,12 @@
             }
           ]
         }
-      ]
+      ],
+      "reviewer": {
+        "name": "Alex J",
+        "role": "Execution and installation lead",
+        "reviewed_date": "2026-10-11"
+      }
     }
   }
 ]

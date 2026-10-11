@@ -37,10 +37,10 @@ test('Quote guide provides an itemised comparison and actionable exclusions with
  assert.ok(links(nodes).includes('/kitchens/elm-park-road'));
  assert.ok(fs.existsSync(new URL('public'+c.hero.filename,root)));
 });
-test('Technical reviewer is assigned without falsely claiming completed review',()=>{
+test('Human-confirmed technical review is recorded without changing authorship',()=>{
  assert.equal(article.content.author_name,'Joanne H');
- assert.deepEqual(article.content.pending_reviewer,{name:'Alex J',role:'Execution and installation lead'});
- assert.equal(article.content.reviewer,undefined);
+ assert.deepEqual(article.content.reviewer,{name:'Alex J',role:'Execution and installation lead',reviewed_date:'2026-10-11'});
+ assert.equal(article.content.pending_reviewer,undefined);
 });
 test('Quote guide journey connects the real London project and a direct consultation CTA',()=>{
  const api=load('lib/article-journeys.ts');const Component=load('components/ArticleJourney.tsx').default;
