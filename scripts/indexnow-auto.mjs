@@ -1,4 +1,4 @@
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,appendFile} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import {contentFingerprint,changedPages,brandFingerprint} from '../lib/indexnow-snapshot.mjs';
 
@@ -54,4 +54,8 @@ const ordered=Object.fromEntries(Object.entries(current).sort(([a],[b])=>a.local
 await writeFile(statePath,JSON.stringify(ordered,null,2)+'\n');
 const report={checkedAt:new Date().toISOString(),pages:urls.length,changed:seed?[]:changed,removed,submitted:seed?0:submit.length,receipt};
 await writeFile(reportPath,JSON.stringify(report,null,2)+'\n');
+if(process.env.GITHUB_STEP_SUMMARY){
+ const status=seed?'BASELINE_ONLY':submit.length?`ACCEPTED (HTTP ${JSON.parse(receipt).status})`:'NO_CHANGED_URLS';
+ await appendFile(process.env.GITHUB_STEP_SUMMARY,`## Bing URL notification\n\nStatus: **${status}**. Pages checked: **${urls.length}**. URLs submitted: **${report.submitted}**.\n\nAPI acceptance is not proof of indexing.\n`);
+}
 console.log(JSON.stringify(report,null,2));
