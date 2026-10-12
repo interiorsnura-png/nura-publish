@@ -1,6 +1,6 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
-import {contentFingerprint,changedPages} from '../lib/indexnow-snapshot.mjs';
+import {contentFingerprint,changedPages,brandFingerprint} from '../lib/indexnow-snapshot.mjs';
 
 const config=JSON.parse(await readFile(new URL('../indexnow.json',import.meta.url),'utf8'));
 const origin=`https://${config.host}`;
@@ -26,7 +26,9 @@ await Promise.all(Array.from({length:3},async()=>{
    try{
     const page=await fetch(url,{signal:AbortSignal.timeout(20000),redirect:'manual'});
     if(!page.ok)throw Error(`Page ${url} returned HTTP ${page.status}`);
-    current[url]=contentFingerprint(await page.text());failure=null;break;
+    const html=await page.text();
+    const brand=url===origin+'/'?await brandFingerprint(html,origin):'';
+    current[url]=contentFingerprint(html,{brand,origin});failure=null;break;
    }catch(error){failure=error;if(attempt<2)await new Promise(resolve=>setTimeout(resolve,1000*(attempt+1)));}
   }
   if(failure)throw failure;

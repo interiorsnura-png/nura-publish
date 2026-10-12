@@ -1,5 +1,13 @@
 # NURA Work Log
 
+## 2026-10-12: automatic search notification improvements
+
+- Verified the existing IndexNow workflow runs on successful Production deployments, but its old fingerprint omitted JSON-LD and favicon changes. Extended it to cover those changes without treating build-only icon query strings as new content.
+- Added the official Google sitemap PUT endpoint, live sitemap validation, bounded transient retries, short-lived OIDC workflow integration and explicit configuration/failure receipts. No Google Indexing API call is made for ordinary NURA articles.
+- Google Cloud for `interiors.nura@gmail.com` displays an MFA access block. Owner action and subsequent external service-account/WIF permission setup are required. No credential or access change was made.
+- Seven focused tests passed, including actual-byte favicon changes, schema changes, stable build hashes, denied Google permissions, invalid sitemap rejection and transient retry behaviour.
+- Release-wide validation passed: 46 tests, TypeScript/build, 70 route checks, 510 unique licensed photos, workflow YAML parsing and diff checks. The configuration smoke check reports no Google request made.
+
 ## 2026-10-12: transparent gold favicon release
 
 - Integrated only the reviewed favicon assets and required metadata/runtime changes into the latest main checkout. Preserved the catalogue social-image release and all unrelated work.

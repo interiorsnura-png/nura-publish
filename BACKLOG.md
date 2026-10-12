@@ -1,5 +1,8 @@
 # NURA Backlog
 
+- [ ] Enable the owner's Google Cloud MFA, configure the dedicated Search Console/WIF connection and verify a real Google sitemap API receipt. Code readiness is not an active Google connection.
+- [ ] Verify the updated automatic Bing workflow after Production deployment and save its actual receipt report. Expanded fingerprints intentionally notify the current sitemap inventory once on migration.
+
 - [ ] Verify the user-approved transparent rich gold favicon release on Production: exact source commit, Vercel READY/alias, homepage and article metadata, live PNG/ICO transparency and asset identity.
 
 - [x] Confirm the Tansley Farm preservation release deployment commit and the corrected homepage card and project metadata on production: `5a189d4`, deployment `dpl_3FUCWUbDTci4QuRvwvFiQs85nzwB`, READY and live HTTP/browser checks passed.

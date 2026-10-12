@@ -1,5 +1,13 @@
 # NURA Project State
 
+## Automatic search notifications, 2026-10-12
+
+- Prepared from current main `fcf77f05b3ea839f6927c9ed095184b2985c6208`, preserving the verified gold favicon release.
+- Bing fingerprints now include meaningful JSON-LD and a homepage favicon-content hash. Build script payloads and changing icon query hashes do not cause repeated submissions. Each successful Production event checks out its deployment SHA.
+- Google Search Console Sitemaps API code/workflow is prepared with short-lived GitHub OIDC authentication. It submits the live sitemap, not individual ordinary URLs to the restricted Indexing API. No receipt means no success claim.
+- Google connection is blocked by the account's Google Cloud MFA requirement. No service account, WIF trust, key or external permission has been created. Until the one-time connection is configured, the workflow reports `NOT_CONFIGURED` and makes no Google request.
+- Release validation passed: 46 tests, TypeScript/build, 70 route checks, zero missing image licenses and workflow YAML parsing. Live workflow receipts remain pending until publication. The local Google configuration check accurately reports `NOT_CONFIGURED` with `requestMade:false`.
+
 ## Transparent gold favicon release, 2026-10-12
 
 - Prepared on `codex/nura-favicon-release` from current Production/main `f76d59e054c30c5e7dbaf2d2aa88ea0ab354d2ec`.

@@ -9,13 +9,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   submit:
+    name: Bing changed URL notifications
     if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event.deployment.sha || 'main' }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -37,3 +38,47 @@ jobs:
         with:
           name: indexnow-submission-report
           path: .indexnow/report.json
+  google:
+    name: Google sitemap notification
+    if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha || 'main' }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - id: google-config
+        name: Check Google API connection
+        env:
+          GOOGLE_WIF_PROVIDER: ${{ vars.GOOGLE_WIF_PROVIDER }}
+          GOOGLE_SEARCH_SERVICE_ACCOUNT: ${{ vars.GOOGLE_SEARCH_SERVICE_ACCOUNT }}
+        run: node scripts/google-sitemap-auto.mjs --check-config
+      - id: google-auth
+        name: Obtain short-lived Google API access
+        if: steps.google-config.outputs.ready == 'true'
+        uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          workload_identity_provider: ${{ vars.GOOGLE_WIF_PROVIDER }}
+          service_account: ${{ vars.GOOGLE_SEARCH_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/webmasters
+          access_token_lifetime: 600s
+          create_credentials_file: false
+      - name: Submit live sitemap to Google
+        if: steps.google-config.outputs.ready == 'true'
+        env:
+          GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
+        run: node scripts/google-sitemap-auto.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: google-sitemap-notification-report
+          path: .indexnow/google-report.json
