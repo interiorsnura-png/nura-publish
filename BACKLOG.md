@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- [ ] Verify the user-approved transparent rich gold favicon release on Production: exact source commit, Vercel READY/alias, homepage and article metadata, live PNG/ICO transparency and asset identity.
+
 - [x] Confirm the Tansley Farm preservation release deployment commit and the corrected homepage card and project metadata on production: `5a189d4`, deployment `dpl_3FUCWUbDTci4QuRvwvFiQs85nzwB`, READY and live HTTP/browser checks passed.
 
 - [x] Verify the journal journey release on Production: Vercel confirmed `5a8e90e` and subsequent `5a189d4`; live porcelain article proof/service/consultation links passed at desktop and mobile sizes.

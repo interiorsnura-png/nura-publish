@@ -1,5 +1,12 @@
 # NURA Project State
 
+## Transparent gold favicon release, 2026-10-12
+
+- Prepared on `codex/nura-favicon-release` from current Production/main `f76d59e054c30c5e7dbaf2d2aa88ea0ab354d2ec`.
+- Replaces browser PNG, multi-size ICO and Apple icon with the user-approved rich gold N, transparent background and restrained glint. Removes the competing SVG route and runtime favicon animation. The homepage favicon URL is versioned for cache refresh.
+- User explicitly authorised publication of this reviewed favicon. Production verification remains pending until deployment is READY and its exact source and live assets are checked.
+- Release checkout validation passed: 41 tests, TypeScript in the production build, 70 route checks and 510 unique licensed photos with zero missing licenses. `git diff --check` passed.
+
 ## Tansley Farm preservation release, 2026-10-11
 - Prepared from production source `5a8e90effbdffc37bb7c5c7d73069e1228881957`, preserving the newer portfolio, article CTA, showroom and analytics changes.
 - Integrated only the existing Tansley Farm content corrections, homepage image alt and Cotswold District location, and the exact two-exception homepage preservation test. Historical migration HTML is unchanged.

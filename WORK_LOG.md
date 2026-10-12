@@ -1,5 +1,12 @@
 # NURA Work Log
 
+## 2026-10-12: transparent gold favicon release
+
+- Integrated only the reviewed favicon assets and required metadata/runtime changes into the latest main checkout. Preserved the catalogue social-image release and all unrelated work.
+- The approved artwork originated in Nano Banana 2/Canva and was refined with imagegen for glint, transparency and stronger gold contrast. PNG alpha and 16/32/48 px ICO were checked locally.
+- User authorised publication. Release validation and Production evidence will follow.
+- `npm run build:verified` passed: 41 tests, TypeScript/build, 70 route checks, 745 photo instances, 510 unique photos and zero missing licenses. Diff whitespace checks passed.
+
 ## 2026-10-11: Tansley Farm preservation release preparation
 - The older local checkout was behind current production. Created an isolated release checkout at `origin/main` and integrated only the five Tansley record fields, two homepage text corrections, and preservation test.
 - The historical source remains unchanged; the test applies exactly two scoped expected corrections and compares every remaining HTML byte after newline normalization.
