@@ -2,6 +2,7 @@
 
 ## Automatic search notifications, 2026-10-12
 
+- Follow-up on 2026-10-13: the old deployment-event cache did not persist IndexNow snapshots, causing repeated 70-URL notifications. Replaced it with a state artifact restored from the previous successful main workflow. Restore failures stop execution; corrupted/foreign states are rejected. Two-run verification follows publication.
 - Prepared from current main `fcf77f05b3ea839f6927c9ed095184b2985c6208`, preserving the verified gold favicon release.
 - Bing fingerprints now include meaningful JSON-LD and a homepage favicon-content hash. Build script payloads and changing icon query hashes do not cause repeated submissions. Each successful Production event checks out its deployment SHA.
 - Google Search Console Sitemaps API code/workflow is prepared with short-lived GitHub OIDC authentication. It submits the live sitemap, not individual ordinary URLs to the restricted Indexing API. No receipt means no success claim.

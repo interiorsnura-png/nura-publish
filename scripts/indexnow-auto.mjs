@@ -1,6 +1,7 @@
 import {readFile,writeFile,mkdir,appendFile} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import {contentFingerprint,changedPages,brandFingerprint} from '../lib/indexnow-snapshot.mjs';
+import {validateSnapshot} from '../lib/indexnow-state.mjs';
 
 const config=JSON.parse(await readFile(new URL('../indexnow.json',import.meta.url),'utf8'));
 const origin=`https://${config.host}`;
@@ -17,6 +18,7 @@ let previous={};
 if(!seed){
  try{previous=JSON.parse(await readFile(statePath,'utf8'));}
  catch(error){if(error.code!=='ENOENT')throw error;previous=JSON.parse(await readFile(new URL('./indexnow-baseline.json',import.meta.url),'utf8'));}
+ validateSnapshot(previous,origin);
 }
 const current={};let cursor=0;
 await Promise.all(Array.from({length:3},async()=>{

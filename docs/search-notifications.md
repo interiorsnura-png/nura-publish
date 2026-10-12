@@ -6,7 +6,7 @@ After a successful Vercel Production deployment, `.github/workflows/indexnow.yml
 
 IndexNow sends new or changed canonical pages and confirmed 404/410 removals. Fingerprints cover page text, links, images, SEO metadata and JSON-LD. Build-only script payloads and icon query hashes are ignored. A real favicon-byte change notifies the homepage so the branding update is discoverable. Fingerprint expansion causes one full inventory notification when migrating the existing cache.
 
-A 200/202 receipt proves API acceptance, not crawling, ranking or index inclusion. The job summary shows the checked/submitted count and actual acceptance status, including explicit `NO_CHANGED_URLS` when no API request is needed. Full reports are stored in the `indexnow-submission-report` workflow artifact. The baseline is saved only after acceptance or when nothing changed.
+A 200/202 receipt proves API acceptance, not crawling, ranking or index inclusion. The job summary shows the checked/submitted count and actual acceptance status, including explicit `NO_CHANGED_URLS` when no API request is needed. Full reports are stored in the `indexnow-submission-report` workflow artifact. The baseline is saved only after acceptance or when nothing changed. It is persisted as the `indexnow-state` artifact and restored from the previous successful main run. Actions caches were not persisting this state on deployment events; the replacement avoids repeated full-inventory submissions. GitHub API or download failure stops the workflow instead of silently resending everything.
 
 ## Google
 

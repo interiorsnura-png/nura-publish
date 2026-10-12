@@ -2,6 +2,7 @@
 
 ## 2026-10-12: automatic search notification improvements
 
+- 2026-10-13 follow-up: verified HTTP 200 acceptance for the homepage and an automatic 70-URL run. Detected that no IndexNow state cache existed, so repeated runs fell back to the old repository baseline. Replaced cache persistence with workflow artifacts and added restore/provenance/state-validation tests; 49 project tests and workflow YAML parsing passed. Two consecutive live runs will verify deduplication.
 - Verified the existing IndexNow workflow runs on successful Production deployments, but its old fingerprint omitted JSON-LD and favicon changes. Extended it to cover those changes without treating build-only icon query strings as new content.
 - Added the official Google sitemap PUT endpoint, live sitemap validation, bounded transient retries, short-lived OIDC workflow integration and explicit configuration/failure receipts. No Google Indexing API call is made for ordinary NURA articles.
 - Google Cloud for `interiors.nura@gmail.com` displays an MFA access block. Owner action and subsequent external service-account/WIF permission setup are required. No credential or access change was made.

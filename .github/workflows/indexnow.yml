@@ -10,6 +10,9 @@ concurrency:
 jobs:
   submit:
     name: Bing changed URL notifications
+    permissions:
+      contents: read
+      actions: read
     if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -22,22 +25,33 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - uses: actions/cache/restore@v4
+      - id: restore-state
+        name: Find last accepted production state
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/indexnow-restore-state.mjs
+      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        if: steps.restore-state.outputs.previous_run_id != ''
         with:
-          path: .indexnow/state.json
-          key: nura-indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: nura-indexnow-v1-
+          name: indexnow-state
+          path: .indexnow
+          github-token: ${{ github.token }}
+          run-id: ${{ steps.restore-state.outputs.previous_run_id }}
       - name: Notify Bing of changed production pages
         run: node scripts/indexnow-auto.mjs
-      - uses: actions/cache/save@v4
+      - uses: actions/upload-artifact@v4
         with:
+          name: indexnow-state
           path: .indexnow/state.json
-          key: nura-indexnow-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          include-hidden-files: true
+          retention-days: 90
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: indexnow-submission-report
-          path: .indexnow/report.json
+          path: |
+            .indexnow/report.json
+            .indexnow/restore-report.json
   google:
     name: Google sitemap notification
     if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
