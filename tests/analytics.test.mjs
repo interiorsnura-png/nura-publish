@@ -18,7 +18,21 @@ test('analytics remains offline until explicit acceptance and stops tracking on 
  b.choose('accepted'); assert.equal(b.scripts.length,2);
  b.lead({lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'london',enquiry_type:'showroom',email:'secret@example.com',message:'private'});
  const event=Array.from(b.window.dataLayer.at(-1)); assert.equal(event[1],'generate_lead');
- assert.deepEqual(JSON.parse(JSON.stringify(event[2])),{lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'london',enquiry_type:'showroom',page_location:'https://www.nura-interiors.com/london'});
+ assert.deepEqual(JSON.parse(JSON.stringify(event[2])),{lead_id:'12345678-1234-4234-8234-123456789abc',form_location:'london',enquiry_type:'showroom',budget_band:'unknown',lead_value_tier:'unknown',lead_audience:'unspecified',page_location:'https://www.nura-interiors.com/london'});
+
+test('budget enum tracking ignores spoofed tier and private input',()=> {
+  const b=browser();
+  b.choose('accepted');
+  b.lead({lead_id:'12345678-1234-4234-8234-123456789abc',budget_band:'50k_100k',lead_value_tier:'spoofed',lead_audience:'professional',email:'private'});
+  const payload=Array.from(b.window.dataLayer.at(-1))[2];
+  assert.strictEqual(payload.budget_band,'50k_100k');
+  assert.strictEqual(payload.lead_value_tier,'high');
+  assert.strictEqual(payload.lead_audience,'professional');
+  assert.strictEqual(payload.email,undefined);
+  const len=b.window.dataLayer.length;
+  b.lead({lead_id:'12345678-1234-4234-8234-123456789abc',budget_band:'50k_100k',lead_value_tier:'spoofed',lead_audience:'professional',email:'private'});
+  assert.strictEqual(b.window.dataLayer.length,len);
+});
  b.choose('declined'); assert.equal(Array.from(b.window.clarity.q.at(-1))[0],'consent'); assert.equal(Array.from(b.window.clarity.q.at(-1))[1],false); const count=b.window.dataLayer.length; b.lead({}); assert.equal(b.window.dataLayer.length,count);
  assert.equal(b.window['ga-disable-G-5ZNSJY31TD'],true);
  b.choose('accepted'); assert.equal(b.scripts.length,2);

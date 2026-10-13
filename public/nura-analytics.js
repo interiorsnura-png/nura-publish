@@ -35,6 +35,28 @@
  function choose(value){accepted=value==='accepted'||value==='accepted_ads';advertising=value==='accepted_ads';try{localStorage.setItem(key,JSON.stringify({value,time:Date.now()}))}catch{}if(accepted)start();else if(loaded){window['ga-disable-'+id]=true;window.gtag('consent','update',{analytics_storage:'denied',...adsConsent()});document.cookie.split(';').forEach(c=>{const n=c.trim().split('=')[0];if(n.startsWith('_ga'))for(const domain of ['', '; domain=.nura-interiors.com','; domain=www.nura-interiors.com'])document.cookie=n+'=; max-age=0; path=/'+domain;});}if(accepted){window['ga-disable-'+id]=false;if(loaded){window.gtag('consent','update',{analytics_storage:'granted',...adsConsent()});window.gtag('config',id,{send_page_view:false,page_location:pageLocation()});}}hide();window.dispatchEvent(new CustomEvent("nura:analytics-consent"));}
  banner.addEventListener('click',e=>{const b=e.target.closest('[data-choice]');if(b)choose(b.dataset.choice)});control.addEventListener('click',()=>{show();banner.querySelector('button').focus();});if(!existingBanner)document.body.append(banner);document.body.append(control);
  const saved=read();if(saved){accepted=saved==='accepted'||saved==='accepted_ads';advertising=saved==='accepted_ads';if(accepted)start();hide();}else show();
- window.addEventListener('nura:enquiry-success',e=>{const lead=e.detail?.lead_id;if(!accepted||typeof lead!=='string'||!/^[0-9a-f-]{36}$/i.test(lead)||measuredLeads.has(lead))return;measuredLeads.add(lead);const loc=['home','london','consultation','wardrobes','floating'].includes(e.detail?.form_location)?e.detail.form_location:'other';track('generate_lead',{lead_id:lead,form_location:loc,enquiry_type:e.detail?.enquiry_type==='showroom'?'showroom':'consultation'});});
+ window.addEventListener('nura:enquiry-success',e=>{const lead=e.detail?.lead_id;if(!accepted||typeof lead!=='string'||!/^[0-9a-f-]{36}$/i.test(lead)||measuredLeads.has(lead))return;measuredLeads.add(lead);const loc=['home','london','consultation','wardrobes','floating'].includes(e.detail?.form_location)?e.detail.form_location:'other';try {
+  const band = ['under_25k','25k_50k','50k_100k','100k_plus'].includes(e?.detail?.budget_band) ? e.detail.budget_band : 'unknown';
+  const tiers = {
+    under_25k: 'low',
+    '25k_50k': 'medium',
+    '50k_100k': 'high',
+    '100k_plus': 'highest',
+    unknown: 'unknown'
+  };
+  const leadValueTier = tiers[band];
+  const audience = ['homeowner','professional'].includes(e?.detail?.lead_audience) ? e.detail.lead_audience : 'unspecified';
+  const enquiryType = e?.detail?.enquiry_type === 'showroom' ? 'showroom' : 'consultation';
+  track('generate_lead', {
+    lead_id: lead,
+    form_location: loc,
+    enquiry_type: enquiryType,
+    budget_band: band,
+    lead_value_tier: leadValueTier,
+    lead_audience: audience
+  });
+} catch (err) {
+  console.error('Error generating lead tracking payload:', err);
+}});
  document.addEventListener('click',e=>{const early=e.target.closest('[data-cta="article-early-consultation"]');if(early){track('article_cta_click',{cta_name:'early_consultation',cta_location:early.dataset.ctaLocation||'article-intro',destination:'/consultation',page_path:location.pathname});return;}const a=e.target.closest('a[href]');if(!a)return;let method=null;if(a.href.startsWith('tel:'))method='telephone';else if(a.href.startsWith('mailto:'))method='email';else if(a.href.startsWith('https://wa.me/'))method='whatsapp';if(method)track('contact_click',{contact_method:method});});
 })();

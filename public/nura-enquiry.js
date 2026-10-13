@@ -35,7 +35,26 @@
    const attempt=attempts.get(form);
    if(!attempt||attempt.completed||result.lead_id!==attempt.payload.lead_id)return;
    attempt.completed=true;
-   window.dispatchEvent(new CustomEvent('nura:enquiry-success',{detail:{...detail,lead_id:result.lead_id}}));
+   (() => {
+     const rawBudget = String(attempt?.payload?.budget ?? '').toLowerCase().replace(/£|\s/g, '').replace(/–/g, '-');
+     const budgetMap = { under25k: 'under_25k', '25k-50k': '25k_50k', '50k-100k': '50k_100k', '100k+': '100k_plus' };
+     const budgetBand = Object.hasOwn(budgetMap, rawBudget) ? budgetMap[rawBudget] : 'unknown';
+     const tierMap = { under_25k: 'low', '25k_50k': 'medium', '50k_100k': 'high', '100k_plus': 'highest' };
+     const leadValueTier = tierMap[budgetBand] || 'unknown';
+     const roleRaw = String(attempt?.payload?.buyerRole ?? '').trim().toLowerCase();
+     const professionalRoles = ['architect', 'interior designer', 'qs / estimator', 'main contractor', 'developer'];
+     const leadAudience = roleRaw === 'homeowner' ? 'homeowner' : professionalRoles.includes(roleRaw) ? 'professional' : 'unspecified';
+     window.dispatchEvent(new CustomEvent('nura:enquiry-success', {
+       detail: {
+         lead_id: result?.lead_id,
+         form_location: detail?.form_location,
+         enquiry_type: detail?.enquiry_type,
+         budget_band: budgetBand,
+         lead_value_tier: leadValueTier,
+         lead_audience: leadAudience
+       }
+     }));
+   })();
   }
  };
 })();

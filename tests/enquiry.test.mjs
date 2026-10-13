@@ -24,6 +24,33 @@ test('retries use stable provider key, email source and shared lead reference; f
   global.fetch=async()=>{throw Error('timeout');};assert.equal((await request(fields)).status,502);
  }finally{global.fetch=prior.fetch;for(const [k,v] of [['RESEND_API_KEY',prior.key],['ENQUIRY_FROM',prior.from],['HUBSPOT_ACCESS_TOKEN',prior.token]])if(v===undefined)delete process.env[k];else process.env[k]=v;}
 });
+test('budget and role classification produces correct success event',()=>{
+ const storage=new Map(),events=[],listeners={},window={addEventListener(n,f){listeners[n]=f;},dispatchEvent(e){events.push(e);}},location={origin:'https://www.nura-interiors.com',pathname:'/london',search:'?utm_source=google&utm_campaign=verification&email=private'},consent={value:'declined',time:Date.now()};
+ const context={window,location,document:{referrer:'https://example.com/?private=secret'},localStorage:{getItem(){return JSON.stringify(consent);}},sessionStorage:{getItem(k){return storage.get(k)||null;},setItem(k,v){storage.set(k,v);},removeItem(k){storage.delete(k);}},URL,URLSearchParams,crypto:{randomUUID},Date,CustomEvent:class{constructor(t,{detail}){this.type=t;this.detail=detail;}}};
+ vm.runInNewContext(readFileSync(new URL('../public/nura-enquiry.js',import.meta.url),'utf8'),context);
+ const cases=[
+  ['Under £25k','Homeowner','under_25k','low','homeowner'],
+  ['£25k–£50k','Architect','25k_50k','medium','professional'],
+  ['£50k-£100k','QS / Estimator','50k_100k','high','professional'],
+  ['£100k+','Developer','100k_plus','highest','professional'],
+  ['TEST ONLY: £50k–£100k','Other','unknown','unknown','unspecified'],
+  ['under5000','someone architect','unknown','unknown','unspecified'],
+  ['__proto__','constructor','unknown','unknown','unspecified']
+ ];
+ for(const [budget,buyerRole,expBand,expTier,expAud] of cases){
+  const form={};
+  const payload=window.nuraEnquiry.prepare(form,{budget,buyerRole,name:'Private',email:'private@example.com'});
+  window.nuraEnquiry.complete(form,{lead_id:payload.lead_id},{form_location:'consultation',budget_band:'forged',email:'private@example.com'});
+  const detail=events[events.length-1].detail;
+  assert.equal(detail.budget_band,expBand);
+  assert.equal(detail.lead_value_tier,expTier);
+  assert.equal(detail.lead_audience,expAud);
+  assert.equal(detail.email,undefined);
+  assert.equal(detail.budget,undefined);
+  events.length=0;
+ }
+});
+
 test('client retains accepted entry source across pages, stable retry payload and one success event',()=>{
  const storage=new Map(),events=[],listeners={},window={addEventListener(n,f){listeners[n]=f;},dispatchEvent(e){events.push(e);}},location={origin:'https://www.nura-interiors.com',pathname:'/london',search:'?utm_source=google&utm_campaign=verification&email=private'},consent={value:'declined',time:Date.now()};
  const context={window,location,document:{referrer:'https://example.com/?private=secret'},localStorage:{getItem(){return JSON.stringify(consent);}},sessionStorage:{getItem(k){return storage.get(k)||null;},setItem(k,v){storage.set(k,v);},removeItem(k){storage.delete(k);}},URL,URLSearchParams,crypto:{randomUUID},Date,CustomEvent:class {constructor(type,{detail}){this.type=type;this.detail=detail;}}};
