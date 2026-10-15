@@ -124,3 +124,6 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - Google Rich Results Test on the locally rendered schema code: 8 valid items; Article and Breadcrumb valid without warnings after timestamp correction. An intermediate duplicate Organization URL warning was resolved by using the same canonical brand URL for the shared organization identity. Final result: all 8 items valid without reported warnings, https://search.google.com/test/rich-results/result?id=68fuVU5Mn0j9pHX-EbWHqw. Code test does not prove Google crawling or live deployment.
 - Browser: desktop1440x900 and mobile390x844 have no horizontal page overflow; callout, table and reviewer visible; browser error log empty. Screenshots ../outputs/nura-fulham-revised-desktop.jpg, nura-fulham-revised-mobile.jpg, nura-fulham-rich-results.jpg.
 - Local preview runs on port3011. No commit, push or production deployment in this correction task. Build used temporary two workers; original config restored. Next step: commit/push this correction release and verify exact Production source and live page.
+
+## 2026-10-16: article journey hierarchy release
+Applied only the two reviewed UI files on current main, preserving newer analytics and content. 51 tests, typecheck and build passed. No real form submitted.

@@ -43,3 +43,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [x] Validate corrected Fulham Article/Breadcrumb in Google Rich Results Test code mode; 8 valid items, Article date warnings resolved with actual timestamps.
 - [ ] Release Fulham audit corrections to production and verify exact Vercel source SHA and live results.
 - [x] Resolve the duplicate Organization URL warning and retest: final Google code test reports all 8 items valid without warnings.
+
+- [ ] Complete live article journey release verification, including responsive browser review.

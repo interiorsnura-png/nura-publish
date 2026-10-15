@@ -6,11 +6,11 @@ export default function ArticleJourney({path,entries}:{path:string;entries:Entry
  if(!journey)return null;
  return <section className="article-journey" aria-labelledby="article-journey-title">
   <p className="eyebrow">From idea to next step</p>
-  <h2 id="article-journey-title">Take the next step</h2>
+  <h2 id="article-journey-title">Plan your next step</h2>
   <ol>
    {journey.proof?<li><span>{journey.proofLabel}</span><a href={journey.proof.path}>{journey.proof.content.title} <span aria-hidden="true">↗</span></a></li>:null}
    {journey.service?<li><span>Explore the service</span><a href={journey.service.path}>{journey.service.content.title} <span aria-hidden="true">↗</span></a></li>:null}
-   <li><span>Start a conversation</span><a href={journey.enquiry.href}>{journey.enquiry.label} <span aria-hidden="true">↗</span></a></li>
+   <li className="article-journey-enquiry"><a className="article-journey-primary" href={journey.enquiry.href}>{journey.enquiry.label} <span aria-hidden="true">↗</span></a></li>
   </ol>
  </section>;
 }

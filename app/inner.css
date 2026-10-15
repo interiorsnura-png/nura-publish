@@ -45,3 +45,12 @@
 
 .article-reading .article-meta{align-items:center;column-gap:4px;row-gap:8px}.article-byline{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-right:6px}.article-author-avatar{display:inline-flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;border-radius:50%;overflow:hidden;background:#262924;color:#f2ecdf;font-family:var(--serif);font-size:15px;line-height:1;letter-spacing:.01em}.article-author-avatar img{display:block;width:32px;height:auto;max-height:32px;object-fit:contain;filter:brightness(0) invert(1)}
 .article-author-avatar .article-author-portrait{width:100%;height:100%;max-height:none;object-fit:cover;object-position:center 35%;filter:none}
+
+/* Keep editorial proof links secondary to the final enquiry action. */
+.article-reading .article-journey{border-color:rgba(30,33,29,.14)}
+.article-journey li{border-top-color:rgba(30,33,29,.14)}
+.article-journey li.article-journey-enquiry{display:block;border-top:0;padding:22px 0 0}
+.article-reading .article-journey a.article-journey-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;max-width:100%;min-height:48px;box-sizing:border-box;padding:13px 20px;background:var(--ink);color:var(--cream);line-height:1.5;text-decoration:none;overflow-wrap:anywhere}
+.article-reading .article-journey a.article-journey-primary:hover{text-decoration:underline;text-underline-offset:4px}
+.article-journey a:focus-visible{outline:2px solid var(--ink);outline-offset:5px}
+@media(max-width:600px){.article-reading .article-journey a.article-journey-primary{width:100%}}
