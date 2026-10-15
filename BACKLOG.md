@@ -45,3 +45,9 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [x] Resolve the duplicate Organization URL warning and retest: final Google code test reports all 8 items valid without warnings.
 
 - [ ] Complete live article journey release verification, including responsive browser review.
+
+- [x] Article journey release live verification completed for 98b82a0, mobile390x844 and desktop1440x900, with showroom CTA navigation and no horizontal overflow.
+
+- [ ] Performance100 target remains unachieved: local mobile91, LCP3.4s. Review remaining render-blocking bundled CSS and validate real deployed performance before further changes. No production release authorised for this task yet.
+
+- [ ] Mobile100 still not established after second pass (first local repeatable candidate93). Validate on a deployment only with publication authority; do not equate local scores with PSI scores.

@@ -126,3 +126,13 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 
 ## 2026-10-16: approved article journey release
 Prepared from origin/main 986bdcf, limited to ArticleJourney presentation and CSS. Heading Plan your next step, contextual proof/service links preserved, enquiry promoted to primary button. User authorised publication. 51 tests, typecheck and production build passed. Deployment/live checks pending.
+
+Release verified: commit 98b82a0e5bca5440226a50da788114ccf00a722e, Production READY dpl_ABYAaQjYM1zWzLQ7orhecLC2NK5D, www.nura-interiors.com alias confirmed. Live 390x844 and 1440x900: updated heading/button, no horizontal overflow. Mobile CTA opens London showroom form with Fulham showroom visit selected. Console warning/error log empty. No form submitted. Final evidence notes local only to avoid a documentation-only deployment.
+
+## 2026-10-16: performance optimisation, local only
+Bundled four existing global CSS files, added high-priority eager hero image, preloaded three existing Latin font resources and enabled negotiated AVIF with WebP fallback. Original content, imagery, analytics and forms retained. Same-machine Lighthouse13.5 mobile baseline86: FCP2.6s/LCP3.6s/CLS0.021; final91: FCP1.2s/LCP3.4s/TBT10ms/CLS0.017. Hero transfer67944 to35945 bytes. This is not comparable to remote PSI94 and does not prove100. 51 tests/build/route-image verification passed. Browser390x844 no overflow, hero loaded, bundled styles present, console clean. No push/deployment.
+
+## 2026-10-16: second performance pass
+Retained high-priority responsive hero preload after local mobile score improved91 to93, LCP3.4 to3.2s, FCP1.2s, TBT0ms, CLS0.017. Global inlineCss experiment worsened score89 and HTML transfer19250 to46714 bytes, so removed it. No experimental inlineCss flag remains. 51 tests/build/route validation passed. Browser390x844 confirms high-priority preload, loaded hero, no overflow and empty error/warning log. Not published.
+
+Performance release authorised on 2026-10-16; final source validations already passed, current origin/main98b82a0 unchanged. Await exact deployment identity and live checks.

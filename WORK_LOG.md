@@ -127,3 +127,12 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 
 ## 2026-10-16: article journey hierarchy release
 Applied only the two reviewed UI files on current main, preserving newer analytics and content. 51 tests, typecheck and build passed. No real form submitted.
+
+Production verification passed for 98b82a0 on 2026-10-16: exact Vercel source/READY/domain verified, live mobile/desktop layout and CTA destination inspected. Screenshot ../../outputs/journey-live-mobile.png. No form sent.
+
+## 2026-10-16: measured performance work
+Local production build on3157 measured with real Lighthouse13.5 mobile and desktop. Reports ../../outputs/fulham-performance-*.json. Mobile86 to91 under same local configuration. No tools disabled, no images removed or reduced in dimensions. Full51 tests, build, image-license and article validators passed. No real enquiry sent. Global CSS and AVIF changes need live/provider performance confirmation before claiming a Production improvement.
+
+Second performance pass: tested and rejected global CSS inlining based on worse measured performance and larger document. Adopted explicit high-priority responsive image preload, as implemented by the installed Next image component. Local Lighthouse report ../../outputs/fulham-performance-preload.json:93 vs91 previous iteration, LCP3.2s. Separate repeat report saved. No tracking removed; no push or deployment.
+
+User authorised production release of the reviewed performance changes on 2026-10-16. Final mobile repeat92 and93, LCP3.2s; desktop100 was measured before the final hero preload adjustment. No live score claim until measured.
