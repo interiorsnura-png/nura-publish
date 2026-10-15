@@ -136,3 +136,7 @@ Local production build on3157 measured with real Lighthouse13.5 mobile and deskt
 Second performance pass: tested and rejected global CSS inlining based on worse measured performance and larger document. Adopted explicit high-priority responsive image preload, as implemented by the installed Next image component. Local Lighthouse report ../../outputs/fulham-performance-preload.json:93 vs91 previous iteration, LCP3.2s. Separate repeat report saved. No tracking removed; no push or deployment.
 
 User authorised production release of the reviewed performance changes on 2026-10-16. Final mobile repeat92 and93, LCP3.2s; desktop100 was measured before the final hero preload adjustment. No live score claim until measured.
+
+Release complete: exact Vercel SHA/READY/alias verified for8fda09a. Live Lighthouse95, report ../../outputs/fulham-performance-live.json. Mobile browser and image/header checks passed. No real form submitted. No claim of100 mobile or field INP verification.
+
+User requested remaining evidence pushed. Archived reports, logs and screenshots under docs/evidence/2026-10-16-performance. Redacted diagnostic credential-like patterns from repository copies; original local files preserved. Documentation push may trigger Vercel; application code unchanged.

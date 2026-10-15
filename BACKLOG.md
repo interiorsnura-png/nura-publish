@@ -51,3 +51,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Performance100 target remains unachieved: local mobile91, LCP3.4s. Review remaining render-blocking bundled CSS and validate real deployed performance before further changes. No production release authorised for this task yet.
 
 - [ ] Mobile100 still not established after second pass (first local repeatable candidate93). Validate on a deployment only with publication authority; do not equate local scores with PSI scores.
+
+- [x] Publish and verify performance improvements for8fda09a. Live mobile Lighthouse95;100 target and real-user INP remain unverified.

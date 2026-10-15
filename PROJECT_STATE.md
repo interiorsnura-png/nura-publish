@@ -136,3 +136,5 @@ Bundled four existing global CSS files, added high-priority eager hero image, pr
 Retained high-priority responsive hero preload after local mobile score improved91 to93, LCP3.4 to3.2s, FCP1.2s, TBT0ms, CLS0.017. Global inlineCss experiment worsened score89 and HTML transfer19250 to46714 bytes, so removed it. No experimental inlineCss flag remains. 51 tests/build/route validation passed. Browser390x844 confirms high-priority preload, loaded hero, no overflow and empty error/warning log. Not published.
 
 Performance release authorised on 2026-10-16; final source validations already passed, current origin/main98b82a0 unchanged. Await exact deployment identity and live checks.
+
+Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl_CRQTbJT7djyq63iAKaWp1KbEsFht READY with www.nura-interiors.com alias. Live HTTP200, high-priority hero, four old CSS requests absent, AVIF34167 bytes. Post-release Lighthouse mobile95/FCP1.7s/LCP2.5s/TBT0/CLS0; a new agent-run test, not the same PSI environment. Live browser390x844 no overflow, loaded hero, zero broken images, no console errors/warnings observed. Form not submitted. Final notes local only.

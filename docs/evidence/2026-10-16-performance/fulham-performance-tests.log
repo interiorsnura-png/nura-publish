@@ -1,0 +1,65 @@
+
+> nura-migration@0.1.0 test
+> node --test tests/*.test.mjs
+
+▶ analytics remains offline until explicit acceptance and stops tracking on withdrawal
+  ✔ budget enum tracking ignores spoofed tier and private input (1.8933ms)
+✔ analytics remains offline until explicit acceptance and stops tracking on withdrawal (4.777ms)
+✔ article CTA tracking is consent-gated and emits the expected event (1.3579ms)
+✔ homepage CTA tracking is consent-gated and records its destination (0.7211ms)
+✔ saved consent expires without being renewed by visits (1.0031ms)
+✔ same successful lead is counted once and consultation location is preserved (0.5495ms)
+✔ campaign attribution keeps allowlisted values and ad consent is separate (0.7579ms)
+✔ every published journal article has a valid proof, service and enquiry path (0.9364ms)
+Website enquiry CRM sync failed { lead_id: '12345678-1234-4234-8234-123456789abc' }
+✔ retries use stable provider key, email source and shared lead reference; failures are not success (4.9183ms)
+✔ budget and role classification produces correct success event (2.8823ms)
+✔ client retains accepted entry source across pages, stable retry payload and one success event (0.9647ms)
+✔ CRM failure retains email delivery and retry repairs the same enquiry without duplicate mail (1.4674ms)
+✔ Fulham article is unique, complete and uses real internal destinations (1.002ms)
+✔ rendered Fulham journey books a showroom visit and existing journeys retain consultation (69.7388ms)
+✔ Fulham appears in planning recommendations and journal ItemList with canonical URL (27.8135ms)
+✔ Fulham editorial checks preserve attribution and provide practical inspection aids (0.5541ms)
+✔ Galley guide, blueprint, reciprocal links and reviewed consultation journey are complete (90.3099ms)
+✔ Google sitemap notification uses the authorised sitemap endpoint, not the restricted Indexing API (5.9363ms)
+✔ Google notifications reject missing access, invalid sitemap and denied permission without claiming success (1.5853ms)
+✔ Google sitemap notification retries transient failures and stops after acceptance (2.9372ms)
+✔ published homepage HTML matches the source except for approved project and social icon corrections (5.2441ms)
+✔ published homepage stylesheet and interaction script stay identical (3.8063ms)
+✔ existing public project identities are retained independently from Wix cases (1.432ms)
+✔ CRM retries and concurrent conflicts reuse records, preserve sales updates and repair associations (3.9158ms)
+✔ production indexing policy applies consistently to HTML and assets (56.3974ms)
+✔ preview indexing policy applies consistently to HTML and assets (53.9467ms)
+✔ IndexNow restores the last successful main state and never uses another branch or current run (20.486ms)
+✔ IndexNow distinguishes first setup from a failed baseline lookup (0.7291ms)
+✔ IndexNow rejects malformed or foreign persisted state (0.3227ms)
+✔ IndexNow ignores changing script payloads but notices content and SEO changes (12.4843ms)
+✔ IndexNow chooses only new or changed pages and treats removal separately (0.5907ms)
+✔ IndexNow detects real favicon changes without treating build query hashes as content changes (7.7674ms)
+✔ IndexNow notices schema updates but ignores JSON property order (1.7597ms)
+✔ Quote guide provides an itemised comparison and actionable exclusions without invented prices (1.2602ms)
+✔ Human-confirmed technical review is recorded without changing authorship (0.5003ms)
+✔ Quote guide journey connects the real London project and a direct consultation CTA (67.4552ms)
+✔ Quote guide is classified as Planning and recommends the parent guide and showroom checklist (16.9011ms)
+✔ all source records retained with unique legacy paths (0.6307ms)
+✔ Wix image conversion preserves media id; invalid protocols rejected (0.2018ms)
+✔ paths reject external destinations and traversal (0.198ms)
+✔ original kitchen paths and uncertain public identities are protected (0.1722ms)
+✔ every enabled redirect has a real destination, no chains or homepage blanket redirects (2.6596ms)
+✔ native portfolio retains its local media and licensed image inventory (159.9218ms)
+✔ every article recommends two distinct existing articles without recommending itself (9.0076ms)
+✔ porcelain leads to a worktop comparison and complementary kitchen colour article (0.582ms)
+✔ unpublished curated suggestions are excluded and unrelated content is not forced into empty slots (0.8858ms)
+✔ homepage featured project names link to their actual source cases (15.5647ms)
+✔ every content page has a useful description rather than an empty placeholder (0.2133ms)
+✔ target kitchen designer article keeps approved structure and CTA marker (0.6058ms)
+✔ original article structure and publication dates survive migration (0.1657ms)
+✔ wardrobe landing preserves approved SEO and lead-generation structure (2.3937ms)
+ℹ tests 51
+ℹ suites 0
+ℹ pass 51
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 619.2519
