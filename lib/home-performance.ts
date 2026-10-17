@@ -18,5 +18,5 @@ export function improveHomePerformance(html:string){
   if(!href || !/^\/?nura-[a-z-]+\.css$/.test(href))return tag;
   const css=readFileSync(join(process.cwd(),'public',href.replace(/^\//,'')),'utf8');
   return `<style data-nura-style="${href}">${css.replace(/<\/style/gi,'<\\/style')}</style>`;
- }).replace('</head>',`<style>${readFileSync(join(process.cwd(),'public','nura-hero-fonts.css'),'utf8')}:root{--sans:'DM Sans','Nura Sans Fallback',Arial,sans-serif;--serif:'DM Serif Display','Nura Serif Fallback',Georgia,serif}.hero h1{font-family:'Nura Hero Serif','DM Serif Display','Nura Serif Fallback',Georgia,serif}</style></head>`);
+ }).replace('</head>',`<style>${readFileSync(join(process.cwd(),'app','fonts.css'),'utf8')}.hero h1{font-family:var(--serif)}</style></head>`);
 }
