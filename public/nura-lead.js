@@ -18,7 +18,7 @@
   for(const entry of entries){if(entry.isIntersecting)visible.add(entry.target);else visible.delete(entry.target);}
   const privacy=document.querySelector('.nura-privacy-control'),footer=document.querySelector('.nura-footer');
   if(privacy&&footer)privacy.hidden=visible.has(footer);
-  trigger.hidden=visible.size>0;
+  trigger.hidden=location.pathname==='/london'||visible.size>0;
  });inlineActions.forEach(el=>observer.observe(el));
  const dialog=holder.querySelector('dialog'),form=holder.querySelector('form'),submit=holder.querySelector('.nura-lead-submit'),status=holder.querySelector('.nura-lead-status');
  holder.querySelector('.nura-lead-trigger').addEventListener('click',()=>{if((wardrobePage||location.pathname==='/london')&&contact){contact.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});contact.focus({preventScroll:true});}else dialog.showModal();});
