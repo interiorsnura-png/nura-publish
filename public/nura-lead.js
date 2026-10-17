@@ -8,7 +8,7 @@
  document.body.append(holder);
  const trigger=holder.querySelector('.nura-lead-trigger');
  const wardrobePage=location.pathname.replace(/\/$/,'')==='/services/wardrobes-dressing-rooms';
- const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
+ const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
  const inlineActions=[contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq')].filter(Boolean);
  // IntersectionObserver already supplies visibility without a synchronous layout read.
@@ -20,7 +20,7 @@
   trigger.hidden=visible.size>0;
  });inlineActions.forEach(el=>observer.observe(el));
  const dialog=holder.querySelector('dialog'),form=holder.querySelector('form'),submit=holder.querySelector('.nura-lead-submit'),status=holder.querySelector('.nura-lead-status');
- holder.querySelector('.nura-lead-trigger').addEventListener('click',()=>{if(wardrobePage&&contact){contact.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});contact.focus({preventScroll:true});}else dialog.showModal();});
+ holder.querySelector('.nura-lead-trigger').addEventListener('click',()=>{if((wardrobePage||location.pathname==='/london')&&contact){contact.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});contact.focus({preventScroll:true});}else dialog.showModal();});
  document.addEventListener('click',e=>{if(e.target.closest('[data-nura-enquiry]')){e.preventDefault();dialog.showModal();}});
  holder.querySelector('.nura-lead-close').addEventListener('click',()=>dialog.close());
  dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
