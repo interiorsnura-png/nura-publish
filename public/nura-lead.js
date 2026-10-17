@@ -10,15 +10,14 @@
  const wardrobePage=location.pathname.replace(/\/$/,'')==='/services/wardrobes-dressing-rooms';
  const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
- const inlineActions=[contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq')].filter(Boolean);
- if(location.pathname==='/london')trigger.hidden=true;
+ const inlineActions=[contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq'),location.pathname==='/london'?document.querySelector('.london-welcome'):null].filter(Boolean);
  // IntersectionObserver already supplies visibility without a synchronous layout read.
  const visible=new Set();
  const observer=new IntersectionObserver(entries=>{
   for(const entry of entries){if(entry.isIntersecting)visible.add(entry.target);else visible.delete(entry.target);}
   const privacy=document.querySelector('.nura-privacy-control'),footer=document.querySelector('.nura-footer');
   if(privacy&&footer)privacy.hidden=visible.has(footer);
-  trigger.hidden=location.pathname==='/london'||visible.size>0;
+  trigger.hidden=visible.size>0;
  });inlineActions.forEach(el=>observer.observe(el));
  const dialog=holder.querySelector('dialog'),form=holder.querySelector('form'),submit=holder.querySelector('.nura-lead-submit'),status=holder.querySelector('.nura-lead-status');
  holder.querySelector('.nura-lead-trigger').addEventListener('click',()=>{if((wardrobePage||location.pathname==='/london')&&contact){contact.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});contact.focus({preventScroll:true});}else dialog.showModal();});
