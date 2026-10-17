@@ -11,6 +11,7 @@
  const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
  const inlineActions=[contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq')].filter(Boolean);
+ if(location.pathname==='/london')trigger.hidden=true;
  // IntersectionObserver already supplies visibility without a synchronous layout read.
  const visible=new Set();
  const observer=new IntersectionObserver(entries=>{
