@@ -1588,6 +1588,54 @@
     }
   },
   {
+    "path": "/journal/bespoke-media-walls-london",
+    "source": {
+      "collection": "nura-editorial",
+      "id": "/journal/bespoke-media-walls-london"
+    },
+    "content": {
+      "component": "article",
+      "title": "Bespoke Media Walls & Alcove Joinery in London",
+      "location": "London",
+      "category": "Architectural joinery",
+      "summary": "A practical guide to planning a bespoke media wall or alcove joinery, including materials, technical details, indicative costs and the design process.",
+      "seo_title": "Bespoke Media Walls & Alcove Joinery in London | NURA",
+      "seo_description": "Explore bespoke media walls and alcove joinery in London, including materials, design considerations, indicative costs and the process from brief to installation.",
+      "published_date": "2026-10-18T00:00:00.000Z",
+      "modified_date": "2026-10-18T00:00:00.000Z",
+      "author_name": "Nura Interiors",
+      "source_publish_status": "draft",
+      "hero": {"filename": "/assets/selected/nura-fulham-showroom-sign.webp", "alt": "Nura Interiors London showroom exterior"},
+      "body_nodes": [
+        {"type":"paragraph","children":[{"type":"text","text":"A bespoke media wall or alcove joinery should do more than frame a screen. It should resolve storage, cables, lighting and the character of the room, particularly in a period property where chimney breasts, uneven walls and existing joinery shape the design."}]},
+        {"type":"heading","level":2,"children":[{"type":"text","text":"What does bespoke media wall joinery involve?"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"The scope depends on the room, the equipment and the level of cabinetry required. A commission may include fitted alcove cabinets, shelving, concealed cable routes, equipment storage, lighting and a finish developed alongside the surrounding architecture. A clear written specification should identify what is included in design, manufacture, delivery, installation and any work by other trades."}]},
+        {"type":"heading","level":2,"children":[{"type":"text","text":"Indicative costs for London joinery"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"There is no single NURA price for a media wall or alcove commission. Indicative costs depend on dimensions, materials, hardware, electrical requirements, access, finish and installation scope. A smaller fitted cabinetry commission and a full-width architectural joinery wall should not be compared without matching the inclusions. Ask for the VAT treatment, exclusions and responsibilities to be stated in the proposal."}]},
+        {"type":"heading","level":3,"children":[{"type":"text","text":"What to compare in an estimate"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Compare the cabinetry construction, internal storage, doors and hardware, worktop or ledge materials, cable and ventilation requirements, decoration and making good, delivery, installation and handover. The lowest total is not necessarily the clearest comparison if important site work or coordination sits outside the scope."}]},
+        {"type":"heading","level":2,"children":[{"type":"text","text":"Materials and technical details"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Material decisions should respond to use, light, maintenance and the wider room. Veneer, painted finishes, timber details, stone or porcelain surfaces and metal hardware can each produce a different balance of warmth and contrast. Samples should be viewed beside the existing floor, walls and adjacent furniture before manufacture."}]},
+        {"type":"heading","level":3,"children":[{"type":"text","text":"AV equipment, access and ventilation"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Televisions, amplifiers and other equipment need an agreed approach to cable routes, access and heat management. The final solution depends on the equipment schedule and cabinet design. Confirm these interfaces before manufacture rather than assuming that every device can be enclosed in the same way."}]},
+        {"type":"heading","level":3,"children":[{"type":"text","text":"Working with period walls and existing finishes"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Out-of-square walls, uneven floors, skirting boards and cornices can affect the junctions between fitted furniture and the building. A survey and clear site information help establish what can be made accurately, what must be adjusted on site and which responsibilities belong to other trades."}]},
+        {"type":"heading","level":2,"children":[{"type":"text","text":"The NURA design and installation process"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Begin with photographs, approximate dimensions, the property location, the way the room is used and the equipment or storage requirements. The studio can then establish the likely scope, information needed and next design stage. Confirm the specification, approvals, programme, access and installation responsibilities before manufacture."}]},
+        {"type":"paragraph","children":[{"type":"text","text":"For related guidance, explore "},{"type":"text","text":"NURA’s architectural joinery service","link":"/services/architectural-joinery"},{"type":"text","text":" and "},{"type":"text","text":"living spaces service","link":"/services/living-spaces"},{"type":"text","text":". For a completed project reference, view the "},{"type":"text","text":"Westover Road project","link":"/joinery/westover-road"},{"type":"text","text":"."}]},
+        {"type":"heading","level":2,"children":[{"type":"text","text":"Frequently asked questions"}]},
+        {"type":"heading","level":3,"children":[{"type":"text","text":"Do I need an architect’s tender pack to request a quote?"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Not necessarily. Homeowners can begin with photographs, approximate dimensions and a description of the brief. The information required will depend on the scope, property and stage of the project."}]},
+        {"type":"heading","level":3,"children":[{"type":"text","text":"How long does installation take?"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Installation time depends on the size, specification, access and preparation required. NURA should confirm the anticipated programme against the agreed brief and site conditions."}]},
+        {"type":"heading","level":3,"children":[{"type":"text","text":"Can existing finishes be matched?"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Potentially. Feasibility depends on the existing material, age, condition and available samples. The studio should confirm the proposed match before manufacture."}]},
+        {"type":"heading","level":2,"children":[{"type":"text","text":"Discuss your joinery brief"}]},
+        {"type":"paragraph","children":[{"type":"text","text":"Share photographs, rough dimensions, your location and the priorities for the room. NURA can then discuss the likely scope and the information needed to develop the brief. "},{"type":"text","text":"Arrange a consultation","link":"/consultation"},{"type":"text","text":" or visit the "},{"type":"text","text":"London showroom","link":"/london"},{"type":"text","text":"."}]}
+      ]
+    }
+  },
+  {
     "path": "/post/finding-a-balance-with-decorative-lighting",
     "source": {
       "collection": "Blog/Posts",
