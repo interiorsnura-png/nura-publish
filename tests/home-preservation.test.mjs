@@ -5,7 +5,7 @@ test('published homepage preserves the approved Work editorial composition',asyn
  const served=JSON.parse(await readFile(new URL('../lib/published-home.json',import.meta.url),'utf8'));
  assert.match(served.html,/section id="work" class="work section-pad reveal"/);
  assert.match(served.html,/class="work-editorial"/);
- assert.match(served.html,/href="\/projects\/catalogue#films"/);
+ assert.match(served.html,/href="\/projects"/);
  for(const href of ['/kitchens/elm-park-road','/kitchens/tansley-farm','/kitchens/westover-road'])assert.match(served.html,new RegExp(`href="${href.replaceAll('/','\\/')}"`));
  assert.match(served.html,/class="featured-study"/);
  assert.doesNotMatch(served.html,/work-editorial[\\s\\S]*—/);
