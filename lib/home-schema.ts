@@ -14,13 +14,14 @@ const hours=[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday',
 const studio=(city:string,street:string,country:string,postalCode?:string)=>({
  '@type':'ProfessionalService','@id':siteUrl+'/'+city.toLowerCase()+'#showroom',name:'Nura Interiors: '+city+' showroom',url:siteUrl+'/'+city.toLowerCase(),
  parentOrganization:{'@id':organization['@id']},email:organization.email,telephone:city==='London'?'+442071236949':'+971506691090',
- ...(city==='Dubai'?{hasMap:'https://www.google.com/maps/search/?api=1&query=Burlington%20Tower%2C%20Marasi%20Dr%2C%20Business%20Bay%2C%20Dubai'}:{}), priceRange:'Quoted individually according to the brief and specification', image:siteUrl+'/assets/selected/nura-hero-shot.jpeg',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:city==='London'?[...hours,{'@type':'OpeningHoursSpecification',dayOfWeek:['Saturday'],opens:'10:00',closes:'16:00'}]:hours
+ ...(city==='Dubai'?{hasMap:'https://www.google.com/maps/search/?api=1&query=Burlington%20Tower%2C%20Marasi%20Dr%2C%20Business%20Bay%2C%20Dubai'}:{}), priceRange:'Quoted individually according to the brief and specification', image:siteUrl+'.webp',address:{'@type':'PostalAddress',streetAddress:street,addressLocality:city,addressCountry:country,...(postalCode?{postalCode}:{})},openingHoursSpecification:city==='London'?[...hours,{'@type':'OpeningHoursSpecification',dayOfWeek:['Saturday'],opens:'10:00',closes:'16:00'}]:hours
 });
 export const homeSchema={
  '@context':'https://schema.org','@graph':[
  {...organization,aggregateRating:{'@type':'AggregateRating',ratingValue:5,bestRating:5,worstRating:1,reviewCount:3,name:'Three featured client reviews',description:'Average of the three selected Google reviews displayed on this page; not the overall Google Business rating.'}},
  ...clientReviews,
  ...homeImages,
+ {'@type':'ImageObject','@id':siteUrl+'/assets/portfolio/p10-1.webp#image',contentUrl:siteUrl+'/assets/portfolio/p10-1.webp',name:'Green stone worktop and timber drawer storage from the NURA portfolio',license:siteUrl+'/assets/image-license.html',acquireLicensePage:siteUrl+'/assets/image-license.html',creditText:'Nura Interiors',creator:{'@type':'Organization',name:'Nura Interiors'},copyrightNotice:'© Nura Interiors. All rights reserved.'},
  {'@type':'WebSite','@id':siteUrl+'/#website',url:siteUrl+'/',name:'Nura Interiors',publisher:{'@id':organization['@id']},inLanguage:'en-GB'},
  {'@type':'WebPage','@id':siteUrl+'/#webpage',url:siteUrl+'/',dateModified:homeModified,name:'Nura Interiors | Bespoke Kitchens & Joinery, Made Around You',description:'From the first conversation to installation, Nura creates bespoke kitchens and joinery around your life. Discover our studios in London and Dubai.',isPartOf:{'@id':siteUrl+'/#website'},about:{'@id':organization['@id']},mainEntity:{'@id':siteUrl+'/#interior-services'},inLanguage:'en-GB'},
  studio('London','367 Fulham Palace Road','GB','SW6 6TA'),
