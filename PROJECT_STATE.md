@@ -150,3 +150,10 @@ Retained high-priority responsive hero preload after local mobile score improved
 Performance release authorised on 2026-10-16; final source validations already passed, current origin/main98b82a0 unchanged. Await exact deployment identity and live checks.
 
 Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl_CRQTbJT7djyq63iAKaWp1KbEsFht READY with www.nura-interiors.com alias. Live HTTP200, high-priority hero, four old CSS requests absent, AVIF34167 bytes. Post-release Lighthouse mobile95/FCP1.7s/LCP2.5s/TBT0/CLS0; a new agent-run test, not the same PSI environment. Live browser390x844 no overflow, loaded hero, zero broken images, no console errors/warnings observed. Form not submitted. Final notes local only.
+
+## 2026-10-21: plywood and MFC journal article, local only
+
+- Prepared the approved `/post/plywood-vs-mfc-kitchen-carcasses` record with the £40,000 title, explicitly illustrative price, qualified material guidance, existing hero, sources, related reading and consultation journey. The local journal Materials filter includes the article.
+- `npm run build:verified` passed: 70 tests, TypeScript/build, 71 route checks, 745 photo instances, 506 unique photos and zero missing licenses. Focused tests, typecheck and whitespace checks passed. A read-only code review found no concrete issues.
+- The worktree's own built app on port 4176 rendered the article with the intended H1, description, canonical, Article/Breadcrumb schemas, hero and links; the mobile 375px view had no horizontal overflow. The Materials journal view showed six stories and the new card. The separate port 4175 preview points to the original checkout and returned 404 for this route, so it is not evidence about this worktree. Local preview console showed Speed Insights script 404/MIME errors; no production browser check or external schema validation was made.
+- `published_date` is a locally assigned 2026-10-21 calendar date, not an observed first Production publication timestamp. No push, deployment or production verification was authorised.

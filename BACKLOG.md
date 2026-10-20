@@ -32,6 +32,8 @@
 - [ ] Verify London landing content release on Production; real submission and GA4 receipt are not covered by this UI check.
 
 - [ ] Review local journal prototype at http://127.0.0.1:3011/journal before any production release.
+- [x] Verify the new plywood/MFC article and Materials journal card on this worktree's local build: desktop article metadata, canonical, schema, links and loaded hero; mobile 375px article/filter without horizontal overflow. `build:verified` passed 70 tests and 71 route checks.
+- [ ] If a production release is later authorised, verify exact Vercel source/READY/alias and the live article at desktop and mobile widths. Its 2026-10-21 date is currently local editorial metadata, not a verified Production first-publication timestamp. External rich-results validation and real enquiry submission remain unverified. Local Speed Insights script 404/MIME console errors should be assessed separately from article rendering.
 
 - [ ] Validate journal structured data with an external validator before production release; local JSON, graph references, archive correspondence and image deduplication checks passed.
 

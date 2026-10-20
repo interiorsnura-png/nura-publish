@@ -149,4 +149,11 @@ User authorised production release of the reviewed performance changes on 2026-1
 
 Release complete: exact Vercel SHA/READY/alias verified for8fda09a. Live Lighthouse95, report ../../outputs/fulham-performance-live.json. Mobile browser and image/header checks passed. No real form submitted. No claim of100 mobile or field INP verification.
 
+## 2026-10-21: local plywood/MFC article
+
+- Added the approved journal article at `/post/plywood-vs-mfc-kitchen-carcasses`, topic metadata, two related-reading choices, proof/service/consultation journey and focused tests. Kept the £40,000 hook, marking it illustrative rather than a verified quote. Removed unsupported performance, price-saving and delivery assertions from the supplied draft.
+- `npm run build:verified` completed successfully: 70 tests, TypeScript/build, 71 route checks, 745 photo instances, 506 unique photos and zero missing licenses. The focused test run, typecheck and `git diff --check` passed. Read-only code review found no concrete issue.
+- On this worktree's local build at `http://localhost:4176`, the article rendered its title, canonical, metadata, schemas, hero, links and related cards. The mobile 375x812 article and Materials journal filter had no horizontal overflow; Materials showed six stories including the new card. Hero loaded on a settled browser check. Local Speed Insights script requests yielded 404/MIME console errors, not an observed article rendering failure.
+- An initial port 4175 inspection returned 404 because its owned process runs from the original checkout. No commit, push, production deployment, live check, external rich-results validation or enquiry submission was performed at this point.
+
 User requested remaining evidence pushed. Archived reports, logs and screenshots under docs/evidence/2026-10-16-performance. Redacted diagnostic credential-like patterns from repository copies; original local files preserved. Documentation push may trigger Vercel; application code unchanged.

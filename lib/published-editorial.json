@@ -4152,5 +4152,47 @@
         "reviewed_date": "2026-10-11"
       }
     }
+  },
+  {
+    "path": "/post/plywood-vs-mfc-kitchen-carcasses",
+    "content": {
+      "component": "article",
+      "title": "The £40,000 Kitchen Question: What’s Behind the Cabinet Doors?",
+      "category": "Materials",
+      "summary": "Compare plywood and MFC kitchen carcasses by board specification, edge protection, hardware and installation, not the showroom finish alone.",
+      "seo_title": "£40,000 Kitchen? Plywood vs MFC Carcasses | Nura",
+      "seo_description": "What is behind the doors of a £40,000 kitchen? Compare plywood and MFC carcasses, moisture details, hardware and the written specification before you buy.",
+      "published_date": "2026-10-21",
+      "author_name": "Nura Interiors",
+      "author_bio": "Nura Interiors designs bespoke kitchens and architectural joinery. This guide explains questions to ask about the exact materials and construction proposed for your project.",
+      "source_publish_status": "published",
+      "hero": {
+        "filename": "/assets/guides/nura-guide-timber-cabinetry.webp",
+        "alt": "Timber kitchen cabinetry detail with vertical grain and an integrated oven"
+      },
+      "body_nodes": [
+        {"type": "paragraph", "children": [{"type": "text", "text": "If you are considering a £40,000 kitchen, ask what the cabinet boxes are made from before deciding whether the quotation represents value. That figure is an illustrative purchase price, not a verified Nura quote, a market average or proof that any particular kitchen uses chipboard. Compare the actual proposed materials, construction and complete installed scope."}]},
+        {"type": "callout", "caption": "Questions to take to the showroom", "children": [{"type": "ul", "children": [
+          {"type": "li", "children": [{"type": "text", "text": "What board and grade are specified for the carcass, shelves, doors and wet-zone panels?"}]},
+          {"type": "li", "children": [{"type": "text", "text": "How are cut edges, sink openings and appliance junctions protected?"}]},
+          {"type": "li", "children": [{"type": "text", "text": "Which fittings, load ratings, installation work and exclusions appear in the written quote?"}]}
+        ]}]},
+        {"type": "heading", "level": 2, "children": [{"type": "text", "text": "What MFC and plywood actually describe"}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Melamine-faced chipboard, often abbreviated to MFC, combines a particleboard core with a decorative surface. Plywood is built from bonded layers of veneer. Neither name alone tells you the board grade, thickness, adhesive, edge detail or how the finished cabinet will perform in your room. A well-specified MFC cabinet can be appropriate for indoor use; an unspecified plywood cabinet is not automatically a better one."}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Ask the supplier to separate the door finish from the carcass specification. A photographed walnut front does not tell you what supports the shelves or how a cut-out beside a sink has been sealed. If a proposal says ‘marine plywood’, request the actual panel grade, manufacturer, adhesive classification and finish rather than treating the phrase as a promise that a completed cabinet is waterproof."}]},
+        {"type": "heading", "level": 2, "children": [{"type": "text", "text": "Check the places where moisture can enter"}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "The exposed edges around sinks, pipe penetrations and dishwashers deserve more attention than an intact decorative face. Ask to see an actual edge and a finished service cut-out, then ask who seals each cut edge after work on site. Leakage, standing water and repeated wetting can damage wood-based boards and their finishes. Board selection, edge treatment and prompt repair of a leak all matter; no cabinet material makes plumbing maintenance unnecessary."}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Manufacturer guidance for "}, {"type": "text", "text": "MEDITE MR", "link": "https://mdfosb.com/en/products/medite-mr"}, {"type": "text", "text": " illustrates an important distinction: a board intended for intermittent humidity in kitchens is not thereby waterproof. This MDF example is not a test of the MFC or plywood in your quotation; request documentation for the exact boards offered."}]},
+        {"type": "heading", "level": 2, "children": [{"type": "text", "text": "Test hardware and structure against the actual design"}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Open the proposed tall doors and drawers, check clearances and ask how the hinges and runners attach to the selected cabinet. For wide shelves, heavy contents or stone worktops, request the designer’s support details and the manufacturer’s permitted spans and loads. Screw holding, bending and moisture performance depend on the exact panel and test method, so a universal number for either board type would be misleading."}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Hardware ratings are product-specific. For example, "}, {"type": "text", "text": "Blum’s MOVENTO programme", "link": "https://www.blum.com/gb/en/products/runnersystems/movento/programme/"}, {"type": "text", "text": " lists different load classes for different runner configurations. It does not establish the screw withdrawal strength or service life of a complete kitchen. Ask whether the quoted hardware matches what you tried in the showroom."}]},
+        {"type": "heading", "level": 2, "children": [{"type": "text", "text": "Compare the whole quotation, not one board price"}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "A board’s purchase price is only one part of a kitchen quotation. Cabinet design, doors, fittings, worktops, delivery, site preparation, installation, warranty and applicable VAT can change the final scope. A claim that one board costs less at a mill does not prove a saving on a like-for-like installed kitchen. Ask for named materials and written inclusions before comparing totals or assuming a plywood upgrade is included."}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Use our "}, {"type": "text", "text": "guide to comparing kitchen quotes", "link": "/post/how-to-compare-bespoke-kitchen-quotes-in-london"}, {"type": "text", "text": " for a wider scope checklist, or read the "}, {"type": "text", "text": "Fulham showroom guide", "link": "/post/choosing-a-kitchen-showroom-in-fulham"}, {"type": "text", "text": " for questions to ask while inspecting a display. Neither a country of origin nor a premium price substitutes for a written specification."}]},
+        {"type": "heading", "level": 2, "children": [{"type": "text", "text": "Bring your drawings and ask for a clear specification"}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "If you have plans or another quotation, bring them to a conversation with Nura. We can discuss the materials, fittings, site constraints and scope that matter to your project. An enquiry begins that discussion; it does not promise a free comparative estimate, sample delivery, price saving or fixed response time."}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Discuss your kitchen brief with the Nura studio", "link": "/consultation"}]}
+      ]
+    }
   }
 ]

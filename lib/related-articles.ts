@@ -1,6 +1,7 @@
 import type {Entry} from './content';
 
 const topics:Record<string,{category:string;description:string;tags:string[]}>={
+ 'plywood-vs-mfc-kitchen-carcasses':{category:'Materials',description:'Compare cabinet boards, edge protection and written specifications before choosing a kitchen.',tags:['materials','kitchens','cabinetry']},
  'planning-a-galley-kitchen-in-london':{category:'Planning',description:'Plan a galley kitchen around circulation, storage, light and everyday use.',tags:['planning','kitchens','layout']},
  'how-to-compare-bespoke-kitchen-quotes-in-london':{category:'Planning',description:'Compare scope, materials, allowances and installation responsibilities.',tags:['planning','kitchens','quotes']},
  'choosing-a-kitchen-showroom-in-fulham':{category:'Showroom planning',description:'Check cabinetry, hardware and material samples before your Fulham showroom visit.',tags:['planning','kitchens','showroom']},
@@ -23,6 +24,7 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+ 'plywood-vs-mfc-kitchen-carcasses':['solid-wood-or-veneer','choosing-a-kitchen-showroom-in-fulham'],
  'planning-a-galley-kitchen-in-london':['bespoke-kitchens','how-to-compare-bespoke-kitchen-quotes-in-london'],
  'how-to-compare-bespoke-kitchen-quotes-in-london':['bespoke-kitchens','choosing-a-kitchen-showroom-in-fulham'],
  'choosing-a-kitchen-showroom-in-fulham':['bespoke-kitchens','solid-wood-or-veneer'],
