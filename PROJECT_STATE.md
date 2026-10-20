@@ -124,6 +124,11 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - Browser: desktop1440x900 and mobile390x844 have no horizontal page overflow; callout, table and reviewer visible; browser error log empty. Screenshots ../outputs/nura-fulham-revised-desktop.jpg, nura-fulham-revised-mobile.jpg, nura-fulham-rich-results.jpg.
 - Local preview runs on port3011. No commit, push or production deployment in this correction task. Build used temporary two workers; original config restored. Next step: commit/push this correction release and verify exact Production source and live page.
 
+## 2026-10-20: projects heading spacing correction
+
+- Confirmed the authoritative `/projects` listing title is `Our work.` in `app/[...slug]/page.tsx`. The shared `Hero` renderer now preserves a real accessible text-space between preceding words and the final emphasized word without changing other heading content or the two-line design.
+- Local `npm run build:verified` passed: 70 pages, 741 photo instances, 506 unique photos and zero missing licenses. Owned preview inspection of `/projects` at desktop 1440x900 and mobile 390x844 showed H1 `Our work.`, no horizontal overflow and no console messages. Commit, push, PR and production verification remain pending.
+
 ## 2026-10-16: approved article journey release
 Prepared from origin/main 986bdcf, limited to ArticleJourney presentation and CSS. Heading Plan your next step, contextual proof/service links preserved, enquiry promoted to primary button. User authorised publication. 51 tests, typecheck and production build passed. Deployment/live checks pending.
 

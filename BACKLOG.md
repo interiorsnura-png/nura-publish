@@ -2,6 +2,7 @@
 
 - [ ] Enable the owner's Google Cloud MFA, configure the dedicated Search Console/WIF connection and verify a real Google sitemap API receipt. Code readiness is not an active Google connection.
 - [ ] Release guard is local-only: after authorized merge, verify exact remote main SHA, build, and fresh Vercel READY/source/alias plus live mobile and desktop routes. No offline receipt proves production.
+- [ ] Review and merge the `/projects` accessible heading spacing correction PR, then verify the exact Production source and live `/projects` heading at desktop and mobile sizes.
 - [ ] Verify the updated automatic Bing workflow after Production deployment and save its actual receipt report. Expanded fingerprints intentionally notify the current sitemap inventory once on migration.
 
 - [ ] Verify the user-approved transparent rich gold favicon release on Production: exact source commit, Vercel READY/alias, homepage and article metadata, live PNG/ICO transparency and asset identity.
