@@ -132,6 +132,13 @@ Release verified: commit 98b82a0e5bca5440226a50da788114ccf00a722e, Production RE
 ## 2026-10-16: performance optimisation, local only
 Bundled four existing global CSS files, added high-priority eager hero image, preloaded three existing Latin font resources and enabled negotiated AVIF with WebP fallback. Original content, imagery, analytics and forms retained. Same-machine Lighthouse13.5 mobile baseline86: FCP2.6s/LCP3.6s/CLS0.021; final91: FCP1.2s/LCP3.4s/TBT10ms/CLS0.017. Hero transfer67944 to35945 bytes. This is not comparable to remote PSI94 and does not prove100. 51 tests/build/route-image verification passed. Browser390x844 no overflow, hero loaded, bundled styles present, console clean. No push/deployment.
 
+## 2026-10-20: local release guard repair
+
+- Repaired the local-only release guard for Windows CLI invocation, real Git/npm process launching, isolated filesystem fixtures, receipt validation, source-change/build-failure invalidation, and actual Vercel deployment record validation.
+- Initial local validation passed 65 tests (13 release guard tests), zero failures. Receipts expire after 24 hours and must match worktree, SHA/tree, origin and fresh remote main. Real Git/build fixture passed; actual dirty checkout correctly fails release readiness. PR preparation includes the owned dynamic-port build verifier, with three additional focused tests passing. Initial candidate full build verified 70 routes. Final amended PR commit is verified separately; main integration and live production checks remain pending.
+- Focused and full test totals and the exact release commands remain pending until the requested command sequence completes. No commit, push, deploy, external API, credential, permission, or application/content action was performed.
+- A local receipt is process evidence only, not a security signature or production evidence. Exact remote main SHA, full build, fresh Vercel READY/source/alias checks, and live desktop/mobile checks remain pending. The guard cannot prevent arbitrary manual `vercel` commands.
+
 ## 2026-10-16: second performance pass
 Retained high-priority responsive hero preload after local mobile score improved91 to93, LCP3.4 to3.2s, FCP1.2s, TBT0ms, CLS0.017. Global inlineCss experiment worsened score89 and HTML transfer19250 to46714 bytes, so removed it. No experimental inlineCss flag remains. 51 tests/build/route validation passed. Browser390x844 confirms high-priority preload, loaded hero, no overflow and empty error/warning log. Not published.
 

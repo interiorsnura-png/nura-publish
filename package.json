@@ -11,7 +11,11 @@
     "seo:check": "node scripts/seo-check.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "images:archive": "node scripts/archive-images.mjs",
-    "build:verified": "npm test && npm run build && node scripts/verify-build.mjs"
+    "build:verified": "npm test && npm run build && node scripts/verify-build.mjs",
+    "release:status": "node scripts/release-guard.mjs status",
+    "release:check": "node scripts/release-guard.mjs check",
+    "release:verify": "node scripts/release-guard.mjs verify",
+    "release:inspect": "node scripts/release-guard.mjs inspect"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0",
