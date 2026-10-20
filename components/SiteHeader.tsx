@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
 import Image from 'next/image';
-const links=[['Work','/projects'],['Approach','/process'],['Services','/services'],['Contact','/contact']];
+const links=[['Projects','/projects'],['Services','/services'],['Our process','/process'],['Journal','/journal'],['About','/about'],['Showrooms','/london'],['For professionals','/for-professionals']];
 export default function SiteHeader(){
  const [open,setOpen]=useState(false);
  const toggle=useRef<HTMLButtonElement>(null),menu=useRef<HTMLElement>(null),desktopNav=useRef<HTMLElement>(null);

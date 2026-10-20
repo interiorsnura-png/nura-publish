@@ -15,8 +15,10 @@ export function improveHomeSeo(html:string){
  });
  html=html.replace(/<section class="faq\b[^>]*>[\s\S]*?<\/section>/,homeFaqHtml)
   .replace('</head>','<link rel="stylesheet" href="/nura-faq.css"/><meta name="msvalidate.01" content="164A92F684156746CF0F2F92F87ED5C0"/></head>');
- html=html.replace(/\s*<nav class="desktop-nav"[^>]*>[\s\S]*?<\/nav>/,'')
-  .replace('class="site-nav" aria-label="Mobile navigation"','class="site-nav nura-main-nav" aria-label="Main navigation"');
+ const mainNav='<nav class="desktop-nav nura-main-nav" aria-label="Main navigation"><a href="/projects">Projects</a><a href="/services">Services</a><a href="/process">Our process</a><a href="/journal">Journal</a><a href="/about">About</a><a href="/london">Showrooms</a><a href="/for-professionals">For professionals</a></nav>';
+ html=html.replace(/\s*<nav class="desktop-nav"[^>]*>[\s\S]*?<\/nav>/,mainNav)
+  .replace(/class="site-nav" aria-label="Mobile navigation"/, 'class="site-nav nura-main-nav" aria-label="Main navigation"')
+  .replace(/<nav id="site-menu"[^>]*>[\s\S]*?<\/nav>/,mainNav.replace('class="desktop-nav nura-main-nav"','id="site-menu" class="site-nav nura-main-nav"'));
  html=html.replace(/<footer[\s\S]*?<\/footer>/,footerHtml);
  html=html.replace(/(<body\b[^>]*>)/,'$1<a class="nura-skip-link" href="#top">Skip to content</a>')
   .replace('<main id="top">','<main id="top" tabindex="-1">');
