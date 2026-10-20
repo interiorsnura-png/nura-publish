@@ -130,6 +130,11 @@ Applied only the two reviewed UI files on current main, preserving newer analyti
 
 Production verification passed for 98b82a0 on 2026-10-16: exact Vercel source/READY/domain verified, live mobile/desktop layout and CTA destination inspected. Screenshot ../../outputs/journey-live-mobile.png. No form sent.
 
+## 2026-10-20: projects heading spacing correction
+
+- Confirmed the `/projects` route uses `listingTitles['/projects'] = 'Our work.'` and found the shared Hero JSX had omitted the text node space before the final emphasized word. Replaced only that renderer expression, preserving the title, two-line layout and unrelated headings.
+- `npm run build:verified` passed with 70 pages, 741 photo instances, 506 unique photos and zero missing licenses. The owned local preview rendered `/projects` at 1440x900 and 390x844 with accessible H1 `Our work.`, no overflow and no console messages. Origin refresh failed because `github.com` DNS was unavailable. No commit, push, PR or production action yet.
+
 ## 2026-10-20: local release guard correction
 - Added dependency-free release status, strict post-merge check, verification receipt, and deployment identity validator. No merge, push, deploy, production, credential, or permission action was performed. The current dirty worktree and untracked permission smoke proof remain intentionally unreleasable.
 - Final independent validation on 2026-10-20: npm test passed 65 tests with 0 failures, including 13 release guard tests. A disposable real Git checkout exercised the actual Windows npm build runner, success receipt, follow-up check and receipt invalidation after a source edit. Its build was a fixture, not the application production build. Direct release:status identified the actual worktree and SHA ec48b54e1b53477b756a0bf388e4b5fc9c84cc6b; check at that SHA exited 1 for uncommitted/untracked source. git diff --check passed. Full application build, remote/main release validation and live production checks remain pending. No commit, push or deployment.
