@@ -21,7 +21,7 @@ const links=nodes=>nodes.flatMap(n=>[...(n.link?[n.link]:[]),...links(n.children
 test('plywood and MFC article is unique, dated and makes its price illustrative',()=>{
  assert.equal(entries.filter(e=>e.path===path).length,1);
  const c=article.content,text=flatten(c.body_nodes);
- assert.equal(c.title,'The £40,000 Kitchen Question: What’s Behind the Cabinet Doors?');
+ assert.equal(c.title,'Plywood vs MFC Kitchen Carcasses: The £40,000 Kitchen Question');
  assert.equal(c.published_date,'2026-10-21');
  assert.match(text,/illustrative purchase price/);
  assert.match(text,/not a verified Nura quote/);

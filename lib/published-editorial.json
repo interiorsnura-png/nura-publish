@@ -4157,7 +4157,7 @@
     "path": "/post/plywood-vs-mfc-kitchen-carcasses",
     "content": {
       "component": "article",
-      "title": "The £40,000 Kitchen Question: What’s Behind the Cabinet Doors?",
+      "title": "Plywood vs MFC Kitchen Carcasses: The £40,000 Kitchen Question",
       "category": "Materials",
       "summary": "Compare plywood and MFC kitchen carcasses by board specification, edge protection, hardware and installation, not the showroom finish alone.",
       "seo_title": "£40,000 Kitchen? Plywood vs MFC Carcasses | Nura",
@@ -4168,10 +4168,10 @@
       "source_publish_status": "published",
       "hero": {
         "filename": "/assets/guides/nura-guide-timber-cabinetry.webp",
-        "alt": "Timber kitchen cabinetry detail with vertical grain and an integrated oven"
+        "alt": "Kitchen cabinet interior with timber cabinetry, integrated oven and visible storage construction"
       },
       "body_nodes": [
-        {"type": "paragraph", "children": [{"type": "text", "text": "If you are considering a £40,000 kitchen, ask what the cabinet boxes are made from before deciding whether the quotation represents value. That figure is an illustrative purchase price, not a verified Nura quote, a market average or proof that any particular kitchen uses chipboard. The visible finish tells you very little about what supports the shelves, carries the hinges or surrounds the sink. Compare the actual proposed materials, construction and complete installed scope."}]},
+        {"type": "paragraph", "children": [{"type": "text", "text": "Plywood is not automatically better than MFC for kitchen carcasses. The right choice depends on board grade, thickness, edge protection, hardware fixing, moisture exposure and installation quality. If you are considering a £40,000 kitchen, ask what the cabinet boxes are made from before deciding whether the quotation represents value. That figure is an illustrative purchase price, not a verified Nura quote, a market average or proof that any particular kitchen uses chipboard. The visible finish tells you very little about what supports the shelves, carries the hinges or surrounds the sink. Compare the actual proposed materials, construction and complete installed scope."}]},
         {"type": "callout", "caption": "Questions to take to the showroom", "children": [{"type": "ul", "children": [
           {"type": "li", "children": [{"type": "text", "text": "What board and grade are specified for the carcass, shelves, doors and wet-zone panels?"}]},
           {"type": "li", "children": [{"type": "text", "text": "How are cut edges, sink openings and appliance junctions protected?"}]},
