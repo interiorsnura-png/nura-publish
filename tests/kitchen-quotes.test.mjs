@@ -23,7 +23,7 @@ const links=nodes=>nodes.flatMap(n=>[...(n.link?[n.link]:[]),...links(n.children
 test('Quote guide provides an itemised comparison and actionable exclusions without invented prices',()=>{
  const c=article.content,nodes=c.body_nodes;
  assert.equal(entries.filter(e=>e.path===path).length,1);
- assert.equal(c.title,'How to Compare Bespoke Kitchen Quotes in London: Scope, Materials and Hidden Costs');
+ assert.equal(c.title,'8 Things to Compare in a Bespoke Kitchen Quote: London Guide');
  assert.equal(c.category,'Planning');
  assert.ok(flatten(nodes).split(/\s+/).length>=850);
  assert.equal(nodes.find(n=>n.type==='callout').children[0].children.length,5);
