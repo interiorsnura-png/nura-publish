@@ -5,7 +5,7 @@ const path='/post/how-to-compare-bespoke-kitchen-quotes-in-london',origin='https
 async function page(path){const r=await fetch(base+path);assert.equal(r.status,200,path);return cheerio.load(await r.text());}
 const $=await page(path);
 assert.equal($('h1').length,1);
-assert.equal($('h1').text(),'How to Compare Bespoke Kitchen Quotes in London: Scope, Materials and Hidden Costs');
+assert.equal($('h1').text(),'8 Things to Compare in a Bespoke Kitchen Quote: London Guide');
 assert.equal($('link[rel="canonical"]').attr('href'),origin+path);
 assert.equal($('meta[property="og:type"]').attr('content'),'article');
 assert.equal($('meta[name="twitter:card"]').attr('content'),'summary_large_image');
