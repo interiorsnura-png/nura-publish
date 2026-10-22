@@ -26,7 +26,11 @@ export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string
 };
 
 export function getArticleJourney(path:string,entries:Entry[]){
-  const targets=articleJourneyTargets[path];
+  const targets=articleJourneyTargets[path]||(
+   path.startsWith('/post/')&&entries.some(entry=>entry.path===path)
+    ? {proof:'/kitchens/amersham-road',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens'}
+    : null
+  );
   if(!targets)return null;
   const find=(target:string)=>entries.find(entry=>entry.path===target)||null;
   return {hasCustomEnquiry:Boolean(targets.enquiry),proof:find(targets.proof),proofLabel:targets.proofLabel,service:find(targets.service),enquiry:targets.enquiry||{href:'/consultation',label:'Discuss your project with Nura'}};

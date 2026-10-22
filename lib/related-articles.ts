@@ -60,5 +60,12 @@ export function getRelatedArticles(current:Entry,entries:Entry[]):Entry[]{
  const selected=(selections[slug(current.path)]||[]).flatMap(id=>{const entry=candidates.find(e=>slug(e.path)===id);return entry?[entry]:[];});
  const tags=articleRecommendationDetails(current).tags;
  const remaining=candidates.filter(e=>!selected.some(s=>s.path===e.path)).map(e=>({entry:e,score:articleRecommendationDetails(e).tags.filter(t=>tags.includes(t)).length})).filter(e=>e.score>0).sort((a,b)=>b.score-a.score||a.entry.path.localeCompare(b.entry.path));
- return [...selected,...remaining.map(e=>e.entry)].filter((e,i,all)=>all.findIndex(x=>x.path===e.path)===i).slice(0,2);
+ const related=[...selected,...remaining.map(e=>e.entry)].filter((e,i,all)=>all.findIndex(x=>x.path===e.path)===i);
+ if(related.length<2&&current.source?.collection==='nura-50-draft'){
+  for(const candidate of candidates){
+   if(candidate.path!==current.path&&!related.some(entry=>entry.path===candidate.path))related.push(candidate);
+   if(related.length===2)break;
+  }
+ }
+ return related.slice(0,2);
 }
