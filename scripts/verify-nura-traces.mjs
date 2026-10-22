@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+const root=process.cwd();
+const tracePath=path.join(root,'.next/server/app/sitemap.xml/route.js.nft.json');
+const trace=JSON.parse(fs.readFileSync(tracePath,'utf8'));
+const traced=new Set(trace.files.map(file=>path.resolve(path.dirname(tracePath),file)));
+const source=path.join(root,'lib/drafts/nura-50');
+const expected=[path.join(source,'manifest.json'),...fs.readdirSync(path.join(source,'articles')).filter(file=>file.endsWith('.md')).map(file=>path.join(source,'articles',file))];
+for(const file of expected)assert.ok(traced.has(file),'Sitemap deployment trace missing '+path.relative(root,file));
+console.log('Sitemap runtime bundle includes manifest and '+(expected.length-1)+' article sources.');

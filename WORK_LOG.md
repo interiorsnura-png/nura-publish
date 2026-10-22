@@ -157,3 +157,9 @@ Release complete: exact Vercel SHA/READY/alias verified for8fda09a. Live Lightho
 - An initial port 4175 inspection returned 404 because its owned process runs from the original checkout. No commit, push, production deployment, live check, external rich-results validation or enquiry submission was performed at this point.
 
 User requested remaining evidence pushed. Archived reports, logs and screenshots under docs/evidence/2026-10-16-performance. Redacted diagnostic credential-like patterns from repository copies; original local files preserved. Documentation push may trigger Vercel; application code unchanged.
+# 2026-10-23: NURA batch audit corrections
+
+- Implemented runtime sitemap tracing, deterministic batch overlays, dated Article checks for every article, exact sitemap URL membership and Planning category checks.
+- Preserved author assignments and legacy first-publication evidence; removed obsolete review attribution from replacement copy. Removed duplicated hero imagery and generic rights captions without changing image rights approval.
+- Six focused regressions passed. Full local verification runs 76 tests, 120 route checks and the packaged sitemap trace check. Release and live checks are reported separately; local success is not production evidence.
+
