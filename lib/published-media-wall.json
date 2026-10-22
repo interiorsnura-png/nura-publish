@@ -342,10 +342,9 @@
       {
         "type": "paragraph",
         "children": [
-          {
-            "type": "text",
-            "text": "Televisions and sound systems introduce technical requirements that should be resolved alongside the furniture. Confirm speaker locations, cable routes, power requirements and equipment access. For general household electrical safety guidance, see [Electrical Safety First's consumer guides](https://www.electricalsafetyfirst.org.uk/guides/). If a soundbar or speakers are concealed, check that the proposed material and openings suit the intended system. The audiovisual supplier and joinery designer should work from the same information."
-          }
+          {"type":"text","text":"Televisions and sound systems introduce technical requirements that should be resolved alongside the furniture. Confirm speaker locations, cable routes, power requirements and equipment access. For general household electrical safety guidance, see "},
+          {"type":"text","text":"Electrical Safety First's consumer guides","link":"https://www.electricalsafetyfirst.org.uk/guides/"},
+          {"type":"text","text":". If a soundbar or speakers are concealed, check that the proposed material and openings suit the intended system. The audiovisual supplier and joinery designer should work from the same information."}
         ]
       },
       {
