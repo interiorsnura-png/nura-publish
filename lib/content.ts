@@ -32,7 +32,7 @@ export function mergeBatchEntries(base:Entry[],batch:Entry[]):Entry[]{
         author_bio:ob.author_bio||nb.author_bio,
         published_date:ob.published_date||nb.published_date,
         category:ob.category||nb.category,
-        modified_date:'2026-10-23'};
+        modified_date:ob.modified_date||nb.modified_date};
       delete merged.reviewer;delete merged.pending_reviewer;
       map.set(b.path,{...old,content:merged});
     }else map.set(b.path,b);
