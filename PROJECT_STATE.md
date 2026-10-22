@@ -1,5 +1,9 @@
 # NURA Project State
 
+## 2026-10-23: Journal navigation layout
+
+- Prepared a bounded hero-height correction so the feature CTA stays inside its section and does not overlap the three category links. No content, author, URL or filter destination changes.
+
 ## 2026-10-23: remaining 20 Journal articles
 
 - Updated reader-facing descriptions on the 20 existing articles outside the batch of 50. Revised nine weak introductory paragraphs and removed 13 repeated-hero or empty image nodes.

@@ -1,5 +1,10 @@
 # NURA Work Log
 
+## 2026-10-23: Journal hero link overlap
+
+- Reproduced the feature link extending below the fixed-height hero at 1920x900, overlapping the next navigation section. Category destinations themselves remain the existing Journal filter routes.
+- Replaced the fixed hero height with a preferred minimum height and natural content growth, preserving mobile overrides and all link destinations. Live boundary and click checks follow deployment.
+
 ## 2026-10-23: legacy Journal update
 
 - Identified exactly 20 existing Journal article/guide records outside the recently corrected 50. Baseline live requests returned HTTP 200 for all 20.

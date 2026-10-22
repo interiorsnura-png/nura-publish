@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- [ ] Verify the Journal feature CTA stays inside the hero and all three category links navigate correctly at desktop and mobile sizes after the current layout release.
+
 - [x] Correct remaining 20 Journal descriptions, weak introductions and repeated/empty images with original author and publication history preserved.
 - [ ] Confirm the current 20-article release on production, including metadata, sitemap membership and representative responsive browser checks; final task evidence records the live result.
 
