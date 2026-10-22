@@ -5,6 +5,7 @@ import archive from '../migration/content-backup.json';
 import publishedProjects from './published-projects.json';
 import publishedEditorial from './published-editorial.json';
 import publishedPages from './published-pages.json';
+import publishedMediaWall from './published-media-wall.json';
 import type {ArticleNode} from '../components/RichArticle';
 import {loadMediaWallPreview,mediaWallPreviewPath} from './seo-media-wall-preview';
 export type Asset={filename:string;alt?:string;caption?:string};
@@ -13,7 +14,7 @@ export type Entry={path:string;content:Content;source?:{collection:string;id:str
 function apiBase(){const region=process.env.STORYBLOK_REGION||'eu';const hosts:Record<string,string>={eu:'api.storyblok.com',us:'api-us.storyblok.com',ap:'api-ap.storyblok.com',ca:'api-ca.storyblok.com'};if(!hosts[region])throw Error('Invalid Storyblok region');return 'https://'+hosts[region]+'/v2/cdn/stories';}
 export const getEntries=cache(async ():Promise<Entry[]> => {
   if(!process.env.CONTENT_SOURCE || process.env.CONTENT_SOURCE==='local' || process.env.CONTENT_SOURCE==='backup'){
-    const base=[...archive,...publishedProjects,...publishedEditorial,...publishedPages] as Entry[];
+    const base=[...archive,...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[];
     if(process.env.SEO_MEDIA_WALL_PREVIEW==='true'&&!base.some(entry=>entry.path===mediaWallPreviewPath))return [...base,await loadMediaWallPreview()];
     return base;
   }
