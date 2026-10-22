@@ -1105,7 +1105,7 @@
         }
       ],
       "seo_title": "Bespoke Kitchens in London: Design, Costs & Process | Nura",
-      "seo_description": "Plan a bespoke kitchen in London: layout, materials, costs and installation. Explore the guide and arrange a visit to Nura’s Fulham showroom.",
+      "seo_description": "Plan a bespoke kitchen in London around layout, materials, budget and installation responsibilities, with questions to clarify before approving the design.",
       "published_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H",
       "source_publish_status": "published",
@@ -1133,7 +1133,7 @@
         }
       ],
       "image_rights_status": "owned",
-      "modified_date": "2026-10-02"
+      "modified_date": "2026-10-23"
     }
   },
   {
@@ -1153,7 +1153,7 @@
           "children": [
             {
               "type": "text",
-              "text": "At Amersham Road in Gerrards Cross, Nura developed a bespoke porcelain-clad kitchen island from an ambitious catalogue reference into a working part of the home. The project combined slab selection in Italy, a lightweight aluminium honeycomb structure, Italian manufacture and a carefully coordinated delivery over two neighbouring properties."
+              "text": "At Amersham Road in Gerrards Cross, Nura developed a bespoke porcelain-clad kitchen island from an initial catalogue reference into a working part of the home. The project combined slab selection in Italy, an aluminium honeycomb structure and a coordinated delivery strategy."
             }
           ]
         },
@@ -1759,7 +1759,7 @@
         }
       ],
       "seo_title": "One-Tonne Porcelain Kitchen Island Case Study | Nura",
-      "seo_description": "Explore Nura’s Amersham Road porcelain kitchen island: slab selection in Italy, lightweight engineering and the delivery of a one-tonne assembled piece.",
+      "seo_description": "Explore Nura’s Amersham Road porcelain kitchen island case study, covering slab selection in Italy, engineering and delivery logistics.",
       "published_date": "2026-10-01T13:58:06.696Z",
       "author_name": "Joanne H",
       "source_publish_status": "published",
@@ -1792,7 +1792,7 @@
         }
       ],
       "image_rights_status": "owned",
-      "modified_date": "2026-10-01T14:41:26.421Z"
+      "modified_date": "2026-10-23"
     }
   },
   {
@@ -1801,10 +1801,10 @@
       "component": "article",
       "title": "Bespoke Joinery in London: A Planning Guide",
       "seo_title": "Bespoke Joinery in London: A Planning Guide | Nura",
-      "seo_description": "Plan bespoke joinery in London: define storage, materials, hardware and installation responsibilities, then discuss your brief at Nura’s Fulham showroom.",
+      "seo_description": "Plan bespoke joinery in London: define storage, materials, hardware and installation responsibilities at Nura’s Fulham showroom.",
       "author_name": "Joanne H",
       "published_date": "2026-10-02",
-      "modified_date": "2026-10-02",
+      "modified_date": "2026-10-23",
       "hero": {
         "filename": "/assets/selected/nura-cta-joinery.jpg",
         "alt": "Nura architectural joinery detail"
@@ -2071,10 +2071,10 @@
       "component": "article",
       "title": "Bespoke vs Made-to-Measure vs Fitted Kitchens",
       "seo_title": "Bespoke vs Made-to-Measure vs Fitted Kitchens | Nura",
-      "seo_description": "Compare bespoke, made-to-measure and fitted kitchens by dimensions, design flexibility, scope and installation. Know which questions to ask before choosing.",
+      "seo_description": "Compare bespoke, made-to-measure and fitted kitchens by dimensions, design flexibility, scope and installation before choosing.",
       "author_name": "Joanne H",
       "published_date": "2026-10-02",
-      "modified_date": "2026-10-02",
+      "modified_date": "2026-10-23",
       "hero": {
         "filename": "/assets/guides/nura-guide-kitchen-layout.webp",
         "alt": "Kitchen island with seating, pendant lighting and integrated cabinetry",
@@ -2298,9 +2298,9 @@
       "summary": "A practical showroom checklist for cabinet construction, hardware, material samples and your first design meeting in Fulham.",
       "category": "Showroom planning",
       "seo_title": "Kitchen Showroom Checklist in Fulham | Nura Interiors",
-      "seo_description": "Choosing a kitchen showroom in Fulham? Check cabinet quality, hinges, material samples and what to bring. Request a visit to Nura’s London showroom.",
+      "seo_description": "Choosing a kitchen showroom in Fulham? Inspect cabinet quality, hinges and material samples. Request a visit to Nura’s London showroom.",
       "published_date": "2026-10-11T05:40:22Z",
-      "modified_date": "2026-10-11T05:55:29Z",
+      "modified_date": "2026-10-23",
       "author_name": "Nura Interiors",
       "source_publish_status": "published",
       "hero": {
@@ -2313,7 +2313,7 @@
           "children": [
             {
               "type": "text",
-              "text": "Before choosing a kitchen showroom in Fulham, inspect cabinet construction, operate the hardware and compare actual material samples. Bring your plans and appliance details, then request a written specification and installation scope before committing."
+              "text": "Before choosing a kitchen showroom in Fulham, inspect cabinet construction, operate the hardware and compare actual material samples. Bring plans and appliance details, then ask for a written specification and installation scope."
             }
           ]
         },
@@ -3783,7 +3783,7 @@
       "category": "Planning",
       "summary": "Plan a London galley kitchen around circulation, appliance clearances, storage, light and everyday use.",
       "seo_title": "Planning a Galley Kitchen in London | Nura Interiors",
-      "seo_description": "Explore single and double galley layouts, a 1200 mm walkway planning diagram, storage, lighting and ventilation for a London kitchen.",
+      "seo_description": "Explore single and double galley layouts, walkway planning, storage, lighting and ventilation for a narrow London kitchen.",
       "published_date": "2026-10-11T07:47:03Z",
       "author_name": "Nura Interiors",
       "author_bio": "Nura Interiors designs bespoke kitchens and architectural joinery for considered homes. This guide brings together practical layout questions to discuss against the measured room and project specification.",
@@ -4150,7 +4150,8 @@
         "name": "Alex J",
         "role": "Execution and installation lead",
         "reviewed_date": "2026-10-11"
-      }
+      },
+      "modified_date": "2026-10-23"
     }
   },
   {

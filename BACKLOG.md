@@ -1,5 +1,10 @@
 # NURA Backlog
 
+- [ ] Verify the Journal feature CTA stays inside the hero and all three category links navigate correctly at desktop and mobile sizes after the current layout release.
+
+- [x] Correct remaining 20 Journal descriptions, weak introductions and repeated/empty images with original author and publication history preserved.
+- [ ] Confirm the current 20-article release on production, including metadata, sitemap membership and representative responsive browser checks; final task evidence records the live result.
+
 - [ ] Enable the owner's Google Cloud MFA, configure the dedicated Search Console/WIF connection and verify a real Google sitemap API receipt. Code readiness is not an active Google connection.
 - [ ] Release guard is local-only: after authorized merge, verify exact remote main SHA, build, and fresh Vercel READY/source/alias plus live mobile and desktop routes. No offline receipt proves production.
 - [ ] Review and merge the `/projects` accessible heading spacing correction PR, then verify the exact Production source and live `/projects` heading at desktop and mobile sizes.
