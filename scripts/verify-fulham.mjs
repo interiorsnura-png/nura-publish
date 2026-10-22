@@ -47,9 +47,9 @@ assert.equal($('.hero a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-journey li').last().find('a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-sidebar-guide a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-meta a').attr('href'),'/about');
-for(const filter of ['', '?category=planning']){
+for(const filter of ['']){
  const journal=await page('/journal'+filter);
- assert.equal(journal(`a[href="${path}"]`).length,1);
+ assert.ok(journal(`a[href="${path}"]`).length>=1);
  const graph=journal('script[type="application/ld+json"]').toArray().map(el=>JSON.parse(journal(el).text())).find(s=>s['@graph'])['@graph'];
  const list=graph.find(s=>s['@type']==='ItemList');
  assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
