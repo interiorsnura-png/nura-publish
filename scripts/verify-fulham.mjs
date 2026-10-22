@@ -36,7 +36,7 @@ const png=Buffer.from(await share.arrayBuffer());
 assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 assert.equal(article.headline,$('h1').text());
 assert.equal(article.datePublished,'2026-10-11T05:40:22Z');
-assert.equal(article.dateModified,'2026-10-11T05:55:29Z');
+assert.equal(article.dateModified,'2026-10-23');
 assert.equal(article.author['@type'],'Organization');
 assert.equal(article.author['@id'],origin+'/#organization');
 assert.equal(article.image,origin+'/assets/selected/nura-fulham-showroom-sign.webp');

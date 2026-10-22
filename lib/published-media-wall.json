@@ -8,7 +8,7 @@
     "component": "article",
     "title": "How to Plan a Bespoke Media Wall in London",
     "seo_title": "Bespoke Media Walls London: Design and Planning | NURA Interiors",
-    "seo_description": "Plan a bespoke media wall in London with guidance on storage, lighting, materials, fireplaces and installation scope from NURA Interiors.",
+    "seo_description": "Plan a bespoke media wall in London with guidance on storage, lighting, materials, fireplaces and installation scope from NURA.",
     "hero": {
       "filename": "/assets/editorial/media-wall-preview.webp",
       "alt": "Bespoke media wall with integrated television, illuminated shelving and electric fireplace in a London living room"
@@ -17,7 +17,7 @@
     "author_name": "Joanne H",
     "author_bio": "Joanne H writes for the Nura journal. Explore her professional profile on LinkedIn.",
     "published_date": "2026-10-22",
-    "modified_date": "2026-10-22",
+    "modified_date": "2026-10-23",
     "body_nodes": [
       {
         "type": "paragraph",
@@ -342,9 +342,19 @@
       {
         "type": "paragraph",
         "children": [
-          {"type":"text","text":"Televisions and sound systems introduce technical requirements that should be resolved alongside the furniture. Confirm speaker locations, cable routes, power requirements and equipment access. For general household electrical safety guidance, see "},
-          {"type":"text","text":"Electrical Safety First's consumer guides","link":"https://www.electricalsafetyfirst.org.uk/guides/"},
-          {"type":"text","text":". If a soundbar or speakers are concealed, check that the proposed material and openings suit the intended system. The audiovisual supplier and joinery designer should work from the same information."}
+          {
+            "type": "text",
+            "text": "Televisions and sound systems introduce technical requirements that should be resolved alongside the furniture. Confirm speaker locations, cable routes, power requirements and equipment access. For general household electrical safety guidance, see "
+          },
+          {
+            "type": "text",
+            "text": "Electrical Safety First's consumer guides",
+            "link": "https://www.electricalsafetyfirst.org.uk/guides/"
+          },
+          {
+            "type": "text",
+            "text": ". If a soundbar or speakers are concealed, check that the proposed material and openings suit the intended system. The audiovisual supplier and joinery designer should work from the same information."
+          }
         ]
       },
       {

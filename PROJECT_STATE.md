@@ -1,5 +1,11 @@
 # NURA Project State
 
+## 2026-10-23: remaining 20 Journal articles
+
+- Updated reader-facing descriptions on the 20 existing articles outside the batch of 50. Revised nine weak introductory paragraphs and removed 13 repeated-hero or empty image nodes.
+- Preserved all titles, public URLs, authors, first-publication dates, existing linked destinations and recorded review dates. Modification dates reflect this update on 2026-10-23.
+- Concurrent internal-link improvements from main were integrated before these edits. Added a 20-record preservation contract and regression checks; release and production evidence are recorded by the current task after deployment.
+
 ## 2026-10-23: batch publication corrections
 
 - Prepared the sitemap runtime file trace fix and an artifact-level check for the manifest and all 50 article sources.

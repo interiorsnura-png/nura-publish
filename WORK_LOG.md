@@ -1,5 +1,11 @@
 # NURA Work Log
 
+## 2026-10-23: legacy Journal update
+
+- Identified exactly 20 existing Journal article/guide records outside the recently corrected 50. Baseline live requests returned HTTP 200 for all 20.
+- Routed editorial drafts through OmniRoute, rejected unsupported suggestions, and applied bounded edits to the authoritative records only. Updated descriptions and nine paragraphs; removed 13 repeated or missing-source images.
+- Author assignments, original publication dates, H1 titles and existing link destinations remain unchanged. Two regression checks cover all 20 records. Production evidence is separate from local test success.
+
 ## 2026-10-12: automatic search notification improvements
 
 - 2026-10-13 follow-up: verified HTTP 200 acceptance for the homepage and an automatic 70-URL run. Detected that no IndexNow state cache existed, so repeated runs fell back to the old repository baseline. Replaced cache persistence with workflow artifacts and added restore/provenance/state-validation tests; 49 project tests and workflow YAML parsing passed. Two consecutive live runs will verify deduplication.
