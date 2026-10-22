@@ -52,18 +52,36 @@ export function articleReadingMinutes(entry:Entry){
  const body=entry.content.body_nodes?.length?flatten(entry.content.body_nodes):entry.content.body||entry.content.summary||'';
  return Math.max(1,Math.ceil(body.split(/\s+/).filter(Boolean).length/200));
 }
+const inferredTags=(entry:Entry)=>{
+ const text=(entry.content.title+' '+(entry.content.seo_description||'')).toLowerCase();
+ const tags:string[]=[];
+ const rules:[string,string[]][]=[
+  ['material|veneer|lacquer|plywood|mfc|porcelain|oak|walnut|ash|finish|stain|colour',['materials']],
+  ['kitchen|cabinet|carcass|worktop|sink|plinth|hinge|hardware|storage|island',['kitchens']],
+  ['planning|quote|cost|programme|timeline|consult|brief|builder|first fix|lead time|payment',['planning']],
+  ['joinery|wardrobe|fitted|developer|architect|design team',['joinery']],
+  ['shipping|freight|overseas|international|dubai|spain|barbados|humid',['international']]
+ ];
+ for(const [pattern,values] of rules)if(new RegExp(pattern).test(text))tags.push(...values);
+ return [...new Set(tags)];
+};
 export function articleRecommendationDetails(entry:Entry){
- return topics[slug(entry.path)]||{category:entry.content.category||'From the journal',description:entry.content.summary||entry.content.seo_description||'Explore more ideas from the Nura studio.',tags:[]};
+ const known=topics[slug(entry.path)];
+ if(known)return known;
+ const tags=inferredTags(entry);
+ return {category:tags.includes('international')?'International':tags.includes('joinery')?'Joinery planning':tags.includes('materials')?'Materials':tags.includes('planning')?'Planning':'Kitchen planning',description:entry.content.summary||entry.content.seo_description||'Explore more ideas from the Nura studio.',tags};
 }
 export function getRelatedArticles(current:Entry,entries:Entry[]):Entry[]{
  const candidates=entries.filter(e=>e.content.component==='article'&&e.path!==current.path&&!['draft','unpublished'].includes(e.content.source_publish_status||''));
  const selected=(selections[slug(current.path)]||[]).flatMap(id=>{const entry=candidates.find(e=>slug(e.path)===id);return entry?[entry]:[];});
  const tags=articleRecommendationDetails(current).tags;
  const remaining=candidates.filter(e=>!selected.some(s=>s.path===e.path)).map(e=>({entry:e,score:articleRecommendationDetails(e).tags.filter(t=>tags.includes(t)).length})).filter(e=>e.score>0).sort((a,b)=>b.score-a.score||a.entry.path.localeCompare(b.entry.path));
- const related=[...selected,...remaining.map(e=>e.entry)].filter((e,i,all)=>all.findIndex(x=>x.path===e.path)===i);
+ const offset=slug(current.path).split('').reduce((sum,char)=>sum+char.charCodeAt(0),0);
+ const rotated=remaining.length?remaining.map((_,index)=>remaining[(index+offset)%remaining.length]):[];
+ const related=[...selected,...rotated.map(e=>e.entry)].filter((e,i,all)=>all.findIndex(x=>x.path===e.path)===i);
  if(related.length<2&&current.source?.collection==='nura-50-draft'){
   for(const candidate of candidates){
-   if(candidate.path!==current.path&&!related.some(entry=>entry.path===candidate.path))related.push(candidate);
+   if(candidate.path!==current.path&&!related.some((entry:Entry)=>entry.path===candidate.path))related.push(candidate);
    if(related.length===2)break;
   }
  }
