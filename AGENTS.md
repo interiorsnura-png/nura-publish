@@ -37,3 +37,13 @@
 - Run `npm run release:status` in the actual worktree before planning a release. After an authorized merge and a clean checkout at the exact current remote main SHA, run `npm run release:verify -- --expected-sha <40-character-SHA>`. It runs the existing build:verified and rechecks source/remote identity. Then `npm run release:check -- --expected-sha <same-SHA>` must pass with a matching local receipt less than 24 hours old. A failed preflight, build or changed source is not release ready. These commands never push or deploy and do not block arbitrary manual commands by themselves.
 - `release:inspect -- --expected-sha <same-SHA> --deployment-json <file>` only checks an OFFLINE_ASSERTION against a supplied Vercel record and local HEAD. It always reports liveVerified:false. Obtain fresh authoritative deployment/alias and browser evidence separately; do not label offline assertions as live verification.
 - Generate simple standalone shell commands without semicolon chains, expandable strings, embedded expressions, wrappers, or redirection. If an explicit security or permission denial occurs, stop dependent work and report the exact command and reason; ordinary command failures may be diagnosed within scope.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

@@ -8,13 +8,14 @@ import publishedPages from './published-pages.json';
 import publishedMediaWall from './published-media-wall.json';
 import type {ArticleNode} from '../components/RichArticle';
 import {loadMediaWallPreview,mediaWallPreviewPath} from './seo-media-wall-preview';
+import {getNura50PublicEntries} from './nura-50-drafts';
 export type Asset={filename:string;alt?:string;caption?:string};
 export type Content={component:string;title:string;location?:string;category?:string;summary?:string;body?:string;specifications?:string;hero?:Asset;gallery?:Asset[];seo_title?:string;seo_description?:string;published_date?:string;modified_date?:string;body_nodes?:ArticleNode[];author_name?:string;author_bio?:string;pending_reviewer?:{name:string;role:string};social_image?:Asset;reviewer?:{name:string;role:string;reviewed_date:string};image_rights_status?:string;source_publish_status?:string;source_rank?:number;};
 export type Entry={path:string;content:Content;source?:{collection:string;id:string}};
 function apiBase(){const region=process.env.STORYBLOK_REGION||'eu';const hosts:Record<string,string>={eu:'api.storyblok.com',us:'api-us.storyblok.com',ap:'api-ap.storyblok.com',ca:'api-ca.storyblok.com'};if(!hosts[region])throw Error('Invalid Storyblok region');return 'https://'+hosts[region]+'/v2/cdn/stories';}
 export const getEntries=cache(async ():Promise<Entry[]> => {
   if(!process.env.CONTENT_SOURCE || process.env.CONTENT_SOURCE==='local' || process.env.CONTENT_SOURCE==='backup'){
-    const base=[...archive,...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[];
+    const base=[...archive,...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall,...getNura50PublicEntries()] as Entry[];
     if(process.env.SEO_MEDIA_WALL_PREVIEW==='true'&&!base.some(entry=>entry.path===mediaWallPreviewPath))return [...base,await loadMediaWallPreview()];
     return base;
   }
