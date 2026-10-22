@@ -12,10 +12,38 @@ import {getNura50PublicEntries} from './nura-50-drafts';
 export type Asset={filename:string;alt?:string;caption?:string};
 export type Content={component:string;title:string;location?:string;category?:string;summary?:string;body?:string;specifications?:string;hero?:Asset;gallery?:Asset[];seo_title?:string;seo_description?:string;published_date?:string;modified_date?:string;body_nodes?:ArticleNode[];author_name?:string;author_bio?:string;pending_reviewer?:{name:string;role:string};social_image?:Asset;reviewer?:{name:string;role:string;reviewed_date:string};image_rights_status?:string;source_publish_status?:string;source_rank?:number;};
 export type Entry={path:string;content:Content;source?:{collection:string;id:string}};
+
+export function mergeBatchEntries(base:Entry[],batch:Entry[]):Entry[]{
+  const map=new Map<string,Entry>();
+  base.forEach(e=>{if(!map.has(e.path))map.set(e.path,e);});
+  batch.forEach(b=>{
+    const old=map.get(b.path);
+    if(old){
+      const nb=b.content, ob=old.content;
+      const merged={...ob,
+        title:nb.title||ob.title,
+        body:nb.body||ob.body,
+        seo_title:nb.seo_title||ob.seo_title,
+        seo_description:nb.seo_description||ob.seo_description,
+        hero:nb.hero||ob.hero,
+        social_image:nb.social_image||nb.hero,
+        body_nodes:nb.body_nodes||ob.body_nodes,
+        author_name:ob.author_name||nb.author_name,
+        author_bio:ob.author_bio||nb.author_bio,
+        published_date:ob.published_date||nb.published_date,
+        category:ob.category||nb.category,
+        modified_date:'2026-10-23'};
+      delete merged.reviewer;delete merged.pending_reviewer;
+      map.set(b.path,{...old,content:merged});
+    }else map.set(b.path,b);
+  });
+  return Array.from(map.values());
+}
+
 function apiBase(){const region=process.env.STORYBLOK_REGION||'eu';const hosts:Record<string,string>={eu:'api.storyblok.com',us:'api-us.storyblok.com',ap:'api-ap.storyblok.com',ca:'api-ca.storyblok.com'};if(!hosts[region])throw Error('Invalid Storyblok region');return 'https://'+hosts[region]+'/v2/cdn/stories';}
 export const getEntries=cache(async ():Promise<Entry[]> => {
   if(!process.env.CONTENT_SOURCE || process.env.CONTENT_SOURCE==='local' || process.env.CONTENT_SOURCE==='backup'){
-    const base=[...archive,...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall,...getNura50PublicEntries()] as Entry[];
+    const base=mergeBatchEntries([...archive,...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[],getNura50PublicEntries());
     if(process.env.SEO_MEDIA_WALL_PREVIEW==='true'&&!base.some(entry=>entry.path===mediaWallPreviewPath))return [...base,await loadMediaWallPreview()];
     return base;
   }
@@ -29,7 +57,7 @@ export const getEntries=cache(async ():Promise<Entry[]> => {
     if(!response.ok)throw Error('CMS request failed ('+response.status+')');
     const result=await response.json();if(!Array.isArray(result.stories))throw Error('Invalid CMS response');
     for(const story of result.stories){if(story.is_folder)continue;entries.push({path:story.full_slug==='home'?'/':'/'+story.full_slug.replace(/\/$/,''),content:story.content});}
-    if(result.stories.length<100)return [...entries,...([...publishedProjects,...publishedEditorial,...publishedPages] as Entry[]).filter(p=>!entries.some(e=>e.path===p.path))];
+    if(result.stories.length<100)return mergeBatchEntries([...entries,...([...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[]).filter(p=>!entries.some(e=>e.path===p.path))],getNura50PublicEntries());
   }
   throw Error('CMS pagination exceeded safety limit');
 });

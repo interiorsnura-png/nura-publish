@@ -1,5 +1,13 @@
 # NURA Project State
 
+## 2026-10-23: batch publication corrections
+
+- Prepared the sitemap runtime file trace fix and an artifact-level check for the manifest and all 50 article sources.
+- The effective loader now resolves the two batch/legacy collisions once, preserves each public author's identity and evidenced historical first-publication date, and includes batch content in CMS fallback.
+- Replaced computed staggered batch dates with the confirmed 2026-10-23 batch publication date. Replacement content has an actual update date and does not inherit an earlier technical endorsement.
+- Removed duplicate inline heroes and administrative captions, corrected the charity description, and restored Planning filter coverage and exact sitemap URL validation.
+- Local regression coverage includes preservation of the existing 26 Joanne H / 24 Nura Interiors mapping. Production activation, exact deployment identity and live browser verification must be checked after the release; task output records that evidence separately.
+
 ## Automatic search notifications, 2026-10-12
 
 - Follow-up on 2026-10-13: the old deployment-event cache did not persist IndexNow snapshots, causing repeated 70-URL notifications. Replaced it with a state artifact restored from the previous successful main workflow. Restore failures stop execution; corrupted/foreign states are rejected. Two-run verification follows publication.

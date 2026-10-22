@@ -26,7 +26,7 @@ try {
     ...process.env, SEO_BASE_URL: server.url,
     SEO_EXPECT_INDEX: process.env.SITE_ENV === 'staging' || (!process.env.SITE_ENV && process.env.VERCEL_ENV === 'preview') ? 'false' : 'true'
   };
-  for (const script of ['seo-check.mjs', 'image-license-check.mjs', 'verify-fulham.mjs', 'verify-kitchen-quotes.mjs']) {
+  for (const script of ['verify-nura-traces.mjs', 'seo-check.mjs', 'image-license-check.mjs', 'verify-fulham.mjs', 'verify-kitchen-quotes.mjs']) {
     server.assertRunning();
     const code = await new Promise((resolve, reject) => {
       const check = spawn(process.execPath, ['scripts/' + script], { stdio: 'inherit', windowsHide: true, env });

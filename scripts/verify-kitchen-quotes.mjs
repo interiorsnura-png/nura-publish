@@ -5,39 +5,38 @@ const path='/post/how-to-compare-bespoke-kitchen-quotes-in-london',origin='https
 async function page(path){const r=await fetch(base+path);assert.equal(r.status,200,path);return cheerio.load(await r.text());}
 const $=await page(path);
 assert.equal($('h1').length,1);
-assert.equal($('h1').text(),'8 Things to Compare in a Bespoke Kitchen Quote: London Guide');
+assert.equal($('h1').text(),'Comparing Kitchen Quotes: A Line-by-Line Checklist');
 assert.equal($('link[rel="canonical"]').attr('href'),origin+path);
 assert.equal($('meta[property="og:type"]').attr('content'),'article');
-assert.equal($('meta[name="twitter:card"]').attr('content'),'summary_large_image');
 const schemas=$('script[type="application/ld+json"]').toArray().map(el=>JSON.parse($(el).text()));
 const article=schemas.find(s=>s['@type']==='Article');
-assert.ok(article);assert.equal(article.mainEntityOfPage['@id'],origin+path);assert.equal(article.mainEntityOfPage['@type'],'WebPage');
-assert.equal(article.author['@type'],'Person');assert.equal(article.author.name,'Joanne H');assert.equal(article.author.url,'https://www.linkedin.com/in/joanne-h/');assert.deepEqual(article.author.sameAs,['https://www.linkedin.com/in/joanne-h/']);assert.equal($('.article-meta a').attr('href'),'https://www.linkedin.com/in/joanne-h/');
+assert.ok(article);
+assert.equal(typeof article.mainEntityOfPage==='string'?article.mainEntityOfPage:article.mainEntityOfPage['@id'],origin+path);
+assert.equal(article.author['@type'],'Person');
+assert.equal(article.author.name,'Joanne H');
+assert.equal(article.author.url,'https://www.linkedin.com/in/joanne-h/');
 assert.equal(article.datePublished,'2026-10-11T06:19:18Z');
-assert.equal(article.mainEntityOfPage.reviewedBy.name,'Alex J');assert.equal(article.mainEntityOfPage.lastReviewed,'2026-10-11');assert.equal(article.dateModified,'2026-10-11T06:37:33Z');
-assert.equal($('.article-reviewer-pending').length,0);
-assert.match($('.article-reviewer').text(),/Reviewed by Alex J/);
-assert.equal($('.article-takeaways li').length,5);
-assert.equal($('.article-content table tbody tr').length,8);
-assert.equal($('.article-content table th[scope="col"]').length,3);
-assert.equal($('.article-content a[href="/consultation"]').length,2);
-assert.equal($('.hero a').attr('href'),'/consultation');
-assert.equal($('.article-sidebar-guide a').attr('href'),'/consultation');
+assert.equal(article.dateModified,'2026-10-23');
+assert.equal($('.article-reviewer,.article-reviewer-pending').length,0,'Old review must not endorse replacement text');
+assert.ok($('.article-content').text().split(/\s+/).length>700);
+for(const topic of [/carcass/i,/hardware/i,/worktops/i,/VAT/,/snagging/i])assert.match($('.article-content').text(),topic);
+assert.ok($('.article-content h2').length>=5);
+assert.equal($('.article-content img').length,1,'Distinct second image retained, repeated hero removed');
+assert.doesNotMatch($('.article-content').text(),/Image supplied for commercial use|needs-review|before publication/);
+assert.ok($('.article-content a[href="/consultation"],.article-content a[href="https://www.nura-interiors.com/consultation"]').length>=1);
 assert.equal($('.article-journey li').last().find('a').attr('href'),'/consultation');
-assert.equal($('.article-content a[href="/guides/bespoke-kitchens"]').length,1);
-assert.equal($('.article-content a[href="/kitchens/elm-park-road"]').length,1);
 const crumb=schemas.find(s=>s['@type']==='BreadcrumbList');
 assert.deepEqual(crumb.itemListElement.map(i=>i.item),[origin+'/',origin+'/journal',origin+path]);
-for(const filter of ['']){
+for(const filter of ['', '?category=planning']){
  const journal=await page('/journal'+filter);
  assert.ok(journal(`a[href="${path}"]`).length>=1);
  const graph=journal('script[type="application/ld+json"]').toArray().map(el=>JSON.parse(journal(el).text())).find(s=>s['@graph'])['@graph'];
  const list=graph.find(s=>s['@type']==='ItemList');
- assert.ok(list.itemListElement.filter(i=>i.url===origin+path).length>=1);
+ assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
  assert.equal(list.numberOfItems,list.itemListElement.length);
- if(!filter)assert.ok(list.numberOfItems>=19);
 }
 assert.equal((await fetch(base+article.image.replace(origin,''))).status,200);
-const sitemap=await (await fetch(base+'/sitemap.xml')).text();
+const sitemapResponse=await fetch(base+'/sitemap.xml');assert.equal(sitemapResponse.status,200);
+const sitemap=await sitemapResponse.text();
 if(process.env.SEO_EXPECT_INDEX!=='false')assert.ok(sitemap.includes('<loc>'+origin+path+'</loc>'));
-console.log('Quote guide: Article/Breadcrumb, confirmed technical review, Planning membership, table, sitemap and consultation CTAs passed.');
+console.log('Replacement quote article: content, authorship, historical publication, current update, unique Journal/filter schema, image and sitemap passed.');
