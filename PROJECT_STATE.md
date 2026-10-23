@@ -261,3 +261,8 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - Owner authorised current-article Discover gap fixes. Added representative1536x864 preview with full drawer details and original marks preserved; original hero remains unchanged. Explicit per-article large preview opt-in respects production/preproduction indexing policy. OG dimensions now use optional real asset dimensions with legacy defaults; opted-in Article image matches social preview.
 - First-publication date, prose, byline and existing images preserved. Current official rules checked; no claim of actual GSC indexing/Discover selection or measured fieldCWV. Exact release and official retest evidence outside source checkout.
+
+
+## Drawer Discover performance correction
+
+- Actual Google mobile PageSpeed report aqo059j4pu found author avatar 800x800 PNG1093KiB displayed40x40. Created80x80 WebP thumbnail from the same portrait and preserved original source; no person/content/date changes. Initial lab performance74,LCP5.3s,CLS0; field data unavailable. Search Console indexing request hit daily quota; retry tomorrow.

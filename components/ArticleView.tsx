@@ -5,7 +5,7 @@ import {getArticleJourney} from '../lib/article-journeys';
 import type {Content,Entry} from '../lib/content';
 import RichArticle,{type ArticleNode} from './RichArticle';
 function AuthorName({name}:{name:string}){return name==='Joanne H'?<a href="https://www.linkedin.com/in/joanne-h/" target="_blank" rel="noopener noreferrer">{name}</a>:<a href="/about">{name}</a>;}
-function AuthorAvatar({name}:{name:string}){return <span className="article-author-avatar" aria-hidden="true">{name==='Joanne H'?<img className="article-author-portrait" src="/assets/editorial/joanne-h-author.png" alt="" width="800" height="800"/>:name==='Nura Interiors'?<img src="/assets/nura-wordmark.svg" alt="" width="216" height="68"/>:<span>{name.split(/\s+/).map(part=>part[0]).slice(0,2).join('').toUpperCase()}</span>}</span>;}
+function AuthorAvatar({name}:{name:string}){return <span className="article-author-avatar" aria-hidden="true">{name==='Joanne H'?<img className="article-author-portrait" src="/assets/editorial/joanne-h-author-thumb.webp" alt="" width="80" height="80"/>:name==='Nura Interiors'?<img src="/assets/nura-wordmark.svg" alt="" width="216" height="68"/>:<span>{name.split(/\s+/).map(part=>part[0]).slice(0,2).join('').toUpperCase()}</span>}</span>;}
 const text=(nodes:ArticleNode[]):string=>nodes.map(n=>n.text||text(n.children||[])).join(' ');
 export default function ArticleView({content:c,related,path,entries}:{content:Content;related:Entry[];path:string;entries:Entry[]}){
  const nodes:ArticleNode[]=[];
