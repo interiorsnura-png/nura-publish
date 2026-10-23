@@ -198,3 +198,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 
 - Added a reusable three-sample observation table, the documented Ancona palette and its existing owned project image, plus a contextual bespoke-kitchen guide link to `/post/test-kitchen-colour-at-home`. Title, meta description, author, public path and first-publication date remain unchanged.
 - Ancona is explicitly a finished-palette illustration, not evidence of a sample testing process. No verified same-sample daylight/evening photography was found. Those genuine process photographs remain pending; third-party needs-review sample images were not reused. Exact release and live verification evidence is saved by the current task outside the source checkout.
+
+
+## 2026-10-23: approved Nura colour concept images
+
+- User authorised publishing both generated NURA-watermarked illustrations in the colour-testing article. Material palette follows the palette section; daylight/evening comparison follows the lighting section. Captions identify AI-generated illustrative content without claiming actual sample testing or a real project.
+- Optimised WebP assets retain the full 3:2 image, watermark and disclosure through a scoped concept-image class. Existing photographs, title, metadata, authorship and publication date remain intact. Release and live checks are recorded outside the source checkout.

@@ -55,3 +55,6 @@
 .article-journey a:focus-visible{outline:2px solid var(--ink);outline-offset:5px}
 @media(max-width:600px){.article-reading .article-journey a.article-journey-primary{width:100%}}
 .local-review-banner{max-width:1024px;margin:0 auto;padding:10px 24px;background:var(--ink);color:var(--cream);font-size:13px;text-align:center}.review-search{display:block;max-width:600px;margin:24px 0;font-weight:600}.review-search input{display:block;width:100%;margin-top:8px;padding:12px;border:1px solid var(--line);background:var(--paper);font:inherit}.review-pagination{max-width:680px;margin:24px auto;padding:20px 24px;display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line)}.review-pagination a{color:var(--ink)}
+
+.article-photo.article-photo-concept .inner-photo{aspect-ratio:3/2}
+.article-photo.article-photo-concept .inner-photo img{object-fit:contain}
