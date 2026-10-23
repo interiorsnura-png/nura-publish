@@ -5849,4 +5849,366 @@
     }
   }
 }
+,
+{
+  "path": "/post/kitchen-shelf-styling-daily-use",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/kitchen-shelf-styling-daily-use"
+  },
+  "content": {
+    "component": "article",
+    "title": "How to Style Kitchen Shelves: 4 Steps Before Buying Decor",
+    "seo_title": "How to Style Kitchen Shelves: 4 Steps Before Buying Decor",
+    "seo_description": "Style kitchen shelves with what you own. Try four practical steps for colour, clear access and a daily-use trial before buying more decor.",
+    "summary": "Start with everyday crockery and test access before adding decorative objects.",
+    "category": "Decor Tips",
+    "author_name": "Nura Interiors",
+    "published_date": "2026-10-23T23:00:34.852Z",
+    "source_publish_status": "published",
+    "image_rights_status": "owned",
+    "hero": {
+      "filename": "/assets/editorial/nura-shelves-hero.webp",
+      "alt": "Illustration of an oak kitchen shelf with ivory cups, bowls and a terracotta jug in spaced groups",
+      "caption": "© Nura Interiors. Illustration.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-shelves-hero.webp",
+      "alt": "Illustration of an oak kitchen shelf with ivory cups, bowls and a terracotta jug in spaced groups",
+      "caption": "© Nura Interiors. Illustration.",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Style kitchen shelves around the cups, bowls and plates you actually use, then add decoration only where it leaves them easy to reach and return. Try the arrangement on one existing shelf before buying more objects. This four-step approach is a styling exercise, not a test of shelf strength."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "1. Start with the daily-use group"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Choose a securely installed shelf you can comfortably reach. Check its own mounting, loading and care instructions before rearranging anything. Set aside pieces you rarely use and begin with a small group of everyday crockery. Keep each stack manageable for you; a display that requires moving several objects to take one cup is worth simplifying."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "2. Repeat a colour, vary a shape"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Use what is already in the room: perhaps warm white cups beside a wood finish, with one coloured jug. Repeating a glaze can connect unlike shapes without buying a matching set. Groups of three are an option, not a rule. Two useful groups with a clear gap may suit a short shelf better than three crowded arrangements."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-shelves-access.webp",
+        "alt": "Illustration of ivory mugs and a short bowl stack with clear space between them on an oak shelf",
+        "caption": "© Nura Interiors. Illustration. Separate daily-use groups so surrounding objects do not block access."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "3. Check the lift, return and wipe"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "From your normal standing position, take out a cup and put it back. Can you hold its handle without nudging the neighbouring bowl? Can you lift the top plate without contacting the shelf above? Leave the space your actual objects and movements need; there is no universal styling gap. Keep heavy or awkward pieces elsewhere if reaching them is uncomfortable. Make sure you can also remove the group to clean the shelf according to its care instructions."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "4. Live with one arrangement before adding more"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Use the shelf through a normal week and note which objects you keep shifting. A week is a suggested observation period, not a measured performance claim. If a decorative piece repeatedly gets moved onto the worktop, try removing it. Photograph the arrangement for your own comparison, then change one thing at a time. Buy an extra object only when you know what useful space remains."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-shelves-compare.webp",
+        "alt": "Illustration showing the same oak shelf crowded with pottery on the left and simplified into spaced groups on the right",
+        "caption": "© Nura Interiors. Illustration. Two possible arrangements demonstrate access and visual space, not a measured experiment."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "A simple example and your own shelf record"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For a hypothetical tea shelf, begin with three mugs and a short stack of side plates. A tall jug placed in front of the mugs could block their handles. Move it to a clear end of the shelf, or leave it off entirely if the space is still tight. The aim is an arrangement that works during breakfast as well as in a photograph."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Use this record after trying your own arrangement",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Check"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "What to note"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Possible adjustment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Take and return"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Objects moved to reach a cup"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Separate or reduce groups"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Clean"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Pieces that are awkward to remove"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Simplify the display"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Daily use"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Decor repeatedly left on the worktop"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Remove it before buying more"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Connect the shelf to your wider kitchen"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For product-specific storage examples, see "
+          },
+          {
+            "type": "text",
+            "text": "IKEA UK kitchen shelf ideas",
+            "link": "https://www.ikea.com/gb/en/rooms/kitchen/how-to/kitchen-shelf-ideas-to-maximise-storage-and-style-pube73a4200/"
+          },
+          {
+            "type": "text",
+            "text": ". Follow the instructions for your actual shelving rather than transferring load limits from another system. These images are illustrations, not Nura project photographs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For storage behind the doors, try our "
+          },
+          {
+            "type": "text",
+            "text": "drawer organisation checks",
+            "link": "/post/kitchen-drawer-organisation-before-you-buy"
+          },
+          {
+            "type": "text",
+            "text": ". If the room needs a wider rethink, explore "
+          },
+          {
+            "type": "text",
+            "text": "Nura bespoke kitchen services",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": " and bring your shelf photograph and daily-use notes to a "
+          },
+          {
+            "type": "text",
+            "text": "design consultation",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      }
+    ],
+    "body": "Style kitchen shelves around the cups, bowls and plates you actually use, then add decoration only where it leaves them easy to reach and return. Try the arrangement on one existing shelf before buying more objects. This four-step approach is a styling exercise, not a test of shelf strength.\n\n1. Start with the daily-use group\n\nChoose a securely installed shelf you can comfortably reach. Check its own mounting, loading and care instructions before rearranging anything. Set aside pieces you rarely use and begin with a small group of everyday crockery. Keep each stack manageable for you; a display that requires moving several objects to take one cup is worth simplifying.\n\n2. Repeat a colour, vary a shape\n\nUse what is already in the room: perhaps warm white cups beside a wood finish, with one coloured jug. Repeating a glaze can connect unlike shapes without buying a matching set. Groups of three are an option, not a rule. Two useful groups with a clear gap may suit a short shelf better than three crowded arrangements.\n\n\n\n3. Check the lift, return and wipe\n\nFrom your normal standing position, take out a cup and put it back. Can you hold its handle without nudging the neighbouring bowl? Can you lift the top plate without contacting the shelf above? Leave the space your actual objects and movements need; there is no universal styling gap. Keep heavy or awkward pieces elsewhere if reaching them is uncomfortable. Make sure you can also remove the group to clean the shelf according to its care instructions.\n\n4. Live with one arrangement before adding more\n\nUse the shelf through a normal week and note which objects you keep shifting. A week is a suggested observation period, not a measured performance claim. If a decorative piece repeatedly gets moved onto the worktop, try removing it. Photograph the arrangement for your own comparison, then change one thing at a time. Buy an extra object only when you know what useful space remains.\n\n\n\nA simple example and your own shelf record\n\nFor a hypothetical tea shelf, begin with three mugs and a short stack of side plates. A tall jug placed in front of the mugs could block their handles. Move it to a clear end of the shelf, or leave it off entirely if the space is still tight. The aim is an arrangement that works during breakfast as well as in a photograph.\n\n\n\nConnect the shelf to your wider kitchen\n\nFor product-specific storage examples, see IKEA UK kitchen shelf ideas. Follow the instructions for your actual shelving rather than transferring load limits from another system. These images are illustrations, not Nura project photographs.\n\nFor storage behind the doors, try our drawer organisation checks. If the room needs a wider rethink, explore Nura bespoke kitchen services and bring your shelf photograph and daily-use notes to a design consultation."
+  }
+}
 ]

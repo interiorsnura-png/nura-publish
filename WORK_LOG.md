@@ -265,3 +265,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 ## Drawer Discover performance correction
 
 - Actual Google mobile PageSpeed report aqo059j4pu found author avatar 800x800 PNG1093KiB displayed40x40. Created80x80 WebP thumbnail from the same portrait and preserved original source; no person/content/date changes. Initial lab performance74,LCP5.3s,CLS0; field data unavailable. Search Console indexing request hit daily quota; retry tomorrow.
+
+
+## Scheduled Journal: kitchen shelf styling
+
+- New practical decor tip uses owner rotation Nura Interiors. Actual Google UK search footer Fulham London and first Pinterest board reviewed; original value is a four-step daily-use/access trial, not a gallery or fixed spacing rule. Three original NURA-watermarked1536x864 illustrations with private provenance and representative Discover preview. OmniRoute draft arbitrary20cm claim rejected in PDCA and replaced; no invented project/testing.
+- First full check caught missing explicit article journey, fixed with existing valid guide/service/consultation mapping.81tests/124routes/images passed afterward. Final mobile/desktop and source/deployment/external Google evidence are persisted in workspace register. Real index/CWV/analytics remain pending.
