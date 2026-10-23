@@ -181,3 +181,9 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - User authorised publication of the local guarantee presentation. Added the homepage trust line, two service blocks, FAQ, shared footer link and public /guarantee proposal. Proposed coverage is visibly identified; final installation, labour, dates, transfer and market terms are not invented. The proposal remains noindex and outside the sitemap. Existing articles and authors are preserved.
 - Release validation and live deployment identity are recorded by this task after the commit. No claim that unresolved terms are final.
+
+
+## 2026-10-23: owner-confirmed cabinetry guarantee
+
+- Owner confirmed a definite 10-year cabinetry guarantee included in the customer contract. Replaced proposal language on /guarantee, homepage and service blocks; added clear coverage and real email/phone support. Costs and local installation responsibilities are recorded in project contracts without invented free services or turnaround promises.
+- Prepared locally; existing noindex and sitemap status retained. No publication performed for this request. Validation is reported by the current task.

@@ -65,3 +65,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [x] Prepare NURA batch sitemap packaging, content collision, actual-date, duplicate-image and editorial-description corrections with author mapping preserved.
 - [ ] Verify the corrected release on the production domain, including sitemap XML, all 50 articles and responsive browser behavior; see the current task's release evidence for final status.
 
+
+- [ ] Publish and verify the owner-confirmed guarantee trust page when publication is requested; review indexing/sitemap as part of that release.
