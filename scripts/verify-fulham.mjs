@@ -40,8 +40,7 @@ assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 assert.equal(article.headline,$('h1').text());
 assert.equal(article.datePublished,'2026-10-11T05:40:22Z');
 assert.equal(article.dateModified,'2026-10-23');
-assert.equal(article.author['@type'],'Organization');
-assert.equal(article.author['@id'],origin+'/#organization');
+assert.deepEqual(article.author.sameAs,['https://www.linkedin.com/in/joanne-h/']);
 assert.equal(article.image,origin+'/assets/selected/nura-fulham-showroom-sign.webp');
 const crumb=schemas.find(s=>s['@type']==='BreadcrumbList');
 assert.deepEqual(crumb.itemListElement.map(i=>i.item),[origin+'/',origin+'/journal',origin+path]);
@@ -49,7 +48,7 @@ assert.equal($('.article-content a[href="/london#london-enquiry-showroom"]').len
 assert.equal($('.hero a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-journey li').last().find('a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-sidebar-guide a').attr('href'),'/london#london-enquiry-showroom');
-assert.equal($('.article-meta a').attr('href'),'/about');
+assert.equal($('.article-meta a').attr('href'),'https://www.linkedin.com/in/joanne-h/');
 for(const filter of ['', '?category=planning']){
  const journal=await page('/journal'+filter);
  assert.ok(journal(`a[href="${path}"]`).length>=1);
