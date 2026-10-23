@@ -254,3 +254,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 
 - Official Google liveURL report szjyCD49Ygv-Bcn-uSZSbQ found9valid items and4optional date/timezone warnings. Added actual initial publication READY2026-10-23T22:05:24.067Z and latest content deployment READY2026-10-23T22:09:14.182Z to the existing record. Original calendar dates, title, images and byline preserved. No invented midnight timestamp; this schema-only correction is logged separately.
 - Owner requires official live RichResults test after every future publication and corrective revalidation. Final release/external retest evidence recorded by current task.
+
+
+## 2026-10-23: drawer Discover preview
+
+- Owner authorised current-article Discover gap fixes. Added representative1536x864 preview with full drawer details and original marks preserved; original hero remains unchanged. Explicit per-article large preview opt-in respects production/preproduction indexing policy. OG dimensions now use optional real asset dimensions with legacy defaults; opted-in Article image matches social preview.
+- First-publication date, prose, byline and existing images preserved. Current official rules checked; no claim of actual GSC indexing/Discover selection or measured fieldCWV. Exact release and official retest evidence outside source checkout.

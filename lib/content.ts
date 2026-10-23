@@ -9,8 +9,8 @@ import publishedMediaWall from './published-media-wall.json';
 import type {ArticleNode} from '../components/RichArticle';
 import {loadMediaWallPreview,mediaWallPreviewPath} from './seo-media-wall-preview';
 import {getNura50PublicEntries} from './nura-50-drafts';
-export type Asset={filename:string;alt?:string;caption?:string};
-export type Content={component:string;title:string;location?:string;category?:string;summary?:string;body?:string;specifications?:string;hero?:Asset;gallery?:Asset[];seo_title?:string;seo_description?:string;published_date?:string;modified_date?:string;body_nodes?:ArticleNode[];author_name?:string;author_bio?:string;pending_reviewer?:{name:string;role:string};social_image?:Asset;reviewer?:{name:string;role:string;reviewed_date:string};image_rights_status?:string;source_publish_status?:string;source_rank?:number;};
+export type Asset={filename:string;alt?:string;caption?:string;width?:number;height?:number};
+export type Content={component:string;title:string;location?:string;category?:string;summary?:string;body?:string;specifications?:string;hero?:Asset;gallery?:Asset[];seo_title?:string;seo_description?:string;published_date?:string;modified_date?:string;body_nodes?:ArticleNode[];author_name?:string;author_bio?:string;pending_reviewer?:{name:string;role:string};social_image?:Asset;large_image_preview?:boolean;reviewer?:{name:string;role:string;reviewed_date:string};image_rights_status?:string;source_publish_status?:string;source_rank?:number;};
 export type Entry={path:string;content:Content;source?:{collection:string;id:string}};
 
 export function mergeBatchEntries(base:Entry[],batch:Entry[]):Entry[]{

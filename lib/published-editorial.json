@@ -5839,7 +5839,14 @@
           }
         ]
       }
-    ]
+    ],
+    "large_image_preview": true,
+    "social_image": {
+      "filename": "/assets/editorial/nura-drawers-discover.webp",
+      "alt": "Illustration of an open oak drawer with organised cutlery, cooking utensils and an empty compartment",
+      "width": 1536,
+      "height": 864
+    }
   }
 }
 ]
