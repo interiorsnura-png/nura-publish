@@ -94,3 +94,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## Title correction, owner clarification 2026-10-23
 
 - Owner clarification: reverse-engineer actual Google search intent and competitor title patterns for each topic, then create an original content-matched title. Numbers and punctuation are allowed when useful; Pro is optional and must never be a mandatory template across articles. Preserve independent NURA quality standards.
+
+## New article byline rotation, owner instruction 2026-10-23
+
+- Owner-authorised byline rotation for NEW articles: alternate Joanne H (https://www.linkedin.com/in/joanne-h/) and Nura Interiors (https://www.nura-interiors.com/about). Determine the next author from the last newly published article, not a metadata update or imported historical article. The latest newly published handle article is Nura Interiors, so the next new item uses Joanne H, then Nura Interiors. Persist the assigned author name/profile URL in the candidate and article register; keep it stable through PDCA/retries and advance the rotation only after successful verified publication. Synchronise visible byline, author link and Article schema using existing author mappings. Preserve old article authorship. This is an owner-assigned publication byline, not evidence that a human wrote, reviewed or signed off the article; never fabricate personal expertise, experience, quotations or human review.

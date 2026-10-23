@@ -61,3 +61,6 @@
 
 .article-page .inner-hero:has(img[src*="nura-handles-hero"]){background:#242820}
 .article-page .inner-hero img[src*="nura-handles-hero"]{object-fit:contain}
+
+.article-page .inner-hero:has(img[src*="nura-drawers-hero"]){background:#302a21}
+.article-page .inner-hero img[src*="nura-drawers-hero"]{object-fit:contain}

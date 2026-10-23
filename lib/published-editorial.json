@@ -5461,5 +5461,385 @@
       }
     ]
   }
+},
+{
+  "path": "/post/kitchen-drawer-organisation-before-you-buy",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/kitchen-drawer-organisation-before-you-buy"
+  },
+  "content": {
+    "component": "article",
+    "title": "Kitchen Drawer Organisation: 5 Checks Before You Buy",
+    "seo_title": "Kitchen Drawer Organisation: 5 Checks Before You Buy",
+    "seo_description": "Plan kitchen drawer organisation before buying inserts. Check usable dimensions, utensil fit, movement and care with a practical five-step guide and record.",
+    "summary": "Measure the usable drawer, test the compartment layout with your actual utensils and confirm compatibility before buying inserts.",
+    "category": "Kitchen Planning",
+    "author_name": "Joanne H",
+    "published_date": "2026-10-23",
+    "modified_date": "2026-10-23",
+    "source_publish_status": "published",
+    "image_rights_status": "owned",
+    "hero": {
+      "filename": "/assets/editorial/nura-drawers-hero.webp",
+      "alt": "Concept illustration of an open oak drawer with cutlery, a spatula, a whisk and an empty compartment",
+      "caption": "© Nura Interiors. AI-generated concept illustration."
+    },
+    "body": "Kitchen drawer organisation starts with the things you use and the clear space inside the drawer, not the organiser in a photograph. Before buying trays or specifying fitted dividers, make a short record of the contents, measurements and product requirements. These five checks work for a single cutlery drawer or a wider kitchen brief. 1. Give the drawer a job Empty one drawer and group the items you actually use together: everyday cutlery, cooking tools or baking equipment. Set aside duplicates and items that belong elsewhere. Put the most-used group within comfortable reach of its task. A beautiful arrangement is less useful if returning a spoon means moving several other things. 2. Measure the usable interior Record the clear internal width and front-to-back depth, plus the height available for the loaded organiser when the drawer closes. Include inward-sloping sides, fittings and any obstruction. The cabinet width on a plan is not the same as the space inside its drawer. For new cabinetry, ask the supplier for the intended drawer-box dimensions and insert compatibility before approving the order.  3. Check the items against the compartments Measure your longest utensils and compare them with the usable compartments, not just the outside dimensions of the tray. Include divider thickness and any angled or stacked storage. In a deep drawer, check the height of the contents as well as the organiser. Keep sharp knives in a purpose-designed protective insert, following its instructions. For example, a serving spoon may fit the empty drawer but sit diagonally across two narrow tray compartments. Put that actual spoon beside a paper outline of the proposed compartments on the worktop. A longer open section may suit it better than adding more small divisions. This is a planning example, not a measured Nura installation.  4. Confirm fit before fixing anything Use a removable product sample or a supplier-approved demonstration to check access and movement. Keep a paper layout on the worktop if its use inside the drawer has not been confirmed. Do not drill, trim the drawer box or attach dividers simply to try an idea. Remove anything that obstructs movement and never force the drawer closed. Follow the exact organiser and drawer instructions for clearances, installation and loading. 5. Plan cleaning and a review Check the care instructions for the actual insert material and finish. A paper mock-up cannot test how a wood or plastic product will withstand cleaning. Once a compatible removable organiser is in use, revisit the arrangement after a week of normal routines. Notice what gets left on the worktop or repeatedly moved aside. Adjust the grouping before ordering matching inserts for every drawer. Keep a pre-purchase record Check Record Confirm before buying Purpose Daily-use groups and longest items The compartments suit the contents Space Internal width, depth and loaded clearance The exact product fits the drawer system Use and care Access, installation and cleaning requirements Supplier instructions and any unresolved limits Use product guidance for the final decision The  IKEA UK drawer organisation guide  shows combinations for named drawer systems. Treat those as product-specific examples, not dimensions for every kitchen. Check the current documentation for whichever insert you choose. All three images here are AI-generated concept illustrations, not project photographs or product test results. For the wider cabinetry brief, read the  bespoke kitchen planning guide  and explore  Nura bespoke kitchen services . Our  kitchen handle checks  cover another hands-on decision before ordering. Bring your drawer record and questions to a  Nura consultation  to discuss your kitchen brief.",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Kitchen drawer organisation starts with the things you use and the clear space inside the drawer, not the organiser in a photograph. Before buying trays or specifying fitted dividers, make a short record of the contents, measurements and product requirements. These five checks work for a single cutlery drawer or a wider kitchen brief."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "1. Give the drawer a job"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Empty one drawer and group the items you actually use together: everyday cutlery, cooking tools or baking equipment. Set aside duplicates and items that belong elsewhere. Put the most-used group within comfortable reach of its task. A beautiful arrangement is less useful if returning a spoon means moving several other things."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "2. Measure the usable interior"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Record the clear internal width and front-to-back depth, plus the height available for the loaded organiser when the drawer closes. Include inward-sloping sides, fittings and any obstruction. The cabinet width on a plan is not the same as the space inside its drawer. For new cabinetry, ask the supplier for the intended drawer-box dimensions and insert compatibility before approving the order."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-drawers-measure.webp",
+        "alt": "Concept illustration of measuring tapes across the internal width and depth of an empty oak drawer",
+        "caption": "© Nura Interiors. AI-generated concept illustration. Tape markings are illustrative, not measurements or a guide to product sizing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "3. Check the items against the compartments"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Measure your longest utensils and compare them with the usable compartments, not just the outside dimensions of the tray. Include divider thickness and any angled or stacked storage. In a deep drawer, check the height of the contents as well as the organiser. Keep sharp knives in a purpose-designed protective insert, following its instructions."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For example, a serving spoon may fit the empty drawer but sit diagonally across two narrow tray compartments. Put that actual spoon beside a paper outline of the proposed compartments on the worktop. A longer open section may suit it better than adding more small divisions. This is a planning example, not a measured Nura installation."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-drawers-layout.webp",
+        "alt": "Concept illustration of utensils and a tea towel arranged on a pencilled paper compartment plan",
+        "caption": "© Nura Interiors. AI-generated concept illustration of planning with actual item shapes; the layout is not a dimensioned specification."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "4. Confirm fit before fixing anything"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Use a removable product sample or a supplier-approved demonstration to check access and movement. Keep a paper layout on the worktop if its use inside the drawer has not been confirmed. Do not drill, trim the drawer box or attach dividers simply to try an idea. Remove anything that obstructs movement and never force the drawer closed. Follow the exact organiser and drawer instructions for clearances, installation and loading."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "5. Plan cleaning and a review"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Check the care instructions for the actual insert material and finish. A paper mock-up cannot test how a wood or plastic product will withstand cleaning. Once a compatible removable organiser is in use, revisit the arrangement after a week of normal routines. Notice what gets left on the worktop or repeatedly moved aside. Adjust the grouping before ordering matching inserts for every drawer."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep a pre-purchase record"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Record these details for each drawer before choosing an insert.",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Check"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Confirm before buying"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Purpose"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Daily-use groups and longest items"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The compartments suit the contents"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Space"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Internal width, depth and loaded clearance"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The exact product fits the drawer system"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Use and care"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Access, installation and cleaning requirements"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Supplier instructions and any unresolved limits"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Use product guidance for the final decision"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The "
+          },
+          {
+            "type": "text",
+            "text": "IKEA UK drawer organisation guide",
+            "link": "https://www.ikea.com/gb/en/rooms/kitchen/how-to/a-guide-to-organised-kitchen-drawers-pub6a9edc80/"
+          },
+          {
+            "type": "text",
+            "text": " shows combinations for named drawer systems. Treat those as product-specific examples, not dimensions for every kitchen. Check the current documentation for whichever insert you choose. All three images here are AI-generated concept illustrations, not project photographs or product test results."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For the wider cabinetry brief, read the "
+          },
+          {
+            "type": "text",
+            "text": "bespoke kitchen planning guide",
+            "link": "/guides/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": " and explore "
+          },
+          {
+            "type": "text",
+            "text": "Nura bespoke kitchen services",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": ". Our "
+          },
+          {
+            "type": "text",
+            "text": "kitchen handle checks",
+            "link": "/post/before-you-order-kitchen-handles-try-the-grip"
+          },
+          {
+            "type": "text",
+            "text": " cover another hands-on decision before ordering. Bring your drawer record and questions to a "
+          },
+          {
+            "type": "text",
+            "text": "Nura consultation",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": " to discuss your kitchen brief."
+          }
+        ]
+      }
+    ]
+  }
 }
 ]

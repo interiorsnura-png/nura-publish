@@ -73,3 +73,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Verify the first hourly Journal article `/post/test-kitchen-colour-at-home` on production, including Journal listing, metadata, sitemap and desktop/mobile rendering. Task release evidence will record the outcome.
 
 - [ ] Obtain rights-confirmed photographs of the same physical cabinet sample beside stone/flooring, in daylight and artificial light, for the colour-testing article. Do not label a project photograph or illustration as evidence of this test.
+
+- [ ] Monitor drawer article actual GSC indexing/performance, field Core Web Vitals and confirmed GA4/CTA receipt; do not infer these from build or script presence.

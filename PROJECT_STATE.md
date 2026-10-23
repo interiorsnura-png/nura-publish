@@ -237,3 +237,10 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 ## 2026-10-23: six-week kitchen title correction
 
 - Owner requested title refinement at /post/bespoke-kitchen-ready-in-six-weeks. Traced public source through nura-50 loader to Markdown; synchronised manifest title/metadata. Actual Google query bespoke kitchen lead time, UK/Fulham IP, not personalised: first organic Higham how-long question, inspected page. New title uses conditional6-week question and five existing checklist sections; description avoids guaranteed delivery. Body, dates, authorship, images and URL preserved. Release evidence outside checkout.
+
+
+## 2026-10-23: drawer organisation article
+
+- Prepared /post/kitchen-drawer-organisation-before-you-buy with5 practical pre-purchase checks, record table,3 original NURA concept illustrations and owner-assigned Joanne H byline. No human review claimed. Source-backed manufacturer context; no project/product-test or universal sizing claim.
+- Google actual UK/Fulham IP results, first organic IKEA category and5 manufacturer/retailer pages researched. Existing small-kitchen/hardware/plinth topics are broader or different. Omni draft rejected for visual-only measurement and invalid paper durability inference; corrected in PDCA.
+- Research, QC, preview and exact-SHA live release evidence recorded outside checkout.
