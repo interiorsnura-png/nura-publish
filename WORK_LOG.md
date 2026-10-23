@@ -217,3 +217,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 - Prepared /post/before-you-order-kitchen-handles-try-the-grip with practical comfort/fit/care checks, three original NURA concept images, contextual links, manufacturer reference and documented Ancona palette. No numerical fitting rules or invented project/testing evidence.
 - Actual Google search displayed Fulham, London based on the account places; personalised results recorded privately. Existing Blum/HiGold article concerns hinges/runners and mechanisms, while this tip concerns external handles. Owner-selected hero is an independent design informed by broad composition principles of the first organic Google Images result, not a copied/re-watermarked image.
 - QC, preview, exact-SHA and live release evidence is recorded outside this source checkout.
+
+
+## 2026-10-23: handle article metadata refresh
+
+- Owner-approved SEO title with 3 Pro Checks and matching description. Existing H1, URL, first-publication date and hero preserved. Shared renderer supplies OG/Twitter. Future Google competitor-title research rule added to canonical AGENTS.
+- Release and live validation evidence recorded separately by this task.

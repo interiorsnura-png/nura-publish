@@ -74,3 +74,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Do not run `npm test` separately immediately before `build:verified`, which already runs it. Do not replace required gates with an environment skip flag. Existing exact-SHA release guards remain mandatory. Avoid redundant standalone typecheck when its required result is already covered by the selected gate.
 - Harness fixtures use short OS temporary directories and `git init --template=`. Never copy a production .git directory or user template hooks into a fixture. Report harness, application and deployment failures separately. A harness failure means application/deployment remains unverified, not healthy.
 - Wait for the existing deployment event/status to change with bounded backoff; after READY verify source SHA, alias, sitemap and affected routes. Do not rebuild local unchanged source just to wait for Vercel. Keep required live/browser checks.
+
+## Owner metadata workflow, 2026-10-23
+
+- For future articles, analyse actual first-page Google titles and descriptions for the primary keyword, recording query, date, visible organic URLs and geographic/personalisation limitations. Compare clarity, intent, benefit and curiosity; write original metadata rather than copying competitors. Prefer a truthful number, useful punctuation and Pro when appropriate to the actual content; never fabricate expertise or promise unsupported results. Align SEO, OG and Twitter metadata; do not claim highest CTR without real data.
