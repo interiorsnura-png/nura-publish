@@ -16,7 +16,7 @@ assert.equal(article.author['@type'],'Person');
 assert.equal(article.author.name,'Joanne H');
 assert.equal(article.author.url,'https://www.linkedin.com/in/joanne-h/');
 assert.equal(article.datePublished,'2025-03-30');
-assert.equal(article.dateModified,'2026-10-11T06:37:33Z');
+assert.equal(article.dateModified,'2026-10-22');
 assert.equal($('.article-reviewer,.article-reviewer-pending').length,0,'Old review must not endorse replacement text');
 assert.ok($('.article-content').text().split(/\s+/).length>700);
 for(const topic of [/carcass/i,/hardware/i,/worktops/i,/VAT/,/snagging/i])assert.match($('.article-content').text(),topic);
