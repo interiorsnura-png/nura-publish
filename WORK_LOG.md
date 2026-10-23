@@ -248,3 +248,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 ## 2026-10-23: drawer illustration wording
 
 - Owner asked to remove public AI-production wording. Replaced it in drawer article body, captions and alt with descriptive illustration language and Nura credit. Technical illustration limits and private provenance retained. Initial855515c deployment was READY but final verification/reporting was interrupted; final revised release evidence recorded by current task.
+
+
+## 2026-10-23: drawer Article datetime warnings
+
+- Official Google liveURL report szjyCD49Ygv-Bcn-uSZSbQ found9valid items and4optional date/timezone warnings. Added actual initial publication READY2026-10-23T22:05:24.067Z and latest content deployment READY2026-10-23T22:09:14.182Z to the existing record. Original calendar dates, title, images and byline preserved. No invented midnight timestamp; this schema-only correction is logged separately.
+- Owner requires official live RichResults test after every future publication and corrective revalidation. Final release/external retest evidence recorded by current task.
