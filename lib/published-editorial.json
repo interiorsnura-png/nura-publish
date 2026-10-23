@@ -5156,5 +5156,310 @@
       }
     ]
   }
+},
+{
+  "path": "/post/before-you-order-kitchen-handles-try-the-grip",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/before-you-order-kitchen-handles-try-the-grip"
+  },
+  "content": {
+    "component": "article",
+    "title": "Before You Order Kitchen Handles, Try the Grip",
+    "seo_title": "How to Choose Kitchen Handles: Try the Grip | Nura",
+    "seo_description": "Choose kitchen handles with a practical sample test. Check comfort, cabinet fit and finish care, then record the details before ordering or drilling.",
+    "summary": "Try a physical handle sample, confirm its fit and record the finish and fixing references before approving your order.",
+    "category": "Materials",
+    "author_name": "Nura Interiors",
+    "published_date": "2026-10-23",
+    "modified_date": "2026-10-23",
+    "source_publish_status": "published",
+    "image_rights_status": "owned",
+    "hero": {
+      "filename": "/assets/editorial/nura-handles-hero.webp",
+      "alt": "Concept kitchen with olive-green drawers, oak tall cabinetry and slim bronze handles",
+      "caption": "© Nura Interiors. Concept illustration."
+    },
+    "body": "To choose kitchen handles, try a physical sample on a representative cabinet front before approving the order. Look beyond the finish: check how the grip feels, whether it suits the door profile and which fixing details the supplier needs to confirm. Try the movement, not just the appearance Use a showroom demonstration or a supplier-approved sample arrangement. Hold the pull or knob as you would during everyday use. Notice whether your fingers fit comfortably behind it and whether the edges feel awkward in your hand. There is no single grip that suits everybody, so involve the people who will use the kitchen. Check the proposed position on the actual style of door or drawer front. A loose handle held against a photograph cannot show how it meets a recessed panel or neighbouring cabinet. Do not drill a finished door simply to experiment: agree a temporary or demonstration arrangement with your designer or supplier. For an integrated appliance, confirm the appliance and cabinetry requirements before choosing its handle. Do not force an unfamiliar display door or assume that hardware suitable for a small drawer is suitable elsewhere.  Record three checks before ordering Check What to record Comfort Which sample feels comfortable to hold and use? Fit Supplier-confirmed fixing centres, compatible front thickness and required fixings. Care The manufacturer's instructions for the exact finish. Keep the product reference, finish name and agreed position with your cabinet drawings. For replacement handles, have the existing fixing arrangement checked before ordering. Avoid assuming that a similar-looking product will cover the old holes.  Bring the handle sample together with your cabinet finish and worktop. Our  kitchen colour sample guide  explains how to compare the palette at home. For the wider brief, explore  bespoke kitchen services  or  discuss your project with Nura .  See a documented Nura palette The published  Ancona kitchen  combines matt black lacquered cabinetry, terrazzo, ribbed glass and brass handles. It is an example of hardware within a coordinated palette, rather than evidence of a particular grip test. The hero and sample images in this article are concept illustrations. Further reading For manufacturer guidance on handle types, finishes and placement, see  Armac Martin’s cabinet hardware guide . Confirm compatibility and care against the exact product documentation supplied for your order.",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To choose kitchen handles, try a physical sample on a representative cabinet front before approving the order. Look beyond the finish: check how the grip feels, whether it suits the door profile and which fixing details the supplier needs to confirm."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Try the movement, not just the appearance"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Use a showroom demonstration or a supplier-approved sample arrangement. Hold the pull or knob as you would during everyday use. Notice whether your fingers fit comfortably behind it and whether the edges feel awkward in your hand. There is no single grip that suits everybody, so involve the people who will use the kitchen."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Check the proposed position on the actual style of door or drawer front. A loose handle held against a photograph cannot show how it meets a recessed panel or neighbouring cabinet. Do not drill a finished door simply to experiment: agree a temporary or demonstration arrangement with your designer or supplier."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For an integrated appliance, confirm the appliance and cabinetry requirements before choosing its handle. Do not force an unfamiliar display door or assume that hardware suitable for a small drawer is suitable elsewhere."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-handles-grip.webp",
+        "alt": "Concept illustration of a brass bar handle on a greige cabinet sample, with a loose knob and bronze pull",
+        "caption": "© Nura Interiors. Concept illustration of hardware samples for a hands-on comparison, not a photographed project or a dimensional guide."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Record three checks before ordering"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "A short record to keep with your cabinetry specification.",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Check"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "What to record"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Comfort"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Which sample feels comfortable to hold and use?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fit"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Supplier-confirmed fixing centres, compatible front thickness and required fixings."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Care"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The manufacturer's instructions for the exact finish."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep the product reference, finish name and agreed position with your cabinet drawings. For replacement handles, have the existing fixing arrangement checked before ordering. Avoid assuming that a similar-looking product will cover the old holes."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-handles-record.webp",
+        "alt": "Concept illustration of a loose brass handle, screws and an oak sample door beside a product reference card",
+        "caption": "© Nura Interiors. Concept illustration: record the chosen product, finish and supplier-confirmed fixings before ordering. Fixings shown are illustrative."
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the handle sample together with your cabinet finish and worktop. Our "
+          },
+          {
+            "type": "text",
+            "text": "kitchen colour sample guide",
+            "link": "/post/test-kitchen-colour-at-home"
+          },
+          {
+            "type": "text",
+            "text": " explains how to compare the palette at home. For the wider brief, explore "
+          },
+          {
+            "type": "text",
+            "text": "bespoke kitchen services",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": " or "
+          },
+          {
+            "type": "text",
+            "text": "discuss your project with Nura",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": ". "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "See a documented Nura palette"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The published "
+          },
+          {
+            "type": "text",
+            "text": "Ancona kitchen",
+            "link": "/kitchens/ancona"
+          },
+          {
+            "type": "text",
+            "text": " combines matt black lacquered cabinetry, terrazzo, ribbed glass and brass handles. It is an example of hardware within a coordinated palette, rather than evidence of a particular grip test. The hero and sample images in this article are concept illustrations."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Further reading"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For manufacturer guidance on handle types, finishes and placement, see "
+          },
+          {
+            "type": "text",
+            "text": "Armac Martin’s cabinet hardware guide",
+            "link": "https://www.armacmartin.co.uk/blogs/the-journal/the-ultimate-guide-to-choosing-kitchen-cabinet-hardware"
+          },
+          {
+            "type": "text",
+            "text": ". Confirm compatibility and care against the exact product documentation supplied for your order."
+          }
+        ]
+      }
+    ]
+  }
 }
 ]

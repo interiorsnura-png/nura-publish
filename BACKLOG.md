@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- [ ] Monitor the handle sample article after verified publication: actual GSC indexing/search data, field Core Web Vitals when enough data exists, and confirmed GA4/qualified-lead evidence. Source/preview checks do not establish those results.
+
 - [ ] Verify the Journal feature CTA stays inside the hero and all three category links navigate correctly at desktop and mobile sizes after the current layout release.
 
 - [x] Correct remaining 20 Journal descriptions, weak introductions and repeated/empty images with original author and publication history preserved.

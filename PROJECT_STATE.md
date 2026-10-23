@@ -211,3 +211,10 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - Removed the public AI-generated wording from the two colour-article image captions and alt text at the owner's request. Retained the concept-illustration qualification and limitations on project/testing evidence. Added visible Nura Interiors credit and a bounded licensing-page section covering the two illustrations. Existing ImageObject creator, credit, copyright and permission links already identify Nura Interiors.
 - Generated provenance remains in the task records. Source images and watermarks are unchanged. Exact release and live checks are recorded outside this checkout.
+
+
+## 2026-10-23: handle sample article
+
+- Prepared /post/before-you-order-kitchen-handles-try-the-grip with practical comfort/fit/care checks, three original NURA concept images, contextual links, manufacturer reference and documented Ancona palette. No numerical fitting rules or invented project/testing evidence.
+- Actual Google search displayed Fulham, London based on the account places; personalised results recorded privately. Existing Blum/HiGold article concerns hinges/runners and mechanisms, while this tip concerns external handles. Owner-selected hero is an independent design informed by broad composition principles of the first organic Google Images result, not a copied/re-watermarked image.
+- QC, preview, exact-SHA and live release evidence is recorded outside this source checkout.

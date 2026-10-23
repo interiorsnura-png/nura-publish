@@ -1,5 +1,11 @@
 # NURA project instructions
 
+## Journal hero selection, owner instruction 2026-10-23
+
+- For each new article, search its primary keyword in Google Images and inspect the first non-sponsored result in visible order. Record the query, date, result/source URL and broad visual observations in private research evidence.
+- Create an original hero inspired by general composition, materials and lighting, with NURA watermark and truthful concept labelling. Do not copy or merely re-watermark the source photograph, and do not present a generated interior as a built Nura project.
+- Preserve an owner-selected hero. This rule applies to new articles, not a bulk replacement of existing published imagery.
+
 ## Start from verified state
 
 1. Read `PROJECT_STATE.md`, `WORK_LOG.md`, `BACKLOG.md`, this file, and relevant existing repository guidance before investigating or changing code.

@@ -58,3 +58,6 @@
 
 .article-photo.article-photo-concept .inner-photo{aspect-ratio:3/2}
 .article-photo.article-photo-concept .inner-photo img{object-fit:contain}
+
+.article-page .inner-hero:has(img[src*="nura-handles-hero"]){background:#242820}
+.article-page .inner-hero img[src*="nura-handles-hero"]{object-fit:contain}
