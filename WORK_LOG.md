@@ -231,3 +231,8 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 - Release/live evidence recorded outside checkout by this task.
 
 - Superseding clarification: rejected the formulaic Pro draft before publication. Actual Google query test kitchen colours at home, unpersonalised UK/Fulham IP, first organic Howdens Kitchen Colour Ideas; other visible patterns include Dulux numbered schemes and Tailored Kitchens how-to framing. New title focuses on how-to plus four real sample checks, not broad colour inspiration or a mandatory Pro claim.
+
+
+## 2026-10-23: six-week kitchen title correction
+
+- Owner requested title refinement at /post/bespoke-kitchen-ready-in-six-weeks. Traced public source through nura-50 loader to Markdown; synchronised manifest title/metadata. Actual Google query bespoke kitchen lead time, UK/Fulham IP, not personalised: first organic Higham how-long question, inspected page. New title uses conditional6-week question and five existing checklist sections; description avoids guaranteed delivery. Body, dates, authorship, images and URL preserved. Release evidence outside checkout.

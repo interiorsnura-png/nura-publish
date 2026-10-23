@@ -1,8 +1,8 @@
 ---
 slug: "bespoke-kitchen-ready-in-six-weeks"
-title: "Can a Bespoke Kitchen Be Ready in Six Weeks?"
-seo_title: "Can a Bespoke Kitchen Be Ready in Six Weeks?"
-seo_description: "A six-week bespoke kitchen is possible, but only if specific conditions are met before the clock starts. Here is the honest go/no-go checklist."
+title: "Bespoke Kitchen in 6 Weeks? 5 Checks Before You Book"
+seo_title: "Bespoke Kitchen in 6 Weeks? 5 Checks Before You Book"
+seo_description: "Considering a bespoke kitchen in 6 weeks? Check signed-off sizes, finishes, appliances, workshop capacity and written dates before booking an express slot."
 canonical: "https://www.nura-interiors.com/post/bespoke-kitchen-ready-in-six-weeks"
 published_date: "2025-04-02"
 modified_date: "2026-10-18"
@@ -17,7 +17,7 @@ search_intent: "planning"
 status: "needs-review"
 ---
 
-# Can a Bespoke Kitchen Be Ready in Six Weeks?
+# Bespoke Kitchen in 6 Weeks? 5 Checks Before You Book
 
 A bespoke kitchen may be suitable for an accelerated programme, but the phrase six weeks needs a clear definition. Nura has described a paid express option for suitable projects, subject to agreement and availability. Before planning a move-in date around it, establish what the quoted window covers and which decisions need to be resolved first. The practical question is whether your project has the information, products and site conditions required for the proposed dates. A shorter programme works through preparation and coordination, rather than by leaving essential decisions until later.
 
