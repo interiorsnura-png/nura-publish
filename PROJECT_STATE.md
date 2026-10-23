@@ -244,3 +244,8 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 - Prepared /post/kitchen-drawer-organisation-before-you-buy with5 practical pre-purchase checks, record table,3 original NURA concept illustrations and owner-assigned Joanne H byline. No human review claimed. Source-backed manufacturer context; no project/product-test or universal sizing claim.
 - Google actual UK/Fulham IP results, first organic IKEA category and5 manufacturer/retailer pages researched. Existing small-kitchen/hardware/plinth topics are broader or different. Omni draft rejected for visual-only measurement and invalid paper durability inference; corrected in PDCA.
 - Research, QC, preview and exact-SHA live release evidence recorded outside checkout.
+
+
+## 2026-10-23: drawer illustration wording
+
+- Owner asked to remove public AI-production wording. Replaced it in drawer article body, captions and alt with descriptive illustration language and Nura credit. Technical illustration limits and private provenance retained. Initial855515c deployment was READY but final verification/reporting was interrupted; final revised release evidence recorded by current task.
