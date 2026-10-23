@@ -277,3 +277,6 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 - Validation and exact-source release evidence are recorded in the footer task workspace.
 
 - Shelf publication date reconciled to actual first production READY 2026-10-23T23:07:26.832Z (dpl_BXFBjd9HVTicHQ2uBSZ8DiP222VP, source3a8cec4), replacing provisional drafting timestamp. Same calendar date, author/prose unchanged; corrective validation is logged separately.
+
+## 2026-10-24: owner-assigned article byline
+Owner requested Joanne H for every article. Implemented shared local/CMS/preview article normalization and regression coverage for all loaded articles, immutability, date preservation and unrelated content. Publication and live checks are recorded in the current task workspace.

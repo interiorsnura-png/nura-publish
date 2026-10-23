@@ -1,5 +1,9 @@
 # NURA project instructions
 
+## Journal byline, owner instruction 2026-10-24
+
+- All existing and future Journal articles use the owner-assigned Joanne H byline and https://www.linkedin.com/in/joanne-h/ profile. This supersedes prior byline rotation and preservation requirements for author names only. Preserve first-publication dates, content and reviewer records. Do not imply personal expertise, writing or human review without evidence. The shared content loader applies this policy after source merges; visible authorship and Article schema must agree.
+
 ## Journal hero selection, owner instruction 2026-10-23
 
 - For each new article, search its primary keyword in Google Images and inspect the first non-sponsored result in visible order. Record the query, date, result/source URL and broad visual observations in private research evidence.

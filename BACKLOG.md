@@ -77,3 +77,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Monitor drawer article actual GSC indexing/performance, field Core Web Vitals and confirmed GA4/CTA receipt; do not infer these from build or script presence.
 
 - [ ] Verify Google News footer release on production at mobile and desktop sizes; release evidence in footer task workspace.
+
+- [ ] Verify all Joanne H bylines and LinkedIn Article author URLs after production release; live evidence in current author task workspace.

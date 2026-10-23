@@ -27,6 +27,21 @@ const batch=load('lib/nura-50-drafts.ts').getNura50PublicEntries();
 const {mergeBatchEntries,getEntries}=load('lib/content.ts');
 const base=['migration/content-backup.json','lib/published-projects.json','lib/published-editorial.json','lib/published-pages.json'].flatMap(p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')));
 const before=JSON.stringify(base),effective=mergeBatchEntries(base,batch);
+test('owner byline applies to every loaded article while preserving other content and dates',async()=>{
+ const {assignJournalAuthor}=load('lib/content.ts');
+ const old={path:'/post/example',content:{component:'article',title:'Example',author_name:'Nura Interiors',author_bio:'Studio biography',published_date:'2024-12-20'}};
+ const project={path:'/projects/example',content:{component:'project',title:'Project'}};
+ const result=assignJournalAuthor([old,project]);
+ assert.equal(result[0].content.author_name,'Joanne H');
+ assert.equal(result[0].content.author_bio,undefined);
+ assert.equal(result[0].content.published_date,old.content.published_date);
+ assert.equal(old.content.author_name,'Nura Interiors');
+ assert.equal(result[1],project);
+ const entries=await getEntries();
+ const articles=entries.filter(e=>e.content.component==='article');
+ assert.ok(articles.length>=50);
+ for(const e of articles)assert.equal(e.content.author_name,'Joanne H',e.path);
+});
 const walk=nodes=>nodes.flatMap(n=>[n,...walk(n.children||[])]);
 test('all 50 approved batch bodies replace collisions at unique existing paths without mutating legacy data',()=>{
  assert.equal(batch.length,50);assert.equal(effective.length,new Set(effective.map(e=>e.path)).size);

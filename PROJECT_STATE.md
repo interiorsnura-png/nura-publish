@@ -278,3 +278,6 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 - Validation and exact-source release evidence are recorded in the footer task workspace.
 
 - Shelf publication date reconciled to actual first production READY 2026-10-23T23:07:26.832Z (dpl_BXFBjd9HVTicHQ2uBSZ8DiP222VP, source3a8cec4), replacing provisional drafting timestamp. Same calendar date, author/prose unchanged; corrective validation is logged separately.
+
+## 2026-10-24: owner-assigned article byline
+All loaded Journal articles use Joanne H and the supplied LinkedIn profile through shared post-merge normalization. Old biographies are cleared when the author changes; dates, prose and other content types are preserved. Release evidence is in the current author task workspace.

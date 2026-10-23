@@ -13,6 +13,14 @@ export type Asset={filename:string;alt?:string;caption?:string;width?:number;hei
 export type Content={component:string;title:string;location?:string;category?:string;summary?:string;body?:string;specifications?:string;hero?:Asset;gallery?:Asset[];seo_title?:string;seo_description?:string;published_date?:string;modified_date?:string;body_nodes?:ArticleNode[];author_name?:string;author_bio?:string;pending_reviewer?:{name:string;role:string};social_image?:Asset;large_image_preview?:boolean;reviewer?:{name:string;role:string;reviewed_date:string};image_rights_status?:string;source_publish_status?:string;source_rank?:number;};
 export type Entry={path:string;content:Content;source?:{collection:string;id:string}};
 
+// Owner-assigned Journal byline, applied after all source merges.
+export function assignJournalAuthor(entries:Entry[]):Entry[]{
+  return entries.map(entry=>entry.content.component==='article'?{
+    ...entry,content:{...entry.content,author_name:'Joanne H',
+      author_bio:entry.content.author_name==='Joanne H'?entry.content.author_bio:undefined}
+  }:entry);
+}
+
 export function mergeBatchEntries(base:Entry[],batch:Entry[]):Entry[]{
   const map=new Map<string,Entry>();
   base.forEach(e=>{if(!map.has(e.path))map.set(e.path,e);});
@@ -44,8 +52,8 @@ function apiBase(){const region=process.env.STORYBLOK_REGION||'eu';const hosts:R
 export const getEntries=cache(async ():Promise<Entry[]> => {
   if(!process.env.CONTENT_SOURCE || process.env.CONTENT_SOURCE==='local' || process.env.CONTENT_SOURCE==='backup'){
     const base=mergeBatchEntries([...archive,...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[],getNura50PublicEntries());
-    if(process.env.SEO_MEDIA_WALL_PREVIEW==='true'&&!base.some(entry=>entry.path===mediaWallPreviewPath))return [...base,await loadMediaWallPreview()];
-    return base;
+    if(process.env.SEO_MEDIA_WALL_PREVIEW==='true'&&!base.some(entry=>entry.path===mediaWallPreviewPath))return assignJournalAuthor([...base,await loadMediaWallPreview()]);
+    return assignJournalAuthor(base);
   }
   const preview=(await draftMode()).isEnabled;
   const token=preview?process.env.STORYBLOK_PREVIEW_TOKEN:process.env.STORYBLOK_TOKEN;
@@ -57,7 +65,7 @@ export const getEntries=cache(async ():Promise<Entry[]> => {
     if(!response.ok)throw Error('CMS request failed ('+response.status+')');
     const result=await response.json();if(!Array.isArray(result.stories))throw Error('Invalid CMS response');
     for(const story of result.stories){if(story.is_folder)continue;entries.push({path:story.full_slug==='home'?'/':'/'+story.full_slug.replace(/\/$/,''),content:story.content});}
-    if(result.stories.length<100)return mergeBatchEntries([...entries,...([...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[]).filter(p=>!entries.some(e=>e.path===p.path))],getNura50PublicEntries());
+    if(result.stories.length<100)return assignJournalAuthor(mergeBatchEntries([...entries,...([...publishedProjects,...publishedEditorial,...publishedPages,publishedMediaWall] as Entry[]).filter(p=>!entries.some(e=>e.path===p.path))],getNura50PublicEntries()));
   }
   throw Error('CMS pagination exceeded safety limit');
 });
