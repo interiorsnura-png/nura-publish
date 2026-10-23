@@ -275,3 +275,5 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 
 - Owner authorised Google News icon and Nura on Google News link beside existing footer social links. Uses the exact supplied domain-search URL, new tab with noopener noreferrer, decorative original Google News icon sourced from https://www.gstatic.com/gnews/logo/google_news_192.png. No endorsement claim. Social row wraps on narrow screens.
 - Validation and exact-source release evidence are recorded in the footer task workspace.
+
+- Shelf publication date reconciled to actual first production READY 2026-10-23T23:07:26.832Z (dpl_BXFBjd9HVTicHQ2uBSZ8DiP222VP, source3a8cec4), replacing provisional drafting timestamp. Same calendar date, author/prose unchanged; corrective validation is logged separately.
