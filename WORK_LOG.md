@@ -265,3 +265,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 ## Drawer Discover performance correction
 
 - Actual Google mobile PageSpeed report aqo059j4pu found author avatar 800x800 PNG1093KiB displayed40x40. Created80x80 WebP thumbnail from the same portrait and preserved original source; no person/content/date changes. Initial lab performance74,LCP5.3s,CLS0; field data unavailable. Search Console indexing request hit daily quota; retry tomorrow.
+
+
+## 2026-10-24: Google News footer link
+
+- Owner authorised Google News icon and Nura on Google News link beside existing footer social links. Uses the exact supplied domain-search URL, new tab with noopener noreferrer, decorative original Google News icon sourced from https://www.gstatic.com/gnews/logo/google_news_192.png. No endorsement claim. Social row wraps on narrow screens.
+- Validation and exact-source release evidence are recorded in the footer task workspace.
