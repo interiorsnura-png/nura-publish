@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/test-kitchen-colour-at-home':{proof:'/kitchens/ancona',proofLabel:'Explore a completed kitchen palette',service:'/services/bespoke-kitchens'},
   '/post/plywood-vs-mfc-kitchen-carcasses':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a completed kitchen in Chelsea',service:'/services/bespoke-kitchens'},
   '/post/planning-a-galley-kitchen-in-london':{proof:'/kitchens/westover-road',proofLabel:'Explore the Westover Road project',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your galley kitchen with Nura'}},
   '/post/how-to-compare-bespoke-kitchen-quotes-in-london':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a completed kitchen in Chelsea',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen project with Nura'}},

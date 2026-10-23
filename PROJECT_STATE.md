@@ -187,3 +187,9 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - Owner confirmed a definite 10-year cabinetry guarantee included in the customer contract. Replaced proposal language on /guarantee, homepage and service blocks; added clear coverage and real email/phone support. Costs and local installation responsibilities are recorded in project contracts without invented free services or turnaround promises.
 - Prepared locally; existing noindex and sitemap status retained. No publication performed for this request. Validation is reported by the current task.
+
+
+## 2026-10-23: first hourly Journal article
+
+- User authorised immediate production publication of one new English Journal article as a sample for the hourly schedule. Added `/post/test-kitchen-colour-at-home`, a focused physical sample comparison routine, with existing licensed imagery and material/consultation links. Existing article records and publication history preserved.
+- Prepared from clean main d310bda28a4c29497fb39d2a0122db8c0baefcb0. Final build, exact deployment identity and live desktop/mobile verification are recorded separately by the current task; preparation alone does not prove publication.

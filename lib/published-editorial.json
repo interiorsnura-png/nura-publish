@@ -4669,5 +4669,170 @@
       ],
       "modified_date": "2026-10-21"
     }
+  },
+{
+  "path": "/post/test-kitchen-colour-at-home",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/test-kitchen-colour-at-home"
+  },
+  "content": {
+    "component": "article",
+    "title": "Before You Choose a Kitchen Colour, Test It at Home",
+    "summary": "A simple routine for comparing cabinet samples with your flooring, worktop and everyday lighting before approving a kitchen colour.",
+    "seo_title": "Test Kitchen Colours at Home Before You Decide | Nura",
+    "seo_description": "Compare kitchen colour samples beside your flooring and worktop, in daylight and after dark. A practical routine to help you approve your cabinet finish.",
+    "category": "Materials",
+    "author_name": "Nura Interiors",
+    "published_date": "2026-10-23",
+    "modified_date": "2026-10-23",
+    "source_publish_status": "published",
+    "hero": {
+      "filename": "https://static.wixstatic.com/media/22c124_de74c024a6e04f63bb9078da5b5c81fa~mv2.webp",
+      "alt": "Kitchen palette with light cabinetry and contrasting surfaces"
+    },
+    "body": "Before you settle on a kitchen colour, give a physical sample a place in the room itself. View it beside the floor and worktop, in daylight and under the lights you use after dark. The aim is a small, repeatable check of how the finishes work together in your home.\n\nStart with the finish you will actually specify\n\nAsk for a movable sample of the proposed door finish, rather than choosing from a photograph alone. A painted board can help you explore a colour, but it does not necessarily represent a lacquered door, stained veneer or textured surface. Confirm what the sample represents and what still needs approval.\n\nChoose a sample large enough to see its texture and, for timber, the grain. If you are comparing several colours, label the backs so you can return to the same options without relying on memory. Keep the selection manageable: two or three considered choices are easier to assess than a crowded table of swatches.\n\nMake a small palette in the actual room\n\nBring the cabinet sample together with the proposed worktop, flooring and wall colour. Place them beside one another, then step back. Look for the relationship you want: a quiet tonal arrangement, a warmer contrast or a distinct change between the cabinetry and surrounding surfaces.\n\nHold the door sample upright where the cabinetry will sit. Keep the worktop sample horizontal. Moving everything onto a table is convenient, but it can hide how the materials will meet when installed. Try more than one position, especially if the room has a bright window at one end and a darker corner at the other.\n\nReturn in daylight and after dark\n\nLook at the same combination in the morning, later in the day and in the evening. Use the room normally rather than searching for one perfect moment. Note whether a colour feels too cool, too warm or simply different from what you expected. There is no need to decide immediately.\n\nAfter dark, switch on the lighting you expect to use together. If the final fittings are not installed, record that limitation and revisit the samples when you can assess a representative light. A photograph can help you remember the arrangement, but use the physical samples for the final comparison.\n\nRecord the choice before approving it\n\nOnce a combination feels right, record the product, colour reference, finish and sample identifier with your designer or supplier. For timber, ask how natural variation and grain direction will be represented. Keep the agreed sample available as the design develops.\n\nFor more on cabinet materials, read Solid Wood or Veneer. To discuss your own palette and kitchen brief, arrange a Nura consultation.",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Before you settle on a kitchen colour, give a physical sample a place in the room itself. View it beside the floor and worktop, in daylight and under the lights you use after dark. The aim is a small, repeatable check of how the finishes work together in your home."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Start with the finish you will actually specify"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ask for a movable sample of the proposed door finish, rather than choosing from a photograph alone. A painted board can help you explore a colour, but it does not necessarily represent a lacquered door, stained veneer or textured surface. Confirm what the sample represents and what still needs approval."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Choose a sample large enough to see its texture and, for timber, the grain. If you are comparing several colours, label the backs so you can return to the same options without relying on memory. Keep the selection manageable: two or three considered choices are easier to assess than a crowded table of swatches."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Make a small palette in the actual room"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the cabinet sample together with the proposed worktop, flooring and wall colour. Place them beside one another, then step back. Look for the relationship you want: a quiet tonal arrangement, a warmer contrast or a distinct change between the cabinetry and surrounding surfaces."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Hold the door sample upright where the cabinetry will sit. Keep the worktop sample horizontal. Moving everything onto a table is convenient, but it can hide how the materials will meet when installed. Try more than one position, especially if the room has a bright window at one end and a darker corner at the other."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Return in daylight and after dark"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Look at the same combination in the morning, later in the day and in the evening. Use the room normally rather than searching for one perfect moment. Note whether a colour feels too cool, too warm or simply different from what you expected. There is no need to decide immediately."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "After dark, switch on the lighting you expect to use together. If the final fittings are not installed, record that limitation and revisit the samples when you can assess a representative light. A photograph can help you remember the arrangement, but use the physical samples for the final comparison."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Record the choice before approving it"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Once a combination feels right, record the product, colour reference, finish and sample identifier with your designer or supplier. For timber, ask how natural variation and grain direction will be represented. Keep the agreed sample available as the design develops."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For more on cabinet materials, read "
+          },
+          {
+            "type": "text",
+            "text": "Solid Wood or Veneer",
+            "link": "/post/solid-wood-or-veneer"
+          },
+          {
+            "type": "text",
+            "text": ". To discuss your own palette and kitchen brief, "
+          },
+          {
+            "type": "text",
+            "text": "arrange a Nura consultation",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      }
+    ]
   }
+}
 ]
