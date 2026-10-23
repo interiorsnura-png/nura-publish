@@ -42,8 +42,29 @@
 
 # This is NOT the Next.js you know
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+This version has breaking changes â€” APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
 
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+This block is written and re-added by `next dev` â€” verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Shared Claude and Codex execution policy, 2026-10-23
+
+- This section governs workflow coordination; all existing required release checks, security boundaries and verifier/Stop hooks remain mandatory. Explicit authorization in the current user request or session persists for its stated scope. Do not ask the user the same question again. Tool-enforced approval is independent and must be honored.
+- Read this canonical AGENTS.md through CLAUDE.md. Resolve the actual checkout, origin, branch, full SHA and existing changes once at task start. Refresh identity if the checkout, branch or source changes. Preserve existing work, authors, public paths and first-publication dates.
+- Use the configured local OmniRoute gateway for substantive execution when available, with credentials only in process environment variables. Never print or persist credentials. If Claude Code cannot start, report the runtime failure and use the existing gateway tool where supported; do not recursively delegate or silently claim success.
+- Batch related edits. The PostToolUse hook records that verification is pending rather than rerunning all tests after each file edit. Run useful focused checks during editing, then the existing full verifier once for the final unchanged source. Stop still requires its successful full report and matching fingerprint/build ID. A read-only session with unchanged source needs no new build. Do not run concurrent builds or verifiers against the same checkout.
+- Reuse a successful verification only while its actual checkout, source fingerprint, build ID and validity period still match. Existing release:status, release:verify, release:check and live verification requirements remain in force. Do not weaken tests, fabricate receipts or substitute a focused check for a required full gate.
+- Publication requires user authorization for the current task. Use the existing Git-to-Vercel production workflow. Before a manual deployment, inspect deployments for the exact source SHA. Reuse a matching BUILDING/QUEUED/READY deployment; do not submit a second deployment for the same unchanged source unless a diagnosed failure requires retry. Do not deploy a dirty snapshot, force-push, change project/team or create a new project.
+- Exact project-local command permissions do not authorize unrelated publication. The release hook may approve only the two configured exact release commands after checking NURA origin, clean source, project linkage, no active verifier and a fresh successful full verification. Other release commands and destructive operations retain normal approval. A denial is not permission to rewrite a command or use another tool to evade it.
+- Verify READY, authoritative source SHA, production alias and the actual changed behavior at the requested live URL. Run required desktop/mobile checks; add interaction checks relevant to the change. HTTP 200 alone is insufficient. Diagnose ordinary failures without repeating an unchanged failing command indefinitely. Stop only for a genuine access barrier or decision outside authorization.
+- Start a wall-clock timer at task entry. Report actual elapsed time and separately measured deployment wait, without artificial deadlines or unmeasured estimates. Keep progress meaningful and final reports short: change, verified result/link, source/deployment state, remaining blocker and measured duration.
+- Configuration-only tasks do not authorize push or deployment. Keep machine-local configuration and backups out of publication commits.
+
+## Verification scheduling and Windows fixtures, 2026-10-23
+
+- During editing use `node .claude/dev-cycle/quick.mjs [tests/example.test.mjs ...]` for parallel typecheck, diff validation and optional relevant test files. It never creates a full-verification receipt or satisfies the release gate.
+- Run the existing full verifier once after the final real change. It retains every harness, application, typecheck, build, SEO, image and desktop/mobile browser check. Repeated calls reuse only a complete successful full report for the identical checkout, fingerprint, runtime and BUILD_ID within 24 hours. Use `--force` when an external dependency or environment change requires a fresh run. Never promote quick/browser-only reports.
+- Do not run `npm test` separately immediately before `build:verified`, which already runs it. Do not replace required gates with an environment skip flag. Existing exact-SHA release guards remain mandatory. Avoid redundant standalone typecheck when its required result is already covered by the selected gate.
+- Harness fixtures use short OS temporary directories and `git init --template=`. Never copy a production .git directory or user template hooks into a fixture. Report harness, application and deployment failures separately. A harness failure means application/deployment remains unverified, not healthy.
+- Wait for the existing deployment event/status to change with bounded backoff; after READY verify source SHA, alias, sitemap and affected routes. Do not rebuild local unchanged source just to wait for Vercel. Keep required live/browser checks.
