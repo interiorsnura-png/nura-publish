@@ -175,3 +175,9 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 - `npm run build:verified` passed: 70 tests, TypeScript/build, 71 route checks, 745 photo instances, 506 unique photos and zero missing licenses. Focused tests, typecheck and whitespace checks passed. A read-only code review found no concrete issues.
 - The worktree's own built app on port 4176 rendered the article with the intended H1, description, canonical, Article/Breadcrumb schemas, hero and links; the mobile 375px view had no horizontal overflow. The Materials journal view showed six stories and the new card. The separate port 4175 preview points to the original checkout and returned 404 for this route, so it is not evidence about this worktree. Local preview console showed Speed Insights script 404/MIME errors; no production browser check or external schema validation was made.
 - `published_date` is a locally assigned 2026-10-21 calendar date, not an observed first Production publication timestamp. No push, deployment or production verification was authorised.
+
+
+## 2026-10-23: publish the reviewed guarantee proposal
+
+- User authorised publication of the local guarantee presentation. Added the homepage trust line, two service blocks, FAQ, shared footer link and public /guarantee proposal. Proposed coverage is visibly identified; final installation, labour, dates, transfer and market terms are not invented. The proposal remains noindex and outside the sitemap. Existing articles and authors are preserved.
+- Release validation and live deployment identity are recorded by this task after the commit. No claim that unresolved terms are final.
