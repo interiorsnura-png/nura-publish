@@ -193,3 +193,9 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - User authorised immediate production publication of one new English Journal article as a sample for the hourly schedule. Added `/post/test-kitchen-colour-at-home`, a focused physical sample comparison routine, with existing licensed imagery and material/consultation links. Existing article records and publication history preserved.
 - Prepared from clean main d310bda28a4c29497fb39d2a0122db8c0baefcb0. Final build, exact deployment identity and live desktop/mobile verification are recorded separately by the current task; preparation alone does not prove publication.
+
+
+## 2026-10-23: colour article audit improvements
+
+- Added a reusable three-sample observation table, the documented Ancona palette and its existing owned project image, plus a contextual bespoke-kitchen guide link to `/post/test-kitchen-colour-at-home`. Title, meta description, author, public path and first-publication date remain unchanged.
+- Ancona is explicitly a finished-palette illustration, not evidence of a sample testing process. No verified same-sample daylight/evening photography was found. Those genuine process photographs remain pending; third-party needs-review sample images were not reused. Exact release and live verification evidence is saved by the current task outside the source checkout.

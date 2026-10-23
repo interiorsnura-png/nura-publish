@@ -69,3 +69,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Publish and verify the owner-confirmed guarantee trust page when publication is requested; review indexing/sitemap as part of that release.
 
 - [ ] Verify the first hourly Journal article `/post/test-kitchen-colour-at-home` on production, including Journal listing, metadata, sitemap and desktop/mobile rendering. Task release evidence will record the outcome.
+
+- [ ] Obtain rights-confirmed photographs of the same physical cabinet sample beside stone/flooring, in daylight and artificial light, for the colour-testing article. Do not label a project photograph or illustration as evidence of this test.
