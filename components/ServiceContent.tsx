@@ -1,4 +1,5 @@
 import JoineryContent from './JoineryContent';
+import GuaranteePreview from './GuaranteePreview';
 import ProcessContent from './ProcessContent';
 type Section={title:string;body:string;links?:{label:string;href:string}[]};
 const sections:Record<string,Section[]>={
@@ -67,7 +68,7 @@ const sections:Record<string,Section[]>={
 };
 export default function ServiceContent({path}:{path:string}){
  if(path==='/process')return <ProcessContent/>;
- if(path==='/services/architectural-joinery')return <JoineryContent/>;
+ if(path==='/services/architectural-joinery')return <><JoineryContent/><GuaranteePreview/></>;
  const content=sections[path];if(!content)return null;
- return <div className="service-detail">{content.map(section=><section key={section.title}><h2>{section.title}</h2><p>{section.body}</p>{section.links?<ul>{section.links.map(link=><li key={link.href}><a href={path==="/consultation"&&link.href==="/#contact"?"#consultation-enquiry":link.href}>{link.label}</a></li>)}</ul>:null}</section>)}</div>;
+ return <div className="service-detail">{content.map(section=><section key={section.title}><h2>{section.title}</h2><p>{section.body}</p>{section.links?<ul>{section.links.map(link=><li key={link.href}><a href={path==="/consultation"&&link.href==="/#contact"?"#consultation-enquiry":link.href}>{link.label}</a></li>)}</ul>:null}</section>)}{path==='/services/bespoke-kitchens'?<GuaranteePreview/>:null}</div>;
 }

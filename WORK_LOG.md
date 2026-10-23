@@ -174,3 +174,9 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 - Preserved author assignments and legacy first-publication evidence; removed obsolete review attribution from replacement copy. Removed duplicated hero imagery and generic rights captions without changing image rights approval.
 - Six focused regressions passed. Full local verification runs 76 tests, 120 route checks and the packaged sitemap trace check. Release and live checks are reported separately; local success is not production evidence.
 
+
+
+## 2026-10-23: publish the reviewed guarantee proposal
+
+- User authorised publication of the local guarantee presentation. Added the homepage trust line, two service blocks, FAQ, shared footer link and public /guarantee proposal. Proposed coverage is visibly identified; final installation, labour, dates, transfer and market terms are not invented. The proposal remains noindex and outside the sitemap. Existing articles and authors are preserved.
+- Release validation and live deployment identity are recorded by this task after the commit. No claim that unresolved terms are final.
