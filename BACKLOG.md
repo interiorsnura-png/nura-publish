@@ -75,3 +75,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Obtain rights-confirmed photographs of the same physical cabinet sample beside stone/flooring, in daylight and artificial light, for the colour-testing article. Do not label a project photograph or illustration as evidence of this test.
 
 - [ ] Monitor drawer article actual GSC indexing/performance, field Core Web Vitals and confirmed GA4/CTA receipt; do not infer these from build or script presence.
+
+- [ ] Verify Google News footer release on production at mobile and desktop sizes; release evidence in footer task workspace.

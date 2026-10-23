@@ -272,3 +272,7 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - New practical decor tip uses owner rotation Nura Interiors. Actual Google UK search footer Fulham London and first Pinterest board reviewed; original value is a four-step daily-use/access trial, not a gallery or fixed spacing rule. Three original NURA-watermarked1536x864 illustrations with private provenance and representative Discover preview. OmniRoute draft arbitrary20cm claim rejected in PDCA and replaced; no invented project/testing.
 - First full check caught missing explicit article journey, fixed with existing valid guide/service/consultation mapping.81tests/124routes/images passed afterward. Final mobile/desktop and source/deployment/external Google evidence are persisted in workspace register. Real index/CWV/analytics remain pending.
+## 2026-10-24: Google News footer link
+
+- Owner authorised Google News icon and Nura on Google News link beside existing footer social links. Uses the exact supplied domain-search URL, new tab with noopener noreferrer, decorative original Google News icon sourced from https://www.gstatic.com/gnews/logo/google_news_192.png. No endorsement claim. Social row wraps on narrow screens.
+- Validation and exact-source release evidence are recorded in the footer task workspace.
