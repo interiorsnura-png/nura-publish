@@ -205,3 +205,9 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 - User authorised publishing both generated NURA-watermarked illustrations in the colour-testing article. Material palette follows the palette section; daylight/evening comparison follows the lighting section. Captions identify AI-generated illustrative content without claiming actual sample testing or a real project.
 - Optimised WebP assets retain the full 3:2 image, watermark and disclosure through a scoped concept-image class. Existing photographs, title, metadata, authorship and publication date remain intact. Release and live checks are recorded outside the source checkout.
+
+
+## 2026-10-23: owner-requested illustration credit
+
+- Removed the public AI-generated wording from the two colour-article image captions and alt text at the owner's request. Retained the concept-illustration qualification and limitations on project/testing evidence. Added visible Nura Interiors credit and a bounded licensing-page section covering the two illustrations. Existing ImageObject creator, credit, copyright and permission links already identify Nura Interiors.
+- Generated provenance remains in the task records. Source images and watermarks are unchanged. Exact release and live checks are recorded outside this checkout.
