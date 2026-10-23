@@ -223,3 +223,11 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 
 - Owner-approved SEO title with 3 Pro Checks and matching description. Existing H1, URL, first-publication date and hero preserved. Shared renderer supplies OG/Twitter. Future Google competitor-title research rule added to canonical AGENTS.
 - Release and live validation evidence recorded separately by this task.
+
+
+## 2026-10-23: colour article title refresh
+
+- Owner requested matching number/Pro title treatment for the colour article. H1, SEO title and shared OG/Twitter use four actual checks already in the article: finish, palette, lighting and approval record. Description aligned; path, dates, images, authorship and body preserved. Includes previously owner-approved workflow documentation changes.
+- Release/live evidence recorded outside checkout by this task.
+
+- Superseding clarification: rejected the formulaic Pro draft before publication. Actual Google query test kitchen colours at home, unpersonalised UK/Fulham IP, first organic Howdens Kitchen Colour Ideas; other visible patterns include Dulux numbered schemes and Tailored Kitchens how-to framing. New title focuses on how-to plus four real sample checks, not broad colour inspiration or a mandatory Pro claim.

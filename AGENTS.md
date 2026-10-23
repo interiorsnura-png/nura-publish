@@ -78,3 +78,19 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## Owner metadata workflow, 2026-10-23
 
 - For future articles, analyse actual first-page Google titles and descriptions for the primary keyword, recording query, date, visible organic URLs and geographic/personalisation limitations. Compare clarity, intent, benefit and curiosity; write original metadata rather than copying competitors. Prefer a truthful number, useful punctuation and Pro when appropriate to the actual content; never fabricate expertise or promise unsupported results. Align SEO, OG and Twitter metadata; do not claim highest CTR without real data.
+
+## First Google result review, owner instruction 2026-10-23
+
+- For EVERY new content item, search its primary keyword on Google and open/read the first non-sponsored organic result in the actual visible order before drafting. Record query, date, result URL, and location/personalisation limitations. Analyse its title, description, headings, coverage, useful examples, imagery and CTA, then identify a concrete original added value for NURA. Do not copy prose or invent expertise. If actual Google result ordering cannot be accessed, explicitly record that limitation rather than label generic search results as Google rank one.
+
+## Independent editorial quality, owner instruction 2026-10-23
+
+- Maintain NURA independent editorial standards regardless of competitor quality. The first Google result is research evidence, never the quality ceiling or a reason to reduce scope or accuracy. Seek to outperform it through clearer intent fulfilment, verified evidence, original practical value, relevant visuals, usability and useful next steps. Apply the full existing checklist and honest minimum90 QC gate even when all competitors are weak; improve or hold a candidate that fails. Do not inflate word counts, fabricate credentials or evidence, or promise to outrank every site. Search ranking and CTR outcomes require actual performance data.
+
+## PDCA for candidates below90, owner instruction 2026-10-23
+
+- Any candidate below90/100 must enter a documented PDCA improvement loop rather than be discarded or published. Plan: record evidence-backed category deficits, root causes, prioritised actions and measurable acceptance criteria. Do: apply bounded fixes while preserving truthful claims and source history. Check: repeat affected content/SEO/image/preview tests and honestly rescore against the unchanged category weights; rerun the mandatory full release gates for final changed source. Act: retain effective improvements and lessons, then repeat PDCA on remaining deficits. Persist each cycle number, timestamps, actual executor, candidate version/fingerprint, before/after scores, actions, test evidence and remaining blockers in the existing single-writer article register without replacing prior history. Map cycles to the existing lifecycle stages rather than creating duplicate articles or fabricated approvals. Keep the candidate unpublished until score>=90 and every independent release blocker is resolved; publish immediately after valid automated approval under existing exact-SHA gates. If access or external evidence prevents progress, save a concrete blocked state and next retry action, report only actionable blockers and resume the same candidate on a later run. Never inflate scores, weaken criteria, endlessly retry an unchanged failure or count missing monitoring evidence as passed.
+
+## Title correction, owner clarification 2026-10-23
+
+- Owner clarification: reverse-engineer actual Google search intent and competitor title patterns for each topic, then create an original content-matched title. Numbers and punctuation are allowed when useful; Pro is optional and must never be a mandatory template across articles. Preserve independent NURA quality standards.
