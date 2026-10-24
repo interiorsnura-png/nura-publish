@@ -1,5 +1,11 @@
 # NURA Work Log
 
+## 2026-10-24: approved homepage improvements
+- Plan: address duplicate portfolio actions, late services/project evidence, competing consultation paths and weak showroom navigation from the recorded homepage audit.
+- Do: scoped HTML presentation transform, early services/project cards, factual project summaries, showroom links and early-stage enquiry copy. No snapshot, assets, submissions, credentials or production settings replaced.
+- Check: three focused regression checks pass; CUA desktop1440/mobile390 preview found and resolved floating-button text overlap by using contextual homepage consultation links. Turbopack could not resolve the external dependency junction; existing webpack dev/build path used instead.
+- Act: retain the clearer route and measure real consultation/qualified-lead behaviour after release. Full final-source and exact-SHA/live gates remain required; final workspace output contains actual release results.
+
 ## 2026-10-23: Journal hero link overlap
 
 - Reproduced the feature link extending below the fixed-height hero at 1920x900, overlapping the next navigation section. Category destinations themselves remain the existing Journal filter routes.
