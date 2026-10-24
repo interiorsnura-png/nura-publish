@@ -423,3 +423,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-24 owner queue5: new kitchen island dimensions guide, five distinct finished-footprint and occupied-use measurements. Original three inspected terracotta/oak illustrations; existing seating/appliance routes remain separate. Byline Joanne H. No universal clearance approval or invented project. Full preview/build/exact-SHA gates required, followed by actual READY date correction, official Rich Results and lab/field distinction. GSC, Discover and confirmed analytics receipt remain pending.
+
+
+2026-10-24 kitchen clock tip: actual seated/preparation views and face/frame choice connected to retained dining furniture and cabinetry. Paperproportion is not actualproductlegibility or mountingapproval. Fiveactualrelevantproviderguides, GooglefirstNewgate/ImagesSchoolhouse and current12titles inspected. Three originalinspectedillustrations, JoanneHbyline, no inventedstock/video/service. Full build/responsive/exactSHAreleaseandactualREADYdatecorrectionrequired; GSC/Discover,fieldCWV/INP and analyticsreceiptpending.

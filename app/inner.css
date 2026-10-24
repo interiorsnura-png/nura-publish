@@ -146,3 +146,6 @@ body:has(.hero-image[src*="nura-worktops-hero"]) .article-content p a{color:#705
 body:has(.hero-image[src*="nura-dims-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
 
 @media(max-width:700px){.article-page .inner-hero:has(img[src*="nura-dims-hero"]){height:72svh;min-height:600px;max-height:660px}}
+
+.hero-image[src*="nura-clock-hero"]{object-fit:contain;object-position:center top;background:#b5a28c}
+body:has(.hero-image[src*="nura-clock-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
