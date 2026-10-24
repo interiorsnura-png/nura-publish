@@ -1,5 +1,9 @@
 # NURA Work Log
 
+## 2026-10-24: direct showroom contact
+- Refreshed clean checkout to current main a6f7929, preserving intervening Journal publications. Checked live Nura London phone and deVOL contact page. OmniRoute's first response was incomplete; a bounded retry completed. Used explicit showroom identity and number, accessible focus styling and a wrapping 44px-minimum call link.
+- No actual call or enquiry is submitted during validation. Existing primary CTA and content remain intact; full release checks follow for the final source.
+
 ## 2026-10-24: owner queue, London kitchen budget
 - Resumed the same cost candidate after the owner reported Trusted configuration corrected. Normal scoped implementation succeeded; no agent security-setting changes, timer reset or duplicate candidate.
 - Retained actual Google/Images and five-source research, rejected unsupported delegated claims, and implemented the evidence-bounded private draft. Full quality and exact-source release evidence stays in the workspace cost-run reports.
