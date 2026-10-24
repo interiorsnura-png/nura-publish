@@ -2,6 +2,7 @@
 
 - [ ] Enrich the three featured project stories with owner-supplied original briefs, constraints and documented decisions when available. Do not backfill those facts from photographs or a generated narrative.
 - [ ] Measure actual project-to-consultation journeys and qualified enquiries after release, with verified analytics receipt.
+- [ ] Monitor the pendant-finish article after publication with actual GSC/Discover data, field Core Web Vitals and authorised analytics receipt; do not infer those outcomes from local or rich-results checks.
 
 - [ ] Homepage PDCA follow-up: observe consented analytics receipt and actual consultation/qualified-lead outcomes; run a small task-based usability study before further redesign. No uplift claim from layout checks.
 - [ ] Confirm field Core Web Vitals when enough real-user data exists; the pre-change PSI lab baseline is not field INP evidence.
