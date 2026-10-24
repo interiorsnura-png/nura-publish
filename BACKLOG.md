@@ -116,3 +116,6 @@ Fruit bowl decor tip,2026-10-24: original empty/usual-serving/near-empty palette
 
 
 2026-10-24: Small kitchen ideas owner queue item2 prepared as9bounded choice/consequence ideas and2priority shortlist, distinct from existing full bespoke brief. Original illustrations with corrected NURA watermark, assigned Joanne H and exact owner metadata. Full source/release/live/official validation required; GSC, Discover, field CWV and analytics receipt remain pending.
+
+
+Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and own-lid landing rehearsal,3original credited illustrations, Joanne H assigned byline. Actual Google first-result/images,6relevant sources and all-source overlap retained privately. Unsupported delegated care/cost/service/lid-swapping claims rejected. Full source/release/live/official checks required; GSC,Discover,fieldCWV and analytics receipt remain pending.
