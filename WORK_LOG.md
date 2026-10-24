@@ -383,3 +383,5 @@ Dishwasher placement article,2026-10-24: household plate-route brief, open-door 
 2026-10-24: Resumed completion-based cadence after the remaining gap. Actual Google first retail result, five competitor pages and primary Cosentino technical guide reviewed. Rejected unsupported delegated recommendations, refined two illustrations and mobile table header, retained original evidence. Full exact-source gates required before and after release.
 
 2026-10-24: Prepared fridge placement article with actual Google/Images research, five source reviews, title diversity and all-source overlap scan. Rejected unsupported delegated installation claims. Reused Journal workflow assets/timers/checks; preserved project-story work and existing public routes.
+
+2026-10-24: Rug colour tip researched from actual first Google organic retail page, six relevant sources and all-source overlap. Rejected unsupported size/cleaning/service claims in delegated draft. Preserved interrupted run timers and owner article queue.
