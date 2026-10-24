@@ -9170,4 +9170,300 @@
     "modified_date": "2026-10-24T09:12:33.271Z"
   }
 }
+,
+{
+  "path": "/post/kitchen-windowsill-styling",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/kitchen-windowsill-styling"
+  },
+  "content": {
+    "component": "article",
+    "title": "A Kitchen Windowsill with Room for the View",
+    "seo_title": "Kitchen Windowsill Ideas: Leave Room for the View",
+    "seo_description": "Compare a kitchen windowsill display from the sink and doorway. Try the shape of objects you own, keep window access in mind and connect the ledge to your palette.",
+    "summary": "Choose a small display around the view you want to keep.",
+    "category": "Materials",
+    "author_name": "Joanne H",
+    "published_date": "2026-10-24T09:36:28.948Z",
+    "image_rights_status": "owned",
+    "source_publish_status": "published",
+    "hero": {
+      "filename": "/assets/editorial/nura-sill-hero.webp",
+      "alt": "Illustration of a cream vase and blue bowl on a broad kitchen windowsill with a clear courtyard view",
+      "caption": "© Nura Interiors. Illustration.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-sill-hero.webp",
+      "alt": "Illustration of a cream vase and blue bowl on a broad kitchen windowsill with a clear courtyard view",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Kitchen windowsill ideas work best when you begin with the view and the way you use the window. Try an object you already own, then compare its silhouette from the sink and the doorway. The aim is a small arrangement you enjoy living with, rather than filling every part of the ledge."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Look from where you actually stand"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Start with a clear sill and a closed window. From the sink or nearby work area, notice the part of the outside view you value. Then look from the kitchen doorway. Is it the greenery, a courtyard wall or simply the open shape of the window? Take a photograph from each position so you have a reference without decoration."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Compare one silhouette at a time"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Choose a small, dry, stable object whose base fits completely on the available ledge. Try it with the window closed and look again from those two positions. Compare another object separately, keeping the position the same. You are deciding what to keep in view, not following a rule about how many ornaments belong together."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-sill-shapes.webp",
+        "alt": "Illustration of a low cream vase and a taller terracotta jug against a kitchen window",
+        "caption": "© Nura Interiors. Illustration. Different silhouettes change what you see around them; these are possible arrangements, not a measured comparison."
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For example, you might like a tall jug from the doorway but prefer a lower vase when standing at the sink. Keep the lower shape and try the jug on a separate shelf instead. Or leave the sill empty if the unbroken view is what you like most. Record that choice before shopping for another piece."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep window use in the picture"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Remove all objects before checking how the window opens and how you reach its handle. Note the parts that move and the access you need. Do not test loose objects in the path of a moving window. A pleasing photograph does not establish a suitable position for everyday use; if the arrangement makes opening or cleaning awkward, reconsider the display."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-sill-clear.webp",
+        "alt": "Illustration of an empty kitchen windowsill with ceramic objects and a room sketch on a separate table",
+        "caption": "© Nura Interiors. Illustration. Clear the ledge before considering window operation. No dimensions or fitting approval are implied."
+      },
+      {
+        "type": "table",
+        "caption": "A short note for the room, not a shopping list",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Look at"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Record"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "View from the sink"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The part you want to keep visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "View from the doorway"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The silhouette and position you prefer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Everyday access"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Handle access, window movement and cleaning needs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Connect the ledge to the kitchen palette"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Compare the object with the cabinet colour and worktop already in the room. A familiar ceramic finish can be enough; the sill does not need a new collection. Follow the care instructions for the exact sill finish. For another small display area, see our "
+          },
+          {
+            "type": "text",
+            "text": "kitchen shelf-styling tip",
+            "link": "/post/kitchen-shelf-styling-daily-use"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Planning a wider "
+          },
+          {
+            "type": "text",
+            "text": "kitchen design",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": "? Bring window photographs, your view-and-access notes and cabinet or worktop references to a "
+          },
+          {
+            "type": "text",
+            "text": "Nura consultation",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": ". They give the designer a concrete starting point for connecting the window area with the surrounding cabinetry. Ask which relevant material samples can be viewed at the "
+          },
+          {
+            "type": "text",
+            "text": "Fulham showroom",
+            "link": "/london"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      }
+    ],
+    "body": "Kitchen windowsill ideas work best when you begin with the view and the way you use the window. Try an object you already own, then compare its silhouette from the sink and the doorway. The aim is a small arrangement you enjoy living with, rather than filling every part of the ledge.\n\nLook from where you actually stand\n\nStart with a clear sill and a closed window. From the sink or nearby work area, notice the part of the outside view you value. Then look from the kitchen doorway. Is it the greenery, a courtyard wall or simply the open shape of the window? Take a photograph from each position so you have a reference without decoration.\n\nCompare one silhouette at a time\n\nChoose a small, dry, stable object whose base fits completely on the available ledge. Try it with the window closed and look again from those two positions. Compare another object separately, keeping the position the same. You are deciding what to keep in view, not following a rule about how many ornaments belong together.\n\n\n\nFor example, you might like a tall jug from the doorway but prefer a lower vase when standing at the sink. Keep the lower shape and try the jug on a separate shelf instead. Or leave the sill empty if the unbroken view is what you like most. Record that choice before shopping for another piece.\n\nKeep window use in the picture\n\nRemove all objects before checking how the window opens and how you reach its handle. Note the parts that move and the access you need. Do not test loose objects in the path of a moving window. A pleasing photograph does not establish a suitable position for everyday use; if the arrangement makes opening or cleaning awkward, reconsider the display.\n\n\n\nLook at Record View from the sink The part you want to keep visible View from the doorway The silhouette and position you prefer Everyday access Handle access, window movement and cleaning needs\n\nConnect the ledge to the kitchen palette\n\nCompare the object with the cabinet colour and worktop already in the room. A familiar ceramic finish can be enough; the sill does not need a new collection. Follow the care instructions for the exact sill finish. For another small display area, see our  kitchen shelf-styling tip .\n\nPlanning a wider  kitchen design ? Bring window photographs, your view-and-access notes and cabinet or worktop references to a  Nura consultation . They give the designer a concrete starting point for connecting the window area with the surrounding cabinetry. Ask which relevant material samples can be viewed at the  Fulham showroom ."
+  }
+}
 ]

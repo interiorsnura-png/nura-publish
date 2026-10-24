@@ -24,6 +24,7 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+ 'kitchen-windowsill-styling':['kitchen-shelf-styling-daily-use','test-kitchen-colour-at-home'],
  'handleless-kitchen-doors':['before-you-order-kitchen-handles-try-the-grip','bespoke-kitchens'],
  'plywood-vs-mfc-kitchen-carcasses':['solid-wood-or-veneer','choosing-a-kitchen-showroom-in-fulham'],
  'planning-a-galley-kitchen-in-london':['bespoke-kitchens','how-to-compare-bespoke-kitchen-quotes-in-london'],
