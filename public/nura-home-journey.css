@@ -1,0 +1,11 @@
+/* Homepage-only: services and real project evidence precede the studio manifesto. */
+#services{padding-top:70px;padding-bottom:70px}
+#services .services-intro{margin-top:28px;margin-bottom:25px}
+#services .service-list article{padding-top:22px;padding-bottom:22px}
+.home-service-enquiry{margin-top:30px}
+#work .work-editorial{margin-top:65px}
+#work .project-decision{font-size:13px;line-height:1.5;max-width:34ch;margin-top:10px;padding-right:18px}
+#work .project-card:after{background:linear-gradient(transparent 35%,rgba(8,13,10,.84))}
+.location-links .studio-actions{min-width:0}
+.location-links .studio-email{display:inline-block;font-size:12px;margin-top:14px;padding:0;border:0}
+@media(max-width:800px){#services{padding-top:48px;padding-bottom:48px}#work .work-editorial{margin-top:40px}#work .project-decision{font-size:12px;max-width:30ch}}

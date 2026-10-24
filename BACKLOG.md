@@ -1,5 +1,8 @@
 # NURA Backlog
 
+- [ ] Homepage PDCA follow-up: observe consented analytics receipt and actual consultation/qualified-lead outcomes; run a small task-based usability study before further redesign. No uplift claim from layout checks.
+- [ ] Confirm field Core Web Vitals when enough real-user data exists; the pre-change PSI lab baseline is not field INP evidence.
+
 - [ ] Monitor the handle sample article after verified publication: actual GSC indexing/search data, field Core Web Vitals when enough data exists, and confirmed GA4/qualified-lead evidence. Source/preview checks do not establish those results.
 
 - [ ] Verify the Journal feature CTA stays inside the hero and all three category links navigate correctly at desktop and mobile sizes after the current layout release.

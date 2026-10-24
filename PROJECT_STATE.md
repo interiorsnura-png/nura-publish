@@ -1,5 +1,11 @@
 # NURA Project State
 
+## 2026-10-24: homepage PDCA implementation
+- Prepared from production/main 0453bb0509d5b2a1d1531ce1eaba1e2fb2f75011 in an isolated checkout, preserving concurrent Journal changes elsewhere.
+- Services and real project cards precede the manifesto and portfolio promotion. Removed the duplicate project button and two repetitive presentation panels; assets and historical snapshot remain intact.
+- Documented project summaries, direct London/Dubai details links, homeowner-friendly FAQ and one in-page consultation destination. Mobile preview exposed floating CTA overlap, so homepage uses contextual links instead; other routes keep their existing enquiry dialog.
+- Focused preservation/order checks passed. Final full verification and exact-SHA/live deployment evidence are required before claiming publication; task report records their actual outcome. Real analytics receipt and conversion impact remain unverified.
+
 ## 2026-10-23: Journal navigation layout
 
 - Prepared a bounded hero-height correction so the feature CTA stays inside its section and does not overlap the three category links. No content, author, URL or filter destination changes.
