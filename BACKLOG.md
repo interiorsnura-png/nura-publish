@@ -85,3 +85,6 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Measure the next three new article runs using shared Journal phase timers; compare total wall clock, retries, quality deductions and failures before claiming speed savings.
 - [ ] Configure and test a durable production publication-event store before removing timestamp-only corrective deployments. Workspace audit ledger alone is insufficient; preserve exact-SHA gates and real historical dates.
 - [ ] After an authorised Journal discovery release, verify exact Vercel source/READY/alias, live RSS and legacy/new Article metadata, and rerun official Google validation. Submit the RSS in Search Console only as part of an authorised account action. Local implementation does not establish production activation or Discover performance.
+
+
+- [ ] Monitor kitchen bar stool colour tip actual indexing/Discover, field CWV and confirmed analytics receipt when authorised evidence is available.
