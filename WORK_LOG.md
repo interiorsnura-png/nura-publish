@@ -413,3 +413,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-24 fitting-costs owner queue3: seven onsite scope packages, named responsibility/readiness sheet and cabinet-complete versus usable-kitchen distinction. Five actual competitor pages, original finish/handover illustrations and Joanne H assigned byline. Dated UK2026benchmark explicitly notLondon/Nura/2027forecast. Rejected delegated standard-inclusion, curing, timing andservice claims. Fresh3fe0855 direct showroom CTA preserved. Full source/release/live/official gates required; GSC/Discover,fieldCWV andanalyticsreceipt pending.
+
+
+2026-10-24 kitchen-table centrepiece tip: place settings, seated view and a planned stay-or-move decision, connected to retained dining furniture and cabinetry. Five actual source pages, visible Google first retail result and first Images reference reviewed, three original inspected illustrations, assigned Joanne H byline. Existing fruit-bowl and worktop-tray coverage kept distinct. Full build, responsive preview, source-bound QC and exact-SHA release remain required. GSC/Discover, field CWV and analytics receipt remain pending.
