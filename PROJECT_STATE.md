@@ -303,3 +303,5 @@ All loaded Journal articles use Joanne H and the supplied LinkedIn profile throu
 
 ## Kitchen wall art frame-size tip,2026-10-24
 - Original practical frame-outline comparison, Joanne H,3original illustrations and CCI paper-care source. Actual first Google EastEndPrints category read before drafting. Delegated draft invalid dimensions/clearance acceptance and offers rejected; Codex rewrite validated. Full checks and private PDCA/source evidence in workspace register.
+
+- Wallart tip first production READY 2026-10-24T03:11:19.245Z, dpl_GoqvYCsXoumq46Ja5vfSj5JqWJ5r source12cb824. Publication timestamp reconciled to actual event; author/prose/assets/layout unchanged. Full corrected source gates repeated.
