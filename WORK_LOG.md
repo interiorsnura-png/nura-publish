@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-24 owner refinement: moved the Fulham call option beneath the floating consultation control. Restored paired controls on the three project stories; homepage retains its existing dedicated contact flow. Article-specific inline controls remain inline. Both actions hide beside visible footer/contact content and while consent is open. Full release and responsive checks apply.
+
 - 2026-10-24: owner requested "Call our Fulham showroom" in the existing shared call CTA. Changed this label only, preserving the verified number, link and styles; existing full release gates apply.
 
 ## 2026-10-24: direct showroom contact
