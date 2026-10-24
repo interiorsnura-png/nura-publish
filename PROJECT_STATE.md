@@ -1,5 +1,9 @@
 # NURA Project State
 
+## 2026-10-24: owner-confirmed project mapping
+- Owner confirmed Elm Park Road 78 and Westover Road 44. Added the documented Elm furniture-order requirement for flat-packed tall units due to site restrictions, without inventing the restriction or claiming an installation outcome. Preserved public materials, dates, imagery and all other records.
+- Tansley release c969776 passed exact-source verification; Vercel production READY and canonical alias confirmed. Westover joinery brief remains unverified separately from its kitchen. Historical worktop-order discrepancy is not a basis for changing the final public specification.
+
 ## 2026-10-24: original Tansley brief evidence
 - Connected Dropbox research located the early design request and accompanying kitchen/food-store plan. Tansley now distinguishes initial functional requirements from its documented completed material palette. No private contacts, financial terms, original drawings or unconfirmed fitting outcomes are published.
 - Elm Park and Westover joinery need identity confirmation before importing additional technical constraints from similarly named archive folders. Their existing public stories are unchanged in this revision. Source references and pending identity questions stay in the private task evidence.
