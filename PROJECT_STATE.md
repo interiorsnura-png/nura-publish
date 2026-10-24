@@ -409,3 +409,6 @@ Fruit bowl decor tip,2026-10-24: original empty/usual-serving/near-empty palette
 
 
 Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and own-lid landing rehearsal,3original credited illustrations, Joanne H assigned byline. Actual Google first-result/images,6relevant sources and all-source overlap retained privately. Unsupported delegated care/cost/service/lid-swapping claims rejected. Full source/release/live/official checks required; GSC,Discover,fieldCWV and analytics receipt remain pending.
+
+
+2026-10-24 fitting-costs owner queue3: seven onsite scope packages, named responsibility/readiness sheet and cabinet-complete versus usable-kitchen distinction. Five actual competitor pages, original finish/handover illustrations and Joanne H assigned byline. Dated UK2026benchmark explicitly notLondon/Nura/2027forecast. Rejected delegated standard-inclusion, curing, timing andservice claims. Fresh3fe0855 direct showroom CTA preserved. Full source/release/live/official gates required; GSC/Discover,fieldCWV andanalyticsreceipt pending.

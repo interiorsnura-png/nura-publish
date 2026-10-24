@@ -131,3 +131,7 @@ body:has(.hero-image[src*="nura-can-hero"]) .nura-lead-trigger{position:static;m
 .showroom-call>a{display:flex;flex-wrap:wrap;align-items:center;column-gap:12px;min-height:44px;width:fit-content;max-width:100%;text-decoration:underline;text-underline-offset:4px}
 .showroom-call-number{white-space:nowrap}
 .showroom-call>a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+
+.hero-image[src*="nura-fit-hero"]{object-fit:contain;object-position:center top;background:#c4bba7}
+body:has(.hero-image[src*="nura-fit-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+body:has(.hero-image[src*="nura-fit-hero"]) .nura-lead-trigger{position:static;margin:24px auto;box-shadow:none}
