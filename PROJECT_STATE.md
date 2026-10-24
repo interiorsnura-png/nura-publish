@@ -297,3 +297,5 @@ All loaded Journal articles use Joanne H and the supplied LinkedIn profile throu
 
 ## Corner storage planning article,2026-10-24
 - Original five-check guide with Joanne H byline,3original illustrations, product-version source and practical retrieval record. Actual Google first shopping category read. OmniRoute draft rejected for invented service/hardware and unsafe contradictory motion advice; bounded stronger-route review used, Codex rewrite removes unsupported claims. Private research/PDCA in workspace register. Full source/QC/preview/release verification required.
+
+- Corner article first production READY 2026-10-24T02:12:46.482Z, dpl_AA5Ftk5e1cVyHrgmYBwdY6ddDwPZ source5f25146. Publication timestamp reconciled to actual event; author/prose/assets unchanged, full corrected source gates repeated.
