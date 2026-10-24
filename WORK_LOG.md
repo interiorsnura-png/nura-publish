@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-24: owner requested "Call our Fulham showroom" in the existing shared call CTA. Changed this label only, preserving the verified number, link and styles; existing full release gates apply.
+
 ## 2026-10-24: direct showroom contact
 - Refreshed clean checkout to current main a6f7929, preserving intervening Journal publications. Checked live Nura London phone and deVOL contact page. OmniRoute's first response was incomplete; a bounded retry completed. Used explicit showroom identity and number, accessible focus styling and a wrapping 44px-minimum call link.
 - No actual call or enquiry is submitted during validation. Existing primary CTA and content remain intact; full release checks follow for the final source.

@@ -1,5 +1,7 @@
 # NURA Project State
 
+- Owner-requested wording refinement: shared call CTA now names the Fulham showroom explicitly; telephone number and destination preserved. Exact release evidence is in the task output.
+
 ## 2026-10-24: showroom call CTA
 - Added a direct London showroom telephone option beneath the existing enquiry button in the shared end-of-page CTA. Verified the number against the live London page; retained the existing form route. Inspired by deVOL's direct showroom contact invitation, with original Nura copy.
 - Exact-source release and mobile/desktop evidence are recorded in the task report. A telephone link does not prove a completed call or analytics receipt.
