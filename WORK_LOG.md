@@ -310,3 +310,6 @@ Owner requested Joanne H for every article. Implemented shared local/CMS/preview
 - Original own-cookware/routine/drying/model-fit comparison, Joanne H,3original illustrative assets, FrankeUK primarysource. Actual firstGoogle Sinks.co.uk guide read. Delegated fabricateddepth/waste/hygiene/personalexperienceclaims rejected; Codex rewrite validated. PrivatePDCA/research and fullreleaseevidence in workspace register.
 
 - Sink comparison first production READY 2026-10-24T04:16:24.347Z, dpl_BhfrWmBknWUDUFdQQpx7T8CoY8VD source1b103c2. Publication timestamp reconciled to actual event; author/prose/assets/layout unchanged. Full corrected source gates repeated.
+
+## 2026-10-24: Journal chronological order
+Added non-mutating date ordering and regression coverage for ISO/calendar dates, ties and invalid dates. Owner authorised production release. Current task records build and live desktop/mobile/filtered-list evidence.

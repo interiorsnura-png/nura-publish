@@ -2,6 +2,7 @@ import JsonLd from './JsonLd';
 import ImageLicense from './ImageLicense';
 import {journalCollectionSchema,uniqueJournalImages} from '../lib/journal-schema';
 import type {Entry} from '../lib/content';
+import {newestJournalFirst} from '../lib/journal-order';
 import {Photo} from './Editorial';
 import {articleRecommendationDetails as details,articleReadingMinutes as minutes} from '../lib/related-articles';
 import s from './JournalLanding.module.css';
@@ -15,7 +16,7 @@ export default function JournalLanding({entries,category,query}:{entries:Entry[]
  const feature=find('one-tonne-porcelain-kitchen-island')||articles[0];
  const active=filters.some(([id])=>id===category)?category:'all';
  const search=(query||'').trim().toLowerCase();
- const visible=articles.filter(e=>(active==='all'||topic(e)===active)&&(!search||e.content.title.toLowerCase().includes(search)));
+ const visible=newestJournalFirst(articles.filter(e=>(active==='all'||topic(e)===active)&&(!search||e.content.title.toLowerCase().includes(search))));
  const renderedPhotos=[...(feature?[feature]:[]),...select(['solid-wood-or-veneer','finding-a-balance-with-decorative-lighting','the-power-of-porcelain','how-to-choose-the-right-worktop-for-your-kitchen']),...visible];
  return <div className={s.journal}><JsonLd data={journalCollectionSchema(visible,active,feature?.content.hero)}/>{uniqueJournalImages(renderedPhotos).map(({asset,name})=><ImageLicense key={asset.filename} asset={asset} name={name}/>)}
  <section className={s.hero} aria-labelledby="journal-title"><Photo includeSchema={false} asset={feature?.content.hero} fallbackAlt={feature?.content.title||'Nura kitchen'} priority sizes="100vw"/><div className={s.heroCopy}><p className={s.eyebrow}>Nura / Journal</p><h1 id="journal-title">A remarkable space begins with a <em>considered decision.</em></h1><p className={s.lede}>Stories, materials and ideas for shaping your home.</p>{feature?<a className={s.heroLink} href={feature.path}>Discover the one-tonne island ↗</a>:null}</div><span className={s.heroNote}>Design, seen from the inside.</span></section>
