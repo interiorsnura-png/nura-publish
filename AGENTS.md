@@ -1,5 +1,9 @@
 # NURA project instructions
 
+## Keyword intent before title, owner instruction 2026-10-24
+
+- After selecting a subject, inspect actual Google long-tail variants, related searches and People Also Ask before choosing its title. Distinguish observed suggestions from editor-proposed queries that were subsequently searched. Extract different supported user intents and decision stages, then select an original content-matched title. Record query/date/location limits and evidence; never infer search volume, keyword difficulty, transactional intent or customer proportions without evidence. Apply the existing title skill and diversity checks.
+
 ## Showroom-led editorial purpose, owner instruction 2026-10-24
 
 - Evaluate every new article and practical tip by whether it prepares a better design conversation and gives a truthful, topic-specific reason to contact or visit Nura. Go beyond a generic checklist: explain how the reader's habits, aesthetic preferences, room constraints and adjacent kitchen decisions interact, using a useful hypothetical example or decision trade-off without inventing a real project or personal experience.
