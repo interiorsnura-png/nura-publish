@@ -320,3 +320,8 @@ Owner authorised sorting the main Journal archive by first-publication date desc
 - Original purpose/fold/position guide, Joanne H assigned byline, three original watermarked illustrations. Actual first Google Pinterest board read; original added value is a bounded visual comparison and fitting-requirement record. Delegated unsupported fixing/damage/clearance/ownership claims rejected and rewritten. Private PDCA/research retained. Full source and release validation required.
 
 - Tea towel tip first production READY 2026-10-24T05:18:58.667Z, dpl_21Qa91oT3tbvsbyfRHnF2n9Pg2k6 source115b90f. Publication timestamp reconciled to actual event; author/prose/assets/layout unchanged. Full corrected source gates repeated.
+
+## Shared Journal workflow tooling,2026-10-24
+- Owner approved reducing repeated manual execution while retaining editorial judgement and all release gates. Added shared CLI for timed runs/phases, source-bound route checks, three-asset preparation, evidence recording, bounded QC arithmetic and immutable READY event ledger. Shared CUA capture helper waits for correct viewport and loaded visible images, with visual review explicitly pending. No command pushes/deploys or awards editorial quality.
+- Current pilot checks the existing tea-towel article without changing public content. Timing/negative tests and pilot evidence stay in workspace `work/journal-workflow-pilot/`. This is local tooling/configuration work; no production push is part of this task.
+- A workspace READY ledger is not a durable production runtime store. Public first-publication timestamp correction and full exact-SHA gates remain until an actual runtime adapter is configured/tested. No claimed10-12minute result before three measured article trials.

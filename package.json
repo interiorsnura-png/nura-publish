@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "journal:workflow": "node scripts/journal-workflow.mjs",
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
@@ -29,6 +30,7 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "cheerio": "^1.2.0",
+    "sharp": "0.35.5",
     "typescript": "^5.9.3"
   },
   "engines": {

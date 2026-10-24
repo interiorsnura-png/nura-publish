@@ -319,3 +319,7 @@ Added non-mutating date ordering and regression coverage for ISO/calendar dates,
 - Original purpose/fold/position guide, Joanne H assigned byline, three original watermarked illustrations. Actual first Google Pinterest board read; original added value is a bounded visual comparison and fitting-requirement record. Delegated unsupported fixing/damage/clearance/ownership claims rejected and rewritten. Private PDCA/research retained. Full source and release validation required.
 
 - Tea towel tip first production READY 2026-10-24T05:18:58.667Z, dpl_21Qa91oT3tbvsbyfRHnF2n9Pg2k6 source115b90f. Publication timestamp reconciled to actual event; author/prose/assets/layout unchanged. Full corrected source gates repeated.
+
+## 2026-10-24: shared editorial execution
+- Consolidated per-article asset/check/timing/evidence/READY-record helpers into `journal:workflow`; no public prose, routes, historical dates or release-guard logic changed. Added CUA-only viewport/image-readiness helper and negative regression coverage for stale QC, bad canonical/robots/author, conflicting writers, changed assets, wrong deployment identity and premature screenshots.
+- Validated shared route checks against the existing live tea-towel page; image assets were reused. Bounded delegated design suggestions were reviewed; invented author limits/manual review gates were rejected. Full verification and pilot receipts live in task workspace. Production runtime date-store integration and three-article timing comparison remain explicit follow-ups.

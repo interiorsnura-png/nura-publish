@@ -1,5 +1,13 @@
 # NURA project instructions
 
+## Shared Journal execution, owner-approved 2026-10-24
+
+- Reuse `npm run journal:workflow -- <command>` instead of cloning per-article check, asset, timing or ledger scripts. See `scripts/JOURNAL_WORKFLOW.md`. Start `begin --path /post/SLUG` before research once the proposed route is known; a content record is not required for this command. Keep its run file through retries and separately include task-entry orientation time. Never reset the timer to improve reported duration.
+- Use `check` for local and live metadata/author/robots/image/link/sitemap/Journal consistency. It is machine evidence only. Review actual research, claims, images, CUA desktop/mobile/table/CTA evidence and official Google Rich Results separately. `assess` calculates supplied evidence-backed category scores; it does not award scores or sign off editorial quality.
+- Use `scripts/journal-browser-qa.mjs` through the existing authorised CUA tab to capture only after viewport reflow and visible images load. Visual inspection remains required. Parallelise independent drafting/image and post-release PSI/Rich Results work; do not run concurrent builds or register writers.
+- Preserve all full pre-push and exact-SHA post-push release gates. The workspace READY ledger stores real deployment events, never a live-verification assertion. `--first true` is allowed only with verified first-publication evidence; later deployments never reset that event.
+- Public dates still use the existing source until a durable runtime publication store is configured and tested. A workspace ledger is not a production runtime database. Do not silently skip the required timestamp correction or invent future READY times to avoid a deployment.
+
 ## Journal byline, owner instruction 2026-10-24
 
 - All existing and future Journal articles use the owner-assigned Joanne H byline and https://www.linkedin.com/in/joanne-h/ profile. This supersedes prior byline rotation and preservation requirements for author names only. Preserve first-publication dates, content and reviewer records. Do not imply personal expertise, writing or human review without evidence. The shared content loader applies this policy after source merges; visible authorship and Article schema must agree.
