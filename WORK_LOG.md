@@ -361,3 +361,5 @@ Kitchen bar stool colour tip,2026-10-24: original seat/frame/island/dining-view 
 Dishwasher placement article,2026-10-24: household plate-route brief, open-door and storage trade-offs, Joanne H assigned byline, three original credited illustrations. Model-specific installer confirmation; no universal dimensions or invented test. Full exact-source gates and actual production verification required.
 
 2026-10-24: Added kitchen splashback grout colour candidate after actual Google first-result/Images and five-page research. Rejected delegated unverified dimensions/observations and rewrote bounded prose. Desktop/mobile table, assets and CTA reviewed; source-bound QC 90.
+
+2026-10-24: Resumed completion-based cadence after the remaining gap. Actual Google first retail result, five competitor pages and primary Cosentino technical guide reviewed. Rejected unsupported delegated recommendations, refined two illustrations and mobile table header, retained original evidence. Full exact-source gates required before and after release.

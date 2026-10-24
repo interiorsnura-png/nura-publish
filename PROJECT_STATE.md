@@ -363,3 +363,5 @@ Kitchen bar stool colour tip,2026-10-24: original seat/frame/island/dining-view 
 Dishwasher placement article,2026-10-24: household plate-route brief, open-door and storage trade-offs, Joanne H assigned byline, three original credited illustrations. Model-specific installer confirmation; no universal dimensions or invented test. Full exact-source gates and actual production verification required.
 
 Grout-colour decor tip prepared with three original illustrations, whole-wall comparison and topic-specific Nura journey. Local 100-test build and 138-route checks pass; exact-SHA production release remains pending.
+
+2026-10-24 island seating: original planning article compares a row, adjacent seats and a separate table using daily/occasional users, occupied routes and material-specific overhang scope. Three owned illustrations and Joanne H assigned byline; final production evidence lives in workspace nura-island-publication-verification.json after release.
