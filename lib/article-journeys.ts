@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-island-dimensions':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented London kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your island dimensions and room priorities'}},
   '/post/kitchen-table-centrepiece':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented London kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your dining furniture and kitchen palette'}},
   '/post/kitchen-fitting-costs-london':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented London kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen fitting scope and finish priorities'}},
   '/post/kitchen-canister-styling':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen palette',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your visible storage and kitchen finishes'}},

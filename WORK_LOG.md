@@ -419,3 +419,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-24 owner queue4: update existing worktop selection article, preserving URL and 2023 first-publication date. Five-material care/appearance comparison and same-plan fitted quote scope, no2027forecast or universal best ranking. Three original inspected illustrations. Existing porcelain/edge/project pages remain distinct. Full checks and exact-SHA release required; GSC/Discover,fieldCWV and analytics receipt pending.
+
+
+2026-10-24 owner queue5: new kitchen island dimensions guide, five distinct finished-footprint and occupied-use measurements. Original three inspected terracotta/oak illustrations; existing seating/appliance routes remain separate. Byline Joanne H. No universal clearance approval or invented project. Full preview/build/exact-SHA gates required, followed by actual READY date correction, official Rich Results and lab/field distinction. GSC, Discover and confirmed analytics receipt remain pending.
