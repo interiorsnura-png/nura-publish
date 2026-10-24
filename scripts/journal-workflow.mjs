@@ -25,7 +25,7 @@ export async function optimiseAssets(root,manifest){
 }
 export async function fingerprint(root,entry){
  const files=['lib/content.ts','components/RichArticle.tsx','app/inner.css','lib/article-journeys.ts'];
- for(const f of ['app/[...slug]/page.tsx','app/layout.tsx','lib/seo.ts','lib/journal-schema.ts','package.json','package-lock.json']){try{await fs.access(path.join(root,f));files.push(f);}catch(e){if(e.code!=='ENOENT')throw e;}}
+ for(const f of ['app/[...slug]/page.tsx','app/layout.tsx','lib/seo.ts','lib/journal-schema.ts','lib/article-discovery.ts','package.json','package-lock.json']){try{await fs.access(path.join(root,f));files.push(f);}catch(e){if(e.code!=='ENOENT')throw e;}}
  const walk=n=>{if(!n||typeof n!=='object')return;for(const [k,v]of Object.entries(n)){if((k==='filename'||k==='src')&&typeof v==='string'&&v.startsWith('/assets/'))files.push('public'+v);else if(typeof v==='object')Array.isArray(v)?v.forEach(walk):walk(v);}};walk(entry.content);
  const digests=[];for(const file of [...new Set(files)].sort()){const full=inside(root,file);digests.push({file,sha256:hash(await fs.readFile(full))});}
  return {fingerprint:hash(JSON.stringify({entry,files:digests})),files:digests};
@@ -42,7 +42,7 @@ export function inspectHtml(html,entry,headers={}){
  for(const [key,value]of [['og:title',c.seo_title],['og:description',c.seo_description]])check($(`meta[property="${key}"]`).attr('content')===value,key+' matches');
  for(const [key,value]of [['twitter:title',c.seo_title],['twitter:description',c.seo_description]])check($(`meta[name="${key}"]`).attr('content')===value,key+' matches');
  let graph=[];try{graph=$('script[type="application/ld+json"]').toArray().flatMap(e=>{const v=JSON.parse($(e).text());return v['@graph']||[v];});}catch{failures.push('Invalid JSON-LD');}
- const a=graph.find(x=>x['@type']==='Article');check(a?.image===og,'Article image matches');check(a?.author?.name===POLICY.author&&a?.author?.url===POLICY.profile,'Article author');check(a?.datePublished===c.published_date,'Publication timestamp');check(graph.some(x=>x['@type']==='BreadcrumbList'),'Breadcrumb schema');
+ const a=graph.find(x=>x['@type']==='Article');check((typeof a?.image==='string'?a.image:a?.image?.url)===og,'Article image matches');check(a?.author?.name===POLICY.author&&a?.author?.url===POLICY.profile,'Article author');check(a?.datePublished===c.published_date,'Publication timestamp');check(graph.some(x=>x['@type']==='BreadcrumbList'),'Breadcrumb schema');
  check($('.article-byline a').toArray().some(x=>$(x).text()===POLICY.author&&$(x).attr('href')===POLICY.profile),'Visible byline');
  check(!/AI-generated|AI generation|\u2014/i.test($('.article-content').text()),'Public editorial wording');
  const nodes=[];const visit=n=>{if(n?.type==='image')nodes.push(n);n?.children?.forEach(visit);};c.body_nodes?.forEach(visit);

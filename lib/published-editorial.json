@@ -2980,6 +2980,8 @@
       },
       "social_image": {
         "filename": "/assets/editorial/fulham-showroom-share.png",
+        "width": 1200,
+        "height": 630,
         "alt": "Nura Interiors: kitchen showroom checklist in Fulham, with a photograph of the showroom entrance"
       }
     }

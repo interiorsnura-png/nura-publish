@@ -44,6 +44,9 @@ test('route checks catch wrong canonical, restrictive headers, metadata drift an
  const image=POLICY.origin+'/assets/hero.webp',graph=[{'@type':'Article',image,author:{name:POLICY.author,url:POLICY.profile},datePublished:entry.content.published_date},{'@type':'BreadcrumbList'}];
  const html=`<title>Test</title><meta name="description" content="Useful test"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${POLICY.origin}/post/test"><meta property="og:image" content="${image}"><meta name="twitter:image" content="${image}"><meta property="og:title" content="Test"><meta property="og:description" content="Useful test"><meta name="twitter:title" content="Test"><meta name="twitter:description" content="Useful test"><h1>Test</h1><div class="article-byline"><a href="${POLICY.profile}">${POLICY.author}</a></div><div class="article-content"><img alt="First"><img alt="Second"></div><script type="application/ld+json">${JSON.stringify({'@graph':graph})}</script>`;
  assert.equal(inspectHtml(html,entry).pass,true);
+ const objectImageHtml=html.replace('"image":"'+image+'"','"image":{"@type":"ImageObject","url":"'+image+'"}');
+ assert.equal(inspectHtml(objectImageHtml,entry).pass,true);
+ assert.equal(inspectHtml(objectImageHtml.replace('"url":"'+image+'"','"url":"'+POLICY.origin+'/wrong.webp"'),entry).pass,false);
  assert.equal(inspectHtml(html.replace('rel="canonical" href="'+POLICY.origin+'/post/test','rel="canonical" href="'+POLICY.origin+'/post/wrong'),entry).pass,false);
  assert.equal(inspectHtml(html,entry,{'x-robots-tag':'noindex'}).pass,false);
  assert.equal(inspectHtml(html.replace('content="Useful test"','content="Wrong"'),entry).pass,false);
