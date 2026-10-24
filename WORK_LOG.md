@@ -341,3 +341,6 @@ Handleless article owner-requested repair: compared live tea-towel guide. Added 
 Windowsill decor tip: actual Google first organic/related/PAA and image reference inspected; compare silhouettes from sink/doorway, retain view/access and connect to kitchen palette. Assigned Joanne H; three original illustrations and exact-source/full release gates required.
 
 Larder planning article: actual Google purchase/configuration intent, restock inventory and whole-room trade-offs. Unsupported delegated draft rejected; original illustrations and full exact-source gates required.
+
+
+Kitchen bar stool colour tip,2026-10-24: original seat/frame/island/dining-view comparison, Joanne H assigned byline,three original credited illustrations. Actual Google intent and first-result research retained. New article alone places the existing enquiry control in reading flow to prevent copy overlap. Full exact-source gates and live evidence are recorded in the task workspace.

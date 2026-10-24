@@ -80,3 +80,9 @@
 
 .hero-image[src*="nura-larder-hero"]{object-fit:contain;object-position:center top;background:#747257}
 body:has(.hero-image[src*="nura-larder-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+.hero-image[src*="nura-stools-hero"]{object-fit:contain;object-position:center top;background:#b5a28b}
+body:has(.hero-image[src*="nura-stools-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+/* Keep this article readable while retaining the existing consultation dialog at page end. */
+body:has(.hero-image[src*="nura-stools-hero"]) .nura-lead-trigger{position:static;margin:24px auto;box-shadow:none}
