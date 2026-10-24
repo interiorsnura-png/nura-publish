@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- [ ] London kitchen budget article: confirm exact URL indexing/Discover in authorised GSC, real-user CWV and actual CTA/analytics receipt when access and sufficient data exist. Local parsing, builds and script presence cannot close these checks.
+
 - [x] Owner confirmed published Elm Park is number 78 and Westover is number 44.
 - [ ] Find joinery-specific Westover brief evidence; kitchen orders do not establish joinery requirements. Resolve historical Elm worktop-document discrepancy against final evidence before changing the preserved public specification.
 

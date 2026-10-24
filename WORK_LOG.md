@@ -1,5 +1,9 @@
 # NURA Work Log
 
+## 2026-10-24: owner queue, London kitchen budget
+- Resumed the same cost candidate after the owner reported Trusted configuration corrected. Normal scoped implementation succeeded; no agent security-setting changes, timer reset or duplicate candidate.
+- Retained actual Google/Images and five-source research, rejected unsupported delegated claims, and implemented the evidence-bounded private draft. Full quality and exact-source release evidence stays in the workspace cost-run reports.
+
 ## 2026-10-24: owner-confirmed project mapping
 - Owner confirmed Elm Park Road 78 and Westover Road 44. Added the documented Elm furniture-order requirement for flat-packed tall units due to site restrictions, without inventing the restriction or claiming an installation outcome. Preserved public materials, dates, imagery and all other records.
 - Tansley release c969776 passed exact-source verification; Vercel production READY and canonical alias confirmed. Westover joinery brief remains unverified separately from its kitchen. Historical worktop-order discrepancy is not a basis for changing the final public specification.

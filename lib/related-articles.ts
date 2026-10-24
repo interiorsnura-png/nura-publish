@@ -24,6 +24,7 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+ 'new-kitchen-costs-london':['bespoke-kitchen-costs-quotation','how-to-compare-bespoke-kitchen-quotes-in-london'],
  'kitchen-rug-colours':['test-kitchen-colour-at-home','mixing-wood-tones-kitchen'],
  'kitchen-fridge-placement':['planning-a-galley-kitchen-in-london','kitchen-larder-cupboard'],
  'kitchen-pendant-light-finish':['finding-a-balance-with-decorative-lighting','test-kitchen-colour-at-home'],
