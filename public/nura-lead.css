@@ -2,3 +2,15 @@
 .nura-lead-trigger[hidden]{display:none}
 
 .nura-lead-actions{position:fixed;right:24px;bottom:24px;z-index:90;box-sizing:border-box;width:292px;max-width:calc(100vw - 32px);padding:6px;border:1px solid #cfc7b8;border-radius:14px;background:#f8f6ef;box-shadow:0 8px 28px #16201826;display:grid;gap:2px}.nura-lead-actions .nura-lead-trigger{position:static;box-sizing:border-box;width:100%;max-width:none;min-height:44px;margin:0;padding:12px 14px;justify-content:space-between;gap:12px;border:0;border-radius:9px;background:#263b32;color:#fff;font-size:14px;box-shadow:none;white-space:normal}.nura-lead-actions .nura-lead-trigger:hover{background:#344f43}.nura-lead-call{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:4px 10px;box-sizing:border-box;color:#263b32;text-decoration:none;border-radius:8px;font:12px/1.35 Arial,sans-serif}.nura-call-label{max-width:115px}.nura-call-number{white-space:nowrap;font-size:13px;font-variant-numeric:tabular-nums}.nura-lead-call:hover{background:#ebe7dc}.nura-lead-actions[hidden],.nura-lead-call[hidden]{display:none}.nura-consent-open .nura-lead-actions{visibility:hidden}.nura-lead-inline .nura-lead-actions{position:static;margin:24px auto;box-shadow:none}@media(max-width:600px){.nura-lead-actions{right:16px;bottom:calc(56px + env(safe-area-inset-bottom));width:280px}}
+
+.nura-call-label{max-width:none;white-space:nowrap}
+
+.nura-lead-call{font-size:13px;gap:8px;padding-inline:8px;border-top:1px solid #d8d2c5;border-radius:0 0 8px 8px}.nura-call-number{font-size:13px;font-weight:600;letter-spacing:.01em}
+
+.nura-lead-actions{gap:4px}.nura-lead-actions .nura-lead-trigger,.nura-lead-call{min-height:48px}.nura-lead-actions .nura-lead-trigger{font-weight:600}
+
+.nura-lead-actions .nura-lead-trigger:focus-visible{outline:2px solid #fff;outline-offset:-5px}.nura-lead-call:focus-visible{outline:2px solid #263b32;outline-offset:-3px}
+
+body:has(main input:focus,main textarea:focus,main select:focus) .nura-lead:not(.nura-lead-inline) .nura-lead-actions{visibility:hidden}
+
+@media(max-width:360px){.nura-lead-actions{right:12px;max-width:calc(100vw - 24px);width:280px}.nura-lead-call{font-size:12px}.nura-call-number{font-size:12px}}@media(max-height:480px) and (min-width:601px){.nura-lead-actions{right:12px;bottom:12px}}@media(forced-colors:active){.nura-lead-actions{border:1px solid CanvasText}.nura-lead-actions .nura-lead-trigger,.nura-lead-call{border:1px solid ButtonText}}

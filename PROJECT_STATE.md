@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-24: seven documented contact-panel PDCA cycles: single-line Fulham label, stronger telephone hierarchy, 48px targets, contrasting keyboard focus, dialog description/focus return, suppression during main-form focus, narrow/short and forced-colour rules. Browser checks confirmed320px fit, Escape focus return, form-focus suppression and preserved inline article placement. Forced-colour OS rendering remains unverified; task report separates source checks from browser evidence.
+
 - 2026-10-24: refined floating actions into one compact ivory panel with dark consultation button and secondary Fulham call row. Preserved telephone, dialog, consent/footer hiding and inline exceptions. Mobile/desktop and exact-source release evidence are in the task report; no conversion claim.
 
 - 2026-10-24 owner refinement: moved the Fulham call option beneath the floating consultation control. Restored paired controls on the three project stories; homepage retains its existing dedicated contact flow. Article-specific inline controls remain inline. Both actions hide beside visible footer/contact content and while consent is open. Full release and responsive checks apply.

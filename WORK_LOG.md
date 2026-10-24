@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-24: executed seven source-fingerprinted contact-panel PDCA cycles and combined browser checks. OmniRoute suggestions were reviewed; rejected claims of universal48px standards, assumed close controls, unnecessary telemetry/flags and unperformed cross-browser tests. Checked320x568,390x844,1440x900; phone URI, keyboard modal open/Escape/focus return, footer hiding, input-focus suppression and dishwasher inline exception. Consent-settings click on local preview did not open the consent panel, so consent interaction remains unverified separately from its preserved CSS rule. No enquiry or call submitted. Final release evidence remains in task outputs.
+
 - 2026-10-24: refined floating actions into one compact ivory panel with dark consultation button and secondary Fulham call row. Preserved telephone, dialog, consent/footer hiding and inline exceptions. Mobile/desktop and exact-source release evidence are in the task report; no conversion claim.
 
 - 2026-10-24 owner refinement: moved the Fulham call option beneath the floating consultation control. Restored paired controls on the three project stories; homepage retains its existing dedicated contact flow. Article-specific inline controls remain inline. Both actions hide beside visible footer/contact content and while consent is open. Full release and responsive checks apply.
