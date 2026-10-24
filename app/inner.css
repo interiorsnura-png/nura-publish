@@ -114,3 +114,7 @@ body:has(.hero-image[src*="nura-rug-hero"]) .nura-lead-trigger{position:static;m
 .hero-image[src*="nura-costs-hero"]{object-fit:contain;object-position:center top;background:#d6d2c6}
 body:has(.hero-image[src*="nura-costs-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
 body:has(.hero-image[src*="nura-costs-hero"]) .nura-lead-trigger{position:static;margin:24px auto;box-shadow:none}
+
+.hero-image[src*="nura-fruit-hero"]{object-fit:contain;object-position:center top;background:#d6d2c6}
+body:has(.hero-image[src*="nura-fruit-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+body:has(.hero-image[src*="nura-fruit-hero"]) .nura-lead-trigger{position:static;margin:24px auto;box-shadow:none}

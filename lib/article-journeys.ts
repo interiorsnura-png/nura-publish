@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-fruit-bowl-styling':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen palette',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your retained objects and kitchen finishes'}},
   '/post/new-kitchen-costs-london':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a completed London kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen scope and budget'}},
   '/post/kitchen-rug-colours':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen palette and material brief'}},
   '/post/kitchen-fridge-placement':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen layout and appliance brief'}},

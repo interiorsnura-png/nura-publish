@@ -389,3 +389,6 @@ Dishwasher placement article,2026-10-24: household plate-route brief, open-door 
 2026-10-24: Prepared fridge placement article with actual Google/Images research, five source reviews, title diversity and all-source overlap scan. Rejected unsupported delegated installation claims. Reused Journal workflow assets/timers/checks; preserved project-story work and existing public routes.
 
 2026-10-24: Rug colour tip researched from actual first Google organic retail page, six relevant sources and all-source overlap. Rejected unsupported size/cleaning/service claims in delegated draft. Preserved interrupted run timers and owner article queue.
+
+
+Fruit bowl decor tip,2026-10-24: original empty/usual-serving/near-empty palette record,3original illustrations and Joanne H assigned byline. Actual Google first-result/images and five-source overlap research retained privately. Exact-source QC, full release and live mobile/desktop/official Google validation required; GSC, field CWV and analytics receipt remain pending.

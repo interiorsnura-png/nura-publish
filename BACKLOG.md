@@ -110,3 +110,6 @@ Island seating: actual GSC indexing/Discover, field CWV and confirmed analytics 
 Fridge article monitoring: confirm actual GSC indexing/Discover, field CWV and analytics/lead receipt when authorised evidence is available. No claim that local QA proves these outcomes.
 
 Rug colour article: review actual GSC/Discover, field CWV and confirmed analytics/lead receipt when accessible and sufficient. No claim from local script presence or synthetic tests.
+
+
+Fruit bowl decor tip,2026-10-24: original empty/usual-serving/near-empty palette record,3original illustrations and Joanne H assigned byline. Actual Google first-result/images and five-source overlap research retained privately. Exact-source QC, full release and live mobile/desktop/official Google validation required; GSC, field CWV and analytics receipt remain pending.

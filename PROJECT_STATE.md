@@ -390,3 +390,6 @@ Grout-colour decor tip prepared with three original illustrations, whole-wall co
 Journal candidate /post/kitchen-fridge-placement adds a three-scenario fridge layout guide, exact-model installation questions and three original NURA-marked illustrations. Automated QC and production verification remain pending until recorded outside Git.
 
 Journal candidate /post/kitchen-rug-colours adds a ground/border/pattern colour decision, three original illustrations and exact product/floor questions. Full QC/production evidence recorded privately; actual monitoring remains pending.
+
+
+Fruit bowl decor tip,2026-10-24: original empty/usual-serving/near-empty palette record,3original illustrations and Joanne H assigned byline. Actual Google first-result/images and five-source overlap research retained privately. Exact-source QC, full release and live mobile/desktop/official Google validation required; GSC, field CWV and analytics receipt remain pending.
