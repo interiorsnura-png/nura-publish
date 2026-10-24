@@ -1,5 +1,9 @@
 # NURA Project State
 
+## 2026-10-24: pendant finish tip
+- Added a finish-selection brief distinguishing shade, small fittings and retained kitchen materials. Three owned original illustrations use descriptive captions and Nura credit; Joanne H is the owner-assigned byline.
+- Research and responsive preview evidence are in the private pendant-run workspace. Final exact-SHA release and live evidence are recorded there; GSC, field metrics and analytics receipt remain unverified.
+
 ## 2026-10-24: homepage PDCA implementation
 - Prepared from production/main 0453bb0509d5b2a1d1531ce1eaba1e2fb2f75011 in an isolated checkout, preserving concurrent Journal changes elsewhere.
 - Services and real project cards precede the manifesto and portfolio promotion. Removed the duplicate project button and two repetitive presentation panels; assets and historical snapshot remain intact.

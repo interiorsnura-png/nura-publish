@@ -1,5 +1,9 @@
 # NURA Work Log
 
+## 2026-10-24: pendant finish editorial
+- Read actual Google first organic and matching-intent result, five relevant pages and all content sources for overlap. Rejected delegated unsupported finish claims and false owner attribution; wrote a bounded practical tip.
+- Desktop and mobile preview inspected hero, both instructional illustrations, complete table and CTA. Full initial build passed 103 tests, 140 routes and image licensing; final release evidence stays source-bound in the workspace.
+
 ## 2026-10-24: approved homepage improvements
 - Plan: address duplicate portfolio actions, late services/project evidence, competing consultation paths and weak showroom navigation from the recorded homepage audit.
 - Do: scoped HTML presentation transform, early services/project cards, factual project summaries, showroom links and early-stage enquiry copy. No snapshot, assets, submissions, credentials or production settings replaced.
