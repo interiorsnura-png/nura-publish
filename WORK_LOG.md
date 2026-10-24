@@ -308,3 +308,5 @@ Owner requested Joanne H for every article. Implemented shared local/CMS/preview
 
 ## Single versus double sink planning article,2026-10-24
 - Original own-cookware/routine/drying/model-fit comparison, Joanne H,3original illustrative assets, FrankeUK primarysource. Actual firstGoogle Sinks.co.uk guide read. Delegated fabricateddepth/waste/hygiene/personalexperienceclaims rejected; Codex rewrite validated. PrivatePDCA/research and fullreleaseevidence in workspace register.
+
+- Sink comparison first production READY 2026-10-24T04:16:24.347Z, dpl_BhfrWmBknWUDUFdQQpx7T8CoY8VD source1b103c2. Publication timestamp reconciled to actual event; author/prose/assets/layout unchanged. Full corrected source gates repeated.
