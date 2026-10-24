@@ -1,5 +1,9 @@
 # NURA Project State
 
+## 2026-10-24: original Tansley brief evidence
+- Connected Dropbox research located the early design request and accompanying kitchen/food-store plan. Tansley now distinguishes initial functional requirements from its documented completed material palette. No private contacts, financial terms, original drawings or unconfirmed fitting outcomes are published.
+- Elm Park and Westover joinery need identity confirmation before importing additional technical constraints from similarly named archive folders. Their existing public stories are unchanged in this revision. Source references and pending identity questions stay in the private task evidence.
+
 ## 2026-10-24: three project narratives
 - Elm Park Road, Tansley Farm and Westover Road joinery now have evidence-bounded introductions, material relationships and topic-specific consultation preparation, using their existing records. Original client briefs and site constraints are unavailable and are not invented.
 - Preserved project paths, names, sources, first-publication fields, specifications and all photography. Scoped hero summaries and a details anchor use the existing renderer; contextual enquiry links keep these three pages free of the floating overlay.

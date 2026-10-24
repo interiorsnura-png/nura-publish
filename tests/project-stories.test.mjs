@@ -8,12 +8,19 @@ test('three existing project stories preserve identity, original dates, specific
   const matching=entries.filter(x=>x.path===baseline.path);assert.equal(matching.length,1);
   const entry=matching[0];assert.deepEqual(entry.source,baseline.source);
   for(const [key,value] of Object.entries(baseline.content))assert.deepEqual(entry.content[key],value,baseline.path+' '+key);
-  assert.equal(entry.content.body_nodes.filter(x=>x.type==='heading').length,3);
+  assert.equal(entry.content.body_nodes.filter(x=>x.type==='heading').length,entry.path==='/kitchens/tansley-farm'?4:3);
   const links=entry.content.body_nodes.flatMap(n=>n.children||[]).filter(n=>n.link).map(n=>n.link);
   assert.ok(links.includes('/consultation'));
   assert.ok(links.includes(baseline.path.startsWith('/joinery/')?'/services/architectural-joinery':'/services/bespoke-kitchens'));
   assert.doesNotMatch(JSON.stringify(entry.content.body_nodes),/\u2014|client wanted|client asked|award-winning|measured improvement|free plans/i);
  }
+});
+test('Tansley identifies the initial brief without publishing contacts, costs or unconfirmed fittings',()=>{
+ const c=entries.find(x=>x.path==='/kitchens/tansley-farm').content;
+ assert.equal(c.body_nodes[0].children[0].text,'The starting brief');
+ assert.match(c.body_nodes[1].children[0].text,/initial brief/);
+ for(const phrase of ['washing up','storage and seating','pantry storage','tall appliances'])assert.ok(c.body_nodes[1].children[0].text.includes(phrase));
+ assert.doesNotMatch(c.body,/£|@|two dishwashers|2x dishwashers|guaranteed|delivered on time/i);
 });
 test('Westover joinery story remains separate from its existing kitchen project',()=>{
  const joinery=entries.find(x=>x.path==='/joinery/westover-road').content;
