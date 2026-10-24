@@ -341,3 +341,5 @@ Handleless kitchen article: J-pull, recessed rail and mechanical push opening di
 Handleless article owner-requested repair: compared live tea-towel guide. Added concrete open/reach/close record, balanced choice table, worked preference-to-plan example, care and complete-quote/retrofit questions; selected directly relevant next reading. Preserved first-publication date, title, Joanne H and approved artwork. Full affected QA and exact-SHA release required.
 
 Windowsill decor tip: actual Google first organic/related/PAA and image reference inspected; compare silhouettes from sink/doorway, retain view/access and connect to kitchen palette. Assigned Joanne H; three original illustrations and exact-source/full release gates required.
+
+Larder planning article: actual Google purchase/configuration intent, restock inventory and whole-room trade-offs. Unsupported delegated draft rejected; original illustrations and full exact-source gates required.

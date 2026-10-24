@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-larder-cupboard':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your larder and kitchen storage'}},
   '/post/kitchen-windowsill-styling':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your window area and kitchen palette'}},
   '/post/handleless-kitchen-doors':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen opening systems'}},
   '/post/mixing-wood-tones-kitchen':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your existing furniture and kitchen palette'}},

@@ -77,3 +77,6 @@
 .hero-image[src*="nura-handleless-hero"]{object-fit:contain;object-position:center top;background:#8d7960}
 
 .hero-image[src*="nura-sill-hero"]{object-fit:contain;object-position:center top;background:#747257}
+
+.hero-image[src*="nura-larder-hero"]{object-fit:contain;object-position:center top;background:#747257}
+body:has(.hero-image[src*="nura-larder-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
