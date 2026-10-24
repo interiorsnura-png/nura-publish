@@ -323,3 +323,7 @@ Added non-mutating date ordering and regression coverage for ISO/calendar dates,
 ## 2026-10-24: shared editorial execution
 - Consolidated per-article asset/check/timing/evidence/READY-record helpers into `journal:workflow`; no public prose, routes, historical dates or release-guard logic changed. Added CUA-only viewport/image-readiness helper and negative regression coverage for stale QC, bad canonical/robots/author, conflicting writers, changed assets, wrong deployment identity and premature screenshots.
 - Validated shared route checks against the existing live tea-towel page; image assets were reused. Bounded delegated design suggestions were reviewed; invented author limits/manual review gates were rejected. Full verification and pilot receipts live in task workspace. Production runtime date-store integration and three-article timing comparison remain explicit follow-ups.
+
+
+## Worktop edge profile article,2026-10-24
+- Original front/top sample-view and product-specific brief, Joanne H assigned byline, three original illustrative assets. Actual Google first Gemini guide read; primary EGGER/Caesarstone evidence. Delegated invented constructions/dimensions rejected; Codex rewrite. New title-editor skill used, no forced number/Checks/Before. Shared workflow checks and exact-SHA gates required.

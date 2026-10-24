@@ -325,3 +325,7 @@ Owner authorised sorting the main Journal archive by first-publication date desc
 - Owner approved reducing repeated manual execution while retaining editorial judgement and all release gates. Added shared CLI for timed runs/phases, source-bound route checks, three-asset preparation, evidence recording, bounded QC arithmetic and immutable READY event ledger. Shared CUA capture helper waits for correct viewport and loaded visible images, with visual review explicitly pending. No command pushes/deploys or awards editorial quality.
 - Current pilot checks the existing tea-towel article without changing public content. Timing/negative tests and pilot evidence stay in workspace `work/journal-workflow-pilot/`. This is local tooling/configuration work; no production push is part of this task.
 - A workspace READY ledger is not a durable production runtime store. Public first-publication timestamp correction and full exact-SHA gates remain until an actual runtime adapter is configured/tested. No claimed10-12minute result before three measured article trials.
+
+
+## Worktop edge profile article,2026-10-24
+- Original front/top sample-view and product-specific brief, Joanne H assigned byline, three original illustrative assets. Actual Google first Gemini guide read; primary EGGER/Caesarstone evidence. Delegated invented constructions/dimensions rejected; Codex rewrite. New title-editor skill used, no forced number/Checks/Before. Shared workflow checks and exact-SHA gates required.
