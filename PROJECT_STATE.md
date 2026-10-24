@@ -285,3 +285,5 @@ All loaded Journal articles use Joanne H and the supplied LinkedIn profile throu
 
 ## Scheduled Journal bin layout guide,2026-10-24
 - New original five-check planning article, Joanne H owner-assigned byline, no personalexperienceclaim. Actual Google firstRedditresult read; anecdotal comments not reused as evidence. Failed OmniRoute fabrication rejected and redflag-reviewed via claude-smart; Codex rewrite uses practical checks and product-specific source.3original NURA-watermarked images and Discoverlargepreview. Separate research/PDCA/provenance and release evidence in workspace register. First-publication timestamp reconciled to first READY when available.
+
+- Bin article publication date reconciled to actual first production READY 2026-10-24T00:08:07.395Z (dpl_7EowAzoESzDZRRun4gpqgqanQx6M, source389dd75), replacing provisional drafting timestamp. Same calendar date, author/prose unchanged; corrective validation is logged separately.
