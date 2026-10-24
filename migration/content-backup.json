@@ -6186,7 +6186,7 @@
       "location": "Chelsea, London",
       "category": "Kitchens",
       "summary": "An open-plan kitchen in Chelsea, London, connecting the cooking and living areas through oak veneer, metallic-effect lacquer and handleless cabinetry.",
-      "body": "A kitchen within the living space\nAt Elm Park Road in Chelsea, the kitchen is integrated with the living area. The relationship between the two spaces is central to the project: cabinetry forms part of the room seen beyond the cooking zone.\n\nA palette across the room\nOak veneer sits alongside dark brown metallic-effect lacquer, carved handleless cabinetry and Dekton Taga Stonika. The palette pairs timber grain and a darker cabinet finish with the work surface, within a kitchen that forms part of the living space.\n\nBring the adjoining room into the conversation\nIf you are planning an open-plan kitchen, bring photographs taken from the living or dining area, a plan if available, and references for furniture or flooring you intend to keep. Note where you prepare food and where people sit. These inputs can help frame a discussion about cabinetry, views into the kitchen and a material palette that relates to the wider room.",
+      "body": "A kitchen within the living space\n\nAt Elm Park Road in Chelsea, the kitchen is integrated with the living area. The relationship between the two spaces is central to the project: cabinetry forms part of the room seen beyond the cooking zone.\n\nPlanning for site restrictions\n\nThe furniture order specified flat-packed tall units because of site restrictions. Alongside the room layout and finish palette, the project therefore had a practical requirement for how those units would be supplied. For a similar project, discuss delivery and assembly arrangements alongside cabinet sizes before the furniture order is finalised.\n\nA palette across the room\n\nOak veneer sits alongside dark brown metallic-effect lacquer, carved handleless cabinetry and Dekton Taga Stonika. The palette pairs timber grain and a darker cabinet finish with the work surface, within a kitchen that forms part of the living space.\n\nBring the adjoining room into the conversation\n\nIf you are planning an open-plan kitchen, bring photographs taken from the living or dining area, a plan if available, and references for furniture or flooring you intend to keep. Note where you prepare food and where people sit. These inputs can help frame a discussion about cabinetry, views into the kitchen and a material palette that relates to the wider room.\n\nExplore bespoke kitchen design. Discuss your open-plan kitchen with Nura ↗",
       "specifications": "Oakwood Veneer-  dark brown metallic metal- effect Lacquered- carved handleless- Dekton Taga stonika",
       "hero": {
         "filename": "https://static.wixstatic.com/media/22c124_eac2204835f44c3d8bbb9f9d37b49e33~mv2.webp",
@@ -6262,6 +6262,25 @@
             {
               "type": "text",
               "text": "At Elm Park Road in Chelsea, the kitchen is integrated with the living area. The relationship between the two spaces is central to the project: cabinetry forms part of the room seen beyond the cooking zone."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Planning for site restrictions"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The furniture order specified flat-packed tall units because of site restrictions. Alongside the room layout and finish palette, the project therefore had a practical requirement for how those units would be supplied. For a similar project, discuss delivery and assembly arrangements alongside cabinet sizes before the furniture order is finalised."
             }
           ]
         },

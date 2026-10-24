@@ -1,5 +1,8 @@
 # NURA Backlog
 
+- [x] Owner confirmed published Elm Park is number 78 and Westover is number 44.
+- [ ] Find joinery-specific Westover brief evidence; kitchen orders do not establish joinery requirements. Resolve historical Elm worktop-document discrepancy against final evidence before changing the preserved public specification.
+
 - [ ] Confirm Elm Park and Westover joinery source identities before adding archive constraints; Tansley's original functional brief is evidenced and its release is tracked in the task report. Do not infer briefs from photographs or count initial requests as completed fittings.
 - [ ] Measure actual project-to-consultation journeys and qualified enquiries after release, with verified analytics receipt.
 - [ ] Monitor the pendant-finish article after publication with actual GSC/Discover data, field Core Web Vitals and authorised analytics receipt; do not infer those outcomes from local or rich-results checks.
