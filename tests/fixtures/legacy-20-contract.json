@@ -150,7 +150,7 @@
   {
     "path": "/post/how-to-choose-the-right-worktop-for-your-kitchen",
     "source": "migration/content-backup.json",
-    "title": "How to Choose the Right Worktop for Your Kitchen",
+    "title": "Best Kitchen Worktops for 2027: 5 Materials Compared for Everyday Use",
     "author": "Joanne H",
     "published": "2023-03-02T10:02:56.264Z",
     "links": [
@@ -160,7 +160,8 @@
       "/services/bespoke-kitchens",
       "/consultation",
       "/guides/bespoke-kitchens"
-    ]
+    ],
+    "modified": "2026-10-24T22:21:20.946Z"
   },
   {
     "path": "/guides/bespoke-kitchens",

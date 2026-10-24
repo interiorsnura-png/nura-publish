@@ -138,3 +138,6 @@ body:has(.hero-image[src*="nura-fit-hero"]) .nura-lead-trigger{position:static;m
 
 .hero-image[src*="nura-table-hero"]{object-fit:contain;object-position:center top;background:#c4bba7}
 body:has(.hero-image[src*="nura-table-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+.hero-image[src*="nura-worktops-hero"]{object-fit:contain;object-position:center top;background:#b6a992}
+body:has(.hero-image[src*="nura-worktops-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}

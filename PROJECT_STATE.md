@@ -417,3 +417,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-24 kitchen-table centrepiece tip: place settings, seated view and a planned stay-or-move decision, connected to retained dining furniture and cabinetry. Five actual source pages, visible Google first retail result and first Images reference reviewed, three original inspected illustrations, assigned Joanne H byline. Existing fruit-bowl and worktop-tray coverage kept distinct. Full build, responsive preview, source-bound QC and exact-SHA release remain required. GSC/Discover, field CWV and analytics receipt remain pending.
+
+
+2026-10-24 owner queue4: update existing worktop selection article, preserving URL and 2023 first-publication date. Five-material care/appearance comparison and same-plan fitted quote scope, no2027forecast or universal best ranking. Three original inspected illustrations. Existing porcelain/edge/project pages remain distinct. Full checks and exact-SHA release required; GSC/Discover,fieldCWV and analytics receipt pending.

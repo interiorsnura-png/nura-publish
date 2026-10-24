@@ -16,7 +16,7 @@ export async function atomicUpdate(file,update){
  const lock=file+'.lock',handle=await fs.open(lock,'wx');let temp;
  try{const before=await fs.readFile(file,'utf8'),value=await update(JSON.parse(before));assert(await fs.readFile(file,'utf8')===before,'Concurrent writer changed record');temp=file+'.'+process.pid+'.tmp';await fs.writeFile(temp,JSON.stringify(value,null,2)+'\n',{flag:'wx'});await fs.rename(temp,file);temp=null;return value;}finally{if(temp)await fs.unlink(temp).catch(()=>{});await handle.close();await fs.unlink(lock);}
 }
-export async function findArticle(root,route){articlePath(route);const entries=await json(path.join(root,'lib/published-editorial.json')),matches=entries.filter(x=>x.path===route);assert(matches.length===1,'Expected one authoritative editorial record');return matches[0];}
+export async function findArticle(root,route){articlePath(route);const collections=await Promise.all(['lib/published-editorial.json','migration/content-backup.json'].map(file=>json(path.join(root,file)))),matches=collections.flat().filter(x=>x.path===route);assert(matches.length===1,'Expected one authoritative article record across editorial and archive');assert(matches[0].content?.component==='article','Expected an article');return matches[0];}
 export async function optimiseAssets(root,manifest){
  assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(manifest.slug||''),'Invalid asset slug');assert(manifest.assets?.length===3,'Exactly three original images required');assert(new Set(manifest.assets.map(x=>x.name)).size===3,'Duplicate asset names');
  const {default:sharp}=await import('sharp'),planned=[];
