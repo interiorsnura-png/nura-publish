@@ -342,6 +342,13 @@ Windowsill decor tip: actual Google first organic/related/PAA and image referenc
 
 Larder planning article: actual Google purchase/configuration intent, restock inventory and whole-room trade-offs. Unsupported delegated draft rejected; original illustrations and full exact-source gates required.
 
+## 2026-10-24: local Journal RSS and metadata
+- Added production Article large-image metadata defaults, shared social/schema image selection without guessed dimensions, XML-safe RSS 2.0 and feed autodiscovery, including the independent homepage handler. Preserved public paths, titles, authors, dates, article prose and assets.
+- Updated image assertions to validate ImageObject URLs and expanded the shared editorial fingerprint to include its new metadata helper. Existing release guards remain intact. Delegated proposals were reviewed and corrected for nested content fields, Unicode handling and stable ordering before use.
+- Added focused negative tests plus built-server RSS checks in the existing full verifier. Production activation, Search Console submission and official Google validation remain outside this local implementation task; see backlog.
+- Final local validation: all 100 application tests and `npm run build:verified` passed; SEO checked 135 routes with zero errors and image licensing checked 86 pages. RSS contains all 82 public article URLs and parses as XML. RSS/sitemap runtime traces each include all 50 Markdown sources. Only measured Fulham social-image dimensions changed in editorial JSON; content, authors and dates otherwise exactly match task-entry HEAD. Browser review covered Larder and Porcelain at desktop/mobile sizes. Source is uncommitted and no push/deployment was performed.
+- Owner subsequently authorised publication. Integrate the newer production bar-stool tip before release, preserve its real dates/assets, rerun the full pre-push verifier and post-push exact-SHA release guards, then record fresh authoritative Vercel and live/browser evidence in the task workspace.
+
 
 Kitchen bar stool colour tip,2026-10-24: original seat/frame/island/dining-view comparison, Joanne H assigned byline,three original credited illustrations. Actual Google intent and first-result research retained. New article alone places the existing enquiry control in reading flow to prevent copy overlap. Full exact-source gates and live evidence are recorded in the task workspace.
 
