@@ -11724,4 +11724,376 @@
     "modified_date": "2026-10-24T16:34:10.008Z"
   }
 }
+,
+{
+  "path": "/post/kitchen-fridge-placement",
+  "content": {
+    "component": "article",
+    "title": "Fridge Placement for Shopping, Cooking and Everyday Access",
+    "category": "Kitchen planning",
+    "summary": "Compare daily routes and the open appliance before fixing your fridge position and tall-unit layout.",
+    "seo_title": "Fridge Placement for Shopping, Cooking and Everyday Access",
+    "seo_description": "Plan fridge placement around shopping, cooking and breakfast. Check the open door, internal drawers and exact model requirements before fixing your kitchen layout.",
+    "hero": {
+      "filename": "/assets/editorial/nura-fridge-hero.webp",
+      "alt": "Closed stainless fridge beside oak cabinetry and a counter with a grocery bag in a pale kitchen",
+      "caption": "Consider the fridge, nearby landing surface and route through the room together. Illustration, Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-fridge-hero.webp",
+      "alt": "Closed stainless fridge beside oak cabinetry and a counter with a grocery bag in a pale kitchen",
+      "caption": "Consider the fridge, nearby landing surface and route through the room together. Illustration, Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "author_name": "Joanne H",
+    "image_rights_status": "owned",
+    "published_date": "2026-10-24",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Good fridge placement in a kitchen starts with the journeys around it: bringing shopping in, collecting ingredients and reaching for breakfast. Compare those uses before fixing the tall-unit layout, then check the exact appliance with its door and drawers open. The neatest closed-door elevation may leave an awkward everyday route."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Follow the food through the room"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Mark the entrance, preparation surface and usual breakfast spot on your plan. For each possible fridge position, trace where a bag lands, where ingredients go next and where someone stands to reach the milk. Look at the occupied space, including the person opening the fridge, rather than drawing a line between appliances alone."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Everyday use"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Question to ask"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "What to mark on the plan"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Shopping"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Where can the bags rest while you put chilled food away?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Entrance route, landing surface and open door."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Cooking"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Can ingredients reach the preparation area while someone else passes?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Preparation surface, cook and crossing route."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Breakfast or snacks"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Who needs access when the main work area is occupied?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Seated people, fridge user and route to cups or bowls."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For example, a fridge near the entrance might suit unloading, yet put its open door across the route to the table. Moving it further along the same run could improve that crossing but reduce the convenient landing surface. Compare both positions with the same three scenarios and record which compromise your household would prefer. This is a hypothetical planning exercise, not a universal best location."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Draw the door open before approving the cabinetry"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Record the exact model, hinge side and handle projection. Ask the appliance supplier which opening angle is needed for normal access and for pulling out or removing its internal drawers. Confirm whether reversing a door is supported for that model; do not assume that it is."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-fridge-doors.webp",
+        "alt": "Open stainless fridge with a pulled-out lower drawer beside an oak kitchen counter",
+        "caption": "An open door and internal drawer need separate consideration. Illustration, Nura Interiors; this is not a model-specific clearance drawing."
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Near a wall, check the appliance drawing against the wall, filler, handles and adjacent cabinet fronts. Beside an island, consider the fridge door, nearby stools and another person using the passage together. A door that opens is not, by itself, evidence that every drawer can be removed or that the room remains comfortable to use."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep the installation brief tied to the model"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "AEG directs owners to follow the supplied installation instructions and the ventilation guidelines in the appliance manual. Use the "
+          },
+          {
+            "type": "text",
+            "text": "manufacturer installation guidance",
+            "link": "https://support.aeg.co.uk/support-articles/article/how-to-install-correctly-my-refrigerator-freezer-fridge-freezer?locale=en-GB"
+          },
+          {
+            "type": "text",
+            "text": " as a starting point, then obtain the documents for the exact fridge you are considering."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ask the supplier and kitchen designer to confirm the required enclosure, ventilation route, clearances and suitability beside any proposed heat source. Include the oven or hob model where relevant. Keep electrical and installation decisions with the appropriate installer. A general room sketch cannot establish those requirements, and a freestanding appliance should not be assumed suitable for an integrated cabinet."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/editorial/nura-fridge-brief.webp",
+        "alt": "Unscaled kitchen sketch beside Shopping, Cooking and Breakfast cards, an appliance booklet and material samples",
+        "caption": "Use everyday scenarios to annotate the room plan. Illustration, Nura Interiors; the sketch is unscaled and does not specify installation dimensions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the unresolved choice to Nura"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring your room plan, doorway and adjacent-wall photographs, the exact appliance reference and its installation documents to a "
+          },
+          {
+            "type": "text",
+            "text": "kitchen design conversation",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": ". Note your preferred shopping route and the conflict you want to resolve. Ask what relevant layouts or examples are available before a "
+          },
+          {
+            "type": "text",
+            "text": "Fulham showroom visit",
+            "link": "/london"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Our "
+          },
+          {
+            "type": "text",
+            "text": "galley kitchen planning guide",
+            "link": "/post/planning-a-galley-kitchen-in-london"
+          },
+          {
+            "type": "text",
+            "text": " considers the wider room, while the "
+          },
+          {
+            "type": "text",
+            "text": "larder cupboard article",
+            "link": "/post/kitchen-larder-cupboard"
+          },
+          {
+            "type": "text",
+            "text": " helps connect chilled and dry-food storage. You can also "
+          },
+          {
+            "type": "text",
+            "text": "explore a completed Nura kitchen",
+            "link": "/kitchens/ancona"
+          },
+          {
+            "type": "text",
+            "text": " for broader design context. "
+          },
+          {
+            "type": "text",
+            "text": "Discuss your kitchen layout and appliance brief",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      }
+    ],
+    "body": "Good fridge placement in a kitchen starts with the journeys around it: bringing shopping in, collecting ingredients and reaching for breakfast. Compare those uses before fixing the tall-unit layout, then check the exact appliance with its door and drawers open. The neatest closed-door elevation may leave an awkward everyday route. Follow the food through the room Mark the entrance, preparation surface and usual breakfast spot on your plan. For each possible fridge position, trace where a bag lands, where ingredients go next and where someone stands to reach the milk. Look at the occupied space, including the person opening the fridge, rather than drawing a line between appliances alone. Everyday use Question to ask What to mark on the plan Shopping Where can the bags rest while you put chilled food away? Entrance route, landing surface and open door. Cooking Can ingredients reach the preparation area while someone else passes? Preparation surface, cook and crossing route. Breakfast or snacks Who needs access when the main work area is occupied? Seated people, fridge user and route to cups or bowls. For example, a fridge near the entrance might suit unloading, yet put its open door across the route to the table. Moving it further along the same run could improve that crossing but reduce the convenient landing surface. Compare both positions with the same three scenarios and record which compromise your household would prefer. This is a hypothetical planning exercise, not a universal best location. Draw the door open before approving the cabinetry Record the exact model, hinge side and handle projection. Ask the appliance supplier which opening angle is needed for normal access and for pulling out or removing its internal drawers. Confirm whether reversing a door is supported for that model; do not assume that it is. Near a wall, check the appliance drawing against the wall, filler, handles and adjacent cabinet fronts. Beside an island, consider the fridge door, nearby stools and another person using the passage together. A door that opens is not, by itself, evidence that every drawer can be removed or that the room remains comfortable to use. Keep the installation brief tied to the model AEG directs owners to follow the supplied installation instructions and the ventilation guidelines in the appliance manual. Use the  manufacturer installation guidance  as a starting point, then obtain the documents for the exact fridge you are considering. Ask the supplier and kitchen designer to confirm the required enclosure, ventilation route, clearances and suitability beside any proposed heat source. Include the oven or hob model where relevant. Keep electrical and installation decisions with the appropriate installer. A general room sketch cannot establish those requirements, and a freestanding appliance should not be assumed suitable for an integrated cabinet. Bring the unresolved choice to Nura Bring your room plan, doorway and adjacent-wall photographs, the exact appliance reference and its installation documents to a  kitchen design conversation . Note your preferred shopping route and the conflict you want to resolve. Ask what relevant layouts or examples are available before a  Fulham showroom visit . Our  galley kitchen planning guide  considers the wider room, while the  larder cupboard article  helps connect chilled and dry-food storage. You can also  explore a completed Nura kitchen  for broader design context.  Discuss your kitchen layout and appliance brief ."
+  }
+}
 ]

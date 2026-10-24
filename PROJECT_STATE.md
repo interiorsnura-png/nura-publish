@@ -374,3 +374,5 @@ Dishwasher placement article,2026-10-24: household plate-route brief, open-door 
 Grout-colour decor tip prepared with three original illustrations, whole-wall comparison and topic-specific Nura journey. Local 100-test build and 138-route checks pass; exact-SHA production release remains pending.
 
 2026-10-24 island seating: original planning article compares a row, adjacent seats and a separate table using daily/occasional users, occupied routes and material-specific overhang scope. Three owned illustrations and Joanne H assigned byline; final production evidence lives in workspace nura-island-publication-verification.json after release.
+
+Journal candidate /post/kitchen-fridge-placement adds a three-scenario fridge layout guide, exact-model installation questions and three original NURA-marked illustrations. Automated QC and production verification remain pending until recorded outside Git.

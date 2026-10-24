@@ -101,3 +101,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 Grout-colour article: verify actual production SHA/READY/domain and official smartphone Rich Results after authorised release; record first READY timestamp correction. GSC/Discover, field performance and analytics receipt stay pending without actual evidence.
 
 Island seating: actual GSC indexing/Discover, field CWV and confirmed analytics receipt stay pending without real evidence. Use workspace nura-island-publication-verification.json for final READY/source/live/Rich Results findings; no repeated unchanged deployments.
+
+Fridge article monitoring: confirm actual GSC indexing/Discover, field CWV and analytics/lead receipt when authorised evidence is available. No claim that local QA proves these outcomes.
