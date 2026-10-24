@@ -1,5 +1,10 @@
 # NURA Project State
 
+## 2026-10-24: three project narratives
+- Elm Park Road, Tansley Farm and Westover Road joinery now have evidence-bounded introductions, material relationships and topic-specific consultation preparation, using their existing records. Original client briefs and site constraints are unavailable and are not invented.
+- Preserved project paths, names, sources, first-publication fields, specifications and all photography. Scoped hero summaries and a details anchor use the existing renderer; contextual enquiry links keep these three pages free of the floating overlay.
+- Exact-source full checks and live release evidence are required; the task's output report records actual publication status. Better lead quality and analytics receipt remain unverified.
+
 ## 2026-10-24: homepage PDCA implementation
 - Prepared from production/main 0453bb0509d5b2a1d1531ce1eaba1e2fb2f75011 in an isolated checkout, preserving concurrent Journal changes elsewhere.
 - Services and real project cards precede the manifesto and portfolio promotion. Removed the duplicate project button and two repetitive presentation panels; assets and historical snapshot remain intact.

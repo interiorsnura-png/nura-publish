@@ -1,5 +1,10 @@
 # NURA Work Log
 
+## 2026-10-24: project stories inspired by international benchmarks
+- Started with the three featured homepage projects. Reviewed canonical source and the separate kitchen/joinery Westover records. OmniRoute drafting returned HTTP502; Codex wrote and checked the copy against existing summaries/specifications.
+- Added structured context, material decisions and relevant future-project inputs without attributing an undocumented brief, constraint or outcome to the original homeowner. Kept historical identities, images and dates; two focused preservation/identity tests added.
+- CUA preview found a failed CRLF-sensitive script edit leaving the floating trigger active; applied an explicit three-route correction and verified its absence. Desktop/mobile story and CTA checks and full release gates follow; task output retains actual outcomes.
+
 ## 2026-10-24: approved homepage improvements
 - Plan: address duplicate portfolio actions, late services/project evidence, competing consultation paths and weak showroom navigation from the recorded homepage audit.
 - Do: scoped HTML presentation transform, early services/project cards, factual project summaries, showroom links and early-stage enquiry copy. No snapshot, assets, submissions, credentials or production settings replaced.

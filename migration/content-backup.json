@@ -4278,8 +4278,8 @@
       "title": "Westover Road",
       "location": "Wandsworth London",
       "category": "Architectural Joinery",
-      "summary": "-",
-      "body": "-",
+      "summary": "Architectural joinery in Wandsworth, London, combining white washed oak veneer, recessed lighting and Calacatta Cremo marble.",
+      "body": "A joinery composition in Wandsworth\nThis Westover Road project brings together white washed oak veneer, recessed lighting and Calacatta Cremo marble. The specification places the timber finish, lighting and stone within the same joinery composition.\n\nMaterial and light as connected details\nIn the project photographs, explore the relationship between the oak veneer, marble and recessed lighting. For a future joinery design, that combination raises a useful question: which parts of the composition should be lit, and what should remain visually quiet?\n\nBegin with what the joinery needs to hold\nFor your own joinery, bring photographs of the wall and adjoining room, a plan if available, and a short list of what you need to store or display. Identify items you want visible and those you would prefer behind doors. These inputs can help the studio discuss the balance of storage and display, the material direction and whether lighting belongs in the proposed design.",
       "specifications": "White washed Oak veneer with recessed lighting + Calacatta Cremo Marble",
       "hero": {
         "filename": "https://static.wixstatic.com/media/22c124_f9c75539f415461abf14a39be0ae4f01~mv2.jpg",
@@ -4333,11 +4333,89 @@
         }
       ],
       "seo_title": "Westover Road Joinery | Nura Interiors",
-      "seo_description": "Explore Westover Road in Wandsworth London: architectural joinery photographs and details from the Nura Interiors collection.",
+      "seo_description": "Explore Westover Road joinery in Wandsworth, London: white washed oak veneer, recessed lighting and Calacatta Cremo marble.",
       "published_date": "",
       "image_rights_status": "owned",
       "source_publish_status": "PUBLISHED",
-      "source_rank": 101
+      "source_rank": 101,
+      "body_nodes": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "A joinery composition in Wandsworth"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "This Westover Road project brings together white washed oak veneer, recessed lighting and Calacatta Cremo marble. The specification places the timber finish, lighting and stone within the same joinery composition."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Material and light as connected details"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "In the project photographs, explore the relationship between the oak veneer, marble and recessed lighting. For a future joinery design, that combination raises a useful question: which parts of the composition should be lit, and what should remain visually quiet?"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Begin with what the joinery needs to hold"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For your own joinery, bring photographs of the wall and adjoining room, a plan if available, and a short list of what you need to store or display. Identify items you want visible and those you would prefer behind doors. These inputs can help the studio discuss the balance of storage and display, the material direction and whether lighting belongs in the proposed design."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore architectural joinery",
+              "link": "/services/architectural-joinery"
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "text",
+              "text": "Discuss your storage and display brief with Nura ↗",
+              "link": "/consultation"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -6107,8 +6185,8 @@
       "title": "Elm Park Road",
       "location": "Chelsea, London",
       "category": "Kitchens",
-      "summary": "Entering the curated space, we feel embraced by the warmth of an open-plan kitchen and living area. The seamless integration of a modest kitchen with the living space reflects thoughtful design decisions. Creating this open-plan environment involves intentional choices, ensuring cohesion and a welcoming atmosphere that highlights meticulous design considerations.",
-      "body": "Upon entering this meticulously crafted space, one is embraced by the inviting aura of an open-plan kitchen seamlessly melded with the living area. The fusion of these two essential spaces stands as a testament to the deliberate design decisions that have sculpted this environment. Crafting an open-plan layout transcends mere spatial integration; it entails a series of purposeful design choices. Each aspect, from the layout to the selection of elements, contributes to the creation of a harmonious and inviting atmosphere. It transcends mere functionality; it embodies thoughtful design at its core. Every detail is thoughtfully curated to foster a cohesive and welcoming ambiance, where functionality and aesthetics intertwine seamlessly, enriching the overall experience of this curated space.",
+      "summary": "An open-plan kitchen in Chelsea, London, connecting the cooking and living areas through oak veneer, metallic-effect lacquer and handleless cabinetry.",
+      "body": "A kitchen within the living space\nAt Elm Park Road in Chelsea, the kitchen is integrated with the living area. The relationship between the two spaces is central to the project: cabinetry forms part of the room seen beyond the cooking zone.\n\nA palette across the room\nOak veneer sits alongside dark brown metallic-effect lacquer, carved handleless cabinetry and Dekton Taga Stonika. The palette pairs timber grain and a darker cabinet finish with the work surface, within a kitchen that forms part of the living space.\n\nBring the adjoining room into the conversation\nIf you are planning an open-plan kitchen, bring photographs taken from the living or dining area, a plan if available, and references for furniture or flooring you intend to keep. Note where you prepare food and where people sit. These inputs can help frame a discussion about cabinetry, views into the kitchen and a material palette that relates to the wider room.",
       "specifications": "Oakwood Veneer-  dark brown metallic metal- effect Lacquered- carved handleless- Dekton Taga stonika",
       "hero": {
         "filename": "https://static.wixstatic.com/media/22c124_eac2204835f44c3d8bbb9f9d37b49e33~mv2.webp",
@@ -6162,11 +6240,89 @@
         }
       ],
       "seo_title": "Elm Park Road Kitchen | Nura Interiors",
-      "seo_description": "Entering the curated space, we feel embraced by the warmth of an open-plan kitchen and living area. The seamless integration of a modest kitchen with the l",
+      "seo_description": "Explore Elm Park Road in Chelsea: an open-plan kitchen with oak veneer, metallic-effect lacquer, handleless cabinetry and Dekton Taga Stonika.",
       "published_date": "",
       "image_rights_status": "owned",
       "source_publish_status": "PUBLISHED",
-      "source_rank": 102
+      "source_rank": 102,
+      "body_nodes": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "A kitchen within the living space"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "At Elm Park Road in Chelsea, the kitchen is integrated with the living area. The relationship between the two spaces is central to the project: cabinetry forms part of the room seen beyond the cooking zone."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "A palette across the room"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Oak veneer sits alongside dark brown metallic-effect lacquer, carved handleless cabinetry and Dekton Taga Stonika. The palette pairs timber grain and a darker cabinet finish with the work surface, within a kitchen that forms part of the living space."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Bring the adjoining room into the conversation"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "If you are planning an open-plan kitchen, bring photographs taken from the living or dining area, a plan if available, and references for furniture or flooring you intend to keep. Note where you prepare food and where people sit. These inputs can help frame a discussion about cabinetry, views into the kitchen and a material palette that relates to the wider room."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore bespoke kitchen design",
+              "link": "/services/bespoke-kitchens"
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "text",
+              "text": "Discuss your open-plan kitchen with Nura ↗",
+              "link": "/consultation"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -6419,8 +6575,8 @@
       "title": "Tansley Farm",
       "location": "Cotswold District",
       "category": "Kitchens",
-      "summary": "A bespoke kitchen in the Cotswold District, pairing plain lacquer in a gold metallic effect with Calacatta Hermitage stone across the worktops, splashbacks and island.",
-      "body": "At Tansley Farm, plain lacquer in a gold metallic effect is paired with Calacatta Hermitage stone. The stone continues across the worktops, splashbacks and island, bringing the material palette together across the kitchen. The project brings these finishes into a considered composition of cabinetry and stone.",
+      "summary": "A Cotswold District kitchen pairing gold metallic-effect lacquer with Calacatta Hermitage stone across the worktops, splashbacks and island.",
+      "body": "One stone across three surfaces\nTansley Farm is a bespoke kitchen in the Cotswold District. Calacatta Hermitage stone is used across the worktops, splashbacks and island, connecting the working surfaces and the vertical backdrop through a repeated material.\n\nCabinetry and stone considered together\nThe cabinetry is finished in plain lacquer with a gold metallic effect. Alongside it, the same stone connects worktops, splashbacks and island. Follow that material through the project photographs to see the relationship between the vertical surfaces and the working areas, as well as the island.\n\nPrepare a material brief for your kitchen\nFor your own project, identify the floor, furniture and finishes that will remain. Bring photographs or references for those materials and note which surfaces you would like to connect. The discussion can then consider whether to repeat a material or introduce contrast, alongside the practical requirements of your worktop, splashback and island. Ask the studio which current samples are available before arranging a visit.",
       "specifications": "Plain lacquer, gold metallic effect. Calacatta Hermitage stone to the worktops, splashbacks and island.",
       "hero": {
         "filename": "https://static.wixstatic.com/media/22c124_41b2e9717e1d4a9fbc8ed9a0a0132c29~mv2.webp",
@@ -6479,11 +6635,89 @@
         }
       ],
       "seo_title": "Tansley Farm Kitchen | Nura Interiors",
-      "seo_description": "Explore Tansley Farm, a Cotswold District kitchen pairing gold-effect lacquer with Calacatta Hermitage stone across the worktops, splashbacks and island.",
+      "seo_description": "Explore Tansley Farm in the Cotswold District: gold metallic-effect lacquer and Calacatta Hermitage stone across worktops, splashbacks and island.",
       "published_date": "",
       "image_rights_status": "owned",
       "source_publish_status": "PUBLISHED",
-      "source_rank": 104
+      "source_rank": 104,
+      "body_nodes": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "One stone across three surfaces"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Tansley Farm is a bespoke kitchen in the Cotswold District. Calacatta Hermitage stone is used across the worktops, splashbacks and island, connecting the working surfaces and the vertical backdrop through a repeated material."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Cabinetry and stone considered together"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The cabinetry is finished in plain lacquer with a gold metallic effect. Alongside it, the same stone connects worktops, splashbacks and island. Follow that material through the project photographs to see the relationship between the vertical surfaces and the working areas, as well as the island."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Prepare a material brief for your kitchen"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For your own project, identify the floor, furniture and finishes that will remain. Bring photographs or references for those materials and note which surfaces you would like to connect. The discussion can then consider whether to repeat a material or introduce contrast, alongside the practical requirements of your worktop, splashback and island. Ask the studio which current samples are available before arranging a visit."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Explore bespoke kitchen design",
+              "link": "/services/bespoke-kitchens"
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "text",
+              "text": "Discuss your kitchen material palette with Nura ↗",
+              "link": "/consultation"
+            }
+          ]
+        }
+      ]
     }
   },
   {
