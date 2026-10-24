@@ -298,3 +298,7 @@ Owner requested Joanne H for every article. Implemented shared local/CMS/preview
 - Original five-check guide with Joanne H byline,3original illustrations, product-version source and practical retrieval record. Actual Google first shopping category read. OmniRoute draft rejected for invented service/hardware and unsafe contradictory motion advice; bounded stronger-route review used, Codex rewrite removes unsupported claims. Private research/PDCA in workspace register. Full source/QC/preview/release verification required.
 
 - Corner article first production READY 2026-10-24T02:12:46.482Z, dpl_AA5Ftk5e1cVyHrgmYBwdY6ddDwPZ source5f25146. Publication timestamp reconciled to actual event; author/prose/assets unchanged, full corrected source gates repeated.
+
+
+## Kitchen wall art frame-size tip,2026-10-24
+- Original practical frame-outline comparison, Joanne H,3original illustrations and CCI paper-care source. Actual first Google EastEndPrints category read before drafting. Delegated draft invalid dimensions/clearance acceptance and offers rejected; Codex rewrite validated. Full checks and private PDCA/source evidence in workspace register.
