@@ -425,3 +425,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-24 kitchen clock tip: actual seated/preparation views and face/frame choice connected to retained dining furniture and cabinetry. Paperproportion is not actualproductlegibility or mountingapproval. Fiveactualrelevantproviderguides, GooglefirstNewgate/ImagesSchoolhouse and current12titles inspected. Three originalinspectedillustrations, JoanneHbyline, no inventedstock/video/service. Full build/responsive/exactSHAreleaseandactualREADYdatecorrectionrequired; GSC/Discover,fieldCWV/INP and analyticsreceiptpending.
+
+
+2026-10-24 ownerqueue6: new general seven-stage kitchenrenovationtimeline with three household periods and evidence/responsibility record;2027planningyear not futureleadtimeforecast. Narrow supply-programme/firstfix pages retained and linked. Threeoriginalnavy/walnut illustrations,JoanneHbyline. Fullbuild/preview/exactSHA/READYdatecorrection required;GSC/Discover,fieldCWV/analyticsreceiptpending.
