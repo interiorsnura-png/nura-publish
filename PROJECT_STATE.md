@@ -318,3 +318,5 @@ Owner authorised sorting the main Journal archive by first-publication date desc
 
 ## Kitchen tea towel display tip,2026-10-24
 - Original purpose/fold/position guide, Joanne H assigned byline, three original watermarked illustrations. Actual first Google Pinterest board read; original added value is a bounded visual comparison and fitting-requirement record. Delegated unsupported fixing/damage/clearance/ownership claims rejected and rewritten. Private PDCA/research retained. Full source and release validation required.
+
+- Tea towel tip first production READY 2026-10-24T05:18:58.667Z, dpl_21Qa91oT3tbvsbyfRHnF2n9Pg2k6 source115b90f. Publication timestamp reconciled to actual event; author/prose/assets/layout unchanged. Full corrected source gates repeated.
