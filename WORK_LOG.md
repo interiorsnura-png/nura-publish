@@ -333,3 +333,5 @@ Worktop edge guide first production READY 2026-10-24T06:25:19.125Z (dcc35ae). Re
 Wood-tone decor tip: retained furniture and cabinet palette comparison, actual Google related/PAA intent research, subject-specific consultation preparation. Original illustrations and full release gates required.
 
 Wood tone tip first actual production READY 2026-10-24T07:32:11.230Z; date-only source correction retains this event. Actual Google long-tail/related/PAA research precedes final title selection.
+
+Handleless kitchen article: J-pull, recessed rail and mechanical push opening distinctions, household brief and exact appliance compatibility questions. Three original illustrations; scoped image/CTA rendering; all exact-source release gates retained.

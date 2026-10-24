@@ -94,3 +94,5 @@
 body:has(.hero-image[src*="nura-edges-hero"]) .nura-lead-trigger{position:static;margin:24px auto;max-width:calc(100% - 32px)}
 
 body:has(.hero-image[src*="nura-woods-hero"]) .nura-lead-trigger{position:static;margin:24px auto;max-width:calc(100% - 32px)}
+
+body:has(.hero-image[src*="nura-handleless-hero"]) .nura-lead-trigger{position:static;margin:24px auto;max-width:calc(100% - 32px)}

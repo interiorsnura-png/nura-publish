@@ -73,3 +73,5 @@
 .hero-image[src*="nura-edges-hero"]{object-fit:contain;object-position:center top;background:#665641}
 
 .hero-image[src*="nura-woods-hero"]{object-fit:contain;object-position:center top;background:#675c4e}
+
+.hero-image[src*="nura-handleless-hero"]{object-fit:contain;object-position:center top;background:#8d7960}
