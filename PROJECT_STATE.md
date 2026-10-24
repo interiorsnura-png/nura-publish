@@ -314,3 +314,7 @@ All loaded Journal articles use Joanne H and the supplied LinkedIn profile throu
 
 ## 2026-10-24: newest-first Journal archive
 Owner authorised sorting the main Journal archive by first-publication date descending. Filter/search and ItemList share the same sorted list. Curated sections remain unchanged; invalid/missing dates sort last and ties retain source order. Release evidence is in current Journal task workspace.
+
+
+## Kitchen tea towel display tip,2026-10-24
+- Original purpose/fold/position guide, Joanne H assigned byline, three original watermarked illustrations. Actual first Google Pinterest board read; original added value is a bounded visual comparison and fitting-requirement record. Delegated unsupported fixing/damage/clearance/ownership claims rejected and rewritten. Private PDCA/research retained. Full source and release validation required.

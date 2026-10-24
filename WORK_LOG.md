@@ -313,3 +313,7 @@ Owner requested Joanne H for every article. Implemented shared local/CMS/preview
 
 ## 2026-10-24: Journal chronological order
 Added non-mutating date ordering and regression coverage for ISO/calendar dates, ties and invalid dates. Owner authorised production release. Current task records build and live desktop/mobile/filtered-list evidence.
+
+
+## Kitchen tea towel display tip,2026-10-24
+- Original purpose/fold/position guide, Joanne H assigned byline, three original watermarked illustrations. Actual first Google Pinterest board read; original added value is a bounded visual comparison and fitting-requirement record. Delegated unsupported fixing/damage/clearance/ownership claims rejected and rewritten. Private PDCA/research retained. Full source and release validation required.

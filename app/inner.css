@@ -67,3 +67,5 @@
 .article-page .inner-hero img[src*="nura-drawers-hero"]{object-fit:contain}
 .hero-image[src*="nura-art-hero"]{object-position:center top}
 .hero-image[src*="nura-sinks-hero"]{object-fit:contain;object-position:center top;background:#41494e}
+
+.hero-image[src*="nura-textile-hero"]{object-fit:contain;object-position:center top;background:#6e5b48}
