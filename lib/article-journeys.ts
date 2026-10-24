@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/single-vs-double-kitchen-sink':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the complete kitchen brief',service:'/services/bespoke-kitchens'},
   '/post/kitchen-wall-art-frame-size':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the wider kitchen room',service:'/services/bespoke-kitchens'},
   '/post/kitchen-corner-storage-checks':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the wider kitchen layout',service:'/services/bespoke-kitchens'},
   '/post/kitchen-worktop-styling-tray-checks':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the wider kitchen brief',service:'/services/bespoke-kitchens'},
