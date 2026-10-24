@@ -287,3 +287,7 @@ All loaded Journal articles use Joanne H and the supplied LinkedIn profile throu
 - New original five-check planning article, Joanne H owner-assigned byline, no personalexperienceclaim. Actual Google firstRedditresult read; anecdotal comments not reused as evidence. Failed OmniRoute fabrication rejected and redflag-reviewed via claude-smart; Codex rewrite uses practical checks and product-specific source.3original NURA-watermarked images and Discoverlargepreview. Separate research/PDCA/provenance and release evidence in workspace register. First-publication timestamp reconciled to first READY when available.
 
 - Bin article publication date reconciled to actual first production READY 2026-10-24T00:08:07.395Z (dpl_7EowAzoESzDZRRun4gpqgqanQx6M, source389dd75), replacing provisional drafting timestamp. Same calendar date, author/prose unchanged; corrective validation is logged separately.
+
+
+## Scheduled worktop tray styling tip,2026-10-24
+- Joanne H owner-assigned byline; four practical checks with paperfootprint, everydaycontents and removal. Actual first Google IvyGrey curatedshop page read; original addedvalue tests usable prep footprint instead of selling decor. OmniRoute bounded draft validated/edited for unsupported CTA promise and guaranteedcleaning benefit.3original watermarked illustrations with private provenance;largepreview and fullreleaseQA required. Actual first READY timestamp will replace provisional source timestamp when known.

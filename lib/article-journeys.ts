@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-worktop-styling-tray-checks':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the wider kitchen brief',service:'/services/bespoke-kitchens'},
   '/post/kitchen-bin-layout-checks':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the wider kitchen brief',service:'/services/bespoke-kitchens'},
   '/post/kitchen-shelf-styling-daily-use':{proof:'/guides/bespoke-kitchens',proofLabel:'Plan the wider kitchen brief',service:'/services/bespoke-kitchens'},
   '/post/before-you-order-kitchen-handles-try-the-grip':{proof:'/kitchens/ancona',proofLabel:'Explore hardware within a completed kitchen palette',service:'/services/bespoke-kitchens'},
