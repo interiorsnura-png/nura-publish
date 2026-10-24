@@ -86,3 +86,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Configure and test a durable production publication-event store before removing timestamp-only corrective deployments. Workspace audit ledger alone is insufficient; preserve exact-SHA gates and real historical dates.
 
 - [ ] Monitor kitchen bar stool colour tip actual indexing/Discover, field CWV and confirmed analytics receipt when authorised evidence is available.
+
+- Dishwasher placement: actual index/Discover, field CWV and analytics receipt remain pending; live release evidence retained in workspace after verification.
