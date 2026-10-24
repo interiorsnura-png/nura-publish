@@ -90,3 +90,5 @@ User authorised commit and push to main on 2026-10-11; release verification foll
 - [ ] Monitor kitchen bar stool colour tip actual indexing/Discover, field CWV and confirmed analytics receipt when authorised evidence is available.
 
 - Dishwasher placement: actual index/Discover, field CWV and analytics receipt remain pending; live release evidence retained in workspace after verification.
+
+Grout-colour article: verify actual production SHA/READY/domain and official smartphone Rich Results after authorised release; record first READY timestamp correction. GSC/Discover, field performance and analytics receipt stay pending without actual evidence.

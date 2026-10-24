@@ -24,6 +24,7 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+ 'kitchen-splashback-grout-colour':['test-kitchen-colour-at-home','how-to-choose-the-right-worktop-for-your-kitchen'],
  'dishwasher-placement':['kitchen-bin-layout-checks','single-vs-double-kitchen-sink'],
  'kitchen-bar-stool-colours':['mixing-wood-tones-kitchen','test-kitchen-colour-at-home'],
  'kitchen-larder-cupboard':['kitchen-drawer-organisation-before-you-buy','kitchen-corner-storage-checks'],

@@ -355,3 +355,5 @@ Larder planning article: actual Google purchase/configuration intent, restock in
 Kitchen bar stool colour tip,2026-10-24: original seat/frame/island/dining-view comparison, Joanne H assigned byline,three original credited illustrations. Actual Google intent and first-result research retained. New article alone places the existing enquiry control in reading flow to prevent copy overlap. Full exact-source gates and live evidence are recorded in the task workspace.
 
 Dishwasher placement article,2026-10-24: household plate-route brief, open-door and storage trade-offs, Joanne H assigned byline, three original credited illustrations. Model-specific installer confirmation; no universal dimensions or invented test. Full exact-source gates and actual production verification required.
+
+Grout-colour decor tip prepared with three original illustrations, whole-wall comparison and topic-specific Nura journey. Local 100-test build and 138-route checks pass; exact-SHA production release remains pending.
