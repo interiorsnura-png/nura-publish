@@ -1,5 +1,13 @@
 # NURA project instructions
 
+## Showroom-led editorial purpose, owner instruction 2026-10-24
+
+- Evaluate every new article and practical tip by whether it prepares a better design conversation and gives a truthful, topic-specific reason to contact or visit Nura. Go beyond a generic checklist: explain how the reader's habits, aesthetic preferences, room constraints and adjacent kitchen decisions interact, using a useful hypothetical example or decision trade-off without inventing a real project or personal experience.
+- Prioritise colour/materials, layout, storage and consequential purchase decisions as the Journal's editorial pillars. Keep decorative topics as supporting content, connected to the wider room, cabinetry, dining area or daily use. Preserve the authorised alternating content types; a decorative tip can still support a core design decision.
+- End with an appropriate preparation task and CTA: colour/material references; photographs and an inventory for drawer storage; a kitchen plan for corner-layout discussion. Explain the decision those inputs can help clarify. These are conditional editorial directions, not proof of available showroom stock, mechanisms, demonstrations, appointment services or outcomes. Verify actual Nura capabilities before promising a specific comparison, demonstration or service; otherwise invite the reader to ask the studio what is available.
+- Record the reader's decision, whole-kitchen connection, useful consultation inputs and supporting service evidence in the private content brief. Assess these within existing content/intent/CTA QC categories; do not add a sixth category, inflate scores, weaken release gates or claim improved sales/CTR without measured evidence.
+- This instruction governs future work. It does not request bulk edits to published articles or an immediate production deployment.
+
 ## Shared Journal execution, owner-approved 2026-10-24
 
 - Reuse `npm run journal:workflow -- <command>` instead of cloning per-article check, asset, timing or ledger scripts. See `scripts/JOURNAL_WORKFLOW.md`. Start `begin --path /post/SLUG` before research once the proposed route is known; a content record is not required for this command. Keep its run file through retries and separately include task-entry orientation time. Never reset the timer to improve reported duration.

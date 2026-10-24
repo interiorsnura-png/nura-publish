@@ -329,3 +329,5 @@ Added non-mutating date ordering and regression coverage for ISO/calendar dates,
 - Original front/top sample-view and product-specific brief, Joanne H assigned byline, three original illustrative assets. Actual Google first Gemini guide read; primary EGGER/Caesarstone evidence. Delegated invented constructions/dimensions rejected; Codex rewrite. New title-editor skill used, no forced number/Checks/Before. Shared workflow checks and exact-SHA gates required.
 
 Worktop edge guide first production READY 2026-10-24T06:25:19.125Z (dcc35ae). Required source timestamp correction preserves that first publication; no substantive content change.
+
+Wood-tone decor tip: retained furniture and cabinet palette comparison, actual Google related/PAA intent research, subject-specific consultation preparation. Original illustrations and full release gates required.
