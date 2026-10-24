@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-island-seating-layout':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your island and seating layout'}},
   '/post/kitchen-splashback-grout-colour':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your splashback and kitchen palette'}},
   '/post/dishwasher-placement':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen clean-up layout'}},
   '/post/kitchen-bar-stool-colours':{proof:'/kitchens/ancona',proofLabel:'Explore a completed Nura kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss seating within your kitchen palette'}},
