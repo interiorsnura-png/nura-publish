@@ -280,3 +280,7 @@ User requested remaining evidence pushed. Archived reports, logs and screenshots
 
 ## 2026-10-24: owner-assigned article byline
 Owner requested Joanne H for every article. Implemented shared local/CMS/preview article normalization and regression coverage for all loaded articles, immutability, date preservation and unrelated content. Publication and live checks are recorded in the current task workspace.
+
+
+## Scheduled Journal bin layout guide,2026-10-24
+- New original five-check planning article, Joanne H owner-assigned byline, no personalexperienceclaim. Actual Google firstRedditresult read; anecdotal comments not reused as evidence. Failed OmniRoute fabrication rejected and redflag-reviewed via claude-smart; Codex rewrite uses practical checks and product-specific source.3original NURA-watermarked images and Discoverlargepreview. Separate research/PDCA/provenance and release evidence in workspace register. First-publication timestamp reconciled to first READY when available.

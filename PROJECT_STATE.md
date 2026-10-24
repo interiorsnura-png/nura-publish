@@ -281,3 +281,7 @@ Performance Production verified: 8fda09abe4746ce8c5d0d90a42dc857c7585dd94 at dpl
 
 ## 2026-10-24: owner-assigned article byline
 All loaded Journal articles use Joanne H and the supplied LinkedIn profile through shared post-merge normalization. Old biographies are cleared when the author changes; dates, prose and other content types are preserved. Release evidence is in the current author task workspace.
+
+
+## Scheduled Journal bin layout guide,2026-10-24
+- New original five-check planning article, Joanne H owner-assigned byline, no personalexperienceclaim. Actual Google firstRedditresult read; anecdotal comments not reused as evidence. Failed OmniRoute fabrication rejected and redflag-reviewed via claude-smart; Codex rewrite uses practical checks and product-specific source.3original NURA-watermarked images and Discoverlargepreview. Separate research/PDCA/provenance and release evidence in workspace register. First-publication timestamp reconciled to first READY when available.
