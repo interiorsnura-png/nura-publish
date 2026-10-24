@@ -1,5 +1,10 @@
 # NURA Work Log
 
+## 2026-10-24: evidence-led project brief follow-up
+- Searched local sources, Drive and scoped Dropbox project/marketing folders. Read the original early Tansley request and accompanying plan after metadata checks; extracted functional requirements only. A generic maintenance template was rejected because its job name did not establish a Tansley-specific brief.
+- Added an explicitly initial-brief section to the existing Tansley record. Preserved titles, dates, assets and all other project records. Source checks separate original requests from completed fittings; private contact/financial information stays excluded.
+- Elm Park includes multiple possible project identities and differing worktop specifications. Westover kitchen documents do not yet establish the joinery brief. Asked the owner for the minimum identity mapping while continuing the independently supported Tansley work. Exact-source release gates and live checks remain required.
+
 ## 2026-10-24: project stories inspired by international benchmarks
 - Started with the three featured homepage projects. Reviewed canonical source and the separate kitchen/joinery Westover records. OmniRoute drafting returned HTTP502; Codex wrote and checked the copy against existing summaries/specifications.
 - Added structured context, material decisions and relevant future-project inputs without attributing an undocumented brief, constraint or outcome to the original homeowner. Kept historical identities, images and dates; two focused preservation/identity tests added.

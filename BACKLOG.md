@@ -1,6 +1,6 @@
 # NURA Backlog
 
-- [ ] Enrich the three featured project stories with owner-supplied original briefs, constraints and documented decisions when available. Do not backfill those facts from photographs or a generated narrative.
+- [ ] Confirm Elm Park and Westover joinery source identities before adding archive constraints; Tansley's original functional brief is evidenced and its release is tracked in the task report. Do not infer briefs from photographs or count initial requests as completed fittings.
 - [ ] Measure actual project-to-consultation journeys and qualified enquiries after release, with verified analytics receipt.
 - [ ] Monitor the pendant-finish article after publication with actual GSC/Discover data, field Core Web Vitals and authorised analytics receipt; do not infer those outcomes from local or rich-results checks.
 
