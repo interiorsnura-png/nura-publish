@@ -447,3 +447,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 Peninsula versus island short article: attached-end route versus connected worktop, cabinet junction and dining-facing finish. Hypothetical household trip and3rowcomparison, no universal clearances, structural or trend claims. Three original terracotta/chestnut illustrations; Joanne H. Full build/preview/exact-SHA/first READY correction required; GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 splashback tile direction decor tip: separate orientation from bond, compare the whole wall boundaries with colour held steady. Three original blue/walnut illustrations and Joanne H byline. No universal proportion, installation cost, cleaning or tile stock claims. Full preview/build and exact-SHA release gates required, with first READY date correction. Production evidence and actual completion are tracked in the workspace register; GSC/Discover, field CWV and analytics receipt remain pending.
