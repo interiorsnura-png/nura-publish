@@ -183,3 +183,7 @@ body:has(.hero-image[src*="nura-ceiling-hero"]) .article-content p a{color:#7055
 /* Scoped to the dining chair tip after its live contrast audit. */
 .article-page[data-article-path="/post/kitchen-dining-chair-colours"] .article-content a[href^="/"]{color:#665021;text-decoration:underline;text-decoration-color:currentColor;text-underline-offset:4px}
 .article-page[data-article-path="/post/kitchen-dining-chair-colours"] .article-content a[href^="/"]:hover{color:#3f361f}
+
+.hero-image[src*="nura-kitchen-splashback-height-hero"]{object-fit:contain;object-position:center top;background:#b6a387}
+.article-page[data-article-path="/post/kitchen-splashback-height"] .article-photo .inner-photo img{object-fit:contain}
+.article-page[data-article-path="/post/kitchen-splashback-height"] .article-content a[href^="/"]{color:#665021;text-decoration:underline;text-underline-offset:4px}

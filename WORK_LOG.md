@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-25: Splashback-height research used actual Google GB/English observations and a fourth-source replacement for unloaded third-result media. Rejected unsupported delegated draft claims; retained original useful wall-brief method.
+
 - 2026-10-25: resumed the same dining-chair candidate after owner-confirmed browser access restoration. Verified successful navigation to missing competitors, retained prior denied/duplicate captures, and rejected unsupported delegated sample-stock and visibility claims. Added a practical comparison worksheet and topic-specific kitchen brief. Preview identified floating contact obstruction on mobile; reused the existing inline article mode for this route only. Full release results are recorded separately in private chair-run evidence.
 
 - 2026-10-24: executed seven source-fingerprinted contact-panel PDCA cycles and combined browser checks. OmniRoute suggestions were reviewed; rejected claims of universal48px standards, assumed close controls, unnecessary telemetry/flags and unperformed cross-browser tests. Checked320x568,390x844,1440x900; phone URI, keyboard modal open/Escape/focus return, footer hiding, input-focus suppression and dishwasher inline exception. Consent-settings click on local preview did not open the consent panel, so consent interaction remains unverified separately from its preserved CSS rule. No enquiry or call submitted. Final release evidence remains in task outputs.

@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-25: [ ] Splashback-height article: monitor authorised exact-URL indexing, Discover, field CWV and confirmed analytics receipt after verified release.
+
 - [ ] Dining-chair colour tip: after verified publication, monitor actual exact-URL indexing, Discover eligibility/manual actions, field Core Web Vitals and authorised CTA/analytics receipt. Local checks and assigned byline do not establish indexing, conversions or personal authorship/review.
 
 - [ ] Measure actual showroom telephone enquiries through authorised evidence; a tel link or synthetic check is not proof of a call or conversion.
