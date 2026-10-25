@@ -148,3 +148,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 tablecloth colour decor tip: choose with retained chairs, cabinetry and plates when a full cloth hides the tabletop; compare runner exposure. Three original illustrations, Joanne H byline, no Nura linen service promise. Full preview/build/exact-SHA/first READY correction required; actual GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 appliance garage: model-specific storage/operating permissions, handling movements, door positions and separately allocated worktop. Dualit toaster storage limitation and Blum pocket construction attributed; no universal clearance, electrical specification or Nura mechanism stock claim. Three original illustrations, Joanne H. Full build/preview/exact-SHA/actual first READY correction required; GSC/Discover, field CWV and analytics receipt pending.

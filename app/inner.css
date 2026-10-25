@@ -161,3 +161,6 @@ body:has(.hero-image[src*="nura-drawercompare-hero"]) .article-content p a{color
 
 .hero-image[src*="nura-tablecloth-hero"]{object-fit:contain;object-position:center top;background:#b8a895}
 body:has(.hero-image[src*="nura-tablecloth-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+.hero-image[src*="nura-garage-hero"]{object-fit:contain;object-position:center top;background:#aaa092}
+body:has(.hero-image[src*="nura-garage-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
