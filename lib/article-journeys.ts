@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-tablecloth-colour':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen and dining palette'}},
   '/post/kitchen-drawers-vs-cupboards':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your cabinet-by-cabinet storage brief'}},
   '/post/kitchen-blind-colour':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen palette',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen palette and retained furniture'}},
   '/post/kitchen-renovation-timeline':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen brief and target dates'}},
