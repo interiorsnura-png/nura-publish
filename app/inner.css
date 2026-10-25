@@ -204,6 +204,7 @@ body:has(.hero-image[src*="nura-ceiling-hero"]) .article-content p a{color:#7055
 .article-page[data-article-path="/post/kitchen-plinth-height"] .article-content a[href]{color:#665021;text-decoration:underline;text-underline-offset:4px}
 
 /* Scoped joinery tender article readability and full hero composition */
+@media(max-width:800px){.article-page[data-article-path="/post/joinery-tender-package"] .hero-image{aspect-ratio:16/9}}
 .article-page[data-article-path="/post/joinery-tender-package"] .article-content a[href^="/"]{color:#665021;text-decoration:underline;text-underline-offset:4px}
 .article-page[data-article-path="/post/joinery-tender-package"] .inner-hero{height:56.25vw;min-height:600px;max-height:none;background:#292b25}
 .article-page[data-article-path="/post/joinery-tender-package"] .hero-image{object-fit:contain}
