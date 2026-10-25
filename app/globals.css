@@ -100,3 +100,15 @@ body:has(.hero-image[src*="nura-handleless-hero"]) .nura-lead-trigger{position:s
 body:has(.hero-image[src*="nura-sill-hero"]) .nura-lead-trigger{position:static;margin:24px auto;max-width:calc(100% - 32px)}
 
 body:has(.hero-image[src*="nura-larder-hero"]) .nura-lead-trigger{position:static;margin:24px auto;max-width:calc(100% - 32px)}
+
+/* Sustainability article: preserve image framing and NURA credit. */
+.hero-image[src*="nura-sustainable-interiors-hero"]{object-fit:contain;object-position:center;background:#b7a38a}
+.article-photo:has(img[src*="nura-sustainable-interiors-"]) .inner-photo{aspect-ratio:16/9;height:auto}
+.article-photo:has(img[src*="nura-sustainable-interiors-"]) .inner-photo img{object-fit:contain}
+@media(max-width:600px){
+ .article-content:has(img[src*="nura-sustainable-interiors-"]) table{table-layout:fixed}
+ .article-content:has(img[src*="nura-sustainable-interiors-"]) table :is(th,td){padding:10px 6px;font-size:12px;line-height:1.65;word-break:normal;overflow-wrap:break-word;hyphens:auto}
+ .article-content:has(img[src*="nura-sustainable-interiors-"]) table :is(th,td):first-child{width:27%}
+ .article-content:has(img[src*="nura-sustainable-interiors-"]) table :is(th,td):nth-child(2){width:36%}
+ .article-content:has(img[src*="nura-sustainable-interiors-"]) table :is(th,td):nth-child(3){width:37%}
+}

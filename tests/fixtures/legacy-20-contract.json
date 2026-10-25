@@ -103,17 +103,21 @@
   {
     "path": "/post/a-paradigm-shift-towards-sustainable-design-and-conscious-living",
     "source": "migration/content-backup.json",
-    "title": "Sustainable Design & Conscious Living: Creating Lasting Spaces",
+    "title": "Sustainable Interior Design: Keep, Repair or Replace?",
     "author": "Joanne H",
     "published": "2024-04-17T14:49:09.688Z",
     "links": [
-      "https://www.nura-interiors.com/sustainability",
-      "https://www.dezeen.com/tag/sustainable-design/",
-      "https://www.dezeen.com/tag/sustainable-design/",
-      "https://www.nura-interiors.com/sustainability",
-      "https://www.salonemilano.it/en",
-      "https://www.dezeen.com/tag/sustainable-design/"
-    ]
+      "https://biid.org.uk/resources/what-sustainability",
+      "/post/how-to-choose-the-right-worktop-for-your-kitchen",
+      "/post/mixing-wood-tones-kitchen",
+      "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/green-claims-and-your-business",
+      "https://uk.fsc.org/what-is-fsc/fsc-labels",
+      "/sustainability",
+      "/process",
+      "/consultation",
+      "/london"
+    ],
+    "modified": "2026-10-25T06:13:32.488Z"
   },
   {
     "path": "/post/solid-wood-or-veneer",
