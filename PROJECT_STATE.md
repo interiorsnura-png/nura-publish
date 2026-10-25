@@ -468,3 +468,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 cabinets-to-ceiling article: distinguish usable upper storage, closed finishing band and deliberate gap; specific inventory/retrieval and drawing/specification record. Two original ochre/ash concept images selected from explanatory needs after first-three actual Google research, no fixed image quota. Joanne H byline; no universal dimensions, installation guarantees or invented projects. Full QC/build/exact-SHA and actual first READY correction required. GSC/Discover, field metrics and analytics receipt remain pending.
+
+
+2026-10-25 B2B joinery quote comparison: owner-authorised new article uses an unpriced hypothetical library/wardrobe scope table, four distinct status labels and written clarification steps. Two original NURA-watermarked images, Joanne H byline, project-specific responsibilities. Scoped complete hero/mobile comparison cards and existing inline CTA preserve readability. Existing articles and dates retained; full exact-SHA release/live checks and actual first READY date correction required. Private research, PDCA and monitoring evidence: workspace work/joinery-quotes-run and canonical article register.

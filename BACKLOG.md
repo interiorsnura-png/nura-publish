@@ -176,3 +176,5 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 cabinets-to-ceiling article: distinguish usable upper storage, closed finishing band and deliberate gap; specific inventory/retrieval and drawing/specification record. Two original ochre/ash concept images selected from explanatory needs after first-three actual Google research, no fixed image quota. Joanne H byline; no universal dimensions, installation guarantees or invented projects. Full QC/build/exact-SHA and actual first READY correction required. GSC/Discover, field metrics and analytics receipt remain pending.
+
+- [ ] B2B joinery quote comparison: verify production source/domain/READY, actual first-publication timestamp correction, official smartphone Rich Results and responsive evidence. Keep GSC/Discover, field CWV and confirmed analytics/qualified-lead receipt pending until observed.
