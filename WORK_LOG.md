@@ -475,3 +475,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B joinery quote comparison: owner-authorised new article uses an unpriced hypothetical library/wardrobe scope table, four distinct status labels and written clarification steps. Two original NURA-watermarked images, Joanne H byline, project-specific responsibilities. Scoped complete hero/mobile comparison cards and existing inline CTA preserve readability. Existing articles and dates retained; full exact-SHA release/live checks and actual first READY date correction required. Private research, PDCA and monitoring evidence: workspace work/joinery-quotes-run and canonical article register.
+
+
+2026-10-25 B2B tender package: stable item references, separate document issue register and furniture schedule, worked J03 window-seat finish addendum, and project-specific approval responsibilities. One original NURA-watermarked hero supported by Google Images/top-three content research; accessible HTML cross-check table. Joanne H byline. Exact-source QC, full build, responsive preview, exact-SHA release/live checks and actual first READY timestamp correction required. Private evidence: workspace work/tender-run. GSC/Discover, field performance and analytics remain monitored unknowns.

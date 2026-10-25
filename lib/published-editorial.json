@@ -21102,4 +21102,500 @@
     "body": "Choose kitchen plinth height as part of the whole cabinet and appliance arrangement. Start from the finished floor level, agree the worktop height, then check the cabinet system and appliance requirements together. A stock kickboard dimension alone cannot tell you whether the finished kitchen will fit.\n\nThe visible plinth is the board across the bottom of the cabinets. In a kitchen supported on adjustable legs, it conceals those supports. Its height and its horizontal setback from the doors are separate decisions: a taller board does not automatically give your feet more room behind the door fronts.\n\nSeparate the board from the space it covers\n\nAsk what a quoted plinth measurement describes. Is it the supplied board height, the distance from finished floor to cabinet underside, or the intended visible band once fitted?\n\nHowdens' plinth catalogue  includes boards listed at 165 mm high. By contrast,  IKEA's METOD leg  is nominally 80 mm high, with a stated adjustment range of 75 to 95 mm. These are examples from different systems, not interchangeable specifications or a recommended range for every kitchen.\n\nThe board closes the visible gap; the cabinet support arrangement establishes the cabinet level. Confirm the actual system rather than changing a board dimension and assuming that the rest follows.\n\n\n\nWork backwards from the agreed worktop level\n\nFor a simple cabinet stack, the floor-to-worktop height includes the support zone, cabinet body and worktop. Any additional rail, profile or support layer must be accounted for in the actual section drawing.\n\nAs a hypothetical example only, a 720 mm cabinet body on a 150 mm support zone with a 20 mm worktop totals 890 mm. If the cabinet and worktop stay at those fixed levels, raising the finished floor by 10 mm reduces the height measured above the new floor to 880 mm. This arithmetic is not an installation specification or a recommendation for a particular person.\n\nAgree the floor build-up and its reference level before confirming the cabinet setting-out dimensions. Ask the fitter how floor variations will be accommodated while keeping the cabinet run level.  DIY Kitchens' fitting advice  describes adjusting the feet to level its units before attaching the plinth.\n\nCheck the appliance arrangement before approving a low plinth\n\nA low visible band may be your preference, but confirm that the chosen cabinet and appliance combination permits it. Check the exact appliance's installation height, door movement, ventilation requirements and future removal route. Do not infer a ventilation gap from a room image.\n\nFor a specific example,  DIY Kitchens' True Handleless Fitting Guide 2024  specifies a 160 mm plinth height to accommodate 820 mm-high integrated appliances beneath its horizontal worktop profile. That requirement belongs to that arrangement. It is not a rule for every  handleless kitchen .\n\nPut the height decision in the kitchen brief\n\nRecord together What needs confirming Finished floor and worktop levels Which surfaces are the measurements taken from? Cabinet, support and plinth details What is supplied, what is adjustable and what is fitted to the surveyed floor? Exact appliance models Do the openings, door movement and required ventilation work with this cabinet section? Plinth setback and access Can you stand comfortably at the worktop, and how is the board removed for access?\n\nBring the proposed floor build-up, cabinet section, worktop thickness and appliance model numbers to a  bespoke kitchen discussion with Nura . Ask for the agreed levels and any appliance-dependent exceptions to be recorded on the same drawing. That makes the plinth a coordinated design decision rather than a last-minute strip chosen to fill a gap."
   }
 }
+,
+{
+  "path": "/post/joinery-tender-package",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/joinery-tender-package"
+  },
+  "content": {
+    "component": "article",
+    "title": "Joinery Tender Packages: Make the Drawings and Schedule Agree",
+    "category": "Joinery planning",
+    "summary": "Cross-check a furniture item across drawings, schedules and finishes, then keep tender updates traceable with a worked window-seat example.",
+    "seo_title": "Joinery Tender Package: Drawings, Scope and Revisions | Nura",
+    "seo_description": "Prepare a joinery tender package with matching drawings, schedules and finish references. Use a worked example to record open choices and issue changes clearly.",
+    "hero": {
+      "filename": "/assets/editorial/nura-joinery-tender-package-hero.webp",
+      "alt": "Window-seat bookcase drawings and material references arranged on a dark timber table",
+      "caption": "Window-seat bookcase concept, drawings and material references. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-joinery-tender-package-hero.webp",
+      "alt": "Window-seat bookcase drawings and material references arranged on a dark timber table",
+      "caption": "Window-seat bookcase concept, drawings and material references. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "author_name": "Joanne H",
+    "image_rights_status": "owned",
+    "source_publish_status": "published",
+    "published_date": "2026-10-25T16:55:43.841Z",
+    "modified_date": "2026-10-25T16:55:43.841Z",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A useful joinery tender package gives each workshop the same identified drawings, item list, specification and enquiry instructions. Before sending it, cross-check one furniture item across those documents. If the elevation shows drawers but the schedule says shelves, resolve that difference rather than leaving each supplier to interpret it."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For architects and interior designers preparing a residential enquiry, the immediate decision is what the workshop is being asked to price, and on what information. You can start a conversation while choices remain open, provided their status and pricing basis are clear. This guide focuses on the package you send, rather than the quotations you receive."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Start with the furniture, then identify the files"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "List the rooms and pieces included in the enquiry. Give each piece a stable reference, such as J03 for a window-seat bookcase. Use that reference on its drawing, schedule row and relevant finish information. A description such as living-room joinery is useful context, but it does not establish whether a window seat, shelves and adjacent panelling are all included."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep two records distinct. An item schedule describes the furniture: its location, arrangement, material references and scope. A document issue register identifies the files sent: their titles, revisions, issue date and recipients. One tells the workshop what to price; the other records which information it received. Use the naming system already agreed by your project team."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Check one item across the package"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In this hypothetical example, J03 is a window-seat bookcase beside an existing fireplace. Drawing J-203 revision B shows cupboard doors below the seat and open shelves above. The item schedule describes the same arrangement and references finish F02. The dimensions are still subject to the agreed survey and technical-development process; this example is not a measured design."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Hypothetical J03 enquiry cross-check",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Document"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Reference"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "What to check"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Plan and elevation"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "J03 / J-203 rev B"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Location, arrangement and relationships with the window and fireplace agree."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Item schedule"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "J03, current revision"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Cupboards, seat and shelves match the drawing; included work is described."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Finish information"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "F02"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The code identifies the intended material and finish, not just a moodboard colour."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Issue register"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Issue 01"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The actual file names and revisions sent to tenderers are listed."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Then repeat the check for the remaining pieces. Include relevant sections and junction details where they explain the work being priced. A reference image can communicate atmosphere or a finish direction, but it cannot replace the written description of construction, fittings and scope. Keep images and finish codes linked to the item they concern."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Describe open choices without hiding them"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Suppose the client has not chosen the seat finish. State the common basis you want priced, identify the unresolved decision and name the role responsible for confirming it. If an alternative is requested, ask for it separately so it remains distinguishable from the base proposal. Do not insert an arbitrary allowance simply to fill a blank."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Check that scope boundaries are equally clear: drawing development, site measurement, samples, manufacture, delivery, fitting and making good. Identify relevant services and adjacent work, and ask the appointed specialists to confirm their responsibilities and technical requirements. A joinery lighting recess, for example, does not establish who supplies or connects the lighting."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Explain the information stage honestly. An early budget enquiry may rely on stated assumptions; a developed tender requires a more defined basis. Ask the workshop what further information it needs for the response you are seeking. Do not label incomplete information as manufacture-ready."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Issue changes as a traceable update"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Now imagine the client selects finish F03 for J03. Keep the furniture item reference J03. Update the affected drawing and schedule revisions, identify the new finish reference and record the change in Issue 02 or the project addendum. Identify which earlier files are superseded, retain them in the project record and tell tenderers which set is current."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Send the same relevant scope update to all tenderers and request acknowledgement. Record the response reference and clarify whether the change affects their return date. If drawings and written information conflict, raise the discrepancy with the project team. Do not assume a document automatically takes precedence; the appointment and project documents need to establish how conflicts are resolved."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Make the requested response clear"
+          }
+        ]
+      },
+      {
+        "type": "ul",
+        "children": [
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Identify the package issue and item references the workshop should price."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "State the return format, requested date and contact for questions."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ask for assumptions, exclusions and proposed alternatives to be identified clearly."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Describe known access, delivery and site constraints, and identify information still to be confirmed."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "State which design, survey, sample and technical approvals will be agreed before manufacture."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Issuing tender information is a pricing step, not by itself a release to manufacture. Confirm the later approvals and responsibilities for the actual appointment. Once proposals arrive, use our "
+          },
+          {
+            "type": "text",
+            "text": "bespoke joinery quote comparison",
+            "link": "/post/comparing-bespoke-joinery-quotes"
+          },
+          {
+            "type": "text",
+            "text": " to review the scope behind each figure."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Prepare a focused Nura project conversation"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the current drawings, item schedule, finish references, issue list and unresolved questions to a "
+          },
+          {
+            "type": "text",
+            "text": "Nura professional project conversation",
+            "link": "/for-professionals"
+          },
+          {
+            "type": "text",
+            "text": ". Include the project location, stage, budget parameters and dates that matter. Explain the design priorities too: for J03, whether the seat is used daily, what the shelves need to hold and how the new furniture relates to the retained room."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Explore "
+          },
+          {
+            "type": "text",
+            "text": "Nura architectural joinery",
+            "link": "/services/architectural-joinery"
+          },
+          {
+            "type": "text",
+            "text": " and the "
+          },
+          {
+            "type": "text",
+            "text": "documented Westover Road joinery",
+            "link": "/joinery/westover-road"
+          },
+          {
+            "type": "text",
+            "text": ", then "
+          },
+          {
+            "type": "text",
+            "text": "discuss your drawings and scope",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": ". Confirm the services and responsibilities for your particular project in writing. The useful next step is a coherent brief that the design team and workshop can discuss against the same references."
+          }
+        ]
+      }
+    ],
+    "body": "A useful joinery tender package gives each workshop the same identified drawings, item list, specification and enquiry instructions. Before sending it, cross-check one furniture item across those documents. If the elevation shows drawers but the schedule says shelves, resolve that difference rather than leaving each supplier to interpret it.\n\nFor architects and interior designers preparing a residential enquiry, the immediate decision is what the workshop is being asked to price, and on what information. You can start a conversation while choices remain open, provided their status and pricing basis are clear. This guide focuses on the package you send, rather than the quotations you receive.\n\nStart with the furniture, then identify the files\n\nList the rooms and pieces included in the enquiry. Give each piece a stable reference, such as J03 for a window-seat bookcase. Use that reference on its drawing, schedule row and relevant finish information. A description such as living-room joinery is useful context, but it does not establish whether a window seat, shelves and adjacent panelling are all included.\n\nKeep two records distinct. An item schedule describes the furniture: its location, arrangement, material references and scope. A document issue register identifies the files sent: their titles, revisions, issue date and recipients. One tells the workshop what to price; the other records which information it received. Use the naming system already agreed by your project team.\n\nCheck one item across the package\n\nIn this hypothetical example, J03 is a window-seat bookcase beside an existing fireplace. Drawing J-203 revision B shows cupboard doors below the seat and open shelves above. The item schedule describes the same arrangement and references finish F02. The dimensions are still subject to the agreed survey and technical-development process; this example is not a measured design.\n\n    \n\nThen repeat the check for the remaining pieces. Include relevant sections and junction details where they explain the work being priced. A reference image can communicate atmosphere or a finish direction, but it cannot replace the written description of construction, fittings and scope. Keep images and finish codes linked to the item they concern.\n\nDescribe open choices without hiding them\n\nSuppose the client has not chosen the seat finish. State the common basis you want priced, identify the unresolved decision and name the role responsible for confirming it. If an alternative is requested, ask for it separately so it remains distinguishable from the base proposal. Do not insert an arbitrary allowance simply to fill a blank.\n\nCheck that scope boundaries are equally clear: drawing development, site measurement, samples, manufacture, delivery, fitting and making good. Identify relevant services and adjacent work, and ask the appointed specialists to confirm their responsibilities and technical requirements. A joinery lighting recess, for example, does not establish who supplies or connects the lighting.\n\nExplain the information stage honestly. An early budget enquiry may rely on stated assumptions; a developed tender requires a more defined basis. Ask the workshop what further information it needs for the response you are seeking. Do not label incomplete information as manufacture-ready.\n\nIssue changes as a traceable update\n\nNow imagine the client selects finish F03 for J03. Keep the furniture item reference J03. Update the affected drawing and schedule revisions, identify the new finish reference and record the change in Issue 02 or the project addendum. Identify which earlier files are superseded, retain them in the project record and tell tenderers which set is current.\n\nSend the same relevant scope update to all tenderers and request acknowledgement. Record the response reference and clarify whether the change affects their return date. If drawings and written information conflict, raise the discrepancy with the project team. Do not assume a document automatically takes precedence; the appointment and project documents need to establish how conflicts are resolved.\n\nMake the requested response clear\n\nIdentify the package issue and item references the workshop should price. State the return format, requested date and contact for questions. Ask for assumptions, exclusions and proposed alternatives to be identified clearly. Describe known access, delivery and site constraints, and identify information still to be confirmed. State which design, survey, sample and technical approvals will be agreed before manufacture.\n\nIssuing tender information is a pricing step, not by itself a release to manufacture. Confirm the later approvals and responsibilities for the actual appointment. Once proposals arrive, use our  bespoke joinery quote comparison  to review the scope behind each figure.\n\nPrepare a focused Nura project conversation\n\nBring the current drawings, item schedule, finish references, issue list and unresolved questions to a  Nura professional project conversation . Include the project location, stage, budget parameters and dates that matter. Explain the design priorities too: for J03, whether the seat is used daily, what the shelves need to hold and how the new furniture relates to the retained room.\n\nExplore  Nura architectural joinery  and the  documented Westover Road joinery , then  discuss your drawings and scope . Confirm the services and responsibilities for your particular project in writing. The useful next step is a coherent brief that the design team and workshop can discuss against the same references."
+  }
+}
 ]

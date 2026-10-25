@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/joinery-tender-package':{proof:'/joinery/westover-road',proofLabel:'Explore documented Westover Road joinery',service:'/services/architectural-joinery',enquiry:{href:'/consultation',label:'Discuss your joinery drawings and scope'}},
   '/post/kitchen-plinth-height':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen levels and specification'}},
   '/post/kitchen-placemat-colours':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen palette'}},
   '/post/comparing-bespoke-joinery-quotes':{proof:'/joinery/westover-road',proofLabel:'Explore documented Westover Road joinery',service:'/services/architectural-joinery',enquiry:{href:'/consultation',label:'Discuss your joinery scope and project drawings'}},
