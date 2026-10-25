@@ -152,3 +152,6 @@ body:has(.hero-image[src*="nura-clock-hero"]) .article-content p a{color:#70552d
 
 .hero-image[src*="nura-timeline-hero"]{object-fit:contain;object-position:center top;background:#b5a28c}
 body:has(.hero-image[src*="nura-timeline-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+.hero-image[src*="nura-blind-hero"]{object-fit:contain;object-position:center top;background:#b5a28c}
+body:has(.hero-image[src*="nura-blind-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}

@@ -428,3 +428,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-24 ownerqueue6: new general seven-stage kitchenrenovationtimeline with three household periods and evidence/responsibility record;2027planningyear not futureleadtimeforecast. Narrow supply-programme/firstfix pages retained and linked. Threeoriginalnavy/walnut illustrations,JoanneHbyline. Fullbuild/preview/exactSHA/READYdatecorrection required;GSC/Discover,fieldCWV/analyticsreceiptpending.
+
+
+2026-10-25 kitchenblindcolourtip: loweredpanelversusraisedvisiblearea,actualsamplelimits andcabinet/retainedfurniturepalette.3originalterracotta/walnutillustrations,JoanneHbyline;nosupplierperformanceorNURAblindserviceclaims. Fullbuild/preview/exactSHA/actualREADYdatesrequired;GSC/Discover,fieldCWVandanalyticsreceiptpending.
