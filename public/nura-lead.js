@@ -14,6 +14,10 @@
   if(articleHeader){holder.classList.add("nura-lead-inline");articleHeader.append(holder);}
  }
  const trigger=holder.querySelector('.nura-lead-trigger');
+ if(location.pathname.replace(/\/$/,'')==='/inspiration/lighting'){
+  const lightingContact=document.querySelector('[data-lighting-contact]');
+  if(lightingContact){holder.classList.add('nura-lead-inline');lightingContact.append(holder);}
+ }
  const wardrobePage=location.pathname.replace(/\/$/,'')==='/services/wardrobes-dressing-rooms';
  const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}

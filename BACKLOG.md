@@ -167,3 +167,5 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 - [ ] Kitchen designer rewrite: verify actual GSC/index/Discover, field CWV and authorised analytics receipt after publication; local checks cannot close these items.
 
 - [ ] Sustainability rewrite: monitor actual GSC/Discover indexing, field CWV and authorised analytics receipt after publication; do not infer environmental savings or ranking uplift.
+
+- [ ] Lighting inspiration: inspect actual GSC/index and available field performance/analytics after enough data; current product availability and electrical scope require project-specific confirmation.
