@@ -493,3 +493,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B joinery schedule candidate: creates item-led residential scope, differentiates type/instance/count and shared finishes from item-specific internals. Hypothetical J01/J02, no dimensions or universal standards. One original hero and accessible three-column field record, Joanne H. Full QC/PDCA/build/exact-SHA/live/Rich Results required; source-bound private evidence work/schedule-run. Genuine first READY date correction and unknown GSC/field/analytics tracking retained.
+
+
+2026-10-25 B2B coordination refresh: existing kitchen-trades URL and2026-09-15 first date retained. Project-specific decision/input/record table and hypothetical dishwasher change separate coordination, technical review and instruction. One original credited concept image, no default legal role or savings claims. Full QC/build/responsive/exact-SHA/live and official Rich Results checks required; actual index/Discover/field/analytics evidence remains pending. Private evidence work/coordination-run.

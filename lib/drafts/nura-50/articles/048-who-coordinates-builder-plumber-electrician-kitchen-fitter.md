@@ -1,64 +1,78 @@
 ---
 slug: "who-coordinates-builder-plumber-electrician-kitchen-fitter"
-title: "Who Coordinates the Builder, Plumber, Electrician and Kitchen Fitter?"
-seo_title: "Who Coordinates Trades in a Kitchen Renovation?"
-seo_description: "Builder, plumber, electrician, kitchen fitter, who keeps them aligned? Understand appointment hierarchy, drawing responsibilities and site-readiness checks."
+title: "Who Coordinates Your Kitchen Trades? Agree the Decisions, Too"
+seo_title: "Who Coordinates Kitchen Trades? Roles and Decisions | Nura"
+seo_description: "Agree who coordinates your kitchen trades, reviews technical information and authorises changes, with a practical responsibility record and dishwasher example."
 canonical: "https://www.nura-interiors.com/post/who-coordinates-builder-plumber-electrician-kitchen-fitter"
 published_date: "2026-09-15"
-modified_date: "2026-10-17"
-date_status: "planned"
-author_name: ""
+modified_date: "2026-10-25T22:03:47.419Z"
+date_status: "Historical first-publication date preserved; refresh event recorded"
+author_name: "Joanne H"
 author_bio: ""
-hero_image: "images/article-048-a-1c8e5aac2e.webp"
-hero_alt: "Person holding a drawing in an unfinished room"
-image_rights_status: "needs-review"
-primary_topic: "who coordinates trades for a kitchen installation"
-search_intent: "planning"
-status: "needs-review"
+hero_image: "images/nura-kitchen-trade-coordination-hero.webp"
+hero_alt: "Two people discussing a kitchen plan beside cabinet, stone and walnut samples"
+image_rights_status: "owned"
+primary_topic: "who coordinates trades kitchen renovation"
+search_intent: "planning and problem resolution"
+status: "published"
+hero_width: "1536"
+hero_height: "864"
+hero_caption: "Kitchen planning discussion with material samples and a concept drawing. Nura Interiors."
 ---
 
-# Who Coordinates the Builder, Plumber, Electrician and Kitchen Fitter?
+# Who Coordinates Your Kitchen Trades? Agree the Decisions, Too
 
-One of the most common sources of delay and cost overrun in a kitchen project is not a design problem, it is an organisational one. Trades arrive out of sequence, decisions get made on site without the right person present, and the kitchen fitter turns up to a room that is not ready. Getting clarity on who holds overall coordination responsibility, and what each party is actually responsible for, is unglamorous work that pays back many times over.
+Kitchen trades need a named coordinator, but that name alone does not tell you who can change a drawing, accept a different appliance or authorise additional work. Agree those responsibilities with the project team in writing. A builder, project manager, architect, kitchen company or homeowner may take on coordination within an agreed scope; the job title is not a substitute for that agreement.
 
-![Person holding a drawing in an unfinished room](../images/article-048-a-1c8e5aac2e.webp)
-
-*Image: Pavel Danilyuk / Pexels. Image source. Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+For homeowners working with an architect or interior designer, the useful question is: who brings the builder, plumber, electrician and kitchen fitter together when one decision affects several of them? Start with the appointments you actually have, then record the gaps. This guide offers a practical discussion record, not an allocation of contractual or statutory duties.
 
 
-## The coordinator role: who actually holds it
+![Two people discussing a kitchen plan beside cabinet, stone and walnut samples](../images/nura-kitchen-trade-coordination-hero.webp)
 
-Agree the overall coordinator and the boundaries of each appointment at the beginning. The main contractor, architect, project manager, client or another appointed party may hold different responsibilities on different projects. A kitchen studio’s design, supply and fitting scope should be recorded alongside those roles rather than inferred from its title. If broader coordination is included, identify it explicitly; if it is not, establish who will connect the kitchen work with the builder and service trades. Clear appointments prevent gaps between otherwise capable teams.
+*Kitchen planning discussion with material samples and a concept drawing. Nura Interiors. The drawing is not measured construction information.*
 
-## Establishing the hierarchy before work begins
+## Separate coordination, technical review and permission to proceed
 
-The single most useful thing a client can do before any trade lifts a tool is to confirm in writing who holds the role of overall coordinator and what authority that person has to make binding decisions. If there is an architect or main contractor on the project, that conversation is usually straightforward. If the client is managing trades directly, they are the coordinator by default, and should plan their time accordingly. A kitchen studio can advise on sequencing and flag dependencies, but it cannot substitute for a named coordinator with authority over all parties.
+Coordination means connecting information, people and the programme. Technical review means asking the relevant appointed specialist whether a proposal works within their scope. Permission to proceed means the instruction given through the project's agreed authority. These can involve different people.
 
+A client may choose the appearance of an integrated dishwasher front without having checked the replacement appliance's fitting requirements. A designer may agree the visual arrangement without being appointed to instruct the electrician. A fitter may identify a clash without having authority to change the client's specification. Record each contribution rather than treating a general approval email as permission for everything.
 
-![Exposed framing and services during kitchen construction](../images/article-048-b-08af9f8604.webp)
+If you employ trades separately, discuss explicitly who will organise the interfaces between them and who can instruct each appointment. Do not assume that a supplier providing kitchen drawings has accepted management of the wider building work.
 
-*Image: Self Build Blog. [Image source](https://www.selfbuildblog.org/index.php/site/comments/more-1st-fix-plumbing-and-electrics). Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+## Turn the team list into a decision record
 
-## What kitchen drawings must contain
+Use the following as a meeting aid. Replace the prompts with actual names, agreed scope and document references. One person can appear in several places, but leave no responsibility hidden behind “the team”. An unanswered entry is an open question, not a completed approval.
 
-Drawings issued by a kitchen designer serve a specific purpose: they communicate the intended design to the fitting team and provide reference dimensions for trades whose work must interface with the kitchen. At minimum, a complete drawing package should include plan views with cabinet positions and appliance locations; elevation drawings showing heights, door configurations and any tall housing; section drawings through critical junctions such as island posts or structural openings; and a services overlay indicating where water, waste, gas and electrical connections are required. What drawings cannot do is substitute for appropriate site verification at the agreed project stages.
+| Decision | Input to agree with named people | Record before proceeding |
+| --- | --- | --- |
+| Kitchen layout and appliance selection | Who confirms the client's choices, who develops the cabinet arrangement and who reviews the proposed interfaces? | Current plan and appliance references; named reviewers; unresolved points and the person authorised to instruct the next step. |
+| Service positions | Who provides appliance information, prepares the relevant information and checks it against the actual site? | Agreed drawing issue, specialist responses and who communicates any change to affected trades. |
+| Cabinet and worktop junctions | Who checks the furniture, worktop and adjoining finishes together? | Agreed junction information and any supplier or site checks still required before ordering or measuring. |
+| Readiness for the next visit | Who confirms the receiving team's requirements and checks whether preceding work meets them? | A dated confirmation, outstanding work, its named owner and whether the visit can proceed. |
+| A change to agreed work | Who assesses design, technical, price and programme effects, and who may authorise the instruction? | Proposed change, responses, accepted consequences, revised information and recipients. |
 
-## First-fix review: the checkpoint that prevents most problems
+Keep this responsibility record beside the current drawing list. Our guide to [kitchen shop drawing review](/post/kitchen-design-development-architects-interior-designers) explains the difference between commenting on appearance and approving the information for a particular purpose.
 
-First-fix review, the point at which a kitchen designer or fitter visits the site after structural, plumbing and electrical first-fix work is done but before plastering, is one of the most valuable steps in the process and one of the most frequently skipped. At this visit, the designer can confirm that services are positioned as drawn, that structural elements do not conflict with cabinet runs, and that floor levels are consistent enough to proceed. Any discrepancy found here is far cheaper to resolve than one found during fitting. The outcome of this visit should be documented: a brief written record of what was checked, what was agreed and what, if anything, needs to change.
+## Worked example: the dishwasher model changes
 
-## The RFI and decision log: keeping changes traceable
+Imagine a client selects a different integrated dishwasher after the kitchen layout has been agreed. The new model looks suitable in a product photograph. That does not establish that the existing cabinet front, installation arrangement or service information remains suitable.
 
-Site conditions rarely match drawings exactly. A wall is thicker than surveyed, a joist runs where a cabinet was planned, a client changes their mind about an appliance. Each of these triggers a decision that should be recorded. A simple request-for-information (RFI) log, even a shared document or email thread with clear subject lines, creates a traceable record of what was asked, who answered and what was agreed. Without it, verbal decisions made under time pressure on site become the source of disputes weeks later when invoices arrive or something does not fit.
+First, record the exact proposed model and ask the relevant appointed specialists to review its manufacturer's information against the current design and site. The kitchen designer or furniture supplier can be asked about the cabinet arrangement; the fitter about installation interfaces; the relevant service trades about their work. Confirm who is actually appointed to provide each response.
 
-## Site-readiness criteria for kitchen installation
+The coordinator gathers those answers and identifies any drawing, order, cost or programme changes requiring a decision. The person authorised under the project arrangements then gives the instruction. Keep the previous issue in the project history and identify which revised information replaces it. A useful close-out note says who received the change, what remains unresolved and which work is authorised to continue.
 
-A kitchen fitter arriving to an unready site loses time that is rarely recovered without cost. Before installation begins, the room should meet a clear set of conditions: plastering complete and dry; floor screed or substrate laid to the finished level that will be used for setting out cabinet heights; all first-fix electrical and plumbing confirmed in position; the space clear of other trades and materials; and heating operational if the room has been exposed to damp. These are not onerous requirements, but they need to be confirmed, not assumed. The coordinator's job is to sign off on readiness before the fitting team is booked in.
+This is a hypothetical coordination example, not a dishwasher installation specification. Use the selected product's actual instructions and the appointed specialists' advice for the technical requirements.
 
-## How the kitchen studio fits into the wider team
+## Make site readiness a handover between people
 
-A kitchen studio working within a larger project team is most effective when it is brought into the conversation early, ideally before structural or services design is finalised, so that cabinet heights, extract routes, island drainage and appliance positions can be incorporated into the base build rather than retrofitted. For projects involving an architect or interior designer, the kitchen studio should be sharing drawings in a format the wider team can use and flagging any dependencies that affect the build programme. If you are working with a design professional and want to understand how a kitchen studio can collaborate within that structure, our [page for professionals](https://www.nura-interiors.com/for-professionals) sets out how that relationship typically works.
+Avoid a universal checklist that assumes every kitchen has the same floor, worktop or installation sequence. Ask the receiving installer or supplier what must be ready for their visit, which information they need and who will confirm it. Agree the relevant checks with the people responsible for the preceding work.
 
-## Change triggers and how to handle them
+For example, if a worktop visit depends on the furniture being in an agreed condition, identify who confirms that condition and who books the visit. If something is incomplete, record the consequence and the next decision rather than describing the room as ready in a general message.
 
-Three things most reliably trigger drawing revisions mid-project: a change in appliance specification, a structural discovery on site, and a client decision made after sign-off. None of these is unusual, and a well-run project handles them without drama, provided there is a clear process. When a change is identified, the coordinator should assess whether it affects other trades, update the relevant drawings, reissue to all affected parties and note the revision in the decision log. Changes that are absorbed informally, without reissue, are the ones that cause problems at handover. For a fuller picture of how the design and build process is structured, our [process page](https://www.nura-interiors.com/process) is a useful reference. If you are at the stage of thinking through your own project structure, a [consultation](https://www.nura-interiors.com/consultation) is a practical next step.
+Keep the coordination record distinct from the [kitchen renovation timeline](/post/kitchen-renovation-timeline). The programme says when work is intended to happen; the responsibility record says who supplies the information and confirms the next handover.
+
+## Bring the unresolved interfaces to the design conversation
+
+Prepare the current plan, appliance references, list of appointed trades and the questions nobody has yet accepted. Include client-supplied items, such as a tap or decorative light, so the team can identify where another supplier's information is needed. Ask what the kitchen company's proposed scope includes and which wider responsibilities remain elsewhere.
+
+Explore Nura's [information for architects and designers](/for-professionals) and [bespoke kitchen services](/services/bespoke-kitchens), then [contact the studio](/consultation) with that brief. The purpose is to clarify how the cabinetry design fits the wider project and which interfaces need agreement before the next decision.
