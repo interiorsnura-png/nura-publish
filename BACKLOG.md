@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-25: Wall-tile finish tip compares specific reflected light, surface relief and product-specific care. Original credited concept asset and private research evidence retained; no measured experiment or built project claimed.
+
 - 2026-10-25: Sink-drainer article prepared around occupied, cleared and stored arrangements, with one original comparison image and a three-option HTML table. Actual Google evidence, first-three media limitations and rejected delegated claims retained privately. Full QC/release and monitoring evidence remain separate.
 
 - 2026-10-25: Utensil-holder practical tip prepared around filled tool outline, removal space and nearby drawer choices. One original credited image and actual Google evidence retained privately; release and monitoring checks remain separate.
