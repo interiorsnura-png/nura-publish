@@ -160,3 +160,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 splashback tile direction decor tip: separate orientation from bond, compare the whole wall boundaries with colour held steady. Three original blue/walnut illustrations and Joanne H byline. No universal proportion, installation cost, cleaning or tile stock claims. Full preview/build and exact-SHA release gates required, with first READY date correction. Production evidence and actual completion are tracked in the workspace register; GSC/Discover, field CWV and analytics receipt remain pending.
+
+
+- [ ] Assess the 2026-10-25 homepage contextual-link changes using actual Search Console query/page data and authorised analytics after enough observations. Do not infer ranking or lead improvement from deployed links or passing tests.

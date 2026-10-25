@@ -450,3 +450,8 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 splashback tile direction decor tip: separate orientation from bond, compare the whole wall boundaries with colour held steady. Three original blue/walnut illustrations and Joanne H byline. No universal proportion, installation cost, cleaning or tile stock claims. Full preview/build and exact-SHA release gates required, with first READY date correction. Production evidence and actual completion are tracked in the workspace register; GSC/Discover, field CWV and analytics receipt remain pending.
+
+
+## Homepage contextual links, 2026-10-25
+- Owner authorised the proposed homepage linking implementation and publication. Add three curated kitchen-planning, quotation and worktop guides before the FAQ, link fitted wardrobes in the existing joinery copy and clarify the existing Fulham showroom anchor. The original migration snapshot, hero, project evidence, contact form, footer, article text and dates remain intact.
+- Reuse the existing homepage transform pipeline with scoped CSS and crawlable HTML anchors. Focused preservation checks and the full build verifier include the new section and real destination canonicals. Exact-SHA release and local/live responsive evidence are recorded in the task workspace. Ranking or conversion improvement is not established by implementation checks.

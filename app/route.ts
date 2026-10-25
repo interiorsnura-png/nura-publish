@@ -3,11 +3,12 @@ import {homeSchema} from '../lib/home-schema';
 import {improveHomeSeo} from '../lib/home-seo';
 import {improveHomePerformance} from '../lib/home-performance';
 import {improveHomeJourney} from '../lib/home-journey.mjs';
+import {improveHomePlanningLinks} from '../lib/home-planning-links.mjs';
 import {enhanceHome} from '../lib/guarantee-preview.mjs';
 export const dynamic='force-static';
 export function GET(){
  const schema=JSON.stringify(homeSchema).replace(/</g,'\\u003c');
- let html=improveHomeJourney(improveHomeSeo(publishedHome.html)).replace('</head>',`<script type="application/ld+json">${schema}</script></head>`);
+ let html=improveHomePlanningLinks(improveHomeJourney(improveHomeSeo(publishedHome.html))).replace('</head>',`<script type="application/ld+json">${schema}</script></head>`);
  html=html.replace('</head>','<script src="/nura-enquiry.js" defer></script></head>');
  html=html.replace('src="nura-home.js"','src="/nura-home-measured.js"');
  html=html.replace('Begin a conversation','Request a consultation');
