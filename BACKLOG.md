@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- [ ] Dining-chair colour tip: after verified publication, monitor actual exact-URL indexing, Discover eligibility/manual actions, field Core Web Vitals and authorised CTA/analytics receipt. Local checks and assigned byline do not establish indexing, conversions or personal authorship/review.
+
 - [ ] Measure actual showroom telephone enquiries through authorised evidence; a tel link or synthetic check is not proof of a call or conversion.
 
 - [ ] London kitchen budget article: confirm exact URL indexing/Discover in authorised GSC, real-user CWV and actual CTA/analytics receipt when access and sufficient data exist. Local parsing, builds and script presence cannot close these checks.

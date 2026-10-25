@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-25: prepared a dining-chair colour tip using a two-view record, a hypothetical chair comparison and two original credited concept assets. Reused the existing inline article contact mode and whole-image rendering convention. Research, responsive preview, QC and exact-source publication evidence are retained in the workspace chair-run reports; preparation alone is not a verified release.
+
 - 2026-10-24: seven documented contact-panel PDCA cycles: single-line Fulham label, stronger telephone hierarchy, 48px targets, contrasting keyboard focus, dialog description/focus return, suppression during main-form focus, narrow/short and forced-colour rules. Browser checks confirmed320px fit, Escape focus return, form-focus suppression and preserved inline article placement. Forced-colour OS rendering remains unverified; task report separates source checks from browser evidence.
 
 - 2026-10-24: refined floating actions into one compact ivory panel with dark consultation button and secondary Fulham call row. Preserved telephone, dialog, consent/footer hiding and inline exceptions. Mobile/desktop and exact-source release evidence are in the task report; no conversion claim.
