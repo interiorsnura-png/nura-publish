@@ -176,3 +176,6 @@ body:has(.hero-image[src*="nura-peninsula-hero"]) .article-content p a{color:#70
 .article-photo:has(img[src*="nura-designer-collaboration-"]) .inner-photo{aspect-ratio:16/9;height:auto}
 .article-photo:has(img[src*="nura-designer-collaboration-"]) .inner-photo img{object-fit:contain}
 body:has(.hero-image[src*="nura-tiledirection-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+.hero-image[src*="nura-ceiling-hero"]{object-fit:contain;object-position:center top;background:#d2c3a7}
+body:has(.hero-image[src*="nura-ceiling-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}

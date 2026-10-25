@@ -169,3 +169,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 - [ ] Sustainability rewrite: monitor actual GSC/Discover indexing, field CWV and authorised analytics receipt after publication; do not infer environmental savings or ranking uplift.
 
 - [ ] Lighting inspiration: inspect actual GSC/index and available field performance/analytics after enough data; current product availability and electrical scope require project-specific confirmation.
+
+
+2026-10-25 cabinets-to-ceiling article: distinguish usable upper storage, closed finishing band and deliberate gap; specific inventory/retrieval and drawing/specification record. Two original ochre/ash concept images selected from explanatory needs after first-three actual Google research, no fixed image quota. Joanne H byline; no universal dimensions, installation guarantees or invented projects. Full QC/build/exact-SHA and actual first READY correction required. GSC/Discover, field metrics and analytics receipt remain pending.
