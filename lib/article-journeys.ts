@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-filler-panels':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen layout and cabinet details'}},
   '/post/kitchen-plate-display':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss kitchen display and daily storage'}},
   '/post/joinery-tender-package':{proof:'/joinery/westover-road',proofLabel:'Explore documented Westover Road joinery',service:'/services/architectural-joinery',enquiry:{href:'/consultation',label:'Discuss your joinery drawings and scope'}},
   '/post/value-engineering-bespoke-joinery':{proof:'/joinery/westover-road',proofLabel:'Explore documented Westover Road joinery',service:'/services/architectural-joinery',enquiry:{href:'/consultation',label:'Discuss your joinery priorities and alternatives'}},

@@ -23029,4 +23029,422 @@
     "body": "A joinery schedule should let the project team identify each piece of built-in furniture, understand what it includes and find the information still needed. Start with a stable item reference and room location, then connect that entry to its drawings, finishes, internal arrangement and quantities. A room list saying kitchen, dining room and study is a useful starting point, but it does not yet describe the furniture to be discussed or priced.\n\nFor architects and interior designers preparing a residential brief, the practical aim is a clear item record. This guide concerns a schedule of furniture and specifications, not a production timetable. It uses two hypothetical cupboards to show why matching finishes do not necessarily mean identical items.\n\nStart with the furniture, then attach the room\n\nWalk through the room list and name the separate fitted elements. A dining room might contain an alcove cupboard and a low serving cabinet; those are two items even if they share one room and one timber finish. Decide how the team will identify each one on a plan and in the schedule. Use the same references wherever those items appear.\n\nFor example, call a tall kitchen crockery cupboard J01 and a low dining-room cupboard J02. These are example identifiers, not an industry coding standard. Keep each reference stable as the design develops. If a room name changes, update the location rather than casually renaming every furniture item. If one item is removed or replaced, record that change so an old drawing does not quietly reintroduce it.\n\nRecord where the item sits within the room as well as its room name: beside the kitchen doorway, or within the dining alcove. The reference should allow someone reading the schedule to find the right object on the relevant plan. Avoid relying on descriptions such as cupboard on left, which depend on where the viewer is standing.\n\nSeparate a repeated type from a physical item\n\nA type describes a repeatable arrangement; a physical item is an occurrence in a particular location. Before grouping cupboards into one type and quantity, establish what is genuinely the same: dimensions, construction, internal layout, finish, fittings and relevant interfaces. A common external appearance is not enough to establish interchangeability.\n\nIn our example, J01 stores everyday plates on adjustable shelves, while J02 has a cutlery drawer above closed storage. Both may use the same proposed oak finish, but their internal arrangements differ. Record them separately while those requirements are being developed. Do not turn two different cupboards into a quantity of two identical units simply because their doors look related.\n\nState the counting basis too. Is a scheduled quantity one complete cupboard, one cabinet module or one door front? A clear description makes the number meaningful. Reconcile the count with the plan; do not count an elevation of the same object as another piece of furniture.\n\nBuild one useful item record\n\nThe following is an unpriced discussion example for J02. It shows the information to capture, not a measured specification or permission to manufacture. Keep the schedule readable and refer to the appropriate drawings or detailed specification rather than squeezing every construction detail into one cell.\n\n     \n\nThe useful record makes incompleteness visible. Dimensions to be developed is more honest than inserting a nominal width that nobody has checked. Give an unresolved field an owner and next action in the project record. A blank cell leaves readers to guess whether information is missing, not applicable or included elsewhere.\n\nUse shared references without hiding differences\n\nA finish register can describe a shared material or sample once, with individual items referring to it. Explain where that finish applies: visible doors, end panels, shelving or interiors. A note saying oak throughout may be interpreted differently by different readers. If J01 has a painted interior and J02 a timber interior, make the distinction explicit.\n\nKeep appearance decisions connected to use. For J01, the plate sizes and shelf arrangement matter to the storage brief. For J02, the cutlery contents and drawer access matter. An attractive common door finish does not resolve either requirement. Ask the relevant supplier to confirm suitable construction and fittings for the intended use; a schedule entry alone cannot establish technical performance.\n\nIdentify handles, runners, lighting or other fittings with appropriate references as they are selected. Keep product references current and record meaningful alternatives separately. Do not bury a different fitting or finish inside a general note and assume that everyone will price or supply the same thing.\n\nMake scope boundaries and revisions readable\n\nState which associated elements are included in the item or described elsewhere: a top, lighting, glass, internal organisers or connections to adjacent work. Identify interfaces that need coordination without assuming that a furniture supplier is responsible for every surrounding trade. Agree the actual appointment and information responsibilities with the team. The  RIBA Plan of Work  provides a wider framework for discussing project stages and responsibilities; this example schedule is not a prescribed RIBA form.\n\nGive the schedule an identifiable issue and keep changes traceable. If the client adds a cutlery drawer to J02, update the internal-arrangement entry and the associated drawing reference. Record the revised information and who needs it. For coordinating a schedule with the wider drawing package, use our  joinery tender package guide . For the separate decision about what a drawing review authorises, read  kitchen shop drawing reviews .\n\nChoose a format the team can keep current\n\nA spreadsheet or another agreed structured format can work if the people receiving it can read the references, follow changes and distinguish current information. A PDF issue can preserve a record of what was sent, but agree how updates will be communicated. Software does not resolve inconsistent item names or missing scope.\n\nBefore issuing the schedule, follow one item from its plan location through the record to its drawing, finish reference and unresolved questions. Then compare the quantities across the package. If different documents disagree, ask for clarification rather than selecting whichever description looks most complete. When prices arrive, our  guide to comparing joinery quotations  helps separate what is included in each offer.\n\nBring an item-led brief to Nura\n\nFor a  professional project discussion , bring the room list, marked-up plans, current item schedule, finish references and open questions. Explain the relationship you want between the kitchen and nearby furniture, as well as what each cupboard must hold. J01 and J02 may need a coherent external palette while working differently inside.\n\nExplore  Nura architectural joinery  and the  documented Westover Road joinery , then ask the studio to confirm the development and supply scope available for your project. The cupboards in this guide are hypothetical and are not a description of that completed project.  Discuss your joinery item list with Nura  to clarify which information and decisions should come next."
   }
 }
+,
+{
+  "path": "/post/kitchen-filler-panels",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/kitchen-filler-panels"
+  },
+  "content": {
+    "component": "article",
+    "title": "Kitchen Filler Panels: Leave Room for the Doors to Work",
+    "category": "Kitchen design",
+    "summary": "Resolve each filler by its purpose, installed width and the storage access behind the front.",
+    "seo_title": "Kitchen Filler Panels: Gaps, Widths and Door Access | Nura Interiors",
+    "seo_description": "Plan kitchen filler panels around walls, handles and storage access. Separate panel size from installed width and mark the decisions on your cabinet drawing.",
+    "hero": {
+      "filename": "/assets/editorial/nura-kitchen-filler-panels-hero.webp",
+      "alt": "Blue-grey pantry beside a plaster wall with a narrow matching filler strip, an open door and adjacent oak worktop",
+      "caption": "Blue-grey pantry and a matching strip at the wall junction. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-kitchen-filler-panels-hero.webp",
+      "alt": "Blue-grey pantry beside a plaster wall with a narrow matching filler strip, an open door and adjacent oak worktop",
+      "caption": "Blue-grey pantry and a matching strip at the wall junction. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "author_name": "Joanne H",
+    "image_rights_status": "owned",
+    "source_publish_status": "published",
+    "published_date": "2026-10-25T20:20:24.413Z",
+    "modified_date": "2026-10-25T20:20:24.413Z",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Kitchen filler panels close planned gaps beside cabinetry, but the space they occupy can also let doors, handles and internal storage work properly. Decide what each gap must do before choosing the narrowest-looking strip. A neat front elevation is only useful if you can still reach what is inside."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Identify which panel the drawing means"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A filler closes a gap, for example between a cabinet run and a wall. An end or cover panel finishes an exposed cabinet side. An appliance filler may close part of an appliance housing. These are different jobs, even when the supplier makes the pieces from matching material."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "IKEA's cover-panel range",
+            "link": "https://www.ikea.com/gb/en/cat/metod-cover-panels-deco-strips-23614/"
+          },
+          {
+            "type": "text",
+            "text": " describes matching or contrasting exposed cabinet sides. That is a finish decision, whereas a wall filler also needs its position and width resolved. Your drawing may need both an end panel and a filler, so ask for each to be identified separately rather than treating every narrow line as the same component."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Separate the supplied size from the installed width"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A catalogue dimension tells you the size of a supplied piece. It does not establish the correct finished gap for your room. "
+          },
+          {
+            "type": "text",
+            "text": "Howdens lists filler panels",
+            "link": "https://www.howdens.com/ie/kitchens/kitchen-fittings/panels?kitchen_accessories_type=Filler"
+          },
+          {
+            "type": "text",
+            "text": " in different sizes and finishes; the particular cabinet arrangement still needs checking."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ask the supplier or fitter to confirm the installed width against the selected door, hinge, handle and adjacent wall. Record projecting skirting, architraves or window boards, as well as changes in the wall along the panel's height. Where the panel must be scribed to follow the wall, agree how that affects the piece to order and its finished face. Confirm cut-edge treatment for the actual material instead of assuming every panel can be finished in the same way."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Check access behind the front"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The important question is not just whether the outer door opens. Can the internal drawers extend, and can the items you intend to store be taken out? "
+          },
+          {
+            "type": "text",
+            "text": "DIY Kitchens' wall-gap advice",
+            "link": "https://advice.diy-kitchens.com/customer-questions/gap-required-wall-unit/"
+          },
+          {
+            "type": "text",
+            "text": " shows how handles and tall-unit access affect the answer. Its dimensions describe particular arrangements, not a universal clearance for every kitchen."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Imagine a household choosing a tall pantry for cereal containers and heavy serving dishes. A slim filler looks appealing on the elevation, but the proposed internal drawers also need the pantry door out of their path. Before approving the narrower line, ask the supplier to demonstrate the opening relationship on the specification or drawing. If more room is required, compare a different hinge or door arrangement with changing the cabinet run. This is a design choice to resolve, not a gap to disguise later."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The same thinking belongs in "
+          },
+          {
+            "type": "text",
+            "text": "corner-storage planning",
+            "link": "/post/kitchen-corner-storage-checks"
+          },
+          {
+            "type": "text",
+            "text": ". Check the actual configuration rather than borrowing the allowance from a different corner cabinet. For appliances, keep the exact model's installation and ventilation requirements alongside the housing drawing; a matching panel is not permission to close a required opening."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Give each filler a short drawing note"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Use a location reference so the conversation ends with a decision you can find again. The following is a preparation guide, not a set of installation dimensions."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Location"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Job to resolve"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Ask to have confirmed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Pantry beside a wall"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Wall fit and useful storage access"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Installed filler width, door movement and internal-drawer clearance"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "End of a base-unit run"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Finish the visible junction"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Filler versus end panel, visible face and cut-edge treatment"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Internal corner"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Keep neighbouring fronts usable"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Exact corner arrangement, handle positions and required opening space"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Appliance housing"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Finish around the selected model"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Model-specific opening, ventilation and service-access requirements"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For each note, add who will verify it and when it becomes final. Keep the agreed revision with the cabinet order. A verbal instruction such as “make the gap smaller” leaves the functional and finish decisions unresolved."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the junction into the kitchen conversation"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Mark the awkward junctions on your plan and bring photographs of the surrounding walls, your preferred handle details and appliance model references. These inputs connect the small strips to the wider "
+          },
+          {
+            "type": "text",
+            "text": "bespoke kitchen brief",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": ": storage priorities, front proportions and the way the room is used."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Discuss your kitchen with Nura",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": " and ask what support is available for resolving those details. The useful outcome to request is a clearly identified panel and an agreed opening arrangement, rather than a universal filler width."
+          }
+        ]
+      }
+    ],
+    "body": "Kitchen filler panels close planned gaps beside cabinetry, but the space they occupy can also let doors, handles and internal storage work properly. Decide what each gap must do before choosing the narrowest-looking strip. A neat front elevation is only useful if you can still reach what is inside.\n\nIdentify which panel the drawing means\n\nA filler closes a gap, for example between a cabinet run and a wall. An end or cover panel finishes an exposed cabinet side. An appliance filler may close part of an appliance housing. These are different jobs, even when the supplier makes the pieces from matching material.\n\nIKEA's cover-panel range  describes matching or contrasting exposed cabinet sides. That is a finish decision, whereas a wall filler also needs its position and width resolved. Your drawing may need both an end panel and a filler, so ask for each to be identified separately rather than treating every narrow line as the same component.\n\nSeparate the supplied size from the installed width\n\nA catalogue dimension tells you the size of a supplied piece. It does not establish the correct finished gap for your room.  Howdens lists filler panels  in different sizes and finishes; the particular cabinet arrangement still needs checking.\n\nAsk the supplier or fitter to confirm the installed width against the selected door, hinge, handle and adjacent wall. Record projecting skirting, architraves or window boards, as well as changes in the wall along the panel's height. Where the panel must be scribed to follow the wall, agree how that affects the piece to order and its finished face. Confirm cut-edge treatment for the actual material instead of assuming every panel can be finished in the same way.\n\nCheck access behind the front\n\nThe important question is not just whether the outer door opens. Can the internal drawers extend, and can the items you intend to store be taken out?  DIY Kitchens' wall-gap advice  shows how handles and tall-unit access affect the answer. Its dimensions describe particular arrangements, not a universal clearance for every kitchen.\n\nImagine a household choosing a tall pantry for cereal containers and heavy serving dishes. A slim filler looks appealing on the elevation, but the proposed internal drawers also need the pantry door out of their path. Before approving the narrower line, ask the supplier to demonstrate the opening relationship on the specification or drawing. If more room is required, compare a different hinge or door arrangement with changing the cabinet run. This is a design choice to resolve, not a gap to disguise later.\n\nThe same thinking belongs in  corner-storage planning . Check the actual configuration rather than borrowing the allowance from a different corner cabinet. For appliances, keep the exact model's installation and ventilation requirements alongside the housing drawing; a matching panel is not permission to close a required opening.\n\nGive each filler a short drawing note\n\nUse a location reference so the conversation ends with a decision you can find again. The following is a preparation guide, not a set of installation dimensions.\n\nLocation Job to resolve Ask to have confirmed Pantry beside a wall Wall fit and useful storage access Installed filler width, door movement and internal-drawer clearance End of a base-unit run Finish the visible junction Filler versus end panel, visible face and cut-edge treatment Internal corner Keep neighbouring fronts usable Exact corner arrangement, handle positions and required opening space Appliance housing Finish around the selected model Model-specific opening, ventilation and service-access requirements\n\nFor each note, add who will verify it and when it becomes final. Keep the agreed revision with the cabinet order. A verbal instruction such as “make the gap smaller” leaves the functional and finish decisions unresolved.\n\nBring the junction into the kitchen conversation\n\nMark the awkward junctions on your plan and bring photographs of the surrounding walls, your preferred handle details and appliance model references. These inputs connect the small strips to the wider  bespoke kitchen brief : storage priorities, front proportions and the way the room is used.\n\nDiscuss your kitchen with Nura  and ask what support is available for resolving those details. The useful outcome to request is a clearly identified panel and an agreed opening arrangement, rather than a universal filler width."
+  }
+}
 ]
