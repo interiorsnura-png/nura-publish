@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-25: Plate-display practical tip prepared around daily access, a removal-view sketch and cabinet brief. One original credited asset, actual Google comparisons and rejected delegated claims retained privately; release and monitoring evidence remain separate.
+
 - 2026-10-25: Kitchen-plinth height guide prepared around finished-floor datum, separate supports/board and system-specific appliance requirements. Two original credited assets, primary evidence and rejected draft/PDCA retained privately; exact-source release and monitoring required.
 
 - 2026-10-25: Placemat-colour tip prepared with a controlled exposed-border comparison, one original credited asset and retained research/PDCA history. Preview, exact-source release and monitoring evidence recorded privately.
