@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-25: Kitchen-plinth height guide prepared around finished-floor datum, separate supports/board and system-specific appliance requirements. Two original credited assets, primary evidence and rejected draft/PDCA retained privately; exact-source release and monitoring required.
+
 - 2026-10-25: Placemat-colour tip prepared with a controlled exposed-border comparison, one original credited asset and retained research/PDCA history. Preview, exact-source release and monitoring evidence recorded privately.
 
 - 2026-10-25: [ ] Splashback-height article: monitor authorised exact-URL indexing, Discover, field CWV and confirmed analytics receipt after verified release.

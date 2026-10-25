@@ -198,3 +198,7 @@ body:has(.hero-image[src*="nura-ceiling-hero"]) .article-content p a{color:#7055
 
 .hero-image[src*="nura-kitchen-placemat-colours-hero"]{object-fit:contain;object-position:center top;background:#b99b73}
 .article-page[data-article-path="/post/kitchen-placemat-colours"] .article-content a[href^="/"]{color:#665021;text-decoration:underline;text-underline-offset:4px}
+
+.hero-image[src*="nura-kitchen-plinth-height-hero"]{object-fit:contain;object-position:center top;background:#ae9b82}
+.article-page[data-article-path="/post/kitchen-plinth-height"] .article-photo .inner-photo img{object-fit:contain}
+.article-page[data-article-path="/post/kitchen-plinth-height"] .article-content a[href]{color:#665021;text-decoration:underline;text-underline-offset:4px}
