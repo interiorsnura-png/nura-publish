@@ -444,3 +444,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 cookbook display decor tip: separate closed collection from current open-book reading position, covers versus spines and actual remaining counter. Icon book-care guidance attributed, no measured stand/installation or Nura bookstand stock claims. Three original plum/oak illustrations; Joanne H. Full build/preview/exact-SHA/first READY correction required; GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 Peninsula versus island short article: attached-end route versus connected worktop, cabinet junction and dining-facing finish. Hypothetical household trip and3rowcomparison, no universal clearances, structural or trend claims. Three original terracotta/chestnut illustrations; Joanne H. Full build/preview/exact-SHA/first READY correction required; GSC/Discover, field CWV and analytics receipt pending.
