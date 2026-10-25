@@ -486,3 +486,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B kitchen drawing review refresh: existing URL and first publication2025-08-13 retained. K07 hypothetical appliance-change example separates appearance, technical review and instruction. Removed unsupported tolerance/signoff/service claims; replaced target images with one original NURA-watermarked drawing/material concept. Shared CLI now reads actual batch parser and fingerprints MD/manifest/loader; optional measured hero metadata added for this Markdown article, older source fields unchanged. Full source-bound QC/build/exact-SHA and live/Rich Results checks required; historical time of day unknown, field/index/Discover/analytics pending. Private evidence work/shop-drawings-run.
+
+
+2026-10-25 B2B joinery schedule candidate: creates item-led residential scope, differentiates type/instance/count and shared finishes from item-specific internals. Hypothetical J01/J02, no dimensions or universal standards. One original hero and accessible three-column field record, Joanne H. Full QC/PDCA/build/exact-SHA/live/Rich Results required; source-bound private evidence work/schedule-run. Genuine first READY date correction and unknown GSC/field/analytics tracking retained.
