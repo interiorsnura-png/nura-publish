@@ -481,3 +481,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B value engineering candidate: unpriced hypothetical dining cabinet, retained requirements, alternatives and actual net-price/approval record. Original NURA-watermarked framed/slab comparison hero and accessible HTML table. No blanket material savings, dimensions, invented project or human signoff. Exact-source QC, full build, responsive preview, exact-SHA release/live checks and genuine first READY date correction required. Private workspace evidence: work/value-engineering-run. GSC/Discover, field metrics and analytics receipt remain monitoring follow-ups.
+
+
+2026-10-25 B2B kitchen drawing review refresh: existing URL and first publication2025-08-13 retained. K07 hypothetical appliance-change example separates appearance, technical review and instruction. Removed unsupported tolerance/signoff/service claims; replaced target images with one original NURA-watermarked drawing/material concept. Shared CLI now reads actual batch parser and fingerprints MD/manifest/loader; optional measured hero metadata added for this Markdown article, older source fields unchanged. Full source-bound QC/build/exact-SHA and live/Rich Results checks required; historical time of day unknown, field/index/Discover/analytics pending. Private evidence work/shop-drawings-run.

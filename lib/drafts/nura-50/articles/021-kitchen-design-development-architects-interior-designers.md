@@ -1,66 +1,88 @@
 ---
 slug: "kitchen-design-development-architects-interior-designers"
-title: "Kitchen Design Development for Architects and Interior Designers"
-seo_title: "Kitchen Design Development for Architects & Designers"
-seo_description: "Protect kitchen design intent through clear handovers, revision logs, sample approvals and procurement decisions with your specialist maker."
+title: "Kitchen Shop Drawings: What Are You Approving?"
+seo_title: "Kitchen Shop Drawings: Reviews and Approvals | Nura"
+seo_description: "Clarify who reviews kitchen shop drawings, what remains open and when manufacture is authorised. Follow a worked appliance-change example and review record."
 canonical: "https://www.nura-interiors.com/post/kitchen-design-development-architects-interior-designers"
 published_date: "2025-08-13"
-modified_date: "2026-10-16"
-date_status: "planned"
-author_name: ""
+modified_date: "2026-10-25T18:34:18.509Z"
+date_status: "historical publication date preserved; update event recorded"
+author_name: "Joanne H"
 author_bio: ""
-hero_image: "images/article-021-a-2cdf982c9c.webp"
-hero_alt: "People comparing plans and material samples at a table"
-image_rights_status: "needs-review"
-primary_topic: "bespoke kitchen design collaboration architects interior designers London"
-search_intent: "planning"
-status: "needs-review"
+hero_image: "images/nura-kitchen-shop-drawings-hero.webp"
+hero_width: "1536"
+hero_height: "864"
+hero_caption: "Kitchen drawing and material-reference concepts. Nura Interiors."
+hero_alt: "Kitchen plan and cabinet elevation concepts beside a sage door sample and brass handle"
+image_rights_status: "owned"
+primary_topic: "kitchen shop drawings approval"
+search_intent: "planning and comparison"
+status: "published"
 ---
 
-# Kitchen Design Development for Architects and Interior Designers
+# Kitchen Shop Drawings: What Are You Approving?
 
-Handing a kitchen concept to a specialist manufacturer is one of the more delicate moments in any residential project. The design language you have spent weeks refining, proportions, material relationships, the precise rhythm of handle reveals, needs to survive the translation from concept drawings into manufacturing documentation without losing its integrity. Understanding how that process works, and where the risks of drift sit, is the foundation of a productive collaboration.
+For kitchen shop drawings approval, identify the drawing revision, the purpose of the review, the questions still open and who can authorise the next step. A client's agreement with the appearance does not, by itself, confirm the appliance fit, site measurements or technical information needed for manufacture.
 
-![People comparing plans and material samples at a table](../images/article-021-a-2cdf982c9c.webp)
+For architects and interior designers coordinating a residential kitchen, the aim is to turn the agreed design into information the project team can act on. Start by asking what each review is meant to establish. Then record the answer against the actual drawings, samples and outstanding decisions.
 
-*Image: ORMA Swiss SA. [Image source](https://orma.ch/en/savoir-faire-et-fabrication). Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+![Kitchen plan and cabinet elevation concepts beside a sage door sample and brass handle](../images/nura-kitchen-shop-drawings-hero.webp)
 
+*Kitchen drawing and material-reference concepts. Nura Interiors. These are visual concepts, not measured construction documents.*
 
-## Concept Drawings Versus Manufacturing Drawings
+## Keep design intent connected to technical information
 
-Concept drawings communicate intent: overall massing, material palette, spatial relationships and the visual logic of the design. Manufacturing drawings are a different document entirely. They carry cabinet-by-cabinet dimensions, construction details, hardware positions and tolerances that the workshop needs to cut and assemble accurately. Treating these two drawing sets as interchangeable is one of the most common sources of disappointment on site. A good kitchen specialist will produce their own manufacturing drawings and invite you to review them against your concept before any cutting begins.
+A concept plan or render can explain the kitchen's layout, proportions and material direction. Developed shop or manufacturing drawings need to communicate the information required for their stated purpose: cabinet arrangements, dimensions, construction, fittings and relevant interfaces. The name of a drawing alone does not establish how complete it is. Ask what the issued set covers and what remains provisional.
 
-## Protecting Design Intent Through the RFI Process
+Keep the original design priorities visible during development. A drawer alignment may connect an island to the tall units; a shallow return may protect the route to the dining table. If technical development changes either detail, bring the consequence back to the design discussion rather than treating it as an unnoticed workshop adjustment.
 
-Requests for Information arise whenever the manufacturing team encounters an ambiguity in the concept package, a junction detail that works visually but hasn't been resolved structurally, or a material specified by finish reference rather than product code. A clear RFI process, with responses logged and confirmed in writing, keeps the designer in control of every decision rather than leaving the workshop to interpret quietly. Agree at the outset who holds the RFI register and what the expected turnaround is, so the programme isn't stalled by unanswered queries.
+The [RIBA Plan of Work](https://www.riba.org/work/insights-and-resources/riba-plan-of-work/) includes a Design Responsibility Matrix in its supporting tools. For your kitchen appointment, agree who prepares, checks and coordinates each part of the information. Do not assume that a familiar professional title or an approval stamp establishes everyone's responsibility.
 
+## Follow one cabinet through a change
 
-![Hands holding a detailed floor plan](../images/article-021-b-c5a03e8eff.webp)
+Consider a hypothetical integrated-fridge housing, K07, shown on drawing K-204 revision C. The client accepts its visible door arrangement and timber finish direction. Before manufacture is instructed, a different fridge model is proposed.
 
-*Image: Ivan S / Pexels. Image source. Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+The appearance decision can remain recorded, but the new model needs checking against the housing and adjoining work. Ask the appointed specialists to review the actual model documentation, opening movement, ventilation requirements, services and access that affect this arrangement. Do not infer suitability from a nominal appliance width or a convincing render.
 
-## Maintaining a Revision Log
+For example, [Bosch UK's manual finder](https://www.bosch-home.co.uk/customer-service/instruction-manuals/) uses the appliance model number to locate its documentation. Use the current information for the appliance actually specified, whatever its manufacturer. The drawing should identify the relevant model and document reference so the reviewer knows which information has been considered.
 
-Kitchen projects accumulate changes. A client upgrades an appliance mid-design; a structural wall turns out to be thicker than the survey suggested; the stone supplier's slab width forces a panel layout revision. Each change, however minor it seems, should be recorded with a date, a description and confirmation of who approved it. Without a live revision log, it becomes genuinely difficult to know which drawing set is current, and discrepancies between the designer's file and the manufacturer's file can surface expensively on installation day.
+## Separate the reviews in a written record
 
-## Tolerances and How They Affect Your Drawings
+Use the project's agreed review procedure. The following unpriced example is a discussion aid, not a prescribed approval form or allocation of contractual duties. The responsible roles must be agreed for the actual appointment.
 
-Bespoke cabinetry is made to tight tolerances, but the building it sits in rarely is. Walls are seldom plumb, floors are seldom level, and structural openings are seldom exactly the size shown on the architect's drawing. Agreeing tolerance allowances early, typically a few millimetres of scribe or packing, means the manufacturing drawings can accommodate real-world conditions without requiring a redraw. Discuss with your kitchen specialist how they handle scribes, shadow gaps and end-panel reveals so these are resolved in the drawing stage rather than improvised on site.
+| Review | Evidence to identify | Agree the role | Example status |
+|---|---|---|---|
+| Visible door arrangement and finish direction | K07 elevation, revision and finish-sample reference | Client and design-review roles as appointed | Appearance accepted in this example |
+| Housing fit and appliance requirements | Actual new model documentation and developed cabinet detail | Appointed appliance and cabinet technical reviewers | Technical review open |
+| Room and adjacent-work interfaces | Survey reference, finished levels and relevant services or worktop information | Appointed survey and interface reviewers | Information to confirm |
+| Instruction to manufacture K07 | Current coordinated issue, review responses and any conditions | Person authorised under the actual appointment | Not released to manufacture |
 
-## Sample Approvals and the Sign-Off Chain
+The useful distinction is between an accepted choice and an unresolved condition. In this example, appearance acceptance remains visible while the technical review is open. Do not describe the whole cabinet as ready to manufacture simply because one part of the review is complete.
 
-Material and finish samples should be approved in a defined sequence: door sample first, then carcass material, then hardware, then any stone or worktop. Each approval should be signed off by the designer and, where the client has expressed a preference, by the client too. Keeping the sign-off chain clear prevents a situation where the client sees the installed kitchen and disputes a finish that was approved at sample stage without their direct involvement. Physical samples, not digital swatches, are the standard for colour-critical decisions.
+## Turn an open question into a traceable response
 
-## Designer Credit and Client Communication
+Raise a specific request for information: which new fridge model is proposed, what information is needed and which cabinet or interface might change? Give the question a reference, identify who will respond and agree the response date in the project programme. Avoid a vague note such as check fridge later without a responsible role or next action.
 
-A professional kitchen specialist understands that the designer's relationship with their client is not theirs to manage. Communications about design decisions should be routed through the designer unless a specific protocol has been agreed otherwise. This matters particularly when a client asks the manufacturer directly whether a detail can be changed, the answer may be technically yes, but the design and contractual implications belong with the designer. Establishing a simple communication protocol at the project kick-off meeting avoids confusion later.
+If the answer changes K07, identify the revised drawing and update the relevant appliance or furniture schedule. Record what changed, which information is superseded and who receives the update. Retain the previous issue in the project record. Use our [joinery tender package guide](https://www.nura-interiors.com/post/joinery-tender-package) for the related task of keeping drawing and schedule references consistent.
 
-## Procurement Freeze and Programme Discipline
+Do not invent a universal meaning for approved, approved with comments or similar labels. Confirm how the project team uses its actual status terms, what any conditions mean and whether another review or instruction is required. An open item should have a clear route to resolution rather than being hidden inside a broad sign-off.
 
-Bespoke kitchen manufacturing requires a procurement freeze: a point at which the design is locked, materials are ordered and changes become either impossible or costly. Designers who have not worked closely with kitchen specialists sometimes underestimate how early this point arrives. Long-lead materials, certain veneers, specific hardware finishes, stone slabs, may need to be committed weeks before the manufacturing drawings are finalised. Agreeing the freeze date in the programme, and communicating it clearly to the client, is a shared responsibility between designer and manufacturer.
+## Check the building and material references too
 
-## How Nura Works With Design Professionals
+Ask which room measurements and finished levels the drawing uses. If flooring, walls or services are still changing, identify what must be rechecked and when. Scribes, fillers, reveals and fitting allowances need a project-specific detail; a generic millimetre allowance cannot establish that a cabinet will fit the actual building.
 
-Nura Interiors works alongside architects and interior designers as a manufacturing and technical partner, not as a competing design voice. A useful collaboration agreement should identify the designer’s role, the drawings Nura will develop, the review stages and the route for client communications. A shared revision record can then support that agreed arrangement. Two initial technical consultations are available for trade professionals at no charge, subject to scope and availability, a useful starting point for establishing whether the project is a good fit before any drawing work begins. For projects with international dimensions, including those with a Dubai or overseas component, the team has relevant experience navigating cross-jurisdiction procurement. You can read more about how the studio approaches professional partnerships at [collaboration for design professionals](https://www.nura-interiors.com/for-professionals), and explore the broader project process at [Nura’s project process](https://www.nura-interiors.com/process).
+Review the junctions as well as individual units. For K07, consider its relationship with the adjacent cabinet run, ceiling finish and service access. Elsewhere in the kitchen, establish who measures and coordinates a worktop, splashback or lighting recess. Ask the relevant appointed specialists to confirm their information rather than assuming the kitchen drawing covers another trade's work.
 
-If you are preparing a kitchen package for a current project and would like to discuss how a collaboration might be structured, [book a consultation](https://www.nura-interiors.com/consultation) to speak with the team directly.
+Record physical finish-sample references alongside the drawings. A render helps communicate an intended combination, but its screen colour is not a sample approval. Agree which samples and details require review, by whom and in what sequence for this project. There is no need to impose one universal order for doors, carcasses, hardware and worktops.
+
+## Agree the instruction and later-change route
+
+Before an instruction is issued, make sure the authorised person can identify the current information, completed reviews and any permitted conditions. Confirm the actual manufacture and procurement commitments with the supplier. A conversation about a change is not the same as an instruction to alter an order.
+
+If a later alternative changes the brief, ask for its effect on the design, scope, price and programme before proceeding. Our [value engineering joinery guide](https://www.nura-interiors.com/post/value-engineering-bespoke-joinery) explains how to compare those trade-offs. Do not assume that accepting a drawing automatically transfers technical responsibility between parties; establish the arrangement in the actual project documents.
+
+## Bring the current information to Nura
+
+For a [professional project conversation](https://www.nura-interiors.com/for-professionals), bring the current kitchen drawing set, revision list, survey reference, exact appliance codes, finish references and open questions. Explain which design choices matter most to the client and which decisions are still provisional. For K07, the useful question is how the proposed appliance can be coordinated while retaining the intended door composition.
+
+Explore [Nura bespoke kitchens](https://www.nura-interiors.com/services/bespoke-kitchens) and the [documented Amersham Road kitchen](https://www.nura-interiors.com/kitchens/amersham-road), then ask the studio to confirm the drawing-development, review and communication scope available for your project. The hypothetical example above is not a description of that completed kitchen. A focused brief should leave the team with the same understanding of the next drawing, decision or instruction.

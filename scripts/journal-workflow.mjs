@@ -5,6 +5,9 @@ import {execFileSync} from 'node:child_process';
 import {fileURLToPath, pathToFileURL} from 'node:url';
 import {load} from 'cheerio';
 import {validateDeploymentIdentity} from './release-guard.mjs';
+import vm from 'node:vm';
+import fsSync from 'node:fs';
+import {createRequire} from 'node:module';
 
 export const POLICY={author:'Joanne H',profile:'https://www.linkedin.com/in/joanne-h/',origin:'https://www.nura-interiors.com',width:1536,height:864,weights:{research:20,content:30,onPage:20,imageryUxTechnical:20,publicationMonitoring:10}};
 const hash=value=>createHash('sha256').update(value).digest('hex');
@@ -16,7 +19,23 @@ export async function atomicUpdate(file,update){
  const lock=file+'.lock',handle=await fs.open(lock,'wx');let temp;
  try{const before=await fs.readFile(file,'utf8'),value=await update(JSON.parse(before));assert(await fs.readFile(file,'utf8')===before,'Concurrent writer changed record');temp=file+'.'+process.pid+'.tmp';await fs.writeFile(temp,JSON.stringify(value,null,2)+'\n',{flag:'wx'});await fs.rename(temp,file);temp=null;return value;}finally{if(temp)await fs.unlink(temp).catch(()=>{});await handle.close();await fs.unlink(lock);}
 }
-export async function findArticle(root,route){articlePath(route);const collections=await Promise.all(['lib/published-editorial.json','migration/content-backup.json'].map(file=>json(path.join(root,file)))),matches=collections.flat().filter(x=>x.path===route);assert(matches.length===1,'Expected one authoritative article record across editorial and archive');assert(matches[0].content?.component==='article','Expected an article');return matches[0];}
+export async function findArticle(root,route,{allowMissing=false}={}){
+ articlePath(route);const collections=await Promise.all(['lib/published-editorial.json','migration/content-backup.json'].map(file=>json(path.join(root,file)))),matches=collections.flat().filter(x=>x.path===route);
+ assert(matches.length<=1,'Expected one authoritative article record across editorial and archive');
+ if(!matches.length){
+  const loader=path.join(root,'lib/nura-50-drafts.ts');let exists=true;try{await fs.access(loader);}catch(e){if(e.code==='ENOENT')exists=false;else throw e;}
+  if(exists){
+   // Reuse the trusted site's actual parser. Only the server-only marker is inert in this read-only CLI context.
+   const require=createRequire(path.join(root,'package.json')),ts=require('typescript'),source=await fs.readFile(loader,'utf8'),code=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
+   const module={exports:{}},context=vm.createContext({module,exports:module.exports,require:name=>{if(name==='server-only')return {};if(name==='fs'||name==='node:fs')return fsSync;if(name==='path'||name==='node:path')return path;throw Error('Unsupported batch-loader dependency: '+name);},process:{cwd:()=>root,env:{NODE_ENV:'production'}}});
+   new vm.Script(code,{filename:loader}).runInContext(context,{timeout:3000});
+   const entries=new vm.Script('module.exports.getNura50PublicEntries()',{filename:loader+' CLI read'}).runInContext(context,{timeout:3000});
+   matches.push(...entries.filter(x=>x.path===route).map(x=>({...x,content:{...x.content,author_name:POLICY.author,author_bio:undefined}})));
+  }
+ }
+ if(allowMissing&&!matches.length)return undefined;
+ assert(matches.length===1,'Expected one authoritative article record across supported sources');assert(matches[0].content?.component==='article','Expected an article');return matches[0];
+}
 export async function optimiseAssets(root,manifest){
  assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(manifest.slug||''),'Invalid asset slug');assert(manifest.assets?.length>0,'At least one original image required');assert(new Set(manifest.assets.map(x=>x.name)).size===manifest.assets.length,'Duplicate asset names');
  const {default:sharp}=await import('sharp'),planned=[];
@@ -25,6 +44,10 @@ export async function optimiseAssets(root,manifest){
 }
 export async function fingerprint(root,entry){
  const files=['lib/content.ts','components/RichArticle.tsx','app/inner.css','lib/article-journeys.ts'];
+ if(entry.source?.collection==='nura-50-draft'){
+  const batch='lib/drafts/nura-50',articles=(await fs.readdir(path.join(root,batch,'articles'))).filter(x=>x.endsWith('.md')).sort(),index=Number(entry.source.id)-1;
+  assert(Number.isInteger(index)&&articles[index],'Invalid batch source identity');files.push('lib/nura-50-drafts.ts',batch+'/manifest.json',batch+'/articles/'+articles[index]);
+ }
  for(const f of ['app/[...slug]/page.tsx','app/layout.tsx','lib/seo.ts','lib/journal-schema.ts','lib/article-discovery.ts','package.json','package-lock.json']){try{await fs.access(path.join(root,f));files.push(f);}catch(e){if(e.code!=='ENOENT')throw e;}}
  const walk=n=>{if(!n||typeof n!=='object')return;for(const [k,v]of Object.entries(n)){if((k==='filename'||k==='src')&&typeof v==='string'&&v.startsWith('/assets/'))files.push('public'+v);else if(typeof v==='object')Array.isArray(v)?v.forEach(walk):walk(v);}};walk(entry.content);
  const digests=[];for(const file of [...new Set(files)].sort()){const full=inside(root,file);digests.push({file,sha256:hash(await fs.readFile(full))});}
@@ -84,7 +107,7 @@ async function main(){
  const root=path.resolve(fileURLToPath(new URL('..',import.meta.url))),workspace=path.resolve(root,'..'),out=inside(workspace,options.out||'journal-workflow');await fs.mkdir(out,{recursive:true});
  for(const option of ['run','register','ledger'])if(options[option])options[option]=inside(workspace,options[option]);
  if(command==='assets'){const manifest=await json(options.input),assets=await optimiseAssets(root,manifest),report=inside(out,manifest.slug+'-assets-'+Date.now()+'.json');await fs.writeFile(report,JSON.stringify({createdAt:new Date().toISOString(),assets},null,2),{flag:'wx'});console.log(JSON.stringify({report}));return;}
- let entry,source;if(['begin','phase','summary'].includes(command)){articlePath(options.path);const matches=(await json(path.join(root,'lib/published-editorial.json'))).filter(x=>x.path===options.path);assert(matches.length<=1,'Duplicate source records');entry=matches[0]||{path:options.path};source=entry.content?await fingerprint(root,entry):null;}else{entry=await findArticle(root,options.path);source=await fingerprint(root,entry);}
+ let entry,source;if(['begin','phase','summary'].includes(command)){articlePath(options.path);entry=await findArticle(root,options.path,{allowMissing:true})||{path:options.path};source=entry.content?await fingerprint(root,entry):null;}else{entry=await findArticle(root,options.path);source=await fingerprint(root,entry);}
  const routeId=entry.path.split('/').at(-1),save=async(name,data)=>{const file=inside(out,routeId+'-'+name+'.json');await fs.writeFile(file,JSON.stringify(data,null,2)+'\n',{flag:'wx'});return file;};
  if(command==='begin'){
   const run={runId:routeId+'-'+Date.now(),startedAt,root,route:entry.path,source,gitSha:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),events:[],unknowns:['Research/editorial assessment','Visual QA','Official Google test','Index/Discover','Field CWV','Analytics receipt']};

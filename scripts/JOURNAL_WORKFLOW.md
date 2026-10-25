@@ -2,6 +2,8 @@
 
 The CLI replaces per-article helper copies. It never pushes/deploys, invents research, assigns editorial scores, grants visual approval, or replaces exact-SHA gates. Existing content loaders already share visible/OG/Twitter/Article metadata and Joanne H attribution.
 
+Existing Markdown batch articles are read through their actual repository parser when no editorial/archive record exists. The CLI allows only that trusted parser's fs/path imports and inert server-only marker, fails closed on unsupported dependencies or execution errors, and includes the selected Markdown, manifest and loader in its SHA256 fingerprint. Optional measured hero dimensions/caption in Markdown affect only sources that supply those fields. This does not create a duplicate article or change release approval requirements.
+
 Run commands from the repository. Outputs stay in the parent workspace `work/`, outside Git. Input JSON remains private. Unique run/report filenames preserve earlier attempts; register writes use an exclusive lock and atomic replacement. A retained lock means another writer or an interrupted write: inspect its owner before recovery, never blindly remove it.
 
 ```powershell

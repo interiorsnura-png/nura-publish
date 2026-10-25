@@ -3,12 +3,19 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
-import {articlePath,inside,atomicUpdate,fingerprint,assess,POLICY,recordReady,browserPlan,boundedMap,inspectHtml,optimiseAssets} from '../scripts/journal-workflow.mjs';
+import {articlePath,inside,atomicUpdate,fingerprint,assess,POLICY,recordReady,browserPlan,boundedMap,inspectHtml,optimiseAssets,findArticle} from '../scripts/journal-workflow.mjs';
 import {captureJournalView} from '../scripts/journal-browser-qa.mjs';
 
 test('workspace isolation and route identity reject traversal and guessed routes',()=>{
  assert.throws(()=>articlePath('/post/a/../../secret'));assert.throws(()=>articlePath('/other/page'));
  assert.throws(()=>inside(process.cwd(),'../outside'));assert.equal(articlePath('/post/kitchen-test'),'/post/kitchen-test');
+});
+
+test('shared checker reuses actual batch parser and binds markdown, dates and manifest without duplicate records',async()=>{
+ const root=process.cwd(),entry=await findArticle(root,'/post/kitchen-design-development-architects-interior-designers');
+ assert.equal(entry.source.collection,'nura-50-draft');assert.equal(entry.content.author_name,POLICY.author);assert(entry.content.body_nodes.length>5);assert.equal(entry.content.published_date,'2025-08-13');assert.equal(entry.content.hero.width,1536);assert.equal(entry.content.hero.height,864);
+ const source=await fingerprint(root,entry);for(const file of ['lib/nura-50-drafts.ts','lib/drafts/nura-50/manifest.json','lib/drafts/nura-50/articles/021-kitchen-design-development-architects-interior-designers.md'])assert(source.files.some(x=>x.file===file));
+ assert.equal(await findArticle(root,'/post/nonexistent-fixture-route',{allowMissing:true}),undefined);await assert.rejects(()=>findArticle(root,'/post/nonexistent-fixture-route'),/Expected one/);
 });
 test('QC rejects stale source, unknown full credit and altered weights; never infers approval from machine checks',()=>{
  const categories=Object.fromEntries(Object.entries(POLICY.weights).map(([k,max])=>[k,{score:max-1,evidence:['actual-report'],unknowns:[]}])) ,input={fingerprint:'a',categories,blockers:[]};
