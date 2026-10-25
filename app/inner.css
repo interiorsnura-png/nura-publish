@@ -179,3 +179,7 @@ body:has(.hero-image[src*="nura-tiledirection-hero"]) .article-content p a{color
 
 .hero-image[src*="nura-ceiling-hero"]{object-fit:contain;object-position:center top;background:#d2c3a7}
 body:has(.hero-image[src*="nura-ceiling-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+/* Scoped to the dining chair tip after its live contrast audit. */
+.article-page[data-article-path="/post/kitchen-dining-chair-colours"] .article-content a[href^="/"]{color:#665021;text-decoration:underline;text-decoration-color:currentColor;text-underline-offset:4px}
+.article-page[data-article-path="/post/kitchen-dining-chair-colours"] .article-content a[href^="/"]:hover{color:#3f361f}
