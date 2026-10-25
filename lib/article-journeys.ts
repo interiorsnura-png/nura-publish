@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  '/post/kitchen-cookbook-display':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen display and working space'}},
   '/post/kitchen-appliance-garage':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your appliance storage and worktop brief'}},
   '/post/kitchen-tablecloth-colour':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your kitchen and dining palette'}},
   '/post/kitchen-drawers-vs-cupboards':{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:'Discuss your cabinet-by-cabinet storage brief'}},
