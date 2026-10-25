@@ -155,3 +155,6 @@ body:has(.hero-image[src*="nura-timeline-hero"]) .article-content p a{color:#705
 
 .hero-image[src*="nura-blind-hero"]{object-fit:contain;object-position:center top;background:#b5a28c}
 body:has(.hero-image[src*="nura-blind-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
+
+.hero-image[src*="nura-drawercompare-hero"]{object-fit:contain;object-position:center top;background:#b8a895}
+body:has(.hero-image[src*="nura-drawercompare-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}

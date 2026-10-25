@@ -432,3 +432,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 kitchenblindcolourtip: loweredpanelversusraisedvisiblearea,actualsamplelimits andcabinet/retainedfurniturepalette.3originalterracotta/walnutillustrations,JoanneHbyline;nosupplierperformanceorNURAblindserviceclaims. Fullbuild/preview/exactSHA/actualREADYdatesrequired;GSC/Discover,fieldCWVandanalyticsreceiptpending.
+
+
+2026-10-25 drawers versus cupboards: new object-based cabinet allocation comparison, distinct from drawer inserts and corner mechanisms. Three original burgundy/ash illustrations; Joanne H byline. No universal ratio, dimensions, cost or accessibility promise. Full build, preview, exact-SHA and first READY date correction required; GSC/Discover, field CWV and analytics receipt remain pending.
