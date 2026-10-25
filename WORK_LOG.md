@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-25: Placemat-colour tip prepared with a controlled exposed-border comparison, one original credited asset and retained research/PDCA history. Preview, exact-source release and monitoring evidence recorded privately.
+
 - 2026-10-25: Splashback-height research used actual Google GB/English observations and a fourth-source replacement for unloaded third-result media. Rejected unsupported delegated draft claims; retained original useful wall-brief method.
 
 - 2026-10-25: resumed the same dining-chair candidate after owner-confirmed browser access restoration. Verified successful navigation to missing competitors, retained prior denied/duplicate captures, and rejected unsupported delegated sample-stock and visibility claims. Added a practical comparison worksheet and topic-specific kitchen brief. Preview identified floating contact obstruction on mobile; reused the existing inline article mode for this route only. Full release results are recorded separately in private chair-run evidence.

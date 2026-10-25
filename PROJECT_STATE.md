@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-25: Placemat-colour tip prepared with a controlled exposed-border comparison, one original credited asset and retained research/PDCA history. Preview, exact-source release and monitoring evidence recorded privately.
+
 - 2026-10-25: Prepared a focused splashback-height article comparing finish lines and measuring responsibility, with two original credited assets. Exact-source release and live evidence retained privately.
 
 - 2026-10-25: prepared a dining-chair colour tip using a two-view record, a hypothetical chair comparison and two original credited concept assets. Reused the existing inline article contact mode and whole-image rendering convention. Research, responsive preview, QC and exact-source publication evidence are retained in the workspace chair-run reports; preparation alone is not a verified release.
