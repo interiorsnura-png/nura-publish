@@ -207,3 +207,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B coordination refresh: existing kitchen-trades URL and2026-09-15 first date retained. Project-specific decision/input/record table and hypothetical dishwasher change separate coordination, technical review and instruction. One original credited concept image, no default legal role or savings claims. Full QC/build/responsive/exact-SHA/live and official Rich Results checks required; actual index/Discover/field/analytics evidence remains pending. Private evidence work/coordination-run.
+
+
+2026-10-25 B2B joinery samples and mock-ups: purpose-specific reference comparison, hypothetical J04/S12 acceptance boundary and explicit remaining decisions. Two original credited concept assets, actual Google research and independent review retained privately in work/samples-run. No physical test, default technical approval, free prototype or documented project claim. Full QC/PDCA/build/exact-SHA/live/Rich Results and genuine first READY timestamp correction required; field/index/Discover/analytics remain pending.
