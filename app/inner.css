@@ -172,4 +172,7 @@ body:has(.hero-image[src*="nura-books-hero"]) .article-content p a{color:#70552d
 body:has(.hero-image[src*="nura-peninsula-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}
 
 .hero-image[src*="nura-tiledirection-hero"]{object-fit:contain;object-position:center top;background:#887b72}
+.hero-image[src*="nura-designer-collaboration-hero"]{object-fit:contain;object-position:center;background:#b7a38a}
+.article-photo:has(img[src*="nura-designer-collaboration-"]) .inner-photo{aspect-ratio:16/9;height:auto}
+.article-photo:has(img[src*="nura-designer-collaboration-"]) .inner-photo img{object-fit:contain}
 body:has(.hero-image[src*="nura-tiledirection-hero"]) .article-content p a{color:#70552d;text-decoration:underline;text-underline-offset:.15em}

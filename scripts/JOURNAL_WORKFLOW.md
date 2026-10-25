@@ -19,13 +19,13 @@ Measure each actual phase with `phase --name research --state start --run journa
 
 ## Images
 
-Generate three original subject-specific images with the built-in image tool after actual Google Images reference research. Never substitute downloaded reference pictures. `assets --input ../assets.json` accepts:
+Generate an evidence-justified number of original subject-specific images with the built-in image tool after actual Google Images reference research. Never substitute downloaded reference pictures. `assets --input ../assets.json` accepts:
 
 ```json
 {"slug":"new-topic","assets":[{"name":"hero","original":"ABSOLUTE_ORIGINAL.png","prompt":"Full actual prompt","alt":"Actual subject description","credit":"Nura Interiors","rights":"owned","provenance":"Actual generated asset ID/path and reference-research record"}]}
 ```
 
-Supply exactly three distinct named assets. Outputs are `public/assets/editorial/nura-SLUG-NAME.webp`,1536x864, WebP85 with contain resize. Existing files are never overwritten. Inspect the original and final composition, watermark and labels; generation rights declarations alone do not prove licence or quality. Reuse unchanged approved assets on retries.
+Supply distinct named assets matching the documented competitor and article-needs analysis; no fixed count. Outputs are `public/assets/editorial/nura-SLUG-NAME.webp`,1536x864, WebP85 with contain resize. Existing files are never overwritten. Inspect the original and final composition, watermark and labels; generation rights declarations alone do not prove licence or quality. Reuse unchanged approved assets on retries.
 
 ## Browser checks
 

@@ -163,3 +163,5 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 - [ ] Assess the 2026-10-25 homepage contextual-link changes using actual Search Console query/page data and authorised analytics after enough observations. Do not infer ranking or lead improvement from deployed links or passing tests.
+
+- [ ] Kitchen designer rewrite: verify actual GSC/index/Discover, field CWV and authorised analytics receipt after publication; local checks cannot close these items.

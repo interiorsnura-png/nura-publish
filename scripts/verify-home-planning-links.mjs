@@ -20,6 +20,6 @@ for(const [href,label] of expected){
 assert.match($('.studio-actions a[href="/london"]').text(),/Visit our Fulham kitchen showroom/);
 assert.equal($('style[data-nura-style="/nura-home-planning.css"]').length,1);
 const stylesheet=await fetch(base+'/nura-home-planning.css');assert.equal(stylesheet.status,200);
-assert.equal($('style[data-nura-style="/nura-home-planning.css"]').text(),await stylesheet.text(),'Homepage performance pipeline must inline the real planning stylesheet');
+assert.equal($('style[data-nura-style="/nura-home-planning.css"]').text().replace(/\r\n/g,'\n'),(await stylesheet.text()).replace(/\r\n/g,'\n'),'Homepage performance pipeline must inline the real planning stylesheet');
 assert.equal($('h1').length,1);assert.equal($('#contact form').length,1);assert.equal($('link[rel=canonical]').attr('href'),'https://www.nura-interiors.com/');
 console.log('Homepage contextual links: 3 guides, wardrobes and clarified Fulham anchor passed; all destination canonicals and CSS resolve.');

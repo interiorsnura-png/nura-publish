@@ -130,12 +130,13 @@
   {
     "path": "/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers",
     "source": "migration/content-backup.json",
-    "title": "Common Problems When Working With a Kitchen Designer",
+    "title": "Problems with Your Kitchen Designer? What to Do Next",
     "author": "Joanne H",
     "published": "2023-04-26T13:44:44.116Z",
     "links": [
       "/london"
-    ]
+    ],
+    "modified": "2026-10-25T05:21:24.927Z"
   },
   {
     "path": "/post/using-artificial-intelligence-in-the-design-process",
