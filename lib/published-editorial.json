@@ -21598,4 +21598,546 @@
     "body": "A useful joinery tender package gives each workshop the same identified drawings, item list, specification and enquiry instructions. Before sending it, cross-check one furniture item across those documents. If the elevation shows drawers but the schedule says shelves, resolve that difference rather than leaving each supplier to interpret it.\n\nFor architects and interior designers preparing a residential enquiry, the immediate decision is what the workshop is being asked to price, and on what information. You can start a conversation while choices remain open, provided their status and pricing basis are clear. This guide focuses on the package you send, rather than the quotations you receive.\n\nStart with the furniture, then identify the files\n\nList the rooms and pieces included in the enquiry. Give each piece a stable reference, such as J03 for a window-seat bookcase. Use that reference on its drawing, schedule row and relevant finish information. A description such as living-room joinery is useful context, but it does not establish whether a window seat, shelves and adjacent panelling are all included.\n\nKeep two records distinct. An item schedule describes the furniture: its location, arrangement, material references and scope. A document issue register identifies the files sent: their titles, revisions, issue date and recipients. One tells the workshop what to price; the other records which information it received. Use the naming system already agreed by your project team.\n\nCheck one item across the package\n\nIn this hypothetical example, J03 is a window-seat bookcase beside an existing fireplace. Drawing J-203 revision B shows cupboard doors below the seat and open shelves above. The item schedule describes the same arrangement and references finish F02. The dimensions are still subject to the agreed survey and technical-development process; this example is not a measured design.\n\n    \n\nThen repeat the check for the remaining pieces. Include relevant sections and junction details where they explain the work being priced. A reference image can communicate atmosphere or a finish direction, but it cannot replace the written description of construction, fittings and scope. Keep images and finish codes linked to the item they concern.\n\nDescribe open choices without hiding them\n\nSuppose the client has not chosen the seat finish. State the common basis you want priced, identify the unresolved decision and name the role responsible for confirming it. If an alternative is requested, ask for it separately so it remains distinguishable from the base proposal. Do not insert an arbitrary allowance simply to fill a blank.\n\nCheck that scope boundaries are equally clear: drawing development, site measurement, samples, manufacture, delivery, fitting and making good. Identify relevant services and adjacent work, and ask the appointed specialists to confirm their responsibilities and technical requirements. A joinery lighting recess, for example, does not establish who supplies or connects the lighting.\n\nExplain the information stage honestly. An early budget enquiry may rely on stated assumptions; a developed tender requires a more defined basis. Ask the workshop what further information it needs for the response you are seeking. Do not label incomplete information as manufacture-ready.\n\nIssue changes as a traceable update\n\nNow imagine the client selects finish F03 for J03. Keep the furniture item reference J03. Update the affected drawing and schedule revisions, identify the new finish reference and record the change in Issue 02 or the project addendum. Identify which earlier files are superseded, retain them in the project record and tell tenderers which set is current.\n\nSend the same relevant scope update to all tenderers and request acknowledgement. Record the response reference and clarify whether the change affects their return date. If drawings and written information conflict, raise the discrepancy with the project team. Do not assume a document automatically takes precedence; the appointment and project documents need to establish how conflicts are resolved.\n\nMake the requested response clear\n\nIdentify the package issue and item references the workshop should price. State the return format, requested date and contact for questions. Ask for assumptions, exclusions and proposed alternatives to be identified clearly. Describe known access, delivery and site constraints, and identify information still to be confirmed. State which design, survey, sample and technical approvals will be agreed before manufacture.\n\nIssuing tender information is a pricing step, not by itself a release to manufacture. Confirm the later approvals and responsibilities for the actual appointment. Once proposals arrive, use our  bespoke joinery quote comparison  to review the scope behind each figure.\n\nPrepare a focused Nura project conversation\n\nBring the current drawings, item schedule, finish references, issue list and unresolved questions to a  Nura professional project conversation . Include the project location, stage, budget parameters and dates that matter. Explain the design priorities too: for J03, whether the seat is used daily, what the shelves need to hold and how the new furniture relates to the retained room.\n\nExplore  Nura architectural joinery  and the  documented Westover Road joinery , then  discuss your drawings and scope . Confirm the services and responsibilities for your particular project in writing. The useful next step is a coherent brief that the design team and workshop can discuss against the same references."
   }
 }
+,
+{
+  "path": "/post/value-engineering-bespoke-joinery",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/value-engineering-bespoke-joinery"
+  },
+  "content": {
+    "component": "article",
+    "title": "Value Engineering Bespoke Joinery: Which Changes Are Worth Making?",
+    "category": "Joinery planning",
+    "summary": "Compare joinery alternatives against retained needs, visible trade-offs and the full revised price, using an unpriced cabinet example.",
+    "seo_title": "Value Engineering Bespoke Joinery: Compare the Changes | Nura",
+    "seo_description": "Compare bespoke joinery changes against storage needs, design priorities and the full revised price. Use a practical example to record trade-offs and approvals.",
+    "hero": {
+      "filename": "/assets/editorial/nura-value-engineering-bespoke-joinery-hero.webp",
+      "alt": "Oak cabinet-front options with framed doors on the left and flat slab doors on the right",
+      "caption": "Framed and slab cabinet-front concepts for comparing appearance. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-value-engineering-bespoke-joinery-hero.webp",
+      "alt": "Oak cabinet-front options with framed doors on the left and flat slab doors on the right",
+      "caption": "Framed and slab cabinet-front concepts for comparing appearance. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "author_name": "Joanne H",
+    "image_rights_status": "owned",
+    "source_publish_status": "published",
+    "published_date": "2026-10-25T17:45:23.733Z",
+    "modified_date": "2026-10-25T17:45:23.733Z",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Value engineering bespoke joinery starts by asking what the furniture must still do after a proposed change. Write down those needs, compare the alternative against them and obtain a revised price for the complete affected scope. A simpler-looking cabinet is not evidence of a saving, and a lower quotation does not explain what the client is giving up."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For architects, interior designers and developer teams reviewing a residential joinery package, the useful decision is whether a particular alternative offers an acceptable balance of cost, use and appearance. This guide uses an unpriced hypothetical dining-room cabinet to show how to make that judgement visible."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Agree what you are trying to preserve"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "SAVE International describes value methodology",
+            "link": "https://www.value-eng.org/page/AboutVM"
+          },
+          {
+            "type": "text",
+            "text": " as analysing functions while balancing performance, quality, safety and cost. Applied to a joinery discussion, begin with the purpose of the furniture rather than a list of expensive materials to replace. This is a practical comparison aid, not a formal value-methodology study."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Imagine a cabinet fitted into a dining-room alcove beside an open-plan kitchen. The household wants plates behind closed doors, a drawer for cutlery and a clear route around the dining table. The designer wants the door divisions to sit comfortably with the adjacent kitchen. Record those priorities separately: concealed storage, accessible cutlery, circulation and the visible composition."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Then ask which priorities are essential and which the client is willing to reconsider. If a decorative frame is central to the agreed room, removing it changes more than a detail. If it was only one possible expression of the brief, a simpler front may be worth exploring. The client needs to see that difference before accepting a new sum."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Compare one proposed change at a time"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep the original proposal identifiable and ask for alternatives separately. Otherwise a new front, different interior and narrower cabinet can arrive as one lower figure, making it difficult to understand which change produces which effect."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Hypothetical dining-room cabinet: alternatives to investigate, not priced recommendations",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Alternative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Retain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Trade-off"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Confirm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Simplify a framed front to a slab front"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Closed storage and the agreed cabinet arrangement"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The door detail changes; its relationship with the kitchen needs review"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Revised elevation, proposed finish and construction, and actual revised quotation"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Replace the cutlery drawer with a shelf"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The outer cabinet and closed storage"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Cutlery storage changes; a tray elsewhere may be needed"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A workable place for the actual contents, revised interior and net price difference"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Explore a standard-width cabinet with fillers"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A closed cupboard within the alcove"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Usable width, door proportions and filler lines may change"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Surveyed fit, clearances, finishing and fitting scope, and complete installed quotation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "None of these alternatives is automatically cheaper or technically equivalent. Ask the supplier and relevant project specialists to confirm suitability for the intended contents, fittings and location. A visual comparison can help with appearance; it cannot establish load capacity, durability or installation requirements."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Name a reduced requirement honestly"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In the cabinet example, removing the drawer does not remove all storage, but it does remove the intended cutlery arrangement. The client may happily accept a tray in another location. Record that as an agreed change to the requirement, rather than saying nothing has been lost."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Likewise, omitting an entire cabinet may be a sensible budget decision if the household no longer needs it. It is a scope reduction. Keeping the distinction clear allows the client to choose a smaller brief without confusing it with an alternative that fulfils the original brief. Do not reject a useful reduction simply because it is not like-for-like."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Ask for the total effect, not a material-price guess"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Request the original and revised amounts on a consistent basis, with the affected work identified. Ask whether the change alters drawing development, samples, manufacture, delivery, fitting or making good. Check the treatment of VAT and any separately priced work. Use the "
+          },
+          {
+            "type": "text",
+            "text": "bespoke joinery quote comparison",
+            "link": "/post/comparing-bespoke-joinery-quotes"
+          },
+          {
+            "type": "text",
+            "text": " when the figures cover different scopes."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Before calling the difference a saving, establish whether redesign, changed adjacent work or existing order commitments add costs elsewhere. Ask for any effect on the programme and who will confirm it. Do not assign a percentage saving, cancellation charge or lead time without a project-specific response. An option can remain worth considering while its net effect is still unconfirmed."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Review materials without a universal hierarchy"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Veneer is not a single specification, and neither is solid timber. If a substitution is proposed, identify the actual material, substrate where relevant, edge detail, finish and intended use. Ask the supplier to explain how the complete construction meets the requirements. Do not approve an unnamed alternative just because its colour resembles the original."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Look at the proposed finish sample alongside the retained kitchen or room materials, under the lighting that matters to the project. Record the sample reference and what it represents. A sample helps judge appearance and texture; it does not prove the performance of a complete cabinet. Our "
+          },
+          {
+            "type": "text",
+            "text": "solid wood or veneer guide",
+            "link": "/post/solid-wood-or-veneer"
+          },
+          {
+            "type": "text",
+            "text": " introduces the material decision without making one label a universal winner."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Record the decision before the instruction changes"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For the hypothetical cabinet, give the proposal a reference such as VE01 and connect it to the existing furniture item reference. Record the original arrangement, proposed alteration, retained requirements, accepted compromises, quotation reference and outstanding questions. Separate visual/client acceptance from technical confirmation and the authority to instruct the change under the actual appointment."
+          }
+        ]
+      },
+      {
+        "type": "ul",
+        "children": [
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Status: proposed, awaiting information, accepted or rejected, with the date and responsible role."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Evidence: revised drawing, finish reference, quotation and relevant technical response."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Consequences: affected adjacent work, confirmed cost basis and any programme impact."
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Instruction: who is authorised to proceed, which documents change and who receives the update."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A discussion or attractive render is not by itself authority to manufacture. Confirm the project-specific approval route and update the affected drawings, schedule and order information. Our "
+          },
+          {
+            "type": "text",
+            "text": "joinery tender package guide",
+            "link": "/post/joinery-tender-package"
+          },
+          {
+            "type": "text",
+            "text": " explains keeping those references consistent. If work has already been ordered or started, establish the actual commitments before instructing an alternative; there is no universal last safe date for a change."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Prepare a focused Nura conversation"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the current drawings, original quotation, proposed alternatives and a short ranked list of priorities to a "
+          },
+          {
+            "type": "text",
+            "text": "Nura professional project conversation",
+            "link": "/for-professionals"
+          },
+          {
+            "type": "text",
+            "text": ". For the dining-room cabinet, bring an inventory of the plates and cutlery, photographs of the adjacent kitchen and the detail the client most wants to retain. Those inputs make the design question specific."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Explore "
+          },
+          {
+            "type": "text",
+            "text": "Nura architectural joinery",
+            "link": "/services/architectural-joinery"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "text",
+            "text": "discuss your joinery requirements",
+            "link": "/consultation"
+          },
+          {
+            "type": "text",
+            "text": ". Ask which alternatives can be considered for your project and confirm the agreed scope and responsibilities. The next step is a change the team can describe, price and approve clearly, rather than an unexplained lower figure."
+          }
+        ]
+      }
+    ],
+    "body": "Value engineering bespoke joinery starts by asking what the furniture must still do after a proposed change. Write down those needs, compare the alternative against them and obtain a revised price for the complete affected scope. A simpler-looking cabinet is not evidence of a saving, and a lower quotation does not explain what the client is giving up.\n\nFor architects, interior designers and developer teams reviewing a residential joinery package, the useful decision is whether a particular alternative offers an acceptable balance of cost, use and appearance. This guide uses an unpriced hypothetical dining-room cabinet to show how to make that judgement visible.\n\nAgree what you are trying to preserve\n\nSAVE International describes value methodology  as analysing functions while balancing performance, quality, safety and cost. Applied to a joinery discussion, begin with the purpose of the furniture rather than a list of expensive materials to replace. This is a practical comparison aid, not a formal value-methodology study.\n\nImagine a cabinet fitted into a dining-room alcove beside an open-plan kitchen. The household wants plates behind closed doors, a drawer for cutlery and a clear route around the dining table. The designer wants the door divisions to sit comfortably with the adjacent kitchen. Record those priorities separately: concealed storage, accessible cutlery, circulation and the visible composition.\n\nThen ask which priorities are essential and which the client is willing to reconsider. If a decorative frame is central to the agreed room, removing it changes more than a detail. If it was only one possible expression of the brief, a simpler front may be worth exploring. The client needs to see that difference before accepting a new sum.\n\nCompare one proposed change at a time\n\nKeep the original proposal identifiable and ask for alternatives separately. Otherwise a new front, different interior and narrower cabinet can arrive as one lower figure, making it difficult to understand which change produces which effect.\n\n   \n\nNone of these alternatives is automatically cheaper or technically equivalent. Ask the supplier and relevant project specialists to confirm suitability for the intended contents, fittings and location. A visual comparison can help with appearance; it cannot establish load capacity, durability or installation requirements.\n\nName a reduced requirement honestly\n\nIn the cabinet example, removing the drawer does not remove all storage, but it does remove the intended cutlery arrangement. The client may happily accept a tray in another location. Record that as an agreed change to the requirement, rather than saying nothing has been lost.\n\nLikewise, omitting an entire cabinet may be a sensible budget decision if the household no longer needs it. It is a scope reduction. Keeping the distinction clear allows the client to choose a smaller brief without confusing it with an alternative that fulfils the original brief. Do not reject a useful reduction simply because it is not like-for-like.\n\nAsk for the total effect, not a material-price guess\n\nRequest the original and revised amounts on a consistent basis, with the affected work identified. Ask whether the change alters drawing development, samples, manufacture, delivery, fitting or making good. Check the treatment of VAT and any separately priced work. Use the  bespoke joinery quote comparison  when the figures cover different scopes.\n\nBefore calling the difference a saving, establish whether redesign, changed adjacent work or existing order commitments add costs elsewhere. Ask for any effect on the programme and who will confirm it. Do not assign a percentage saving, cancellation charge or lead time without a project-specific response. An option can remain worth considering while its net effect is still unconfirmed.\n\nReview materials without a universal hierarchy\n\nVeneer is not a single specification, and neither is solid timber. If a substitution is proposed, identify the actual material, substrate where relevant, edge detail, finish and intended use. Ask the supplier to explain how the complete construction meets the requirements. Do not approve an unnamed alternative just because its colour resembles the original.\n\nLook at the proposed finish sample alongside the retained kitchen or room materials, under the lighting that matters to the project. Record the sample reference and what it represents. A sample helps judge appearance and texture; it does not prove the performance of a complete cabinet. Our  solid wood or veneer guide  introduces the material decision without making one label a universal winner.\n\nRecord the decision before the instruction changes\n\nFor the hypothetical cabinet, give the proposal a reference such as VE01 and connect it to the existing furniture item reference. Record the original arrangement, proposed alteration, retained requirements, accepted compromises, quotation reference and outstanding questions. Separate visual/client acceptance from technical confirmation and the authority to instruct the change under the actual appointment.\n\nStatus: proposed, awaiting information, accepted or rejected, with the date and responsible role. Evidence: revised drawing, finish reference, quotation and relevant technical response. Consequences: affected adjacent work, confirmed cost basis and any programme impact. Instruction: who is authorised to proceed, which documents change and who receives the update.\n\nA discussion or attractive render is not by itself authority to manufacture. Confirm the project-specific approval route and update the affected drawings, schedule and order information. Our  joinery tender package guide  explains keeping those references consistent. If work has already been ordered or started, establish the actual commitments before instructing an alternative; there is no universal last safe date for a change.\n\nPrepare a focused Nura conversation\n\nBring the current drawings, original quotation, proposed alternatives and a short ranked list of priorities to a  Nura professional project conversation . For the dining-room cabinet, bring an inventory of the plates and cutlery, photographs of the adjacent kitchen and the detail the client most wants to retain. Those inputs make the design question specific.\n\nExplore  Nura architectural joinery  and  discuss your joinery requirements . Ask which alternatives can be considered for your project and confirm the agreed scope and responsibilities. The next step is a change the team can describe, price and approve clearly, rather than an unexplained lower figure."
+  }
+}
 ]

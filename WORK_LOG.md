@@ -478,3 +478,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B tender package: stable item references, separate document issue register and furniture schedule, worked J03 window-seat finish addendum, and project-specific approval responsibilities. One original NURA-watermarked hero supported by Google Images/top-three content research; accessible HTML cross-check table. Joanne H byline. Exact-source QC, full build, responsive preview, exact-SHA release/live checks and actual first READY timestamp correction required. Private evidence: workspace work/tender-run. GSC/Discover, field performance and analytics remain monitored unknowns.
+
+
+2026-10-25 B2B value engineering candidate: unpriced hypothetical dining cabinet, retained requirements, alternatives and actual net-price/approval record. Original NURA-watermarked framed/slab comparison hero and accessible HTML table. No blanket material savings, dimensions, invented project or human signoff. Exact-source QC, full build, responsive preview, exact-SHA release/live checks and genuine first READY date correction required. Private workspace evidence: work/value-engineering-run. GSC/Discover, field metrics and analytics receipt remain monitoring follow-ups.
