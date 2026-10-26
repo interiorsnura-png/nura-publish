@@ -1,66 +1,78 @@
 ---
 slug: "bespoke-joinery-for-developers-and-design-build-teams"
-title: "Bespoke Joinery for Developers and Design-Build Teams"
-seo_title: "Bespoke Joinery for Developers & Design-Build Teams"
-seo_description: "Plan bespoke joinery for development projects with sample approvals, revision freezes, batch releases and clear quality responsibilities."
+title: "Bespoke Joinery for Developers: Map Each Type to Its Units"
+seo_title: "Bespoke Joinery for Developers: Map Types to Apartments | Nura"
+seo_description: "Plan bespoke joinery for developers with a type-to-unit map. Track apartment variants, sample decisions and the exact information behind each proposed release."
 canonical: "https://www.nura-interiors.com/post/bespoke-joinery-for-developers-and-design-build-teams"
 published_date: "2026-09-30"
-modified_date: "2026-10-16"
-date_status: "planned"
-author_name: ""
+modified_date: "2026-10-26T04:33:31.959Z"
+date_status: "Historical first-publication date preserved; actual editorial refresh event recorded"
+author_name: "Joanne H"
 author_bio: ""
-hero_image: "images/article-049-a-0edc37b458.webp"
-hero_alt: "Person fitting a tall timber cabinet in a workshop"
-image_rights_status: "needs-review"
-primary_topic: "bespoke joinery for developers and design-build teams"
-search_intent: "planning"
-status: "needs-review"
+hero_image: "images/nura-developer-joinery-hero.webp"
+hero_alt: "Two related oak cabinet arrangements with doors hinged on opposite sides"
+image_rights_status: "owned"
+primary_topic: "bespoke joinery for developers"
+search_intent: "planning and commercial investigation"
+status: "published"
+hero_width: "1536"
+hero_height: "864"
+hero_caption: "Related cabinet designs with opposite handing for different room arrangements. Nura Interiors."
 ---
 
-# Bespoke Joinery for Developers and Design-Build Teams
+# Bespoke Joinery for Developers: Map Each Type to Its Units
 
-Procuring bespoke joinery across multiple units or phases is a fundamentally different discipline from fitting out a single home. Schedules compress, decisions multiply, and the consequences of a late revision ripple across an entire batch. This guide is written for developers, project managers, and design-build teams who want the finish quality of bespoke cabinetry without sacrificing the programme certainty their sites demand.
+Bespoke joinery for developers needs a clear link between a repeated design and the individual homes where it will be installed. Before discussing a batch, identify which units share the same information, which contain differences and what action is actually being authorised for each group. Reviewing one sample apartment does not settle every other apartment's joinery.
 
-![Person fitting a tall timber cabinet in a workshop](../images/article-049-a-0edc37b458.webp)
-
-*Image: Simon Willis Bespoke. [Image source](https://www.simonwillisbespoke.co.uk/why-choose-us). Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+For developers and design-build teams, the practical tool is a type-to-unit map: a short record connecting a joinery design to named physical locations, current drawings, sample decisions and remaining questions. Use it alongside the project team's agreed procedures, rather than as a replacement for technical review or an instruction to manufacture.
 
 
-## Why Bespoke Joinery Belongs in a Development Programme
+![Two related oak cabinet arrangements with doors hinged on opposite sides](../images/nura-developer-joinery-hero.webp)
 
-The instinct on larger schemes is to reach for a modular catalogue, predictable lead times, familiar pricing structures, known quantities. That logic is sound up to a point. But modular ranges are built around fixed module widths, and real rooms rarely cooperate. Fillers, reduced-depth runs, and corner compromises accumulate quickly, and the cumulative effect on a premium scheme can undermine the very specification that justified the land value. Bespoke joinery resolves each room on its own terms, which matters most when no two floor plans are identical.
+*Related cabinet designs with opposite handing for different room arrangements. Nura Interiors. These room concepts are not measured layouts or approved sample apartments.*
 
-## The Sample Unit: Your Most Valuable Programme Tool
+## Distinguish a design type from an installed item
 
-For any multi-unit commission, a physical sample unit, sometimes called a show unit or pilot fit-out, is the single most effective way to compress downstream risk. It forces every material, finish, and detail decision into one controlled moment before batch production begins. Colour matching, edge profiles, handle positions, and appliance integration are all resolved in three dimensions rather than on a drawing. Decisions made at sample stage are far cheaper to change than decisions discovered during a snagging round on unit twelve.
+A type describes a proposed repeated arrangement. An instance is the particular item in a particular dwelling. A wardrobe design might appear in several bedrooms, but each occurrence still needs a location and a relationship to the relevant information.
 
+Our [joinery schedule guide](/post/joinery-schedule) explains item identity and counting. On a development, add the dwelling or plot reference so that “bedroom wardrobe” does not refer ambiguously to several homes. Agree whether the type refers to the furniture itself or to an apartment layout; use names that make that distinction readable.
 
-![Person checking a cabinet in a workshop](../images/article-049-b-b82a486810.webp)
+Check the proposed repetition against actual differences. Handedness, room configuration, adjoining finishes, equipment and service positions may require different information. Record those differences rather than assuming that the same finish or apartment marketing name establishes the same joinery design.
 
-*Image: Bespoke Batchelor. [Image source](https://www.bespokebatchelor.co.uk/). Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+## Map three apartments before grouping them
 
-## Revision Freezes and Why They Protect Everyone
+Consider a hypothetical development with a proposed Type A hall-storage design. Apartment 01 has the left-hand arrangement shown in drawing A-L, revision 02. Apartment 02 has a mirrored room. Apartment 03 has a different adjoining doorway and a shorter storage run. These are planning examples, not a Nura project or measured site conditions.
 
-A revision freeze is the contractual moment at which the design is locked for production. For developers, it can feel like a constraint; in practice it is a protection. Changes introduced after a freeze, even apparently minor ones such as a handle substitution or a plinth height adjustment, can invalidate cut lists, delay hardware orders, and push an entire batch out of sequence. Agreeing a clear freeze date, with a defined change-control process for anything that follows, is one of the most practical steps a procurement team can take before a single panel is cut.
+The team could begin with this map:
 
-## Batch Release and Phased Delivery
+| Physical location | Relationship to the proposed type | Information or decision still needed |
+| --- | --- | --- |
+| Apartment 01, hall storage H01 | Type A, left-hand arrangement, drawing A-L revision 02 | Record the relevant review outcome and any open details for this instance |
+| Apartment 02, hall storage H01 | Proposed mirrored variant of Type A | Identify its own drawing and review the handed details and interfaces |
+| Apartment 03, hall storage H01 | Different room configuration, not yet confirmed as a Type A variant | Resolve the changed run and doorway relationship before grouping it with either arrangement |
 
-Not every development needs all its joinery on site simultaneously. A phased batch-release structure, where cabinetry is manufactured and delivered in line with the construction programme, reduces on-site storage risk, limits damage from follow-on trades, and keeps the factory's production flow predictable. This requires close coordination between the joinery supplier's production schedule and the principal contractor's programme. The earlier that coordination begins, the more flexibility both parties retain. Discuss any proposed phased release with Nura early, so the suitability, responsibilities and programme can be agreed for the specific project.
+The table does not establish dimensions, fit or approval. It makes an assumption visible: three apartments need hall storage, but that is not yet evidence that one drawing can describe all three. Give the confirmed variants distinct references and retain the link to their physical locations.
 
-## Receiving, QA, and Access Responsibilities
+## Say what the sample apartment established
 
-Bespoke joinery arrives on site in a finished or near-finished state. That means the receiving conditions matter enormously. Cabinetry delivered to a floor that is still wet, or stored in a space without climate control, can move, swell, or mark before installation begins. Defining who is responsible for receiving, inspecting, and storing each delivery, and what the acceptance criteria are, should be settled in the procurement documents, not resolved on the day of delivery. Similarly, access for installation and snagging needs to be programmed in advance; a joiner who arrives to find the floor layer still working has lost a day that cannot easily be recovered.
+Suppose the sample apartment contains the left-hand hall unit. The team reviews an exterior timber finish and the appearance of a door-edge junction. Record those named aspects, their references and any qualifications. Identify the sample apartment and the joinery item that was actually reviewed.
 
-## Snagging: Scope, Responsibility, and Sign-Off
+Then ask what can reasonably carry across to other instances. A recorded exterior finish decision may be relevant to both handed arrangements, while the mirrored door movement or changed doorway relationship remains unresolved. Do not extend one appearance decision into a statement that every dimension, internal fitting or service interface has been checked.
 
-Snagging on bespoke joinery is most efficient when the scope of each party's responsibility is clear before work begins. The joinery supplier is accountable for manufacturing defects and installation quality within their own scope. The principal contractor or developer is typically responsible for the substrate, services positions, and the sequencing of other trades. Conflating these responsibilities, or leaving them undefined, is the most common source of dispute on otherwise well-run schemes. A pre-start review is a useful place to record the agreed responsibilities and address gaps before work begins.
+The [samples and mock-ups guide](/post/joinery-samples-mock-ups) covers the different evidence each sample can provide. Here the additional task is applicability: list the instances to which a decision relates and the aspects it does not cover. If a later variant changes that basis, ask whether another review is needed for the affected detail.
 
-## Design Professional Collaboration and Architect Intent
+## Make a release specific to information and locations
 
-Developers working with an architect or interior designer have an additional coordination layer to manage: ensuring that the joinery supplier interprets the design intent accurately without requiring the design professional to re-draw every detail. A supplier who is experienced in reading architectural drawings, working within specified tolerances, and raising technical queries early, rather than making assumptions, is worth identifying at tender stage. Nura offers two complimentary initial consultations for trade and professional clients, which can be a useful way to test that working relationship before committing to a full programme. Learn more about how we support design professionals at [collaboration for design professionals](https://www.nura-interiors.com/for-professionals).
+Before any proposed production release, ask the appointed team to identify the exact action, current drawing and specification issues, named instances, unresolved dependencies and person with the relevant authority. A label such as “phase one approved” leaves too much unstated if it does not identify the furniture and information concerned.
 
-## Long-Term Support Across a Development
+For the example, a request concerning Apartment 01 should not silently include the mirrored Apartment 02 or unresolved Apartment 03. Record the actual response against the named scope. An issued tender package, accepted surface sample and instruction to manufacture serve different purposes; one should not be treated as another without checking what was agreed.
 
-A development scheme does not end at practical completion. Residents move in, minor adjustments are needed, and the developer's reputation is shaped by what happens in the months that follow handover. Choosing a joinery supplier who will remain accessible for post-handover queries, and who holds records of the finishes, hardware, and configurations used across the scheme, is a practical consideration that is easy to overlook during procurement and difficult to remedy afterwards. Discuss aftercare expectations openly at tender stage, and confirm the terms in writing before production begins.
+If a handle or finish changes later, trace the proposed change to affected types and instances. Ask the supplier to confirm implications for the actual work and programme before recording the next agreed action. Keep earlier issues and decisions identifiable. Our [tender package guide](/post/joinery-tender-package) explains traceable enquiry updates; the same need for clear references continues after pricing, under the project's agreed process.
 
-If you are scoping a development programme and want to explore how bespoke joinery could work within your schedule and specification, [book a consultation](https://www.nura-interiors.com/consultation) with the Nura team.
+## Connect delivery and handover to the same map
+
+Discuss proposed delivery groups against the actual locations and site conditions, including access, receiving, storage, protection and installation interfaces. Agree who confirms readiness and how a changed programme will be communicated. A batch name alone does not establish that every room is ready or that a supplier can accommodate the proposed sequence.
+
+At completion, retain the dwelling and item references for outstanding actions, relevant finishes, care information and follow-up contacts. The [joinery snagging and handover guide](/post/joinery-snagging-handover) explains a component-led close-out record. On a development, the unit reference keeps that record connected to the correct home.
+
+For a proposed [architectural joinery](/services/architectural-joinery) scope, share location, project stage, unit and variant map, drawings, material references and intended programme. [Discuss the brief with Nura](/for-professionals) and ask whether the scope, capacity, phasing and responsibilities suit the particular appointment.

@@ -228,3 +228,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-26 B2B joinery snagging and handover guide: hypothetical J08 hall cabinet separates an unresolved interior finish selection, missing care record and reviewed close-out. One original credited context/detail asset, actual Google evidence and independent reviews retained in workspace work/snag-run. No inspection-service, universal tolerance, legal completion or real-project claim. Full fixed QC, PDCA, build, responsive preview, exact-SHA release/live/Rich Results and genuine first READY date correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B developer joinery refresh: existing URL and2026-09-30 first date retained. Hypothetical apartment01/02/03 map separates repeated types, mirrored variants and changed room configurations, with sample applicability and specific proposed production scope. Unsupported programme/legal/default responsibility claims removed. One original credited opposite-handing concept replaces two third-party workshop images; private research and independent evidence in work/developer-run. Full fixed QC/PDCA/build/responsive/exact-SHA/live/official validation required; historical time of day unknown, index/field/Discover/analytics pending.
