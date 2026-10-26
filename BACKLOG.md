@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-26: New manual wall-door guide compares the complete opening, retrieval, return and closing task for the actual user and fitting, distinct from powered storage or appliance operation. Product-specific movement and variable-stop limits, no universal clearance or hardware service promise. Existing articles preserved.
+
 - 2026-10-26: New decor tip distinguishes desired visible object detail from colour when choosing clear or particular reeded cabinet glass. Product-specific primary example and pane-purpose record, not a physical sample trial or universal concealment promise. Existing styling advice and other content preserved.
 
 - 2026-10-26: New fridge attachment guide separates fixed and sliding systems, changing an existing appliance mechanism and specifying a replacement. Model/front/housing record and original generic cabinet concept do not establish compatibility or an installation service. Existing content preserved.
