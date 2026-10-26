@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-26: New fridge-freezer split guide separates actual chilled/frozen compartment data, mixed household storage needs and integrated front compatibility. Documented Bosch example only, no appliance recommendation or performance promise. Existing source preserved.
+
 - 2026-10-26: New shelf-bracket appearance tip considers the support outline alongside retained furniture, with complete-proposal differences and supplier suitability kept explicit. Existing content preserved.
 
 - 2026-10-26: New UK dishwasher integration guide separates closed-front appearance, documented control information and exact furniture-front compatibility. Generic concepts and hypothetical brief, no appliance performance or supply promise. Existing source preserved.
