@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-26: New dining bench versus chairs guide compares two actual-furniture proposals for one household, including taking a place and one diner leaving while another stays. Named manufacturer matching-pair example only; generic simplified visual is not a fit, capacity or access test. Existing source preserved.
+
 - 2026-10-26: New bread-bin styling tip separates the body profile from the entire above-top composition, with model-specific canister provision and hypothetical clear-top preference. Original generic paired concept is not a product/fit/load test. Existing source preserved.
 
 - 2026-10-26: New manual wall-door guide compares the complete opening, retrieval, return and closing task for the actual user and fitting, distinct from powered storage or appliance operation. Product-specific movement and variable-stop limits, no universal clearance or hardware service promise. Existing articles preserved.
