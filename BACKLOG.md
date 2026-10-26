@@ -214,3 +214,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-25 B2B joinery samples and mock-ups: purpose-specific reference comparison, hypothetical J04/S12 acceptance boundary and explicit remaining decisions. Two original credited concept assets, actual Google research and independent review retained privately in work/samples-run. No physical test, default technical approval, free prototype or documented project claim. Full QC/PDCA/build/exact-SHA/live/Rich Results and genuine first READY timestamp correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B whole-home joinery supplier guide: compares the same hypothetical kitchen, hall and dressing-room scope under one defined proposal or named separate packages. K-F1/H-F2 example records related timber character without a matching guarantee or technical signoff. One original credited hero, actual Google research and independent reviews kept privately in work/supplier-run. No supplier-count savings, faster completion, contract, all-trade or real-project claims. Full fixed QC/PDCA/build/exact-SHA/live/Rich Results and real first READY date correction required. Field/index/Discover/analytics monitoring remains pending.
