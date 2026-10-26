@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-26: New shelf-bracket appearance tip considers the support outline alongside retained furniture, with complete-proposal differences and supplier suitability kept explicit. Existing content preserved.
+
 - 2026-10-26: New UK dishwasher integration guide separates closed-front appearance, documented control information and exact furniture-front compatibility. Generic concepts and hypothetical brief, no appliance performance or supply promise. Existing source preserved.
 
 - 2026-10-26: New round-table cloth shape tip compares round hems and square corner positions beside retained chairs, with actual product dimensions and conditional kitchen discussion. Existing content preserved.
