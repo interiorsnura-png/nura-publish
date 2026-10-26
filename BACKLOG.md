@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-26: New sink-mounting comparison distinguishes the visible junction from exact sink/worktop approval, with product-qualified primary sources and a practical drawing record. Original paired visual is not a documented project or installation specification. Existing content preserved.
+
 - 2026-10-26: New glass-cabinet styling tip considers closed-door frame and shelf relationships with actual contents, then separately checks access. Original concept image is not a documented project or tested specification. Existing articles preserved.
 
 - 2026-10-26: Tap-reach article separates horizontal projection, outlet height and movement, using primary manufacturer evidence and a coordinated sink brief. Original concept figure is not to scale and does not claim water-flow or installation testing.
