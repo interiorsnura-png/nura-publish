@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-26: New Shaker versus slab guide distinguishes framed appearance from construction and opening, then compares actual shallow-drawer, cupboard and tall-front proposals. Product-specific PWS counterexamples only, no Nura range or visual-performance promise. Existing source preserved.
+
 - 2026-10-26: Newdiningmirror tip focussesdesiredreflection andordinarymeal use. No universalheight/light orNura mirrorserviceclaim. Existingcontentpreserved.
 
 - 2026-10-26: New quartz-joint article connects proposed location with visible pattern transition and a hypothetical consumerbrief. Scopedmanufacturerfacts, no universaljointdimension or invisiblepromise. Previouscontentpreserved.
