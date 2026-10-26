@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  "/post/kitchen-bread-bin-shape":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss worktop choices in your wider kitchen brief"}},
   "/post/kitchen-wall-cabinet-doors":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss wall-cupboard access in your kitchen brief"}},
   "/post/clear-or-reeded-cabinet-glass":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss glazing choices in your kitchen brief"}},
   "/post/integrated-fridge-door-hinges":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss your kitchen cabinetry and appliance brief"}},

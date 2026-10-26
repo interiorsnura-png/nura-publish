@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-26: New bread-bin styling tip separates the body profile from the entire above-top composition, with model-specific canister provision and hypothetical clear-top preference. Original generic paired concept is not a product/fit/load test. Existing source preserved.
+
 - 2026-10-26: New manual wall-door guide compares the complete opening, retrieval, return and closing task for the actual user and fitting, distinct from powered storage or appliance operation. Product-specific movement and variable-stop limits, no universal clearance or hardware service promise. Existing articles preserved.
 
 - 2026-10-26: New decor tip distinguishes desired visible object detail from colour when choosing clear or particular reeded cabinet glass. Product-specific primary example and pane-purpose record, not a physical sample trial or universal concealment promise. Existing styling advice and other content preserved.
