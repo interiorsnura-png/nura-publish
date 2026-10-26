@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run build:verified",
+  "buildCommand": "npm run build",
   "installCommand": "npm ci",
   "outputDirectory": ".next",
   "headers": [
