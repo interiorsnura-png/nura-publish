@@ -235,3 +235,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-26 B2B developer joinery refresh: existing URL and2026-09-30 first date retained. Hypothetical apartment01/02/03 map separates repeated types, mirrored variants and changed room configurations, with sample applicability and specific proposed production scope. Unsupported programme/legal/default responsibility claims removed. One original credited opposite-handing concept replaces two third-party workshop images; private research and independent evidence in work/developer-run. Full fixed QC/PDCA/build/responsive/exact-SHA/live/official validation required; historical time of day unknown, index/field/Discover/analytics pending.
+
+
+2026-10-26 B2B joinery site-survey guide: hypothetical A06 alcove separates observed conditions, proposed finish references and inaccessible areas, with a three-row status record. One original credited alcove/junction concept, actual Google research and independent evidence retained privately in work/survey-run. No survey-service, tolerance, qualification, actual project or approval guarantee. Full QC/build/responsive/exact-SHA/live/official checks and genuine first READY correction required; field/index/Discover/analytics remain pending.
