@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-26: New oven-height guide separates appliance size from mounting position, labels the height endpoint above finished floor and connects model, door, users and landing surface. No universal mounting height or installation promise. Existing content preserved.
+
 - 2026-10-26: New wallpaper tip separates motif scale from placement at window/cabinet boundaries, with a preferred crop record and manufacturer sample/match limits. Original pattern visual is not a measured product or hanging specification. Existing content preserved.
 
 - 2026-10-26: New sink-mounting comparison distinguishes the visible junction from exact sink/worktop approval, with product-qualified primary sources and a practical drawing record. Original paired visual is not a documented project or installation specification. Existing content preserved.
