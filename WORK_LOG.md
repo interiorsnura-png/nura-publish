@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-26: New practical decor tip compares actual table top and visible base with cabinetry and retained chairs, preserving physical-fit questions for the supplier. Original furniture concept is not a measured product or Nura project. Existing content preserved.
+
 - 2026-10-26: New oven-height guide separates appliance size from mounting position, labels the height endpoint above finished floor and connects model, door, users and landing surface. No universal mounting height or installation promise. Existing content preserved.
 
 - 2026-10-26: New wallpaper tip separates motif scale from placement at window/cabinet boundaries, with a preferred crop record and manufacturer sample/match limits. Original pattern visual is not a measured product or hanging specification. Existing content preserved.
