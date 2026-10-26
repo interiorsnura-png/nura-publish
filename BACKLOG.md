@@ -242,3 +242,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-26 B2B joinery site-survey guide: hypothetical A06 alcove separates observed conditions, proposed finish references and inaccessible areas, with a three-row status record. One original credited alcove/junction concept, actual Google research and independent evidence retained privately in work/survey-run. No survey-service, tolerance, qualification, actual project or approval guarantee. Full QC/build/responsive/exact-SHA/live/official checks and genuine first READY correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B joinery delivery-access guide: original hypothetical W04 decision separates installed size, packaged arrival form and unresolved landing turn, with component-to-route table and explicit handover. One original credited room concept, actual Google research and independent evidence retained privately in work/delivery-run. No measured fit, lifting method, delivery-service or approval guarantee. Full QC/build/responsive/exact-SHA/live/official checks and first READY timestamp correction required; field/index/Discover/analytics remain pending.

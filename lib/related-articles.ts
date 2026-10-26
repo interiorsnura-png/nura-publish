@@ -24,6 +24,7 @@ const topics:Record<string,{category:string;description:string;tags:string[]}>={
  'how-to-choose-the-right-worktop-for-your-kitchen':{category:'Materials',description:'Compare materials before choosing your kitchen worktop.',tags:['materials','kitchens','worktops']},
 };
 const selections:Record<string,string[]>={
+  'joinery-delivery-access':['joinery-site-survey','kitchen-design-development-architects-interior-designers'],
  'joinery-site-survey':['kitchen-design-development-architects-interior-designers','joinery-schedule'],
  'joinery-snagging-handover':['joinery-schedule','joinery-samples-mock-ups'],
  'whole-home-joinery-supplier':['comparing-bespoke-joinery-quotes','joinery-samples-mock-ups'],
