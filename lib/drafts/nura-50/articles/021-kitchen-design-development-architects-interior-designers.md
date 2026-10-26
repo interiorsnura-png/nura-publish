@@ -5,7 +5,7 @@ seo_title: "Kitchen Shop Drawings: Reviews and Approvals | Nura"
 seo_description: "Clarify who reviews kitchen shop drawings, what remains open and when manufacture is authorised. Follow a worked appliance-change example and review record."
 canonical: "https://www.nura-interiors.com/post/kitchen-design-development-architects-interior-designers"
 published_date: "2025-08-13"
-modified_date: "2026-10-25T18:49:57.798Z"
+modified_date: "2026-10-26T18:50:37Z"
 date_status: "historical publication date preserved; update event recorded"
 author_name: "Joanne H"
 author_bio: ""
@@ -63,7 +63,15 @@ The useful distinction is between an accepted choice and an unresolved condition
 
 Raise a specific request for information: which new fridge model is proposed, what information is needed and which cabinet or interface might change? Give the question a reference, identify who will respond and agree the response date in the project programme. Avoid a vague note such as check fridge later without a responsible role or next action.
 
-If the answer changes K07, identify the revised drawing and update the relevant appliance or furniture schedule. Record what changed, which information is superseded and who receives the update. Retain the previous issue in the project record. Use our [joinery tender package guide](https://www.nura-interiors.com/post/joinery-tender-package) for the related task of keeping drawing and schedule references consistent.
+For K07, suppose the proposed fridge model leads to drawing K-204 revision D. Link that issue to the appliance schedule's actual current reference and identify the model being considered. Record whether the documents are being issued for a response or accompany a separately authorised instruction. Sending revision D does not establish that its contents have been reviewed or that an existing order has changed. Identify which earlier information is superseded and retain the earlier issue in the project record.
+
+Ask the supplier what has actually been procured or fabricated for the affected housing and appliance arrangement. Keep that response dated and identifiable. Do not infer the position from the design programme or assume that a later drawing automatically reaches a workshop or changes a purchase order. If that information remains unavailable, identify the unanswered question and the next response needed.
+
+Separate document receipt from an affected recipient's substantive response. An installer confirming receipt of revision D has not necessarily confirmed the revised interface. Record which question each appointed reviewer answered, the evidence referenced and anything still open. A new filename does not resolve an outstanding ventilation or service-access question.
+
+Keep the subsequent instruction identifiable too: who was authorised to give it, which K07 information it concerns and what action was instructed. Where a response is still needed, record how the affected work will be handled under the agreed project procedure. The useful distinction is between information sent, an issue answered and an action actually authorised, not a universal set of status labels.
+
+Use our [joinery tender package guide](https://www.nura-interiors.com/post/joinery-tender-package) for the related task of keeping drawing and schedule references consistent.
 
 Do not invent a universal meaning for approved, approved with comments or similar labels. Confirm how the project team uses its actual status terms, what any conditions mean and whether another review or instruction is required. An open item should have a clear route to resolution rather than being hidden inside a broad sign-off.
 
