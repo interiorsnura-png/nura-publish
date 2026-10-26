@@ -24874,4 +24874,362 @@
     "body": "Joinery samples and mock-ups should answer a named question, not stand in for approval of the whole cabinet. Before accepting one, agree what it represents: a finish, a particular junction, a full-size element or a digital view. Record what you have reviewed and what still needs evidence or a decision.\n\nFor architects and interior designers coordinating residential joinery, that distinction keeps a material choice connected to the furniture it belongs to. A client can like a timber finish while the return edge, internal arrangement or opening movement remains unresolved. A general note saying “sample approved” leaves those separate decisions unclear.\n\nStart with the question the sample must answer\n\nAsk the team to complete one sentence: “We need this sample or mock-up to review...” The answer might be the finish beside retained flooring, the meeting of a door face and return edge, or the arrangement of a whole cabinet front.\n\nThen agree what must be represented for that review. Is the finish on the intended material and profile? Does the corner include both adjoining parts? Is the full-size item a working component, a visual model or a sample installation? Identify substitutions and omitted parts rather than assuming the name of the sample explains them.\n\nThe following distinctions are practical descriptions for a project conversation. Agree the actual deliverable with the supplier; different teams may use the same word for different things.\n\n    \n\nChoose a useful detail, rather than a larger model by default\n\nA complete prototype is not automatically the right answer to a small unresolved question.  Woodcraft's Making Mock-Ups guide  includes partial physical models used to examine selected relationships between parts. The useful principle is to choose the representation around the question.\n\nFor a cabinet meeting a shelf, a defined corner or section might help the team discuss the visible junction. If the question concerns a whole door arrangement, a corner alone may leave too much unseen. Ask what further evidence is needed, rather than calling the smaller model a complete test.\n\nA digital view has a different role. It may communicate the proposed room composition, but a convincing image does not establish what an actual surface feels like or demonstrate a physical opening movement. If operation is the question, identify the working arrangement and information needed with the appointed specialists.\n\n\n\nFollow one sample through a decision\n\nConsider a hypothetical dining cabinet, J04. Finish sample S12 represents the proposed green front surface. The client accepts that finish direction, but the return-edge profile is still open. A corner mock-up is then requested to discuss the junction between the green front, oak return and adjacent oak shelf.\n\nKeep those decisions distinct. The finish note can identify S12 and say what appearance has been accepted. The junction note can name the unresolved profile and the revised detail needed. If the mock-up has no working door or hardware, record “opening movement not demonstrated” rather than treating the assembled corner as evidence of operation.\n\nThe result might be: finish direction accepted for the represented surface; edge profile awaiting review; movement information outstanding; manufacture not instructed. This is a discussion example, not a measured Nura project or a prescribed approval procedure.\n\nKeep the sample linked to the current information\n\nRecord the item, sample identifier, version, related drawing issue and review purpose together. Add the observation, unresolved points, named respondent and next action. Identify who is reviewing appearance, who provides the relevant technical information and who may instruct the next step under the actual appointment.\n\nOur  kitchen drawing review guide  explains why accepting one aspect does not release every other aspect. Use the  joinery schedule  to connect the sample reference to the correct furniture and finish locations.\n\nFor colour viewing in the room, use the separate  kitchen colour sample guide . Keep photographs as a record of the review, with the physical reference identified; do not let a photograph silently replace the agreed sample.\n\nBring the unresolved question to Nura\n\nBring the current elevation, item and sample references, material direction and the junction or arrangement you cannot yet judge. Explain what has already been accepted and what remains open.\n\nExplore  Nura architectural joinery  and our  information for architects and designers , then  discuss the brief with the studio . Ask what sampling or mock-up deliverable is appropriate and included for your particular proposal, and how its review connects to the next design decision."
   }
 }
+,
+{
+  "path": "/post/kitchen-tap-reach",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/kitchen-tap-reach"
+  },
+  "content": {
+    "component": "article",
+    "title": "Kitchen Tap Spout Reach: Match the Drawing to the Sink",
+    "category": "Kitchen planning",
+    "summary": "Connect the horizontal tap dimension with the bowl and mounting point, then check height and movement separately.",
+    "seo_title": "Kitchen Tap Spout Reach: Match Tap and Sink | Nura Interiors",
+    "seo_description": "Understand kitchen tap spout reach, outlet height and lever movement. Put the tap drawing and sink plan together before approving the mounting arrangement.",
+    "hero": {
+      "filename": "/assets/editorial/nura-kitchen-tap-reach-hero.webp",
+      "alt": "Plan and side views of a kitchen tap and oval sink, with arrows marking reach and outlet height and a not-to-scale label",
+      "caption": "Plan and side views showing a tap's reach and outlet height beside a sink. Not to scale. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-kitchen-tap-reach-hero.webp",
+      "alt": "Plan and side views of a kitchen tap and oval sink, with arrows marking reach and outlet height and a not-to-scale label",
+      "caption": "Plan and side views showing a tap's reach and outlet height beside a sink. Not to scale. Nura Interiors.",
+      "width": 1536,
+      "height": 864
+    },
+    "large_image_preview": true,
+    "author_name": "Joanne H",
+    "image_rights_status": "owned",
+    "source_publish_status": "published",
+    "published_date": "2026-10-26T00:06:16.408Z",
+    "modified_date": "2026-10-26T00:06:16.408Z",
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Kitchen tap spout reach is a horizontal measurement, but the right choice depends on where the tap sits relative to the inside of your sink. Put the tap and sink drawings together before choosing by appearance. Then check outlet height and moving parts separately: a taller tap is not necessarily a longer-reaching one."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "View the tap and sink diagram at full size",
+            "link": "/assets/editorial/nura-kitchen-tap-reach-hero.webp"
+          },
+          {
+            "type": "text",
+            "text": ". The diagram is not to scale; use the selected products' drawings for dimensions."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Read the endpoints, not just the number"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Kohler's measuring guide",
+            "link": "https://assist.kohler.com/en/kitchen-faucets/Measuring-Spout-Height-and-Reach"
+          },
+          {
+            "type": "text",
+            "text": " describes reach from the spout-base centre horizontally to the water stream, and distinguishes it from height to the highest point. For the tap you are considering, use the reference lines on its own drawing. A dimension to the front of the spout is not automatically a dimension to the outlet centre."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Do not measure along the curve of a swan-neck spout. Find the horizontal dimension and its endpoints. Keep overall height and outlet height distinct too; the highest part of an arch does not tell you how much space is below the outlet."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Put the mounting point on the bowl plan"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "On a plan, identify the proposed mounting centre, the actual bowl opening and the outlet's position using the product drawing. Include the distance between the mounting point and the inside edge of the bowl. The overall sink size alone leaves that relationship unresolved."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For a replacement, imagine keeping an existing tap hole while changing to a tap whose outlet projects further forward. The bowl has not moved, but the outlet's position relative to it has. Compare both arrangements on the same plan rather than assuming the new tap's similar silhouette means a similar fit. If replacing only a spout, ask the supplier to confirm compatibility with the existing tap; reach alone does not establish that the component fits."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "There is no single reach number in this guide for every sink. Nor does a plan prove the path of a real water stream or guarantee splash-free use. Ask the supplier and installer to confirm the proposed combination before holes or final fabrication details are approved."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "View"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Put on the record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Confirm for the chosen products"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Plan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Mounting centre, bowl opening and outlet position"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The drawing's reference points and proposed tap/sink relationship"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Side"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Counter level, outlet height and overall height"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Space for your usual items and nearby shelf or window"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Movement"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Lever and spout travel, plus nearby obstructions"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The actual operating range and installation requirements"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Check the movement that a still photograph hides"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A lever's travel matters beside an upstand or window. For example, "
+          },
+          {
+            "type": "text",
+            "text": "Franke's Active L model 115.0653.298",
+            "link": "https://www.franke.com/gb/en/home-solutions/products/all-products/product-detail-page.html/115.0653.298.html"
+          },
+          {
+            "type": "text",
+            "text": " has a forward-only lever. That is a feature of that model, not a rule for all side-lever taps. Check the selected tap's movement against the actual surroundings."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If considering a pull-out spray, distinguish its docked position from use with the hose extended. Follow its installation requirements, including the space needed below the counter. A longer hose does not remove the need to check the original mounting arrangement."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring a coordinated sink brief"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Keep the tap and sink model references, drawings and proposed mounting position together. Add photographs of any window, shelf or upstand, and identify who will confirm the final arrangement. Connect this with your "
+          },
+          {
+            "type": "text",
+            "text": "sink-bowl choice",
+            "link": "/post/single-vs-double-kitchen-sink"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "text",
+            "text": "drying arrangement",
+            "link": "/post/kitchen-sink-drainer"
+          },
+          {
+            "type": "text",
+            "text": ", so the tap is considered as part of daily use."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring that record to a Nura kitchen design conversation. It provides a concrete starting point for discussing the sink area alongside cabinetry and worktop decisions. Ask which relevant examples are available before a showroom visit."
+          }
+        ]
+      }
+    ],
+    "body": "Kitchen tap spout reach is a horizontal measurement, but the right choice depends on where the tap sits relative to the inside of your sink. Put the tap and sink drawings together before choosing by appearance. Then check outlet height and moving parts separately: a taller tap is not necessarily a longer-reaching one.\n\nView the tap and sink diagram at full size. The diagram is not to scale; use the selected products' drawings for dimensions.\n\nRead the endpoints, not just the number\n\nKohler's measuring guide  describes reach from the spout-base centre horizontally to the water stream, and distinguishes it from height to the highest point. For the tap you are considering, use the reference lines on its own drawing. A dimension to the front of the spout is not automatically a dimension to the outlet centre.\n\nDo not measure along the curve of a swan-neck spout. Find the horizontal dimension and its endpoints. Keep overall height and outlet height distinct too; the highest part of an arch does not tell you how much space is below the outlet.\n\nPut the mounting point on the bowl plan\n\nOn a plan, identify the proposed mounting centre, the actual bowl opening and the outlet's position using the product drawing. Include the distance between the mounting point and the inside edge of the bowl. The overall sink size alone leaves that relationship unresolved.\n\nFor a replacement, imagine keeping an existing tap hole while changing to a tap whose outlet projects further forward. The bowl has not moved, but the outlet's position relative to it has. Compare both arrangements on the same plan rather than assuming the new tap's similar silhouette means a similar fit. If replacing only a spout, ask the supplier to confirm compatibility with the existing tap; reach alone does not establish that the component fits.\n\nThere is no single reach number in this guide for every sink. Nor does a plan prove the path of a real water stream or guarantee splash-free use. Ask the supplier and installer to confirm the proposed combination before holes or final fabrication details are approved.\n\nView Put on the record Confirm for the chosen products Plan Mounting centre, bowl opening and outlet position The drawing's reference points and proposed tap/sink relationship Side Counter level, outlet height and overall height Space for your usual items and nearby shelf or window Movement Lever and spout travel, plus nearby obstructions The actual operating range and installation requirements\n\nCheck the movement that a still photograph hides\n\nA lever's travel matters beside an upstand or window. For example,  Franke's Active L model 115.0653.298  has a forward-only lever. That is a feature of that model, not a rule for all side-lever taps. Check the selected tap's movement against the actual surroundings.\n\nIf considering a pull-out spray, distinguish its docked position from use with the hose extended. Follow its installation requirements, including the space needed below the counter. A longer hose does not remove the need to check the original mounting arrangement.\n\nBring a coordinated sink brief\n\nKeep the tap and sink model references, drawings and proposed mounting position together. Add photographs of any window, shelf or upstand, and identify who will confirm the final arrangement. Connect this with your  sink-bowl choice  and  drying arrangement , so the tap is considered as part of daily use.\n\nBring that record to a Nura kitchen design conversation. It provides a concrete starting point for discussing the sink area alongside cabinetry and worktop decisions. Ask which relevant examples are available before a showroom visit."
+  }
+}
 ]

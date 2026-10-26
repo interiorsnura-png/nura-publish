@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-26: Tap-reach article separates horizontal projection, outlet height and movement, using primary manufacturer evidence and a coordinated sink brief. Original concept figure is not to scale and does not claim water-flow or installation testing.
+
 - 2026-10-25: Wall-tile finish tip compares specific reflected light, surface relief and product-specific care. Original credited concept asset and private research evidence retained; no measured experiment or built project claimed.
 
 - 2026-10-25: Sink-drainer article prepared around occupied, cleared and stored arrangements, with one original comparison image and a three-option HTML table. Actual Google evidence, first-three media limitations and rejected delegated claims retained privately. Full QC/release and monitoring evidence remain separate.
