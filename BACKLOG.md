@@ -221,3 +221,6 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 
 2026-10-26 B2B whole-home joinery supplier guide: compares the same hypothetical kitchen, hall and dressing-room scope under one defined proposal or named separate packages. K-F1/H-F2 example records related timber character without a matching guarantee or technical signoff. One original credited hero, actual Google research and independent reviews kept privately in work/supplier-run. No supplier-count savings, faster completion, contract, all-trade or real-project claims. Full fixed QC/PDCA/build/exact-SHA/live/Rich Results and real first READY date correction required. Field/index/Discover/analytics monitoring remains pending.
+
+
+2026-10-26 B2B joinery snagging and handover guide: hypothetical J08 hall cabinet separates an unresolved interior finish selection, missing care record and reviewed close-out. One original credited context/detail asset, actual Google evidence and independent reviews retained in workspace work/snag-run. No inspection-service, universal tolerance, legal completion or real-project claim. Full fixed QC, PDCA, build, responsive preview, exact-SHA release/live/Rich Results and genuine first READY date correction required; field/index/Discover/analytics remain pending.
