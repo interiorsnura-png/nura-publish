@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-26: New curtain-heading decor tip compares narrow pencil gathers and double-pinch groups beside kitchen-dining cabinetry. Supplier-supported definitions, a hypothetical preference and exact-reference record, with one original generic paired concept. No Nura curtain supply or fitting claim. Previous content preserved.
+
 - 2026-10-26: New dining bench versus chairs guide compares two actual-furniture proposals for one household, including taking a place and one diner leaving while another stays. Named manufacturer matching-pair example only; generic simplified visual is not a fit, capacity or access test. Existing source preserved.
 
 - 2026-10-26: New bread-bin styling tip separates the body profile from the entire above-top composition, with model-specific canister provision and hypothetical clear-top preference. Original generic paired concept is not a product/fit/load test. Existing source preserved.
