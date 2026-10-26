@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-26: New quartz-joint article connects proposed location with visible pattern transition and a hypothetical consumerbrief. Scopedmanufacturerfacts, no universaljointdimension or invisiblepromise. Previouscontentpreserved.
+
 - 2026-10-26: B2B queue item13 refreshes the existing kitchen shop-drawing article after a full overlap audit. K07 now distinguishes issued information, substantive reviewer responses and an authorised action, including actual procurement/fabrication status and superseded issues. Existing title, canonical, first-publication date, Joanne H and approved image retained. Private evidence in work/changes-run; full QC/release/live/official checks required.
 
 - 2026-10-26: New curtain-heading decor tip compares narrow pencil gathers and double-pinch groups beside kitchen-dining cabinetry. Supplier-supported definitions, a hypothetical preference and exact-reference record, with one original generic paired concept. No Nura curtain supply or fitting claim. Previous content preserved.

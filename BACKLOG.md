@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-26: New quartz-joint article connects proposed location with visible pattern transition and a hypothetical consumerbrief. Scopedmanufacturerfacts, no universaljointdimension or invisiblepromise. Previouscontentpreserved.
+
 - 2026-10-26: B2B item13 shop-drawing clarification: retain exact-source pre/post-push gates and live smartphone Rich Results inspection. Historical date-only publication lacks an authoritative time/timezone; do not invent one to clear optional schema warnings. Actual GSC/Discover/field CWV/analytics receipt remain separately monitored. Do not create a duplicate changes URL.
 
 - 2026-10-26: New curtain-heading decor tip compares narrow pencil gathers and double-pinch groups beside kitchen-dining cabinetry. Supplier-supported definitions, a hypothetical preference and exact-reference record, with one original generic paired concept. No Nura curtain supply or fitting claim. Previous content preserved.

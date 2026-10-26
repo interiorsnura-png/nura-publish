@@ -2,6 +2,7 @@ import type {Entry} from './content';
 
 /** Editorial-to-enquiry paths. Every destination must be an existing published route. */
 export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string;service:string;enquiry?:{href:string;label:string}}>={
+  "/post/kitchen-worktop-joints":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss your worktop and kitchen brief"}},
   "/post/kitchen-curtain-heading":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss your dining-window and kitchen palette"}},
   "/post/kitchen-dining-bench":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss dining and cabinetry in your kitchen brief"}},
   "/post/kitchen-bread-bin-shape":{proof:'/kitchens/elm-park-road',proofLabel:'Explore a documented kitchen',service:'/services/bespoke-kitchens',enquiry:{href:'/consultation',label:"Discuss worktop choices in your wider kitchen brief"}},
