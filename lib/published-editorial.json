@@ -1806,7 +1806,7 @@
       "published_date": "2026-10-02",
       "modified_date": "2026-10-02",
       "hero": {
-        "filename": "/assets/selected/nura-cta-joinery.jpg",
+        "filename": "/assets/selected/nura-cta-joinery.webp",
         "alt": "Nura architectural joinery detail"
       },
       "image_rights_status": "owned",
@@ -2385,7 +2385,7 @@
         },
         {
           "type": "image",
-          "src": "/assets/editorial/fulham-showroom-checklist-infographic.jpg",
+          "src": "/assets/editorial/fulham-showroom-checklist-infographic.webp",
           "alt": "Kitchen Showroom Inspection Checklist infographic by Nura Interiors, detailing cabinetry, hardware, material samples and first meeting preparation",
           "caption": "Quick-reference inspection checklist for bespoke kitchen showrooms. Save or review this guide before your consultation."
         },
@@ -2999,7 +2999,7 @@
       "author_bio": "Joanne H writes for the Nura journal. Explore her professional profile on LinkedIn.",
       "source_publish_status": "published",
       "hero": {
-        "filename": "/assets/selected/elm-park-road.jpg",
+        "filename": "/assets/selected/elm-park-road.webp",
         "alt": "Nura kitchen at Elm Park Road in Chelsea, London"
       },
       "body_nodes": [
@@ -3945,7 +3945,7 @@
         },
         {
           "type": "image",
-          "src": "/assets/editorial/galley-kitchen-blueprint-infographic.jpg",
+          "src": "/assets/editorial/galley-kitchen-blueprint-infographic.webp",
           "alt": "Nura galley kitchen blueprint with a 1200 mm illustrated walkway between parallel cabinets, sink, hob, fridge, appliance opening arcs and full height storage elevation",
           "caption": "Galley Kitchen Layout Blueprint. The 1200 mm walkway is an illustrative planning target; final clearances and appliance openings must be checked against the measured room and selected products."
         },

@@ -18,6 +18,7 @@ export const articleJourneyTargets:Record<string,{proof:string;proofLabel:string
   '/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers':{proof:'/kitchens/amersham-road',proofLabel:'See a completed kitchen project',service:'/services/bespoke-kitchens'},
   '/post/using-artificial-intelligence-in-the-design-process':{proof:'/process',proofLabel:'Explore how Nura works',service:'/services/living-spaces'},
   '/post/how-to-choose-the-right-worktop-for-your-kitchen':{proof:'/kitchens/amersham-road',proofLabel:'See a porcelain worktop project',service:'/services/bespoke-kitchens'},
+  '/journal/bespoke-media-walls-london':{proof:'/joinery/westover-road',proofLabel:'See architectural joinery in practice',service:'/services/architectural-joinery',enquiry:{href:'/consultation',label:'Discuss your joinery project with Nura'}},
   '/guides/bespoke-kitchens':{proof:'/kitchens/tansley-farm',proofLabel:'See a completed bespoke kitchen',service:'/services/bespoke-kitchens'},
   '/post/one-tonne-porcelain-kitchen-island':{proof:'/kitchens/amersham-road',proofLabel:'Explore the Amersham Road kitchen',service:'/services/bespoke-kitchens'},
   '/guides/bespoke-joinery-london':{proof:'/joinery/westover-road',proofLabel:'See architectural joinery in practice',service:'/services/architectural-joinery'},

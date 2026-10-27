@@ -4,6 +4,6 @@ node_modules/
 !.env.example
 .vercel/
 *.tsbuildinfo
-
 .seo-reports/
 .indexnow/
+.vercel

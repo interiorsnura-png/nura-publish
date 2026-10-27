@@ -38,7 +38,7 @@ test('Galley guide, blueprint, reciprocal links and reviewed consultation journe
  assert.match(prose,/ventilation/i);assert.match(prose,/daylight/i);
  assert.doesNotMatch(prose,/\u2014|guaranteed|complimentary/i);
  const image=c.body_nodes.find(n=>n.type==='image');
- assert.equal(image.src,'/assets/editorial/galley-kitchen-blueprint-infographic.jpg');
+ assert.equal(image.src,'/assets/editorial/galley-kitchen-blueprint-infographic.webp');
  assert.match(image.alt,/1200 mm/);
  const asset=new URL('public'+image.src,root);
  assert.ok(fs.existsSync(asset));
@@ -56,5 +56,5 @@ test('Galley guide, blueprint, reciprocal links and reviewed consultation journe
  assert.equal($('.article-journey li').last().find('a').attr('href'),'/consultation');
  const related=load('lib/related-articles.ts').getRelatedArticles(article,entries).map(e=>e.path);
  assert.ok(related.includes('/guides/bespoke-kitchens'));
- assert.match(fs.readFileSync(new URL('components/RichArticle.tsx',root),'utf8'),/galley-kitchen-blueprint-infographic\.jpg/);
+ assert.match(fs.readFileSync(new URL('components/RichArticle.tsx',root),'utf8'),/galley-kitchen-blueprint-infographic\.webp/);
 });

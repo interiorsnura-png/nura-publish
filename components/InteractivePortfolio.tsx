@@ -13,7 +13,7 @@ export default function InteractivePortfolio(){
     <Image className={styles.photo} src={preview.filename} alt={preview.alt} width={1471} height={1155} sizes="(max-width:800px) 50vw, 25vw"/>
     <span className={styles.previewLabel}>Inside the portfolio <span aria-hidden="true">↗</span></span>
    </a>
-   <div className={styles.copy}><p className="eyebrow">NURA / Portfolio 2026</p><h2 id="interactive-portfolio-title">A closer look<br/>at <em>our work.</em></h2><p>Explore kitchens, bespoke joinery and commercial interiors through detailed photography, material studies and project films.</p>
+   <div className={styles.copy}><p className="eyebrow">NURA / Portfolio 2026</p><h1 id="interactive-portfolio-title">A closer look<br/>at <em>our work.</em></h1><p>Explore kitchens, bespoke joinery and commercial interiors through detailed photography, material studies and project films.</p>
    <div className={styles.actions}>
     <a className="button" href="/projects/catalogue">Explore the portfolio <span aria-hidden="true">↗</span></a>
     <a href="/projects/catalogue#films">Watch project films <span aria-hidden="true">↗</span></a>

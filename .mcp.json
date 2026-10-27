@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nura-verification": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\Saraye Tell\\Documents\\Codex\\2026-10-12\\before-making-any-changes-read-the\\work\\nura-benchmark\\.claude\\dev-cycle\\mcp-server.mjs"
+      ]
+    }
+  }
+}

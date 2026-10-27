@@ -43,6 +43,7 @@ const selections:Record<string,string[]>={
  'what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers':['our-design-process','how-to-choose-the-right-worktop-for-your-kitchen'],
  'using-artificial-intelligence-in-the-design-process':['our-design-process','transform-your-space-with-custom-interior-services-london'],
  'how-to-choose-the-right-worktop-for-your-kitchen':['the-power-of-porcelain','solid-wood-or-veneer'],
+ 'bespoke-media-walls-london':['bespoke-joinery-london','our-design-process','exploring-the-advantages-of-pocket-doors'],
 };
 const slug=(path:string)=>path.split('/').pop()||'';
 export function articleReadingMinutes(entry:Entry){
