@@ -9,9 +9,12 @@ modified_date: "2026-10-20"
 date_status: "planned"
 author_name: ""
 author_bio: ""
-hero_image: "images/article-031-a-3d8d78c652.webp"
-hero_alt: "Kitchen island with a dark worktop and tall cupboards behind"
-image_rights_status: "needs-review"
+hero_image: "images/nura-plinth-storage-hero.webp"
+hero_alt: "Recessed plinth beneath kitchen cabinets beside a pale stone floor"
+hero_width: "1536"
+hero_height: "864"
+hero_caption: "Recessed plinth beneath kitchen cabinets. Nura Interiors."
+image_rights_status: "owned"
 primary_topic: "does a lower plinth give more kitchen storage"
 search_intent: "planning"
 status: "needs-review"
@@ -19,25 +22,25 @@ status: "needs-review"
 
 # Can a Lower Plinth Create More Kitchen Storage? A Worked Design Example
 
-Plinth height is one of those specification details that rarely appears on a mood board yet quietly shapes how a kitchen feels to stand in and how much cabinet volume sits above the floor. Most fitted kitchens use a plinth somewhere between 100 mm and 150 mm. Reducing that figure sounds like a straightforward win, but the relationship between plinth, cabinet height, worktop, and usable storage is more layered than it first appears. This worked example uses a single hypothetical run to trace what actually changes, and what does not.
+Plinth height is one of those specification details that rarely appears on a mood board yet quietly shapes how a kitchen feels to stand in and how much cabinet volume sits above the floor. Plinth dimensions vary with the cabinet system and its installation requirements. Reducing that figure sounds like a straightforward win, but the relationship between plinth, cabinet height, worktop, and usable storage is more layered than it first appears. This worked example uses a single hypothetical run to trace what actually changes, and what does not.
 
-![Kitchen island with a dark worktop and tall cupboards behind](../images/article-031-a-3d8d78c652.webp)
+![Recessed plinth beneath kitchen cabinets beside a pale stone floor](../images/nura-plinth-storage-hero.webp)
 
-*Image: Arredo3. [Image source](https://www.arredo3.com/fr/actualites/l-elegance-des-portes-qui-descendent-jusqu-au-sol). Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+*Recessed plinth beneath kitchen cabinets. Nura Interiors.*
 
 
 ## Setting Up the Hypothetical Run
 
-Imagine a standard 900 mm total height from finished floor to worktop underside, a common target in British kitchen design. Within that envelope, every millimetre given to the plinth is a millimetre taken from the cabinet carcass below the worktop. The worktop itself sits on top of the carcass, so its thickness is separate. For this example, assume a 40 mm worktop and a fixed 900 mm floor-to-worktop-surface target, leaving 860 mm for carcass plus plinth combined.
+For this hypothetical example, assume a finished floor-to-worktop-surface height of 900 mm and a 40 mm worktop. That leaves 860 mm for the cabinet body and support zone combined. In this simplified example the stated plinth height is the floor-to-cabinet-underside support-zone height; an actual visible plinth board may overlap that zone or have a different measured height. With the finished worktop height and thickness held constant, changing the plinth height changes the remaining external cabinet height by the same amount. Actual designs may include other layers or supports that must be accounted for separately.
 
 ## The Numbers: 150 mm Plinth vs 30 mm Plinth
 
-With a 150 mm plinth, the external carcass height is 860 mm minus 150 mm, giving 710 mm. Round to a practical 730 mm once tolerances are absorbed. With a 30 mm plinth, the lower end of what is structurally feasible in a bespoke run, the external carcass height becomes 860 mm minus 30 mm, or approximately 850 mm. The difference in external carcass height is roughly 120 mm. That is the headline figure this article is built around, and it is worth being precise: this is a gain in *external* cabinet height, not a guaranteed gain in internal storage volume.
+With a 150 mm plinth, the external cabinet height is 860 mm minus 150 mm, or 710 mm. With a 30 mm plinth, it is 860 mm minus 30 mm, or 830 mm. The difference is 120 mm in external cabinet height, not a guaranteed gain in usable internal storage. These figures are a hypothetical comparison, not an installation specification; check the support arrangement, floor levels and exact appliance requirements for the actual project.
 
 
-![Shallow drawer open beneath kitchen base cabinets](../images/article-031-b-1a5aba31ca.webp)
+![Cabinet and worktop above support legs with a plinth board pulled forward](../images/nura-plinth-storage-support.webp)
 
-*Image: Blum. [Image source](https://www.blum.com/pl/pl/products/cabinet-applications/space-step/programme/). Editorial reference, not a Nura project claim. Publication rights: needs-review.*
+*Cabinet supports and a removable plinth board, shown conceptually and not to scale. Nura Interiors.*
 
 ## What the 120 mm Actually Represents
 
@@ -45,19 +48,19 @@ Internal storage depends on carcass construction thickness, shelf positions, and
 
 ## Toe Comfort and Floor-Level Ergonomics
 
-A plinth exists partly to protect the cabinet base from cleaning water and foot traffic, and partly to allow a person to stand close to the worktop without their toes pressing against the carcass. The height and setback of the plinth together determine the available toe recess; comfort should be reviewed with the actual users. At 30 mm, that recess is minimal. For most adults, a very low plinth means standing slightly further from the worktop or accepting that the toe of a shoe will contact the cabinet face. This is not a dealbreaker, but it is a genuine ergonomic trade-off that should be tested with the actual users of the kitchen before committing to the specification.
+A plinth exists partly to protect the cabinet base from cleaning water and foot traffic, and partly to allow a person to stand close to the worktop without their toes pressing against the carcass. The height and setback of the plinth together determine the available toe recess; comfort should be reviewed with the actual users. At 30 mm, the available toe space also depends on the horizontal setback. A user may need to stand further from the worktop or find that a shoe contacts the cabinet face. This is not a dealbreaker, but it is a genuine ergonomic trade-off that should be tested with the actual users of the kitchen before committing to the specification.
 
 ## Inaccessible Voids and Appliance Considerations
 
-One reason designers retain a generous plinth is that the void beneath the cabinet can house services, pipework, cables, levelling feet, without those elements intruding into the cabinet interior. A 30 mm plinth leaves very little room for levelling feet, which means the cabinet base itself must be precisely level, or an alternative levelling strategy must be built into the carcass design. Under-counter appliances with their own plinths or ventilation requirements may also conflict with a very low external plinth. These are solvable problems in a bespoke context, but they require early coordination rather than a late specification change.
+One reason designers retain a generous plinth is that the void beneath the cabinet can house services, pipework, cables, levelling feet, without those elements intruding into the cabinet interior. A 30 mm plinth leaves very little room for levelling feet, which means the cabinet base itself must be precisely level, or an alternative levelling strategy must be built into the carcass design. Under-counter appliances with their own plinths or ventilation requirements may also conflict with a very low external plinth. The feasibility of the arrangement depends on resolving these details early with the supplier and installation team.
 
 ## When a Lower Plinth Makes Sense
 
-A reduced plinth tends to work best in kitchens where the floor is reliably flat and dry, where the design aesthetic calls for a furniture-like or floating appearance, and where the cabinet run does not include appliances with conflicting ventilation needs. In the worked example, the finished worktop level stays the same: changing the cabinet envelope does not raise the working surface. If a different working height is needed, assess that as a separate design decision. In a bespoke project, the plinth height can be treated as a genuine design variable rather than a default, which is precisely where early conversation with your designer pays off. At Nura Interiors, optional 30 mm plinths are considered where the floor conditions and cabinet configuration make them feasible, and the decision is worked through at the design stage rather than applied as a blanket rule.
+A reduced plinth tends to work best in kitchens where the floor is reliably flat and dry, where the design aesthetic calls for a furniture-like or floating appearance, and where the cabinet run does not include appliances with conflicting ventilation needs. In the worked example, the finished worktop level stays the same: changing the cabinet envelope does not raise the working surface. If a different working height is needed, assess that as a separate design decision. In a bespoke project, the plinth height can be treated as a genuine design variable rather than a default, which is precisely where early conversation with your designer pays off. Ask the studio whether a low plinth is available for the proposed cabinet and appliance arrangement, and which conditions would need to be met.
 
 ## Comparing the Same Hardware Across Both Heights
 
-If the same drawer runners, hinges, and internal fittings are specified in both the 730 mm and 850 mm carcass, the taller cabinet will typically accommodate a deeper drawer stack or an additional internal shelf. However, the bottom drawer or shelf in the taller cabinet sits closer to floor level, which can make it harder to access, particularly for items stored at the very base. A 30 mm plinth means the lowest drawer front begins very close to the floor, and bending or crouching to reach it may offset some of the ergonomic benefit gained elsewhere. This is worth modelling with your designer using actual drawer box heights before finalising the specification.
+If the same drawer runners, hinges, and internal fittings are specified in both the 710 mm and 830 mm carcass, the taller cabinet may accommodate a deeper drawer stack or an additional internal shelf, depending on the actual construction and fittings. However, the bottom drawer or shelf in the taller cabinet may sit closer to floor level, which can make it harder to access, particularly for items stored at the very base. A low plinth can place the lowest drawer front closer to the floor; bending or crouching to reach it may offset some of the storage benefit. This is worth modelling with your designer using actual drawer box heights before finalising the specification.
 
 ## Making the Decision in Your Own Project
 
