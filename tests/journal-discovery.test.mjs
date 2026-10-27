@@ -13,6 +13,7 @@ function compile(file,imports={}){
 }
 const discovery=compile('lib/article-discovery.ts');
 const {renderJournalRss}=compile('lib/journal-rss.ts',{'./article-discovery':discovery});
+const {newestJournalFirst}=compile('lib/journal-order.ts');
 const site='https://www.nura-interiors.com';
 const resolve=filename=>filename?new URL(filename,site).href:undefined;
 const now=new Date('2026-10-24T12:00:00Z');
@@ -37,6 +38,22 @@ test('RSS filters drafts, future/invalid dates, non-articles and noncanonical pa
  assert.equal($('atom\\:link').attr('href'),site+'/rss.xml');
  assert.equal($('guid').first().attr('isPermaLink'),'true');
  assert.equal(JSON.stringify(entries),before);
+});
+test('only the authorised pending article is in RSS without an invented date',()=>{
+ const pending={path:'/post/single-or-double-kitchen-oven',content:{component:'article',title:'Oven',publication_event_pending:true}};
+ const invalid={...pending,content:{...pending.content,published_date:'2026-10-24T10:49:41.833Z'}};
+ const other={...pending,path:'/post/other'};
+ assert.equal(load(feed([invalid]),{xmlMode:true})('item').length,0);
+ assert.equal(load(feed([other]),{xmlMode:true})('item').length,0);
+ const $=load(feed([pending,invalid,other,entry('dated')]),{xmlMode:true});
+ assert.deepEqual($('item > link').map((_,el)=>$(el).text()).get(),[site+pending.path,site+'/post/dated']);
+ assert.equal($('item').first().find('pubDate').length,0);
+ assert.ok($('item').last().find('pubDate').text());
+});
+test('the authorised pending article is ordered first without changing dated order',()=>{
+ const pending={path:'/post/single-or-double-kitchen-oven',content:{component:'article',title:'Oven',publication_event_pending:true}};
+ const sorted=newestJournalFirst([entry('old','2025-01-01'),pending,entry('new','2026-01-01')]);
+ assert.deepEqual(sorted.map(x=>x.path),[pending.path,'/post/new','/post/old']);
 });
 test('RSS escapes hostile text/attributes, removes invalid XML characters and preserves emoji',()=>{
  const title='A & B <item> "quoted" \'words\' ]]> 🏡\u0001\ud800';

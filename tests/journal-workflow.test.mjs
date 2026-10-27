@@ -58,6 +58,7 @@ test('route checks catch wrong canonical, restrictive headers, metadata drift an
  assert.equal(inspectHtml(html,entry,{'x-robots-tag':'noindex'}).pass,false);
  assert.equal(inspectHtml(html.replace('content="Useful test"','content="Wrong"'),entry).pass,false);
  assert.equal(inspectHtml(html.replace('"name":"Joanne H"','"name":"Invented"'),entry).pass,false);
+ assert.equal(inspectHtml(html,{...entry,content:{...entry.content,publication_event_pending:true}}).pass,false);
 });
 test('browser helper never captures unsettled viewport or unloaded visible assets, never grants visual pass',async()=>{
  let captured=0;const state={width:390,height:844,scrollWidth:390,visibleImages:[{complete:false,naturalWidth:0}]},args={width:390,height:844,viewport:{set:async()=>{}},tab:{getAXState:async()=>{},playwright:{evaluate:async()=>state},getScreenshot:async()=>{captured++;return Buffer.from('pixels');}},saveScreenshot:async()=>{}};

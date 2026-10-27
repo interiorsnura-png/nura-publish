@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {load} from 'cheerio';
 import sharp from 'sharp';
+import fs from 'node:fs/promises';
 
 const base=process.env.SEO_BASE_URL||'http://127.0.0.1:3011';
 const origin='https://www.nura-interiors.com';
@@ -20,7 +21,8 @@ if(!production){
  const publicPaths=sitemap('loc').map((_,e)=>sitemap(e).text()).get().filter(url=>url.startsWith(origin+'/post/'));
  assert.deepEqual([...links].sort(),[...publicPaths].sort(),'Feed and public article sitemap agree');
  let previous=Infinity;
- for(const item of items){const date=Date.parse(rss(item).find('pubDate').text());assert.ok(Number.isFinite(date)&&date<=Date.now());assert.ok(date<=previous);previous=date;}
+ const pendingEntry=JSON.parse(await fs.readFile(new URL('../lib/published-editorial.json',import.meta.url))).find(e=>e.path==='/post/single-or-double-kitchen-oven');const pending=pendingEntry?.content?.publication_event_pending===true&&!pendingEntry.content.published_date&&!pendingEntry.content.modified_date;
+ for(const item of items){const link=rss(item).find('link').text(),raw=rss(item).find('pubDate').text();if(link===origin+'/post/single-or-double-kitchen-oven'&&pending){assert.equal(rss(item).find('pubDate').length,0);continue;}const date=Date.parse(raw);assert.ok(Number.isFinite(date)&&date<=Date.now());assert.ok(date<=previous);previous=date;}
  for(const path of ['/','/journal','/post/the-power-of-porcelain','/post/kitchen-larder-cupboard']){
   const r=await fetch(base+path);assert.equal(r.status,200);const $=load(await r.text());
   assert.equal($('link[rel=alternate][type="application/rss+xml"]').attr('href'),origin+'/rss.xml',path+' RSS discovery');

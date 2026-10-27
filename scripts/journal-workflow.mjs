@@ -56,6 +56,7 @@ export async function fingerprint(root,entry){
 export function inspectHtml(html,entry,headers={}){
  const $=load(html),c=entry.content,canonical=POLICY.origin+entry.path,failures=[];
  const check=(ok,label)=>{if(!ok)failures.push(label);};
+ check(c.publication_event_pending!==true||(entry.path==='/post/single-or-double-kitchen-oven'&&!c.published_date&&!c.modified_date),'Pending marker is scoped and undated');
  check($('h1').length===1,'Exactly one H1');check($('h1').text().replace(/\s+/g,' ').trim()===c.title,'H1 matches source');
  check($('title').text().startsWith(c.seo_title),'SEO title matches source');check($('meta[name=description]').attr('content')===c.seo_description,'Description matches source');
  check($('link[rel=canonical]').attr('href')===canonical,'Self canonical');
@@ -65,7 +66,7 @@ export function inspectHtml(html,entry,headers={}){
  for(const [key,value]of [['og:title',c.seo_title],['og:description',c.seo_description]])check($(`meta[property="${key}"]`).attr('content')===value,key+' matches');
  for(const [key,value]of [['twitter:title',c.seo_title],['twitter:description',c.seo_description]])check($(`meta[name="${key}"]`).attr('content')===value,key+' matches');
  let graph=[];try{graph=$('script[type="application/ld+json"]').toArray().flatMap(e=>{const v=JSON.parse($(e).text());return v['@graph']||[v];});}catch{failures.push('Invalid JSON-LD');}
- const a=graph.find(x=>x['@type']==='Article');check((typeof a?.image==='string'?a.image:a?.image?.url)===og,'Article image matches');check(a?.author?.name===POLICY.author&&a?.author?.url===POLICY.profile,'Article author');check(a?.datePublished===c.published_date,'Publication timestamp');check(graph.some(x=>x['@type']==='BreadcrumbList'),'Breadcrumb schema');
+ const a=graph.find(x=>x['@type']==='Article');check((typeof a?.image==='string'?a.image:a?.image?.url)===og,'Article image matches');check(a?.author?.name===POLICY.author&&a?.author?.url===POLICY.profile,'Article author');if(entry.path==='/post/single-or-double-kitchen-oven'&&c.publication_event_pending===true){check(!c.published_date&&!c.modified_date&&a?.datePublished===undefined&&a?.dateModified===undefined&&!$('time[datetime]').length,'Pending publication has no invented dates');}else check(Boolean(c.published_date)&&Number.isFinite(Date.parse(c.published_date))&&a?.datePublished===c.published_date,'Publication timestamp');check(graph.some(x=>x['@type']==='BreadcrumbList'),'Breadcrumb schema');
  check($('.article-byline a').toArray().some(x=>$(x).text()===POLICY.author&&$(x).attr('href')===POLICY.profile),'Visible byline');
  check(!/AI-generated|AI generation|\u2014/i.test($('.article-content').text()),'Public editorial wording');
  const nodes=[];const visit=n=>{if(n?.type==='image')nodes.push(n);n?.children?.forEach(visit);};c.body_nodes?.forEach(visit);

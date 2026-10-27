@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-27: New oven comparison candidate, actual cooking scenario and model-specific planning checks.
+
 - 2026-10-27: New changing-paper noticeboard tip, useful ordinary scenario, no installation or organisation guarantee.
 
 - 2026-10-26: New fridge-freezer split guide separates actual chilled/frozen compartment data, mixed household storage needs and integrated front compatibility. Documented Bosch example only, no appliance recommendation or performance promise. Existing source preserved.
