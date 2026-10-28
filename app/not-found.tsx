@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main id="main"><section className="hero inner-hero"><div className="inner-hero-solid"/><div className="hero-copy"><p className="eyebrow">404 / Nura Interiors</p><h1>A different<br/><em>direction.</em></h1><p>Explore our projects or contact the studio.</p><Link className="button button-light" href="/projects">The collection ↗</Link></div></section></main>;}

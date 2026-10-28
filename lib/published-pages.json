@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/privacy-policy",
+    "content": {
+      "component": "site_page",
+      "title": "Your privacy, considered.",
+      "summary": "How information from this website and project enquiries is used.",
+      "body": "This notice covers enquiries submitted through the Nura Interiors website. Updated 2 October 2026. Contact the studio at studio@nura-interiors.com or 367 Fulham Palace Road, London SW6 6TA with questions about your information.",
+      "seo_title": "Privacy Policy | Nura Interiors",
+      "seo_description": "How Nura Interiors handles website enquiries, personal information and service providers, and how to contact the studio about your privacy.",
+      "modified_date": "2026-10-02"
+    }
+  },
+  {
+    "path": "/sustainability",
+    "content": {
+      "component": "site_page",
+      "title": "Designed to be considered. Built to be used.",
+      "summary": "A practical approach to materials, durability and responsible design decisions.",
+      "body": "A kitchen is used every day. Its layout, construction and materials need to work together over time. At Nura, we consider these decisions as part of the individual brief rather than treating sustainability as a single finish or label.",
+      "seo_title": "Durable Kitchens & Considered Materials | Nura Interiors",
+      "seo_description": "Explore a practical approach to durable bespoke kitchens: material selection, repairability and questions to ask about manufacturing and sourcing.",
+      "modified_date": "2026-10-02"
+    }
+  }
+]

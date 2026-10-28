@@ -1,5 +1,106 @@
 # NURA Project State
 
+- 2026-10-27: New oven comparison candidate, actual cooking scenario and model-specific planning checks.
+
+- 2026-10-27: New changing-paper noticeboard tip, useful ordinary scenario, no installation or organisation guarantee.
+
+- 2026-10-26: New fridge-freezer split guide separates actual chilled/frozen compartment data, mixed household storage needs and integrated front compatibility. Documented Bosch example only, no appliance recommendation or performance promise. Existing source preserved.
+
+- 2026-10-26: New shelf-bracket appearance tip considers the support outline alongside retained furniture, with complete-proposal differences and supplier suitability kept explicit. Existing content preserved.
+
+- 2026-10-26: New UK dishwasher integration guide separates closed-front appearance, documented control information and exact furniture-front compatibility. Generic concepts and hypothetical brief, no appliance performance or supply promise. Existing source preserved.
+
+- 2026-10-26: New round-table cloth shape tip compares round hems and square corner positions beside retained chairs, with actual product dimensions and conditional kitchen discussion. Existing content preserved.
+
+- 2026-10-26: New Shaker versus slab guide distinguishes framed appearance from construction and opening, then compares actual shallow-drawer, cupboard and tall-front proposals. Product-specific PWS counterexamples only, no Nura range or visual-performance promise. Existing source preserved.
+
+- 2026-10-26: Newdiningmirror tip focussesdesiredreflection andordinarymeal use. No universalheight/light orNura mirrorserviceclaim. Existingcontentpreserved.
+
+- 2026-10-26: New quartz-joint article connects proposed location with visible pattern transition and a hypothetical consumerbrief. Scopedmanufacturerfacts, no universaljointdimension or invisiblepromise. Previouscontentpreserved.
+
+- 2026-10-26: B2B queue item13 refreshes the existing kitchen shop-drawing article after a full overlap audit. K07 now distinguishes issued information, substantive reviewer responses and an authorised action, including actual procurement/fabrication status and superseded issues. Existing title, canonical, first-publication date, Joanne H and approved image retained. Private evidence in work/changes-run; full QC/release/live/official checks required.
+
+- 2026-10-26: New curtain-heading decor tip compares narrow pencil gathers and double-pinch groups beside kitchen-dining cabinetry. Supplier-supported definitions, a hypothetical preference and exact-reference record, with one original generic paired concept. No Nura curtain supply or fitting claim. Previous content preserved.
+
+- 2026-10-26: New dining bench versus chairs guide compares two actual-furniture proposals for one household, including taking a place and one diner leaving while another stays. Named manufacturer matching-pair example only; generic simplified visual is not a fit, capacity or access test. Existing source preserved.
+
+- 2026-10-26: New bread-bin styling tip separates the body profile from the entire above-top composition, with model-specific canister provision and hypothetical clear-top preference. Original generic paired concept is not a product/fit/load test. Existing source preserved.
+
+- 2026-10-26: New manual wall-door guide compares the complete opening, retrieval, return and closing task for the actual user and fitting, distinct from powered storage or appliance operation. Product-specific movement and variable-stop limits, no universal clearance or hardware service promise. Existing articles preserved.
+
+- 2026-10-26: New decor tip distinguishes desired visible object detail from colour when choosing clear or particular reeded cabinet glass. Product-specific primary example and pane-purpose record, not a physical sample trial or universal concealment promise. Existing styling advice and other content preserved.
+
+- 2026-10-26: New fridge attachment guide separates fixed and sliding systems, changing an existing appliance mechanism and specifying a replacement. Model/front/housing record and original generic cabinet concept do not establish compatibility or an installation service. Existing content preserved.
+
+- 2026-10-26: New practical decor tip compares actual table top and visible base with cabinetry and retained chairs, preserving physical-fit questions for the supplier. Original furniture concept is not a measured product or Nura project. Existing content preserved.
+
+- 2026-10-26: New oven-height guide separates appliance size from mounting position, labels the height endpoint above finished floor and connects model, door, users and landing surface. No universal mounting height or installation promise. Existing content preserved.
+
+- 2026-10-26: New wallpaper tip separates motif scale from placement at window/cabinet boundaries, with a preferred crop record and manufacturer sample/match limits. Original pattern visual is not a measured product or hanging specification. Existing content preserved.
+
+- 2026-10-26: New sink-mounting comparison distinguishes the visible junction from exact sink/worktop approval, with product-qualified primary sources and a practical drawing record. Original paired visual is not a documented project or installation specification. Existing content preserved.
+
+- 2026-10-26: New glass-cabinet styling tip considers closed-door frame and shelf relationships with actual contents, then separately checks access. Original concept image is not a documented project or tested specification. Existing articles preserved.
+
+- 2026-10-26: Tap-reach article separates horizontal projection, outlet height and movement, using primary manufacturer evidence and a coordinated sink brief. Original concept figure is not to scale and does not claim water-flow or installation testing.
+
+- 2026-10-25: Wall-tile finish tip compares specific reflected light, surface relief and product-specific care. Original credited concept asset and private research evidence retained; no measured experiment or built project claimed.
+
+- 2026-10-25: Sink-drainer article prepared around occupied, cleared and stored arrangements, with one original comparison image and a three-option HTML table. Actual Google evidence, first-three media limitations and rejected delegated claims retained privately. Full QC/release and monitoring evidence remain separate.
+
+- 2026-10-25: Utensil-holder practical tip prepared around filled tool outline, removal space and nearby drawer choices. One original credited image and actual Google evidence retained privately; release and monitoring checks remain separate.
+
+- 2026-10-25: Filler-panel article prepared with location-purpose-access notes and one original credited image. First-three competitor media limitations and rejected delegated dimensions retained privately. Final release and monitoring evidence remain separate.
+
+- 2026-10-25: Plate-display practical tip prepared around daily access, a removal-view sketch and cabinet brief. One original credited asset, actual Google comparisons and rejected delegated claims retained privately; release and monitoring evidence remain separate.
+
+- 2026-10-25: Kitchen-plinth height guide prepared around finished-floor datum, separate supports/board and system-specific appliance requirements. Two original credited assets, primary evidence and rejected draft/PDCA retained privately; exact-source release and monitoring required.
+
+- 2026-10-25: Placemat-colour tip prepared with a controlled exposed-border comparison, one original credited asset and retained research/PDCA history. Preview, exact-source release and monitoring evidence recorded privately.
+
+- 2026-10-25: Prepared a focused splashback-height article comparing finish lines and measuring responsibility, with two original credited assets. Exact-source release and live evidence retained privately.
+
+- 2026-10-25: prepared a dining-chair colour tip using a two-view record, a hypothetical chair comparison and two original credited concept assets. Reused the existing inline article contact mode and whole-image rendering convention. Research, responsive preview, QC and exact-source publication evidence are retained in the workspace chair-run reports; preparation alone is not a verified release.
+
+- 2026-10-24: seven documented contact-panel PDCA cycles: single-line Fulham label, stronger telephone hierarchy, 48px targets, contrasting keyboard focus, dialog description/focus return, suppression during main-form focus, narrow/short and forced-colour rules. Browser checks confirmed320px fit, Escape focus return, form-focus suppression and preserved inline article placement. Forced-colour OS rendering remains unverified; task report separates source checks from browser evidence.
+
+- 2026-10-24: refined floating actions into one compact ivory panel with dark consultation button and secondary Fulham call row. Preserved telephone, dialog, consent/footer hiding and inline exceptions. Mobile/desktop and exact-source release evidence are in the task report; no conversion claim.
+
+- 2026-10-24 owner refinement: moved the Fulham call option beneath the floating consultation control. Restored paired controls on the three project stories; homepage retains its existing dedicated contact flow. Article-specific inline controls remain inline. Both actions hide beside visible footer/contact content and while consent is open. Full release and responsive checks apply.
+
+- Owner-requested wording refinement: shared call CTA now names the Fulham showroom explicitly; telephone number and destination preserved. Exact release evidence is in the task output.
+
+## 2026-10-24: showroom call CTA
+- Added a direct London showroom telephone option beneath the existing enquiry button in the shared end-of-page CTA. Verified the number against the live London page; retained the existing form route. Inspired by deVOL's direct showroom contact invitation, with original Nura copy.
+- Exact-source release and mobile/desktop evidence are recorded in the task report. A telephone link does not prove a completed call or analytics receipt.
+
+## 2026-10-24: initial London kitchen budget article
+- Added the first owner-queued article with seven cost groups, explicitly dated supplier-specific 2026 reference examples, no invented 2027 price forecast and a whole-project budgeting worksheet.
+- Three original credited illustrations and the Joanne H assigned byline accompany the scope-specific consultation brief. Private cost-run evidence retains the interrupted attempt and resumed source version; exact-SHA release, live checks and external validation determine publication status.
+
+## 2026-10-24: owner-confirmed project mapping
+- Owner confirmed Elm Park Road 78 and Westover Road 44. Added the documented Elm furniture-order requirement for flat-packed tall units due to site restrictions, without inventing the restriction or claiming an installation outcome. Preserved public materials, dates, imagery and all other records.
+- Tansley release c969776 passed exact-source verification; Vercel production READY and canonical alias confirmed. Westover joinery brief remains unverified separately from its kitchen. Historical worktop-order discrepancy is not a basis for changing the final public specification.
+
+## 2026-10-24: original Tansley brief evidence
+- Connected Dropbox research located the early design request and accompanying kitchen/food-store plan. Tansley now distinguishes initial functional requirements from its documented completed material palette. No private contacts, financial terms, original drawings or unconfirmed fitting outcomes are published.
+- Elm Park and Westover joinery need identity confirmation before importing additional technical constraints from similarly named archive folders. Their existing public stories are unchanged in this revision. Source references and pending identity questions stay in the private task evidence.
+
+## 2026-10-24: three project narratives
+- Elm Park Road, Tansley Farm and Westover Road joinery now have evidence-bounded introductions, material relationships and topic-specific consultation preparation, using their existing records. Original client briefs and site constraints are unavailable and are not invented.
+- Preserved project paths, names, sources, first-publication fields, specifications and all photography. Scoped hero summaries and a details anchor use the existing renderer; contextual enquiry links keep these three pages free of the floating overlay.
+- Exact-source full checks and live release evidence are required; the task's output report records actual publication status. Better lead quality and analytics receipt remain unverified.
+
+## 2026-10-24: pendant finish tip
+- Added a finish-selection brief distinguishing shade, small fittings and retained kitchen materials. Three owned original illustrations use descriptive captions and Nura credit; Joanne H is the owner-assigned byline.
+- Research and responsive preview evidence are in the private pendant-run workspace. Final exact-SHA release and live evidence are recorded there; GSC, field metrics and analytics receipt remain unverified.
+
+## 2026-10-24: homepage PDCA implementation
+- Prepared from production/main 0453bb0509d5b2a1d1531ce1eaba1e2fb2f75011 in an isolated checkout, preserving concurrent Journal changes elsewhere.
+- Services and real project cards precede the manifesto and portfolio promotion. Removed the duplicate project button and two repetitive presentation panels; assets and historical snapshot remain intact.
+- Documented project summaries, direct London/Dubai details links, homeowner-friendly FAQ and one in-page consultation destination. Mobile preview exposed floating CTA overlap, so homepage uses contextual links instead; other routes keep their existing enquiry dialog.
+- Focused preservation/order checks passed. Final full verification and exact-SHA/live deployment evidence are required before claiming publication; task report records their actual outcome. Real analytics receipt and conversion impact remain unverified.
+
 ## 2026-10-23: Journal navigation layout
 
 - Prepared a bounded hero-height correction so the feature CTA stays inside its section and does not overlap the three category links. No content, author, URL or filter destination changes.
@@ -343,3 +444,130 @@ Handleless article owner-requested repair: compared live tea-towel guide. Added 
 Windowsill decor tip: actual Google first organic/related/PAA and image reference inspected; compare silhouettes from sink/doorway, retain view/access and connect to kitchen palette. Assigned Joanne H; three original illustrations and exact-source/full release gates required.
 
 Larder planning article: actual Google purchase/configuration intent, restock inventory and whole-room trade-offs. Unsupported delegated draft rejected; original illustrations and full exact-source gates required.
+
+## Journal discovery improvements, 2026-10-24
+- Local implementation: all public Article metadata permits large previews in production; staging retains noindex. Direct social images and Article ImageObject share the same source and only declare known source dimensions. Article type, assigned author, first-publication dates and editorial text are preserved.
+- Dynamic `/rss.xml` uses the existing content loader, excludes drafts, invalid/future publication dates and non-article routes, escapes XML and includes direct media URLs. Preview environments and draft-mode requests cannot expose the feed. RSS discovery is present in the root layout, catch-all metadata and separately served homepage.
+- Focused coverage and the existing full `build:verified` gate include RSS, image dimensions, old/new article metadata, source timestamps and sitemap parity. The owner subsequently authorised production publication on 2026-10-24. Exact commit, Vercel identity and live results are recorded in the task release evidence.
+- Local result: 100 tests passed; production build and existing full verifier passed with zero SEO errors on 135 routes, 82 RSS articles and valid XML. Larder and Porcelain were inspected at 1440x900 and 390x844 with loaded visible images and the new metadata. Exact deployed behaviour remains unverified until an authorised release.
+- Porcelain's existing direct JPEG is 1800x1200, already above the large-image width recommendation; it was preserved. Fulham's existing share PNG was measured at 1200x630 and those actual dimensions were added to its asset metadata without changing dates or prose.
+
+
+Kitchen bar stool colour tip,2026-10-24: original seat/frame/island/dining-view comparison, Joanne H assigned byline,three original credited illustrations. Actual Google intent and first-result research retained. New article alone places the existing enquiry control in reading flow to prevent copy overlap. Full exact-source gates and live evidence are recorded in the task workspace.
+
+Dishwasher placement article,2026-10-24: household plate-route brief, open-door and storage trade-offs, Joanne H assigned byline, three original credited illustrations. Model-specific installer confirmation; no universal dimensions or invented test. Full exact-source gates and actual production verification required.
+
+Grout-colour decor tip prepared with three original illustrations, whole-wall comparison and topic-specific Nura journey. Local 100-test build and 138-route checks pass; exact-SHA production release remains pending.
+
+2026-10-24 island seating: original planning article compares a row, adjacent seats and a separate table using daily/occasional users, occupied routes and material-specific overhang scope. Three owned illustrations and Joanne H assigned byline; final production evidence lives in workspace nura-island-publication-verification.json after release.
+
+Journal candidate /post/kitchen-fridge-placement adds a three-scenario fridge layout guide, exact-model installation questions and three original NURA-marked illustrations. Automated QC and production verification remain pending until recorded outside Git.
+
+Journal candidate /post/kitchen-rug-colours adds a ground/border/pattern colour decision, three original illustrations and exact product/floor questions. Full QC/production evidence recorded privately; actual monitoring remains pending.
+
+
+Fruit bowl decor tip,2026-10-24: original empty/usual-serving/near-empty palette record,3original illustrations and Joanne H assigned byline. Actual Google first-result/images and five-source overlap research retained privately. Exact-source QC, full release and live mobile/desktop/official Google validation required; GSC, field CWV and analytics receipt remain pending.
+
+
+2026-10-24: Small kitchen ideas owner queue item2 prepared as9bounded choice/consequence ideas and2priority shortlist, distinct from existing full bespoke brief. Original illustrations with corrected NURA watermark, assigned Joanne H and exact owner metadata. Full source/release/live/official validation required; GSC, Discover, field CWV and analytics receipt remain pending.
+
+
+Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and own-lid landing rehearsal,3original credited illustrations, Joanne H assigned byline. Actual Google first-result/images,6relevant sources and all-source overlap retained privately. Unsupported delegated care/cost/service/lid-swapping claims rejected. Full source/release/live/official checks required; GSC,Discover,fieldCWV and analytics receipt remain pending.
+
+
+2026-10-24 fitting-costs owner queue3: seven onsite scope packages, named responsibility/readiness sheet and cabinet-complete versus usable-kitchen distinction. Five actual competitor pages, original finish/handover illustrations and Joanne H assigned byline. Dated UK2026benchmark explicitly notLondon/Nura/2027forecast. Rejected delegated standard-inclusion, curing, timing andservice claims. Fresh3fe0855 direct showroom CTA preserved. Full source/release/live/official gates required; GSC/Discover,fieldCWV andanalyticsreceipt pending.
+
+
+2026-10-24 kitchen-table centrepiece tip: place settings, seated view and a planned stay-or-move decision, connected to retained dining furniture and cabinetry. Five actual source pages, visible Google first retail result and first Images reference reviewed, three original inspected illustrations, assigned Joanne H byline. Existing fruit-bowl and worktop-tray coverage kept distinct. Full build, responsive preview, source-bound QC and exact-SHA release remain required. GSC/Discover, field CWV and analytics receipt remain pending.
+
+
+2026-10-24 owner queue4: update existing worktop selection article, preserving URL and 2023 first-publication date. Five-material care/appearance comparison and same-plan fitted quote scope, no2027forecast or universal best ranking. Three original inspected illustrations. Existing porcelain/edge/project pages remain distinct. Full checks and exact-SHA release required; GSC/Discover,fieldCWV and analytics receipt pending.
+
+
+2026-10-24 owner queue5: new kitchen island dimensions guide, five distinct finished-footprint and occupied-use measurements. Original three inspected terracotta/oak illustrations; existing seating/appliance routes remain separate. Byline Joanne H. No universal clearance approval or invented project. Full preview/build/exact-SHA gates required, followed by actual READY date correction, official Rich Results and lab/field distinction. GSC, Discover and confirmed analytics receipt remain pending.
+
+
+2026-10-24 kitchen clock tip: actual seated/preparation views and face/frame choice connected to retained dining furniture and cabinetry. Paperproportion is not actualproductlegibility or mountingapproval. Fiveactualrelevantproviderguides, GooglefirstNewgate/ImagesSchoolhouse and current12titles inspected. Three originalinspectedillustrations, JoanneHbyline, no inventedstock/video/service. Full build/responsive/exactSHAreleaseandactualREADYdatecorrectionrequired; GSC/Discover,fieldCWV/INP and analyticsreceiptpending.
+
+
+2026-10-24 ownerqueue6: new general seven-stage kitchenrenovationtimeline with three household periods and evidence/responsibility record;2027planningyear not futureleadtimeforecast. Narrow supply-programme/firstfix pages retained and linked. Threeoriginalnavy/walnut illustrations,JoanneHbyline. Fullbuild/preview/exactSHA/READYdatecorrection required;GSC/Discover,fieldCWV/analyticsreceiptpending.
+
+
+2026-10-25 kitchenblindcolourtip: loweredpanelversusraisedvisiblearea,actualsamplelimits andcabinet/retainedfurniturepalette.3originalterracotta/walnutillustrations,JoanneHbyline;nosupplierperformanceorNURAblindserviceclaims. Fullbuild/preview/exactSHA/actualREADYdatesrequired;GSC/Discover,fieldCWVandanalyticsreceiptpending.
+
+
+2026-10-25 drawers versus cupboards: new object-based cabinet allocation comparison, distinct from drawer inserts and corner mechanisms. Three original burgundy/ash illustrations; Joanne H byline. No universal ratio, dimensions, cost or accessibility promise. Full build, preview, exact-SHA and first READY date correction required; GSC/Discover, field CWV and analytics receipt remain pending.
+
+
+2026-10-25 tablecloth colour decor tip: choose with retained chairs, cabinetry and plates when a full cloth hides the tabletop; compare runner exposure. Three original illustrations, Joanne H byline, no Nura linen service promise. Full preview/build/exact-SHA/first READY correction required; actual GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 appliance garage: model-specific storage/operating permissions, handling movements, door positions and separately allocated worktop. Dualit toaster storage limitation and Blum pocket construction attributed; no universal clearance, electrical specification or Nura mechanism stock claim. Three original illustrations, Joanne H. Full build/preview/exact-SHA/actual first READY correction required; GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 cookbook display decor tip: separate closed collection from current open-book reading position, covers versus spines and actual remaining counter. Icon book-care guidance attributed, no measured stand/installation or Nura bookstand stock claims. Three original plum/oak illustrations; Joanne H. Full build/preview/exact-SHA/first READY correction required; GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 Peninsula versus island short article: attached-end route versus connected worktop, cabinet junction and dining-facing finish. Hypothetical household trip and3rowcomparison, no universal clearances, structural or trend claims. Three original terracotta/chestnut illustrations; Joanne H. Full build/preview/exact-SHA/first READY correction required; GSC/Discover, field CWV and analytics receipt pending.
+
+
+2026-10-25 splashback tile direction decor tip: separate orientation from bond, compare the whole wall boundaries with colour held steady. Three original blue/walnut illustrations and Joanne H byline. No universal proportion, installation cost, cleaning or tile stock claims. Full preview/build and exact-SHA release gates required, with first READY date correction. Production evidence and actual completion are tracked in the workspace register; GSC/Discover, field CWV and analytics receipt remain pending.
+
+
+## Homepage contextual links, 2026-10-25
+- Owner authorised the proposed homepage linking implementation and publication. Add three curated kitchen-planning, quotation and worktop guides before the FAQ, link fitted wardrobes in the existing joinery copy and clarify the existing Fulham showroom anchor. The original migration snapshot, hero, project evidence, contact form, footer, article text and dates remain intact.
+- Reuse the existing homepage transform pipeline with scoped CSS and crawlable HTML anchors. Focused preservation checks and the full build verifier include the new section and real destination canonicals. Exact-SHA release and local/live responsive evidence are recorded in the task workspace. Ranking or conversion improvement is not established by implementation checks.
+
+2026-10-25: Owner-authorised kitchen designer article rewrite preserves the original route and2023publication timestamp. Three practical decision areas,4original NURA images and aligned metadata. Updated the image-count check to source/render agreement under the owner variable-image policy; full release and live evidence remain required.
+
+2026-10-25: Authorised sustainability article rewrite preserves its existing route and2024first-publication timestamp. Five practical keep/repair/replace decisions, CMA/FSC/BIID primary references,3purposeful original NURA images and aligned metadata. Preview, full build and exact-SHA live verification remain required; evidence is retained in the workspace sustainability report.
+
+2026-10-25: Authorised /inspiration/lighting optimisation fixes truncated metadata, adds a room-led planning brief and groups the56existing gallery assets by setting/form. All original asset URLs and source publication fields preserved. Descriptive alt/captions follow visual inspection; unsupported REGOLO caption removed from mismatched image. No product stock,photometry or Nura project attribution invented. ExactSHA full build and live evidence retained outside Git.
+
+
+2026-10-25 cabinets-to-ceiling article: distinguish usable upper storage, closed finishing band and deliberate gap; specific inventory/retrieval and drawing/specification record. Two original ochre/ash concept images selected from explanatory needs after first-three actual Google research, no fixed image quota. Joanne H byline; no universal dimensions, installation guarantees or invented projects. Full QC/build/exact-SHA and actual first READY correction required. GSC/Discover, field metrics and analytics receipt remain pending.
+
+
+2026-10-25 B2B joinery quote comparison: owner-authorised new article uses an unpriced hypothetical library/wardrobe scope table, four distinct status labels and written clarification steps. Two original NURA-watermarked images, Joanne H byline, project-specific responsibilities. Scoped complete hero/mobile comparison cards and existing inline CTA preserve readability. Existing articles and dates retained; full exact-SHA release/live checks and actual first READY date correction required. Private research, PDCA and monitoring evidence: workspace work/joinery-quotes-run and canonical article register.
+
+
+2026-10-25 B2B tender package: stable item references, separate document issue register and furniture schedule, worked J03 window-seat finish addendum, and project-specific approval responsibilities. One original NURA-watermarked hero supported by Google Images/top-three content research; accessible HTML cross-check table. Joanne H byline. Exact-source QC, full build, responsive preview, exact-SHA release/live checks and actual first READY timestamp correction required. Private evidence: workspace work/tender-run. GSC/Discover, field performance and analytics remain monitored unknowns.
+
+
+2026-10-25 B2B value engineering candidate: unpriced hypothetical dining cabinet, retained requirements, alternatives and actual net-price/approval record. Original NURA-watermarked framed/slab comparison hero and accessible HTML table. No blanket material savings, dimensions, invented project or human signoff. Exact-source QC, full build, responsive preview, exact-SHA release/live checks and genuine first READY date correction required. Private workspace evidence: work/value-engineering-run. GSC/Discover, field metrics and analytics receipt remain monitoring follow-ups.
+
+
+2026-10-25 B2B kitchen drawing review refresh: existing URL and first publication2025-08-13 retained. K07 hypothetical appliance-change example separates appearance, technical review and instruction. Removed unsupported tolerance/signoff/service claims; replaced target images with one original NURA-watermarked drawing/material concept. Shared CLI now reads actual batch parser and fingerprints MD/manifest/loader; optional measured hero metadata added for this Markdown article, older source fields unchanged. Full source-bound QC/build/exact-SHA and live/Rich Results checks required; historical time of day unknown, field/index/Discover/analytics pending. Private evidence work/shop-drawings-run.
+
+
+2026-10-25 B2B joinery schedule candidate: creates item-led residential scope, differentiates type/instance/count and shared finishes from item-specific internals. Hypothetical J01/J02, no dimensions or universal standards. One original hero and accessible three-column field record, Joanne H. Full QC/PDCA/build/exact-SHA/live/Rich Results required; source-bound private evidence work/schedule-run. Genuine first READY date correction and unknown GSC/field/analytics tracking retained.
+
+
+2026-10-25 B2B coordination refresh: existing kitchen-trades URL and2026-09-15 first date retained. Project-specific decision/input/record table and hypothetical dishwasher change separate coordination, technical review and instruction. One original credited concept image, no default legal role or savings claims. Full QC/build/responsive/exact-SHA/live and official Rich Results checks required; actual index/Discover/field/analytics evidence remains pending. Private evidence work/coordination-run.
+
+
+2026-10-25 B2B joinery samples and mock-ups: purpose-specific reference comparison, hypothetical J04/S12 acceptance boundary and explicit remaining decisions. Two original credited concept assets, actual Google research and independent review retained privately in work/samples-run. No physical test, default technical approval, free prototype or documented project claim. Full QC/PDCA/build/exact-SHA/live/Rich Results and genuine first READY timestamp correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B whole-home joinery supplier guide: compares the same hypothetical kitchen, hall and dressing-room scope under one defined proposal or named separate packages. K-F1/H-F2 example records related timber character without a matching guarantee or technical signoff. One original credited hero, actual Google research and independent reviews kept privately in work/supplier-run. No supplier-count savings, faster completion, contract, all-trade or real-project claims. Full fixed QC/PDCA/build/exact-SHA/live/Rich Results and real first READY date correction required. Field/index/Discover/analytics monitoring remains pending.
+
+
+2026-10-26 B2B joinery snagging and handover guide: hypothetical J08 hall cabinet separates an unresolved interior finish selection, missing care record and reviewed close-out. One original credited context/detail asset, actual Google evidence and independent reviews retained in workspace work/snag-run. No inspection-service, universal tolerance, legal completion or real-project claim. Full fixed QC, PDCA, build, responsive preview, exact-SHA release/live/Rich Results and genuine first READY date correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B developer joinery refresh: existing URL and2026-09-30 first date retained. Hypothetical apartment01/02/03 map separates repeated types, mirrored variants and changed room configurations, with sample applicability and specific proposed production scope. Unsupported programme/legal/default responsibility claims removed. One original credited opposite-handing concept replaces two third-party workshop images; private research and independent evidence in work/developer-run. Full fixed QC/PDCA/build/responsive/exact-SHA/live/official validation required; historical time of day unknown, index/field/Discover/analytics pending.
+
+
+2026-10-26 B2B joinery site-survey guide: hypothetical A06 alcove separates observed conditions, proposed finish references and inaccessible areas, with a three-row status record. One original credited alcove/junction concept, actual Google research and independent evidence retained privately in work/survey-run. No survey-service, tolerance, qualification, actual project or approval guarantee. Full QC/build/responsive/exact-SHA/live/official checks and genuine first READY correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B joinery delivery-access guide: original hypothetical W04 decision separates installed size, packaged arrival form and unresolved landing turn, with component-to-route table and explicit handover. One original credited room concept, actual Google research and independent evidence retained privately in work/delivery-run. No measured fit, lifting method, delivery-service or approval guarantee. Full QC/build/responsive/exact-SHA/live/official checks and first READY timestamp correction required; field/index/Discover/analytics remain pending.
+
+
+2026-10-26 B2B service-access guide: hypothetical J12 distinguishes furniture movement, task-specific service access and eventual equipment withdrawal/reinstatement. One original credited room concept with distinct backing opening, accessible three-row decision table, actual Google/Selo research and independent review. No measured technical adequacy, universal size, safety certification or real-project claim. Private evidence service-access-run. Full QC, responsive build/exact-SHA/live/official gates and actual READY timestamp correction required; indexing, field CWV and analytics monitoring remain open.
+
+
+2026-10-27 B2B stone/joinery junction guide: hypothetical J18 end-panel change distinguishes carcass, front and finished-panel references, stone edge/return intent and separate support/templating responses. One original credited room concept, actual Google ambiguity/expansion and independent evidence in workspace work/stone-interface-run. No dimensions, structural prescription, measured fit or real-project claim. Full QC/responsive/build/exact-SHA/live/official gates and actual first READY correction required. Root Vercel remains npm run build, local build:verified unchanged. Owner routine editorial skip-ci policy added to canonical AGENTS; this required immediate publication uses a real cloud build. Field/index/Discover/analytics monitoring remains pending.
+
+
+2026-10-27 B2B wall-mounted joinery guide: hypothetical W21 relocation ties actual wall records and concealed-provision coverage to revised cabinet position. One original credited room concept, actual Google leading content/media research and independent source reviews in workspace wall-mounted-run. Rejected draft dimensions, role defaults and unsupported service promises. No universal fixing selection, sizes, loads, measured installation or structural design service claim. Preserve full QC/PDCA/responsive/build/exact-SHA/live/official gates and actual first READY timestamp correction. Index/Discover/field CWV/analytics monitoring remain open.
