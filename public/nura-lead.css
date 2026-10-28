@@ -15,10 +15,12 @@ body:has(main input:focus,main textarea:focus,main select:focus) .nura-lead:not(
 
 @media(max-width:360px){.nura-lead-actions{right:12px;max-width:calc(100vw - 24px);width:280px}.nura-lead-call{font-size:12px}.nura-call-number{font-size:12px}}@media(max-height:480px) and (min-width:601px){.nura-lead-actions{right:12px;bottom:12px}}@media(forced-colors:active){.nura-lead-actions{border:1px solid CanvasText}.nura-lead-actions .nura-lead-trigger,.nura-lead-call{border:1px solid ButtonText}}
 
-/* Journal contact options stay compact until deliberately expanded. */
+/* Shared contact options stay compact until deliberately expanded. */
 .nura-lead-collapsible .nura-lead-toggle{position:fixed;right:24px;bottom:24px;z-index:90;min-height:44px;padding:11px 18px;border:1px solid #cfc7b8;border-radius:24px;background:#263b32;color:#fff;font:500 14px 'DM Sans',Arial,sans-serif;cursor:pointer;box-shadow:0 3px 12px #16201820}
 .nura-lead-collapsible .nura-lead-actions{bottom:80px}
 .nura-lead-collapsible:not(.is-expanded) .nura-lead-actions,.nura-lead-toggle[hidden]{display:none}
 .nura-consent-open .nura-lead-toggle,body:has(main input:focus,main textarea:focus,main select:focus) .nura-lead-toggle{visibility:hidden}
 @media(max-width:600px){.nura-lead-collapsible .nura-lead-toggle{right:16px;bottom:calc(64px + env(safe-area-inset-bottom))}.nura-lead-collapsible .nura-lead-actions{bottom:calc(120px + env(safe-area-inset-bottom))}}
 @media print{.nura-lead-toggle{display:none}}
+.nura-lead-collapsible.nura-lead-on-dark .nura-lead-toggle{background:#d9bb75;color:#222b24;border-color:#e4cd96;box-shadow:0 3px 14px #0003}
+.nura-lead-collapsible.nura-lead-on-dark .nura-lead-toggle:hover{background:#e7cf96}
