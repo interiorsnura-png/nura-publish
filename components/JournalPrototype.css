@@ -239,8 +239,6 @@
     }
   
 /* Keep the real site shell and its typography. */
-body:has(.nura-journal) .site-header{position:sticky;top:0;z-index:50;background:#f4f1ea;color:#292e27;border-bottom:1px solid #d9d4cb}
-body:has(.nura-journal) #main>.breadcrumbs{position:static;max-width:1320px;margin:0 auto;padding:18px 40px 0;background:#f4f1ea;color:#66635d}
 body:has(.nura-journal) #main{background:#f4f1ea}
 @media(max-width:767px){body:has(.nura-journal) #main>.breadcrumbs{padding-inline:20px}}
 .nura-journal{--header-height:0px;--sans:"DM Sans",Arial,sans-serif;--serif:"Playfair Display",Georgia,serif;background:var(--page);font:400 14px/1.55 var(--sans);color:var(--ink)}
@@ -259,3 +257,15 @@ body:has(.nura-journal) .site-header a[aria-current=page]{text-decoration:underl
 .nura-journal .journal-directory{border-top:1px solid var(--line);padding-block:26px;margin:0 auto;max-width:1320px}
 @media(min-width:768px){.nura-journal .search-row{width:310px;flex-basis:310px}}
 @media(max-width:767px){.nura-journal .topic-hint{display:block}.nura-journal .card-title,.nura-journal .card-excerpt{display:block;overflow:visible;-webkit-line-clamp:unset}.nura-journal .card-title{font-size:26px;line-height:1.2}.nura-journal .card-body{padding:20px}.nura-journal .card-meta{font-size:13px}.nura-journal .card-excerpt{font-size:14px}.nura-journal .category-list{padding-bottom:8px}.nura-journal .journal-directory{padding-inline:20px}}
+
+/* Original Journal concept hero, full image retained at each breakpoint. */
+body:has(.nura-journal) #main>.breadcrumbs{position:absolute;top:118px;left:max(40px,calc((100vw - 1240px)/2));padding:0;margin:0;max-width:80%;background:none;color:#fff;z-index:3}
+.nura-journal .journal-hero{position:relative;isolation:isolate;background:#252b25;color:white;overflow:hidden}
+.nura-journal .journal-hero>.inner-photo{width:100%;height:auto;aspect-ratio:1672/941}
+.nura-journal .journal-hero .inner-photo img{object-fit:contain}
+.nura-journal .journal-hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,15,10,.45),transparent 72%);pointer-events:none}
+.nura-journal .journal-hero .intro{position:absolute;left:0;right:0;bottom:12%;z-index:2;padding-block:0;background:none}
+.nura-journal .journal-hero .intro-copy{display:block;max-width:520px}
+.nura-journal .journal-hero h1{font-size:clamp(64px,8vw,112px);font-weight:400;line-height:1.06;color:#fff;margin-bottom:22px}
+.nura-journal .journal-hero p{color:#fff;font-size:17px;line-height:1.6;max-width:390px}
+@media(max-width:767px){body:has(.nura-journal) #main>.breadcrumbs{top:94px;left:20px;padding:0;max-width:85%}.nura-journal .journal-hero>.inner-photo{margin-top:0}.nura-journal .journal-hero .intro{position:relative;padding:30px 20px 36px}.nura-journal .journal-hero h1{font-size:58px;margin-bottom:14px}.nura-journal .journal-hero p{font-size:15px;max-width:340px}.nura-journal .journal-hero-shade{background:linear-gradient(180deg,rgba(8,15,10,.25),transparent 65%)} }

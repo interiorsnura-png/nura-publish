@@ -22,6 +22,8 @@ export function GET(){
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-lead.css"/></head>').replace('</body>','<script src="/nura-lead.js" defer></script></body>');
  if(process.env.SITE_ENV!=='production')html=html.replace('index, follow, max-image-preview:large','noindex, nofollow');
  if(process.env.SITE_ENV==='production')html=html.replace('</head>','<link rel="alternate" type="application/rss+xml" title="Nura Interiors Journal" href="https://www.nura-interiors.com/rss.xml"/></head>');
+ html=html.replace('</head>','<link rel="stylesheet" href="/nura-header.css"/></head>');
+ html=html.replace('</body>','<script src="/nura-header.js" defer></script></body>');
  html=enhanceHome(improveHomePerformance(html));
  return new Response(html,{headers:{'Content-Type':'text/html; charset=utf-8'}});
 }

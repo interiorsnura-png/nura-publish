@@ -1,0 +1,12 @@
+/* Preserve original transparent header colours on every page. */
+html{scroll-padding-top:112px}
+.skip-link:focus{position:fixed;top:10px;left:20px;z-index:101}
+body>.site-header{position:fixed;inset:0 0 auto;z-index:100;width:100%;mix-blend-mode:normal}
+body>.site-header.is-past-hero{background:rgba(192,185,171,.48);color:#292e27;border-bottom:1px solid rgba(80,72,56,.14);backdrop-filter:blur(18px) saturate(110%);-webkit-backdrop-filter:blur(18px) saturate(110%)}
+body>.site-header.is-past-hero .desktop-nav a,body>.site-header.is-past-hero .menu-toggle{color:#292e27}
+body>.site-header .site-nav,body.menu-open>.site-header .menu-toggle{color:#fff}
+body.menu-open>.site-header{background:#1e211d}
+@supports not (backdrop-filter:blur(1px)){body>.site-header.is-past-hero{background:rgba(192,185,171,.94)}}
+body>.site-header a[aria-current=page]{text-decoration:underline;text-underline-offset:7px}
+@media(max-width:800px){html{scroll-padding-top:96px}}
+@media print{body>.site-header,body:has(.nura-journal)>.site-header{position:static;background:#fff;color:#1e211d;backdrop-filter:none}body>.site-header .desktop-nav a,body>.site-header .menu-toggle{color:#1e211d}}
