@@ -20,5 +20,5 @@ body:has(main input:focus,main textarea:focus,main select:focus) .nura-lead:not(
 .nura-lead-collapsible .nura-lead-actions{bottom:80px}
 .nura-lead-collapsible:not(.is-expanded) .nura-lead-actions,.nura-lead-toggle[hidden]{display:none}
 .nura-consent-open .nura-lead-toggle,body:has(main input:focus,main textarea:focus,main select:focus) .nura-lead-toggle{visibility:hidden}
-@media(max-width:600px){.nura-lead-collapsible .nura-lead-toggle{right:16px;bottom:calc(16px + env(safe-area-inset-bottom))}.nura-lead-collapsible .nura-lead-actions{bottom:calc(72px + env(safe-area-inset-bottom))}}
+@media(max-width:600px){.nura-lead-collapsible .nura-lead-toggle{right:16px;bottom:calc(64px + env(safe-area-inset-bottom))}.nura-lead-collapsible .nura-lead-actions{bottom:calc(120px + env(safe-area-inset-bottom))}}
 @media print{.nura-lead-toggle{display:none}}
