@@ -60,6 +60,19 @@ test('route checks catch wrong canonical, restrictive headers, metadata drift an
  assert.equal(inspectHtml(html.replace('"name":"Joanne H"','"name":"Invented"'),entry).pass,false);
  assert.equal(inspectHtml(html,{...entry,content:{...entry.content,publication_event_pending:true}}).pass,false);
 });
+test('pending date checks permit only explicit undated routes and reject every rendered date channel',()=>{
+ for(const route of ['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions']){
+  const entry={path:route,content:{title:'Test',seo_title:'Test',seo_description:'Useful test',publication_event_pending:true,image_rights_status:'owned',hero:{filename:'/assets/hero.webp'},body_nodes:[]}};
+  const image=POLICY.origin+'/assets/hero.webp',article={'@type':'Article',image,author:{name:POLICY.author,url:POLICY.profile}};
+  const html=`<title>Test</title><meta name="description" content="Useful test"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${POLICY.origin+route}"><meta property="og:image" content="${image}"><meta name="twitter:image" content="${image}"><meta property="og:title" content="Test"><meta property="og:description" content="Useful test"><meta name="twitter:title" content="Test"><meta name="twitter:description" content="Useful test"><h1>Test</h1><div class="article-byline"><a href="${POLICY.profile}">${POLICY.author}</a></div><script type="application/ld+json">${JSON.stringify({'@graph':[article,{'@type':'BreadcrumbList'}]})}</script>`;
+  assert.equal(inspectHtml(html,entry).pass,true);
+  for(const key of ['published_date','modified_date'])for(const value of ['',null,'2026-10-24T00:00:00Z'])assert.equal(inspectHtml(html,{...entry,content:{...entry.content,[key]:value}}).pass,false);
+  for(const extra of ['<time datetime="2026-10-24"></time>','<meta property="article:published_time" content="2026-10-24">','<meta property="article:modified_time" content="2026-10-24">'])assert.equal(inspectHtml(html+extra,entry).pass,false);
+  for(const key of ['datePublished','dateModified'])assert.equal(inspectHtml(html.replace('"@type":"Article"',`"@type":"Article","${key}":"2026-10-24"`),entry).pass,false);
+  assert.equal(inspectHtml(html.replaceAll(route,'/post/arbitrary'),{...entry,path:'/post/arbitrary'}).pass,false);
+ }
+});
+
 test('browser helper never captures unsettled viewport or unloaded visible assets, never grants visual pass',async()=>{
  let captured=0;const state={width:390,height:844,scrollWidth:390,visibleImages:[{complete:false,naturalWidth:0}]},args={width:390,height:844,viewport:{set:async()=>{}},tab:{getAXState:async()=>{},playwright:{evaluate:async()=>state},getScreenshot:async()=>{captured++;return Buffer.from('pixels');}},saveScreenshot:async()=>{}};
  assert.equal((await captureJournalView(args)).status,'pending');assert.equal(captured,0);state.visibleImages=[{complete:true,naturalWidth:1200}];const result=await captureJournalView(args);assert.equal(captured,1);assert.equal(result.visualReview,'pending');state.scrollWidth=500;assert.equal((await captureJournalView(args)).status,'failed');

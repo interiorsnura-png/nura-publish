@@ -55,6 +55,17 @@ test('the authorised pending article is ordered first without changing dated ord
  const sorted=newestJournalFirst([entry('old','2025-01-01'),pending,entry('new','2026-01-01')]);
  assert.deepEqual(sorted.map(x=>x.path),[pending.path,'/post/new','/post/old']);
 });
+test('both authorised pending routes retain undated RSS and ordering, rejecting any defined date',()=>{
+ const routes=['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions'];
+ const pending=routes.map(path=>({path,content:{component:'article',title:path,publication_event_pending:true}}));
+ const before=JSON.stringify(pending),$=load(feed([...pending,entry('dated')]),{xmlMode:true});
+ assert.deepEqual($('item > link').map((_,el)=>$(el).text()).get(),[...routes.map(x=>site+x),site+'/post/dated']);
+ assert.equal($('item').slice(0,2).find('pubDate').length,0);
+ assert.deepEqual(newestJournalFirst([entry('old','2025-01-01'),...pending,entry('new','2026-01-01')]).map(x=>x.path),[...routes,'/post/new','/post/old']);
+ for(const p of pending)for(const key of ['published_date','modified_date'])for(const value of ['',null,'2026-10-24T10:49:41.833Z'])assert.equal(load(feed([{...p,content:{...p.content,[key]:value}}]),{xmlMode:true})('item').length,0);
+ assert.equal(JSON.stringify(pending),before);
+});
+
 test('RSS escapes hostile text/attributes, removes invalid XML characters and preserves emoji',()=>{
  const title='A & B <item> "quoted" \'words\' ]]> 🏡\u0001\ud800';
  const $=load(feed([entry('safe',undefined,{title,seo_description:'<script>bad()</script> & text',hero:{filename:'/image.webp?a=1&b=2',width:1536,height:864}})]),{xmlMode:true});

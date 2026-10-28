@@ -24,7 +24,8 @@
  const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
  const homeRequestSections=location.pathname==='/'?[...document.querySelectorAll('main section')].filter(section=>[...section.querySelectorAll('a,button')].some(control=>/request.*consultation/i.test(control.textContent||''))):[];
- const inlineActions=[...new Set([contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq'),location.pathname==='/london'?document.querySelector('.london-welcome'):null,...homeRequestSections].filter(Boolean))];
+ const articleTables=location.pathname==='/post/dining-bench-cushions'?[...document.querySelectorAll('.article-table-wrap')]:[];
+ const inlineActions=[...new Set([contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq'),location.pathname==='/london'?document.querySelector('.london-welcome'):null,...homeRequestSections,...articleTables].filter(Boolean))];
  // IntersectionObserver already supplies visibility without a synchronous layout read.
  const visible=new Set();
  const observer=new IntersectionObserver(entries=>{
