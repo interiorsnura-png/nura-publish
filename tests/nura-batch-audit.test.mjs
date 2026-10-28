@@ -55,8 +55,8 @@ test('every existing public author is preserved, including plywood collision: 26
 test('first publication is evidenced per record and replacement text has no inherited technical endorsement',()=>{
  for(const b of batch){const e=effective.find(x=>x.path===b.path),old=base.find(x=>x.path===b.path);assert.equal(e.content.published_date,b.content.published_date||old?.content.published_date||'2026-10-23');assert.equal(e.content.modified_date,b.content.modified_date||old?.content.modified_date||'2026-10-23');assert.equal(e.content.reviewer,undefined);assert.equal(e.content.pending_reviewer,undefined);}
 });
-test('hero is shown once and every declared contextual image survives without a fixed image quota or administrative captions',()=>{
- for(const e of batch){const images=walk(e.content.body_nodes).filter(n=>n.type==='image'),gallery=e.content.gallery||[];assert.equal(images.length,gallery.length,e.path);assert.equal(new Set(images.map(x=>x.src)).size,images.length,e.path);for(const [index,image]of images.entries()){assert.notEqual(image.src,e.content.hero.filename);assert.equal(image.src,gallery[index].filename);assert.ok(image.alt);assert.equal(image.caption,undefined);}assert.doesNotMatch(JSON.stringify(e.content.body_nodes),/Image supplied for commercial use/);}
+test('hero is shown once and distinct second contextual image survives without administrative captions',()=>{
+ for(const e of batch){const images=walk(e.content.body_nodes).filter(n=>n.type==='image');assert.equal(images.length,1,e.path);assert.notEqual(images[0].src,e.content.hero.filename);assert.equal(images[0].src,e.content.gallery[0].filename);assert.ok(images[0].alt);assert.equal(images[0].caption,undefined);assert.doesNotMatch(JSON.stringify(e.content.body_nodes),/Image supplied for commercial use/);}
 });
 test('unrelated duplicate paths retain deterministic first entry and do not mutate inputs',()=>{
  const a={path:'/legacy',content:{title:'first'}},b={path:'/legacy',content:{title:'second'}};

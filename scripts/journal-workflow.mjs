@@ -5,9 +5,6 @@ import {execFileSync} from 'node:child_process';
 import {fileURLToPath, pathToFileURL} from 'node:url';
 import {load} from 'cheerio';
 import {validateDeploymentIdentity} from './release-guard.mjs';
-import vm from 'node:vm';
-import fsSync from 'node:fs';
-import {createRequire} from 'node:module';
 
 export const POLICY={author:'Joanne H',profile:'https://www.linkedin.com/in/joanne-h/',origin:'https://www.nura-interiors.com',width:1536,height:864,weights:{research:20,content:30,onPage:20,imageryUxTechnical:20,publicationMonitoring:10}};
 const hash=value=>createHash('sha256').update(value).digest('hex');
@@ -19,36 +16,16 @@ export async function atomicUpdate(file,update){
  const lock=file+'.lock',handle=await fs.open(lock,'wx');let temp;
  try{const before=await fs.readFile(file,'utf8'),value=await update(JSON.parse(before));assert(await fs.readFile(file,'utf8')===before,'Concurrent writer changed record');temp=file+'.'+process.pid+'.tmp';await fs.writeFile(temp,JSON.stringify(value,null,2)+'\n',{flag:'wx'});await fs.rename(temp,file);temp=null;return value;}finally{if(temp)await fs.unlink(temp).catch(()=>{});await handle.close();await fs.unlink(lock);}
 }
-export async function findArticle(root,route,{allowMissing=false}={}){
- articlePath(route);const collections=await Promise.all(['lib/published-editorial.json','migration/content-backup.json'].map(file=>json(path.join(root,file)))),matches=collections.flat().filter(x=>x.path===route);
- assert(matches.length<=1,'Expected one authoritative article record across editorial and archive');
- if(!matches.length){
-  const loader=path.join(root,'lib/nura-50-drafts.ts');let exists=true;try{await fs.access(loader);}catch(e){if(e.code==='ENOENT')exists=false;else throw e;}
-  if(exists){
-   // Reuse the trusted site's actual parser. Only the server-only marker is inert in this read-only CLI context.
-   const require=createRequire(path.join(root,'package.json')),ts=require('typescript'),source=await fs.readFile(loader,'utf8'),code=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
-   const module={exports:{}},context=vm.createContext({module,exports:module.exports,require:name=>{if(name==='server-only')return {};if(name==='fs'||name==='node:fs')return fsSync;if(name==='path'||name==='node:path')return path;throw Error('Unsupported batch-loader dependency: '+name);},process:{cwd:()=>root,env:{NODE_ENV:'production'}}});
-   new vm.Script(code,{filename:loader}).runInContext(context,{timeout:3000});
-   const entries=new vm.Script('module.exports.getNura50PublicEntries()',{filename:loader+' CLI read'}).runInContext(context,{timeout:3000});
-   matches.push(...entries.filter(x=>x.path===route).map(x=>({...x,content:{...x.content,author_name:POLICY.author,author_bio:undefined}})));
-  }
- }
- if(allowMissing&&!matches.length)return undefined;
- assert(matches.length===1,'Expected one authoritative article record across supported sources');assert(matches[0].content?.component==='article','Expected an article');return matches[0];
-}
+export async function findArticle(root,route){articlePath(route);const entries=await json(path.join(root,'lib/published-editorial.json')),matches=entries.filter(x=>x.path===route);assert(matches.length===1,'Expected one authoritative editorial record');return matches[0];}
 export async function optimiseAssets(root,manifest){
- assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(manifest.slug||''),'Invalid asset slug');assert(manifest.assets?.length>0,'At least one original image required');assert(new Set(manifest.assets.map(x=>x.name)).size===manifest.assets.length,'Duplicate asset names');
+ assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(manifest.slug||''),'Invalid asset slug');assert(manifest.assets?.length===3,'Exactly three original images required');assert(new Set(manifest.assets.map(x=>x.name)).size===3,'Duplicate asset names');
  const {default:sharp}=await import('sharp'),planned=[];
  for(const asset of manifest.assets){assert(/^[a-z]+$/.test(asset.name)&&asset.prompt&&asset.alt&&asset.credit==='Nura Interiors'&&asset.provenance&&asset.rights==='owned','Missing original image provenance/credit/prompt/alt');const target=inside(root,'public/assets/editorial/nura-'+manifest.slug+'-'+asset.name+'.webp');await fs.access(asset.original);await fs.access(target).then(()=>{throw Error('Asset already exists; reuse unchanged asset or use a new versioned name');},e=>{if(e.code!=='ENOENT')throw e;});planned.push({asset,target});}
  return boundedMap(planned,async({asset,target})=>{const bytes=await sharp(asset.original).resize(POLICY.width,POLICY.height,{fit:'contain',background:'#eee9df'}).webp({quality:85}).toBuffer();await fs.writeFile(target,bytes,{flag:'wx'});return {...asset,target,width:POLICY.width,height:POLICY.height,bytes:bytes.length,sha256:hash(bytes),visualReview:'pending; inspect original and final asset, watermark and crop via CUA/view_image'};},3);
 }
 export async function fingerprint(root,entry){
  const files=['lib/content.ts','components/RichArticle.tsx','app/inner.css','lib/article-journeys.ts'];
- if(entry.source?.collection==='nura-50-draft'){
-  const batch='lib/drafts/nura-50',articles=(await fs.readdir(path.join(root,batch,'articles'))).filter(x=>x.endsWith('.md')).sort(),index=Number(entry.source.id)-1;
-  assert(Number.isInteger(index)&&articles[index],'Invalid batch source identity');files.push('lib/nura-50-drafts.ts',batch+'/manifest.json',batch+'/articles/'+articles[index]);
- }
- for(const f of ['app/[...slug]/page.tsx','app/layout.tsx','lib/seo.ts','lib/journal-schema.ts','lib/article-discovery.ts','package.json','package-lock.json']){try{await fs.access(path.join(root,f));files.push(f);}catch(e){if(e.code!=='ENOENT')throw e;}}
+ for(const f of ['app/[...slug]/page.tsx','app/layout.tsx','lib/seo.ts','lib/journal-schema.ts','package.json','package-lock.json']){try{await fs.access(path.join(root,f));files.push(f);}catch(e){if(e.code!=='ENOENT')throw e;}}
  const walk=n=>{if(!n||typeof n!=='object')return;for(const [k,v]of Object.entries(n)){if((k==='filename'||k==='src')&&typeof v==='string'&&v.startsWith('/assets/'))files.push('public'+v);else if(typeof v==='object')Array.isArray(v)?v.forEach(walk):walk(v);}};walk(entry.content);
  const digests=[];for(const file of [...new Set(files)].sort()){const full=inside(root,file);digests.push({file,sha256:hash(await fs.readFile(full))});}
  return {fingerprint:hash(JSON.stringify({entry,files:digests})),files:digests};
@@ -56,7 +33,6 @@ export async function fingerprint(root,entry){
 export function inspectHtml(html,entry,headers={}){
  const $=load(html),c=entry.content,canonical=POLICY.origin+entry.path,failures=[];
  const check=(ok,label)=>{if(!ok)failures.push(label);};
- check(c.publication_event_pending!==true||(entry.path==='/post/single-or-double-kitchen-oven'&&!c.published_date&&!c.modified_date),'Pending marker is scoped and undated');
  check($('h1').length===1,'Exactly one H1');check($('h1').text().replace(/\s+/g,' ').trim()===c.title,'H1 matches source');
  check($('title').text().startsWith(c.seo_title),'SEO title matches source');check($('meta[name=description]').attr('content')===c.seo_description,'Description matches source');
  check($('link[rel=canonical]').attr('href')===canonical,'Self canonical');
@@ -66,11 +42,11 @@ export function inspectHtml(html,entry,headers={}){
  for(const [key,value]of [['og:title',c.seo_title],['og:description',c.seo_description]])check($(`meta[property="${key}"]`).attr('content')===value,key+' matches');
  for(const [key,value]of [['twitter:title',c.seo_title],['twitter:description',c.seo_description]])check($(`meta[name="${key}"]`).attr('content')===value,key+' matches');
  let graph=[];try{graph=$('script[type="application/ld+json"]').toArray().flatMap(e=>{const v=JSON.parse($(e).text());return v['@graph']||[v];});}catch{failures.push('Invalid JSON-LD');}
- const a=graph.find(x=>x['@type']==='Article');check((typeof a?.image==='string'?a.image:a?.image?.url)===og,'Article image matches');check(a?.author?.name===POLICY.author&&a?.author?.url===POLICY.profile,'Article author');if(entry.path==='/post/single-or-double-kitchen-oven'&&c.publication_event_pending===true){check(!c.published_date&&!c.modified_date&&a?.datePublished===undefined&&a?.dateModified===undefined&&!$('time[datetime]').length,'Pending publication has no invented dates');}else check(Boolean(c.published_date)&&Number.isFinite(Date.parse(c.published_date))&&a?.datePublished===c.published_date,'Publication timestamp');check(graph.some(x=>x['@type']==='BreadcrumbList'),'Breadcrumb schema');
+ const a=graph.find(x=>x['@type']==='Article');check(a?.image===og,'Article image matches');check(a?.author?.name===POLICY.author&&a?.author?.url===POLICY.profile,'Article author');check(a?.datePublished===c.published_date,'Publication timestamp');check(graph.some(x=>x['@type']==='BreadcrumbList'),'Breadcrumb schema');
  check($('.article-byline a').toArray().some(x=>$(x).text()===POLICY.author&&$(x).attr('href')===POLICY.profile),'Visible byline');
  check(!/AI-generated|AI generation|\u2014/i.test($('.article-content').text()),'Public editorial wording');
  const nodes=[];const visit=n=>{if(n?.type==='image')nodes.push(n);n?.children?.forEach(visit);};c.body_nodes?.forEach(visit);
- const images=[c.hero,...nodes.map(x=>({filename:x.src,alt:x.alt}))];check(images.every(x=>x?.filename)&&new Set(images.map(x=>x.filename)).size===images.length,'Distinct editorial images in source');check($('.article-content img').length===nodes.length,'Rendered editorial image count matches source');check(c.image_rights_status==='owned','Owned image rights declaration; private provenance still required');
+ const images=[c.hero,...nodes.map(x=>({filename:x.src,alt:x.alt}))];check(images.length===3,'Three editorial images');check(c.image_rights_status==='owned','Owned image rights declaration; private provenance still required');
  for(const im of nodes)check($('.article-content img').toArray().some(x=>$(x).attr('alt')===im.alt),'Descriptive image alt matches source');
  const links=[...new Set($('.article-content a,.article-journey a').toArray().map(x=>$(x).attr('href')).filter(x=>/^\/(?!\/)/.test(x||'')))];
  return {pass:!failures.length,failures,canonical,robots:directives,og,author:a?.author,datePublished:a?.datePublished,images,links,schemaScope:'Local parsing and consistency only; official Google validation remains separate'};
@@ -108,7 +84,7 @@ async function main(){
  const root=path.resolve(fileURLToPath(new URL('..',import.meta.url))),workspace=path.resolve(root,'..'),out=inside(workspace,options.out||'journal-workflow');await fs.mkdir(out,{recursive:true});
  for(const option of ['run','register','ledger'])if(options[option])options[option]=inside(workspace,options[option]);
  if(command==='assets'){const manifest=await json(options.input),assets=await optimiseAssets(root,manifest),report=inside(out,manifest.slug+'-assets-'+Date.now()+'.json');await fs.writeFile(report,JSON.stringify({createdAt:new Date().toISOString(),assets},null,2),{flag:'wx'});console.log(JSON.stringify({report}));return;}
- let entry,source;if(['begin','phase','summary'].includes(command)){articlePath(options.path);entry=await findArticle(root,options.path,{allowMissing:true})||{path:options.path};source=entry.content?await fingerprint(root,entry):null;}else{entry=await findArticle(root,options.path);source=await fingerprint(root,entry);}
+ let entry,source;if(['begin','phase','summary'].includes(command)){articlePath(options.path);const matches=(await json(path.join(root,'lib/published-editorial.json'))).filter(x=>x.path===options.path);assert(matches.length<=1,'Duplicate source records');entry=matches[0]||{path:options.path};source=entry.content?await fingerprint(root,entry):null;}else{entry=await findArticle(root,options.path);source=await fingerprint(root,entry);}
  const routeId=entry.path.split('/').at(-1),save=async(name,data)=>{const file=inside(out,routeId+'-'+name+'.json');await fs.writeFile(file,JSON.stringify(data,null,2)+'\n',{flag:'wx'});return file;};
  if(command==='begin'){
   const run={runId:routeId+'-'+Date.now(),startedAt,root,route:entry.path,source,gitSha:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),events:[],unknowns:['Research/editorial assessment','Visual QA','Official Google test','Index/Discover','Field CWV','Analytics receipt']};

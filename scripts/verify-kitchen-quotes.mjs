@@ -35,7 +35,7 @@ for(const filter of ['', '?category=planning']){
  assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
  assert.equal(list.numberOfItems,list.itemListElement.length);
 }
-assert.equal((await fetch(base+article.image.url.replace(origin,''))).status,200);
+assert.equal((await fetch(base+article.image.replace(origin,''))).status,200);
 const sitemapResponse=await fetch(base+'/sitemap.xml');assert.equal(sitemapResponse.status,200);
 const sitemap=await sitemapResponse.text();
 if(process.env.SEO_EXPECT_INDEX!=='false')assert.ok(sitemap.includes('<loc>'+origin+path+'</loc>'));

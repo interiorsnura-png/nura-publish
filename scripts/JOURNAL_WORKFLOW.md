@@ -2,8 +2,6 @@
 
 The CLI replaces per-article helper copies. It never pushes/deploys, invents research, assigns editorial scores, grants visual approval, or replaces exact-SHA gates. Existing content loaders already share visible/OG/Twitter/Article metadata and Joanne H attribution.
 
-Existing Markdown batch articles are read through their actual repository parser when no editorial/archive record exists. The CLI allows only that trusted parser's fs/path imports and inert server-only marker, fails closed on unsupported dependencies or execution errors, and includes the selected Markdown, manifest and loader in its SHA256 fingerprint. Optional measured hero dimensions/caption in Markdown affect only sources that supply those fields. This does not create a duplicate article or change release approval requirements.
-
 Run commands from the repository. Outputs stay in the parent workspace `work/`, outside Git. Input JSON remains private. Unique run/report filenames preserve earlier attempts; register writes use an exclusive lock and atomic replacement. A retained lock means another writer or an interrupted write: inspect its owner before recovery, never blindly remove it.
 
 ```powershell
@@ -21,13 +19,13 @@ Measure each actual phase with `phase --name research --state start --run journa
 
 ## Images
 
-Generate an evidence-justified number of original subject-specific images with the built-in image tool after actual Google Images reference research. Never substitute downloaded reference pictures. `assets --input ../assets.json` accepts:
+Generate three original subject-specific images with the built-in image tool after actual Google Images reference research. Never substitute downloaded reference pictures. `assets --input ../assets.json` accepts:
 
 ```json
 {"slug":"new-topic","assets":[{"name":"hero","original":"ABSOLUTE_ORIGINAL.png","prompt":"Full actual prompt","alt":"Actual subject description","credit":"Nura Interiors","rights":"owned","provenance":"Actual generated asset ID/path and reference-research record"}]}
 ```
 
-Supply distinct named assets matching the documented competitor and article-needs analysis; no fixed count. Outputs are `public/assets/editorial/nura-SLUG-NAME.webp`,1536x864, WebP85 with contain resize. Existing files are never overwritten. Inspect the original and final composition, watermark and labels; generation rights declarations alone do not prove licence or quality. Reuse unchanged approved assets on retries.
+Supply exactly three distinct named assets. Outputs are `public/assets/editorial/nura-SLUG-NAME.webp`,1536x864, WebP85 with contain resize. Existing files are never overwritten. Inspect the original and final composition, watermark and labels; generation rights declarations alone do not prove licence or quality. Reuse unchanged approved assets on retries.
 
 ## Browser checks
 

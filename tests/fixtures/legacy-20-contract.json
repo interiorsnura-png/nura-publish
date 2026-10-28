@@ -103,21 +103,17 @@
   {
     "path": "/post/a-paradigm-shift-towards-sustainable-design-and-conscious-living",
     "source": "migration/content-backup.json",
-    "title": "Sustainable Interior Design: Keep, Repair or Replace?",
+    "title": "Sustainable Design & Conscious Living: Creating Lasting Spaces",
     "author": "Joanne H",
     "published": "2024-04-17T14:49:09.688Z",
     "links": [
-      "https://biid.org.uk/resources/what-sustainability",
-      "/post/how-to-choose-the-right-worktop-for-your-kitchen",
-      "/post/mixing-wood-tones-kitchen",
-      "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/green-claims-and-your-business",
-      "https://uk.fsc.org/what-is-fsc/fsc-labels",
-      "/sustainability",
-      "/process",
-      "/consultation",
-      "/london"
-    ],
-    "modified": "2026-10-25T06:13:32.488Z"
+      "https://www.nura-interiors.com/sustainability",
+      "https://www.dezeen.com/tag/sustainable-design/",
+      "https://www.dezeen.com/tag/sustainable-design/",
+      "https://www.nura-interiors.com/sustainability",
+      "https://www.salonemilano.it/en",
+      "https://www.dezeen.com/tag/sustainable-design/"
+    ]
   },
   {
     "path": "/post/solid-wood-or-veneer",
@@ -134,13 +130,12 @@
   {
     "path": "/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers",
     "source": "migration/content-backup.json",
-    "title": "Problems with Your Kitchen Designer? What to Do Next",
+    "title": "Common Problems When Working With a Kitchen Designer",
     "author": "Joanne H",
     "published": "2023-04-26T13:44:44.116Z",
     "links": [
       "/london"
-    ],
-    "modified": "2026-10-25T05:21:24.927Z"
+    ]
   },
   {
     "path": "/post/using-artificial-intelligence-in-the-design-process",
@@ -155,7 +150,7 @@
   {
     "path": "/post/how-to-choose-the-right-worktop-for-your-kitchen",
     "source": "migration/content-backup.json",
-    "title": "Best Kitchen Worktops for 2027: 5 Materials Compared for Everyday Use",
+    "title": "How to Choose the Right Worktop for Your Kitchen",
     "author": "Joanne H",
     "published": "2023-03-02T10:02:56.264Z",
     "links": [
@@ -165,8 +160,7 @@
       "/services/bespoke-kitchens",
       "/consultation",
       "/guides/bespoke-kitchens"
-    ],
-    "modified": "2026-10-24T22:21:20.946Z"
+    ]
   },
   {
     "path": "/guides/bespoke-kitchens",
