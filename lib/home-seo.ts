@@ -12,6 +12,11 @@ export function improveHomeSeo(html:string){
   .replace('Kitchens and joinery made around the way you live, with a quiet confidence that lasts.','<span class="hero-slogan">A room can change a life.</span> <span class="hero-description">Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.</span>')
   .replace('<section class="hero" aria-labelledby="hero-title">','<section class="hero hero-service" aria-labelledby="hero-title">')
   .replace('</head>','<link rel="stylesheet" href="/nura-home-hero.css"/></head>');
+ // Owner-selected project photograph; preserve the immutable migration snapshot.
+ const heroAlt='Nura kitchen with gold-toned cabinetry and a white veined stone island';
+ html=html.replace(/<img\b[^>]*class="hero-image"[^>]*>/,`<img class="hero-image" width="1080" height="608" src="/assets/selected/nura-golden-kitchen-1080.webp" srcset="/assets/selected/nura-golden-kitchen-480.webp 480w, /assets/selected/nura-golden-kitchen-640.webp 640w, /assets/selected/nura-golden-kitchen-1080.webp 1080w" sizes="100vw" alt="${heroAlt}" fetchpriority="high">`)
+  .replace(/(<meta\s+(?:name|property)="(?:og:image|twitter:image)"\s+content=")[^"]*("[^>]*>)/g,'$1https://www.nura-interiors.com/assets/selected/nura-golden-kitchen-1080.webp$2')
+  .replace(/(<meta property="og:image:alt" content=")[^"]*("[^>]*>)/,`$1${heroAlt}$2`);
  // Match responsive downloads to the existing layout; keep the migration snapshot intact.
  const imageSizes:Record<string,string>={a52b5a2e5310:'42vw','72c3c43b54a8':'52vw','7aad5d45dd89':'36vw','5ac97f1b40d0':'36vw','788c8e2871c4':'51vw','1d6e31d7ac38':'29vw',dcc75e6202a9:'29vw','4280cc3dbd32':'29vw','62ee06975f86':'50vw'};
  html=html.replace(/<img\b[^>]*>/g,img=>{

@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-29: Owner-selected golden kitchen homepage photograph prepared on an isolated preview branch rebased onto 426a419, retaining current homepage SEO and accessibility changes. Optimized WebP variants at 480/640/1080px, aligned preload/social/licensing, full-width uncropped mobile image with copy below. No production release authorized. Desktop/mobile visual review remains pending; no browser tool in this session.
+
 - 2026-10-29: Run Lighthouse accessibility on the final desktop/mobile preview and production, inspect actual computed contrast and manual keyboard/screen-reader behavior. Browser/audit tooling unavailable in this session; do not claim score 100 from source tests.
 
 - 2026-10-29: Review PR 7 updated hero at desktop and mobile widths, including 320px and short landscape. Automated source/build checks are not a visual pass. Browser tooling is unavailable in this session; keep draft pending actual layout review.

@@ -54,3 +54,32 @@
   .hero.hero-service h1 { font-size: 2.75rem; margin: 12px 0 18px; }
   .hero.hero-service .hero-lede { margin-bottom: 20px; }
 }
+
+/* Keep the complete island visible on narrow screens instead of a portrait crop. */
+.hero.hero-service .hero-image { object-position: center center; }
+@media (max-width: 800px) {
+  .hero.hero-service {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    padding-top: 80px;
+    background: var(--ink);
+  }
+  .hero.hero-service .hero-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .hero.hero-service .hero-shade,
+  .hero.hero-service .hero-aurora,
+  .hero.hero-service .hero-foot { display: none; }
+  .hero.hero-service .hero-copy {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    max-width: none;
+    padding: 30px 6vw 38px;
+  }
+}

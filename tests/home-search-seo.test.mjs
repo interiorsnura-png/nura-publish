@@ -34,12 +34,13 @@ test('homepage search, social and schema descriptions consistently identify serv
  assert.match($('meta[name="robots"]').attr('content'),/index, follow, max-image-preview:large/);
 });
 
-test('one visible service-led H1 retains hero imagery and enquiry form',()=>{
+test('one visible service-led H1 uses the selected hero and retains the enquiry form',()=>{
  assert.equal($('h1').length,1);
  assert.match($('h1').text(),/Bespoke kitchens.*and joinery/);
  assert.match($('.hero-lede').text(),/London showroom in Fulham/);
  assert.match($('.hero-lede').text(),/Dubai studio/);
- assert.equal($('.hero-image').toString(),before('.hero-image').toString());
+ assert.equal($('.hero-image').attr('src'),'/assets/selected/nura-golden-kitchen-1080.webp');
+ assert.deepEqual($('main img:not(.hero-image)').map((_,el)=>$(el).attr('src')).get(),before('main img:not(.hero-image)').map((_,el)=>before(el).attr('src')).get());
  // The pre-existing overlay adds a budget option and privacy link; preserve submission fields.
  const fields=page=>page('#contact form input, #contact form select, #contact form textarea').map((_,el)=>({tag:el.tagName,name:page(el).attr('name'),type:page(el).attr('type'),required:page(el).attr('required')})).get();
  assert.deepEqual(fields($),fields(before));
@@ -85,4 +86,37 @@ test('service hero separates the slogan and scopes responsive typography without
  assert.match(css,/text-wrap: balance/);
  assert.match(css,/@media \(max-width: 800px\)/);
  assert.match(css,/\.hero\.hero-service \.hero-slogan/);
+});
+
+
+test('selected project hero has matching responsive preload, social preview and licensed dimensions',async()=>{
+ const {improveHomePerformance}=loadTs('lib/home-performance.ts');
+ const page=load(improveHomePerformance(improveHomeSeo(original)));
+ const image=page('.hero-image'), preload=page('link[rel="preload"][as="image"]');
+ assert.equal(image.length,1);
+ assert.equal(image.attr('width'),'1080');assert.equal(image.attr('height'),'608');
+ assert.equal(image.attr('fetchpriority'),'high');assert.notEqual(image.attr('loading'),'lazy');
+ assert.equal(preload.length,1);
+ assert.equal(preload.attr('href'),image.attr('src'));
+ assert.equal(preload.attr('imagesrcset'),image.attr('srcset'));
+ assert.equal(preload.attr('imagesizes'),image.attr('sizes'));
+ const url='https://www.nura-interiors.com'+image.attr('src');
+ assert.equal(page('meta[property="og:image"]').attr('content'),url);
+ assert.equal(page('meta[name="twitter:image"]').attr('content'),url);
+ assert.equal(page('meta[property="og:image:alt"]').attr('content'),image.attr('alt'));
+ const schema=homeSchema['@graph'].find(n=>n.contentUrl===url);
+ assert.equal(schema.width,1080);assert.equal(schema.height,608);assert.ok(schema.license);
+ const {default:sharp}=await import('sharp');
+ for(const candidate of image.attr('srcset').split(', ')){
+  const [path,width]=candidate.split(' ');
+  const metadata=await sharp(new URL('public'+path,root).pathname).metadata();
+  assert.equal(metadata.width,Number(width.slice(0,-1)));
+  assert.ok(metadata.width<=1080);assert.equal(metadata.format,'webp');
+ }
+ const css=fs.readFileSync(new URL('public/nura-home-hero.css',root),'utf8');
+ assert.match(css,/object-position: center center/);
+ assert.match(css,/object-fit: contain/);
+ assert.match(css,/padding-top: 80px/);
+ assert.match(css,/height: auto/);
+ assert.match(css,/bottom: auto/);
 });
