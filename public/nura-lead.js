@@ -21,7 +21,7 @@
  // All pages share one compact floating disclosure; existing in-page forms remain.
  const trigger=holder.querySelector('.nura-lead-trigger');
  const wardrobePage=location.pathname.replace(/\/$/,'')==='/services/wardrobes-dressing-rooms';
- const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/'?document.getElementById('contact'):null;
+ const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/local/chelsea'?document.getElementById('chelsea-visit'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
  const homeRequestSections=location.pathname==='/'?[...document.querySelectorAll('main section')].filter(section=>[...section.querySelectorAll('a,button')].some(control=>/request.*consultation/i.test(control.textContent||''))):[];
  const articleTables=['/post/dining-bench-cushions','/post/ducted-vs-recirculating-cooker-hood'].includes(location.pathname)?[...document.querySelectorAll('.article-table-wrap')]:[];

@@ -1,5 +1,5 @@
 import type {Metadata} from 'next';
-import {notFound} from 'next/navigation';
+import JsonLd from '../../../components/JsonLd';
 import {Hero,Photo} from '../../../components/Editorial';
 import {getEntries} from '../../../lib/content';
 import styles from './page.module.css';
@@ -7,17 +7,16 @@ import styles from './page.module.css';
 const title='Bespoke Kitchens & Joinery in Chelsea | NURA Interiors';
 const description="Explore NURA's Chelsea kitchen projects and bespoke joinery. Plan your layout, materials and project scope with our nearby Fulham studio.";
 export const dynamic='force-dynamic';
-export const metadata:Metadata={title:{absolute:title},description,alternates:{canonical:'https://www.nura-interiors.com/local/chelsea'},robots:{index:false,follow:false},openGraph:{title,description,url:'https://www.nura-interiors.com/local/chelsea',type:'website',images:['https://www.nura-interiors.com/assets/archive/2e444c6465aeaad1.jpg']},twitter:{card:'summary_large_image',title,description,images:['https://www.nura-interiors.com/assets/archive/2e444c6465aeaad1.jpg']}};
+export const metadata:Metadata={title:{absolute:title},description,alternates:{canonical:'https://www.nura-interiors.com/local/chelsea'},robots:process.env.SITE_ENV==='production'?{index:true,follow:true,'max-image-preview':'large'}:{index:false,follow:false},openGraph:{title,description,url:'https://www.nura-interiors.com/local/chelsea',type:'website',images:['https://www.nura-interiors.com/assets/archive/2e444c6465aeaad1.jpg']},twitter:{card:'summary_large_image',title,description,images:['https://www.nura-interiors.com/assets/archive/2e444c6465aeaad1.jpg']}};
 
 export default async function ChelseaPreview(){
- if(process.env.NODE_ENV!=='development')notFound();
  const entries=await getEntries();
  const first=entries.find(e=>e.path==='/kitchens/elm-park-road');
  const second=entries.find(e=>e.path==='/kitchens/elm-park');
  return <main id="main" className={styles.page}>
+ <JsonLd data={{'@context':'https://schema.org','@type':'BreadcrumbList','@id':'https://www.nura-interiors.com/local/chelsea#breadcrumb',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://www.nura-interiors.com/'},{'@type':'ListItem',position:2,name:'Chelsea',item:'https://www.nura-interiors.com/local/chelsea'}]}}/>
  <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span> / Chelsea</span></nav>
  <Hero title="Bespoke Kitchens & Joinery in Chelsea" kicker="NURA / Homes in Chelsea. Studio in Fulham." asset={{filename:'/assets/archive/2e444c6465aeaad1.jpg',alt:'NURA kitchen at Elm Park Road in Chelsea'}} summary="Bring the way you cook, gather and store things into one design brief. Explore our Chelsea kitchen projects, then discuss your home with our nearby Fulham studio." cta={{href:'#chelsea-visit',label:'Plan your Chelsea project ↘'}}/>
- <div className={styles.draft}>LOCAL DRAFT / FOR REVIEW</div>
  <section className={'section-pad '+styles.intro}>
   <div><p className="eyebrow">Kitchen design / Architectural joinery</p><h2>Your home.<br/><em>A connected brief.</em></h2></div>
   <div><p>NURA Interiors designs bespoke kitchens and architectural joinery for homes in Chelsea. Our London studio is in Fulham, at 367 Fulham Palace Road, where you can discuss your layout, material preferences and project scope.</p><p>Start with what the room needs to do. A kitchen shared with a dining or living area involves more than choosing cabinet doors: storage, appliances, surfaces and views from the adjoining room need to work together. We develop those decisions around your brief and the property.</p><nav className={styles.sectionNav} aria-label="On this page"><a href="#chelsea-projects">Explore Chelsea projects ↗</a><a href="#chelsea-joinery">Plan your joinery ↗</a><a href="#chelsea-visit">Visit our Fulham studio ↗</a></nav></div>

@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-29: Owner authorised Chelsea deployment. Prepared /local/chelsea for production, removed development guard/draft label, set environment-appropriate index/follow and large image previews, added breadcrumbs, sitemap and one footer discovery link. Scoped mobile wrapping and inline consultation visibility corrected. Full119test/204route pre-push build and independent source review passed. Exact release/deployment evidence is tracked privately in ../chelsea-local-run/; earlier draft blockers retained as historical records.
+
 - 2026-10-29: Chelsea local draft v2 rewritten around service-area search intent, practical layout/storage choices, documented case references and Fulham visit preparation. Meta/H1/OG/Twitter aligned, project alts cleaned, source-mapped hero and real Fulham entrance used. Independent local editorial review and full119test/203route build passed. Final post-build visual/mobile QA blocked by explicit Browser Use URL policy denial; HTTP200 and metadata/internal links passed. No publication. See ../chelsea-local-run/preview-report.json.
 
 - 2026-10-29: Owner-supplied Chelsea landing prepared at /local/chelsea as a development-only, noindex local draft with existing header/footer and real project photographs. Independent copy review and full119test/203route build passed; desktop/mobile preview inspected. No push or publication. Evidence: ../chelsea-local-run/preview-report.json.
