@@ -7,21 +7,25 @@
  holder.innerHTML=`<div class="nura-lead-actions" role="group" aria-label="Talk to NURA"><button class="nura-lead-trigger" type="button" aria-haspopup="dialog" aria-controls="nura-lead-dialog"><span>Request consultation</span><span aria-hidden="true">↗</span></button><a class="nura-lead-call" href="tel:+442071236949"><span class="nura-call-label">Call Fulham showroom</span><span class="nura-call-number">020 7123 6949</span></a></div><dialog id="nura-lead-dialog" class="nura-lead-dialog" aria-labelledby="nura-lead-title" aria-describedby="nura-lead-description"><button class="nura-lead-close" type="button" aria-label="Close enquiry form">×</button><p class="nura-lead-kicker">NURA / YOUR NEXT CHAPTER</p><h2 id="nura-lead-title">Your free design consultation.</h2><p id="nura-lead-description" class="nura-lead-intro">Tell us about your space. Let’s explore what’s possible. Your initial conversation with our studio is free.</p><form class="nura-lead-form"><label>Your name<input name="name" autocomplete="name" maxlength="150" required></label><label>Email address<input name="email" type="email" autocomplete="email" maxlength="254" required></label><label>What are you planning?<textarea name="message" rows="3" maxlength="9500" placeholder="A kitchen, fitted furniture or a whole-home project…" required></textarea></label><label class="nura-lead-trap" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label><p class="nura-lead-note">We’ll use these details to respond to your project enquiry. <a href="/privacy-policy">Privacy policy</a></p><button class="nura-lead-submit" type="submit">Request my consultation <span aria-hidden="true">↗</span></button><p class="nura-lead-status" role="status" aria-live="polite"></p></form><a class="nura-lead-email" href="mailto:studio@nura-interiors.com">Prefer email? studio@nura-interiors.com</a><a class="nura-lead-email" href="tel:+442071236949">London showroom: 020 7123 6949</a><a class="nura-lead-email" href="https://wa.me/971506691090" target="_blank" rel="noopener noreferrer">WhatsApp Dubai: +971 50 669 1090</a></dialog>`;
  document.body.append(holder);
 
+ const calculatorPage=location.pathname.replace(/\/$/,'')==='/bespoke-kitchen-cost-calculator';
+ const compactLabel=calculatorPage?'Free Kitchen Consultation +':'Talk to NURA +';
+ let calculatorCall=null;
  let compactToggle=null;
  {
   holder.classList.add('nura-lead-collapsible');
   const actions=holder.querySelector('.nura-lead-actions');actions.id='nura-contact-actions';
-  compactToggle=document.createElement('button');compactToggle.type='button';compactToggle.className='nura-lead-toggle';compactToggle.textContent='Talk to NURA +';compactToggle.setAttribute('aria-expanded','false');compactToggle.setAttribute('aria-controls',actions.id);holder.prepend(compactToggle);
-  const setExpanded=(open,restore=false)=>{holder.classList.toggle('is-expanded',open);compactToggle.setAttribute('aria-expanded',String(open));compactToggle.textContent=open?'Close contact options ×':'Talk to NURA +';if(restore)compactToggle.focus();};
-  compactToggle.addEventListener('click',()=>setExpanded(compactToggle.getAttribute('aria-expanded')!=='true'));
+  compactToggle=document.createElement('button');compactToggle.type='button';compactToggle.className='nura-lead-toggle';compactToggle.textContent=compactLabel;compactToggle.setAttribute('aria-expanded','false');compactToggle.setAttribute('aria-controls',actions.id);holder.prepend(compactToggle);
+  const setExpanded=(open,restore=false)=>{holder.classList.toggle('is-expanded',open);if(!calculatorPage)compactToggle.setAttribute('aria-expanded',String(open));compactToggle.textContent=open?'Close contact options ×':compactLabel;if(restore)compactToggle.focus();};
+  compactToggle.addEventListener('click',()=>{if(calculatorPage){openDialog();return;}setExpanded(compactToggle.getAttribute('aria-expanded')!=='true');});
   holder.addEventListener('keydown',event=>{if(event.key==='Escape'&&!holder.querySelector('dialog').open&&holder.classList.contains('is-expanded')){event.preventDefault();setExpanded(false,true);}});
   document.addEventListener('click',event=>{if(!holder.contains(event.target))setExpanded(false);});
  }
 
+ if(calculatorPage){compactToggle.setAttribute('aria-haspopup','dialog');compactToggle.setAttribute('aria-controls','nura-lead-dialog');compactToggle.removeAttribute('aria-expanded');holder.classList.add('nura-calculator-contact');holder.querySelector('.nura-lead-trigger span').textContent='Free Kitchen Consultation';holder.querySelector('.nura-call-label').textContent='Call now';calculatorCall=document.createElement('a');calculatorCall.className='nura-calculator-call';calculatorCall.href='tel:+442071236949';calculatorCall.textContent='Call now · 020 7123 6949';holder.insertBefore(calculatorCall,holder.querySelector('.nura-lead-actions'));}
  // All pages share one compact floating disclosure; existing in-page forms remain.
  const trigger=holder.querySelector('.nura-lead-trigger');
  const wardrobePage=location.pathname.replace(/\/$/,'')==='/services/wardrobes-dressing-rooms';
- const contact=wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/local/chelsea'?document.getElementById('chelsea-visit'):location.pathname==='/'?document.getElementById('contact'):null;
+ const contact=location.pathname==='/bespoke-kitchen-cost-calculator'?document.getElementById('kitchen-calculator'):wardrobePage?document.getElementById('wardrobe-enquiry'):location.pathname==='/london'?document.getElementById('london-enquiry-showroom'):location.pathname==='/consultation'?document.getElementById('consultation-enquiry'):location.pathname==='/local/chelsea'?document.getElementById('chelsea-visit'):location.pathname==='/'?document.getElementById('contact'):null;
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
  const homeRequestSections=location.pathname==='/'?[...document.querySelectorAll('main section')].filter(section=>[...section.querySelectorAll('a,button')].some(control=>/request.*consultation/i.test(control.textContent||''))):[];
  const articleTables=['/post/dining-bench-cushions','/post/ducted-vs-recirculating-cooker-hood'].includes(location.pathname)?[...document.querySelectorAll('.article-table-wrap')]:[];
@@ -33,8 +37,9 @@
   const privacy=document.querySelector('.nura-privacy-control'),footer=document.querySelector('.nura-footer');
   if(privacy&&footer)privacy.hidden=visible.has(footer);
   trigger.hidden=visible.size>0;
-  if(trigger.hidden&&compactToggle){holder.classList.remove('is-expanded');compactToggle.setAttribute('aria-expanded','false');compactToggle.textContent='Talk to NURA +';}
+  if(trigger.hidden&&compactToggle){holder.classList.remove('is-expanded');if(!calculatorPage)compactToggle.setAttribute('aria-expanded','false');compactToggle.textContent=compactLabel;}
   if(compactToggle)compactToggle.hidden=trigger.hidden;
+  if(calculatorCall)calculatorCall.hidden=trigger.hidden;
   holder.querySelector(".nura-lead-call").hidden=trigger.hidden;
   holder.querySelector(".nura-lead-actions").hidden=trigger.hidden;
   scheduleTone();

@@ -112,3 +112,7 @@ body:has(.hero-image[src*="nura-larder-hero"]) .nura-lead-trigger{position:stati
  .article-content:has(img[src*="nura-sustainable-interiors-"]) table :is(th,td):nth-child(2){width:36%}
  .article-content:has(img[src*="nura-sustainable-interiors-"]) table :is(th,td):nth-child(3){width:37%}
 }
+
+.nura-calculator-contact .nura-calculator-call{display:block;background:#d8b778;color:#22271f;padding:10px 15px;margin-top:7px;text-align:center;text-decoration:none;font-size:13px;font-weight:700;border-radius:22px}.nura-calculator-contact .nura-calculator-call[hidden]{display:none}.nura-calculator-contact .nura-calculator-call:focus-visible{outline:3px solid #292d26;outline-offset:3px}
+.nura-calculator-contact .nura-calculator-call{position:fixed;right:24px;bottom:14px;z-index:1500;margin:0}.nura-calculator-contact .nura-lead-toggle{bottom:60px}
+.nura-calculator-contact .nura-lead-toggle{bottom:68px!important}
