@@ -313,3 +313,4 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 2026-10-28: Local Journal redesign ready for owner visual review. Production publication is outside this local-only task.
 2026-10-29 homepage release: confirm exact production source/READY/domain after push. Verify compact privacy panel in production because analytics consent UI intentionally does not initialise on localhost. Preserve paused editorial automation.
 2026-10-29 services release: validate merged production source, push and confirm exact SHA/READY/domain plus services rendering. Preserve paused content workflows.
+2026-10-29 process release: complete exact-SHA release check, confirm Vercel READY/source/domain and live process rendering. No editorial automation restart authorised.
