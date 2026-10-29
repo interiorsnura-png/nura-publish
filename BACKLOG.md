@@ -1,5 +1,9 @@
 # NURA Backlog
 
+- 2026-10-29: Chelsea v2 final visual/mobile check pending supported browser access restoration. Exact operation await chelseaLocal.reload() returned Browser Use URL policy denial on data:text/html built-in ERR_CONNECTION_REFUSED target. Node HTTP200 does not establish browser access. Do not repeat unchanged denied navigation or use another browser/URL/driver as workaround. Owner may reopen local page manually; retain same v2 and completed unchanged-source checks. Publication remains unauthorised.
+
+- 2026-10-29: Chelsea remains a local review draft. Before any separately authorised release, complete outstanding search/metadata comparison and full publication QC; deliberately replace development guard/noindex and plan sitemap/navigation inclusion. See ../chelsea-local-run/brief.md. Current preview is not publication approval; paused article queues unchanged.
+
 - 2026-10-27: New oven comparison candidate, actual cooking scenario and model-specific planning checks.
 
 - 2026-10-27: New changing-paper noticeboard tip, useful ordinary scenario, no installation or organisation guarantee.

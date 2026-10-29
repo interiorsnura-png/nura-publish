@@ -1,5 +1,9 @@
 # NURA Work Log
 
+- 2026-10-29: Applied owner-authorised Chelsea rewrite v2. OmniRoute draft request failed502; primary Codex drafted and separate Codex reviewed exact pageSHA7f7a01ecf561f981a64bb2174c4eea03fbd3f97c3553c7afeb807b941ec72fef. New desktop copy/visit block inspected before final contain crop; full build119tests/203routes passed. Supported browser reload then denied on internal data:error target after server restart, stopped dependent browser work. HTTP200, oneH1, canonical, noindex, OG/Twitter alignment and ten internal links verified. Final mobile visual remains pending, no push.
+
+- 2026-10-29: Implemented local-only Chelsea draft with documented Elm Park Road references, service links, practical brief/process/FAQ and consultation anchor. Corrected Two homes to Two projects after independent source review. Final build119tests/203routes passed, production-mode route404, development route200, oneH1, correct canonical, noindex and ten internal link targets200. No publication; private evidence ../chelsea-local-run/.
+
 - 2026-10-27: New oven comparison candidate, actual cooking scenario and model-specific planning checks.
 
 - 2026-10-27: New changing-paper noticeboard tip, useful ordinary scenario, no installation or organisation guarantee.

@@ -1,5 +1,9 @@
 # NURA Project State
 
+- 2026-10-29: Chelsea local draft v2 rewritten around service-area search intent, practical layout/storage choices, documented case references and Fulham visit preparation. Meta/H1/OG/Twitter aligned, project alts cleaned, source-mapped hero and real Fulham entrance used. Independent local editorial review and full119test/203route build passed. Final post-build visual/mobile QA blocked by explicit Browser Use URL policy denial; HTTP200 and metadata/internal links passed. No publication. See ../chelsea-local-run/preview-report.json.
+
+- 2026-10-29: Owner-supplied Chelsea landing prepared at /local/chelsea as a development-only, noindex local draft with existing header/footer and real project photographs. Independent copy review and full119test/203route build passed; desktop/mobile preview inspected. No push or publication. Evidence: ../chelsea-local-run/preview-report.json.
+
 - 2026-10-27: New oven comparison candidate, actual cooking scenario and model-specific planning checks.
 
 - 2026-10-27: New changing-paper noticeboard tip, useful ordinary scenario, no installation or organisation guarantee.
