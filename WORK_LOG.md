@@ -1,5 +1,8 @@
 # NURA Work Log
 
+- 2026-10-29: Homepage SEO request traced through app/route.ts and existing overlays. Four regression tests reproduced metadata, heading and schema issues; implementation adds shared metadata and retains existing journeys. Updated the planning-links test loader for the new dependency without weakening its assertions. Pull-request review and live/browser validation remain separate. See docs/evidence/homepage-seo-2026-10-29.md.
+- Verification for the homepage SEO branch: 136 tests, production build/TypeScript, 205 route SEO checks and all build:verified runtime/licensing/journey checks passed locally. Built homepage metadata/schema inspected. Browser and production checks remain pending.
+
 - 2026-10-29: Owner authorised local homepage calculator teaser immediately after hero and before services. Scoped transform and existing homepage planning stylesheet used; gold CTA to calculator, no imagery changes. TypeScript and desktop/mobile visual checks passed; no overflow, section order and destination verified. Not committed/pushed/deployed.
 
 - 2026-10-29: Owner authorised publication of calculator UX iteration, country flags and editorial links. Pre-publication132tests/fullbuild/205SEO routes passed on final source; dedicated regression tests preserve editable/empty briefs and unrelated-page opening. Hero image unchanged. Production action and exact release evidence recorded privately in ../kitchen-calculator-run/ux-release-result.json. Paused article queues unchanged.

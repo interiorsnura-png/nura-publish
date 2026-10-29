@@ -1,5 +1,8 @@
 # NURA Project State
 
+- 2026-10-29: Homepage SEO prepared on a review branch: shared search/social/WebPage metadata, service-led H1 with Fulham/Dubai context, corrected studio image URLs, removed placeholder Dubai postcode and selected-review aggregate. Migration snapshot, hero assets and enquiry fields preserved. No production merge or deployment. Evidence: docs/evidence/homepage-seo-2026-10-29.md.
+- Verification for the homepage SEO branch: 136 tests, production build/TypeScript, 205 route SEO checks and all build:verified runtime/licensing/journey checks passed locally. Built homepage metadata/schema inspected. Browser and production checks remain pending.
+
 - 2026-10-29: Owner authorised local homepage calculator teaser immediately after hero and before services. Scoped transform and existing homepage planning stylesheet used; gold CTA to calculator, no imagery changes. TypeScript and desktop/mobile visual checks passed; no overflow, section order and destination verified. Not committed/pushed/deployed.
 
 - 2026-10-29: Owner authorised publication of calculator UX iteration, country flags and editorial links. Pre-publication132tests/fullbuild/205SEO routes passed on final source; dedicated regression tests preserve editable/empty briefs and unrelated-page opening. Hero image unchanged. Production action and exact release evidence recorded privately in ../kitchen-calculator-run/ux-release-result.json. Paused article queues unchanged.

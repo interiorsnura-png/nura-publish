@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-29: Homepage SEO review branch requires desktop/mobile visual review of the new H1, official Google structured-data validation and approval before production merge. After merge, complete exact-SHA release gates and verify live canonical-domain metadata/schema. Search Console indexing, actual query performance and field CWV remain unverified; no ranking or CTR gain claimed.
+
 - 2026-10-29: Owner authorised local homepage calculator teaser immediately after hero and before services. Scoped transform and existing homepage planning stylesheet used; gold CTA to calculator, no imagery changes. TypeScript and desktop/mobile visual checks passed; no overflow, section order and destination verified. Not committed/pushed/deployed.
 
 - 2026-10-29: Owner authorised publication of calculator UX iteration, country flags and editorial links. Pre-publication132tests/fullbuild/205SEO routes passed on final source; dedicated regression tests preserve editable/empty briefs and unrelated-page opening. Hero image unchanged. Production action and exact release evidence recorded privately in ../kitchen-calculator-run/ux-release-result.json. Paused article queues unchanged.

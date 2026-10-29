@@ -10,7 +10,7 @@ function compile(file,imports={}){
  const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
  const result={};new Function('exports','require',js)(result,name=>{assert.ok(name in imports,name);return imports[name];});return result;
 }
-const {improveHomeSeo}=compile('home-seo.ts',{'./footer':compile('footer.ts'),'./home-faq':compile('home-faq.ts')});
+const {improveHomeSeo}=compile('home-seo.ts',{'./footer':compile('footer.ts'),'./home-faq':compile('home-faq.ts'),'./home-metadata':compile('home-metadata.ts')});
 const original=JSON.parse(fs.readFileSync(new URL('../lib/published-home.json',import.meta.url),'utf8')).html;
 const before=improveHomeJourney(improveHomeSeo(original));
 const result=improveHomePlanningLinks(before),$=load(result),previous=load(before);
