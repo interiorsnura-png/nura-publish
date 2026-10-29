@@ -68,3 +68,21 @@ test('selected testimonials are not represented as a business aggregate rating',
  assert.equal($('.nura-reviews').text(),before('.nura-reviews').text());
  assert.deepEqual($('.nura-reviews a').map((_,el)=>$(el).attr('href')).get(),before('.nura-reviews a').map((_,el)=>before(el).attr('href')).get());
 });
+
+
+test('service hero separates the slogan and scopes responsive typography without changing SEO copy',()=>{
+ assert.equal($('.hero.hero-service').length,1);
+ assert.equal($('#hero-title').html(),'Bespoke kitchens<br><em>and joinery.</em>');
+ assert.equal($('.hero-slogan').text(),'A room can change a life.');
+ assert.equal($('.hero-description').text(),'Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.');
+ assert.equal($('.hero-lede').text(),'A room can change a life. Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.');
+ assert.equal($('link[href="/nura-home-hero.css"]').length,1);
+ const css=fs.readFileSync(new URL('public/nura-home-hero.css',root),'utf8');
+ assert.match(css,/font-size: clamp\(2\.75rem, 5\.1vw, 4\.75rem\)/);
+ assert.match(css,/font-size: clamp\(2\.2rem, 8\.7vw, 3\.5rem\)/);
+ assert.match(css,/max-width: 16ch/);
+ assert.match(css,/line-height: 1\.08/);
+ assert.match(css,/text-wrap: balance/);
+ assert.match(css,/@media \(max-width: 800px\)/);
+ assert.match(css,/\.hero\.hero-service \.hero-slogan/);
+});

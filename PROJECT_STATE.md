@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-29: PR 7 hero typography follow-up preserves H1 wording, metadata and JSON-LD. Added homepage-only responsive heading scale, readable line-height/width, separate slogan/description hierarchy and short-screen spacing. Awaiting updated preview and browser visual review; no production publication.
+
 - 2026-10-29: Homepage SEO prepared on a review branch: shared search/social/WebPage metadata, service-led H1 with Fulham/Dubai context, corrected studio image URLs, removed placeholder Dubai postcode and selected-review aggregate. Migration snapshot, hero assets and enquiry fields preserved. No production merge or deployment. Evidence: docs/evidence/homepage-seo-2026-10-29.md.
 - Verification for the homepage SEO branch: 136 tests, production build/TypeScript, 205 route SEO checks and all build:verified runtime/licensing/journey checks passed locally. Built homepage metadata/schema inspected. Browser and production checks remain pending.
 

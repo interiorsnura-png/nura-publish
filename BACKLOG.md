@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-29: Review PR 7 updated hero at desktop and mobile widths, including 320px and short landscape. Automated source/build checks are not a visual pass. Browser tooling is unavailable in this session; keep draft pending actual layout review.
+
 - 2026-10-29: Homepage SEO review branch requires desktop/mobile visual review of the new H1, official Google structured-data validation and approval before production merge. After merge, complete exact-SHA release gates and verify live canonical-domain metadata/schema. Search Console indexing, actual query performance and field CWV remain unverified; no ranking or CTR gain claimed.
 
 - 2026-10-29: Owner authorised local homepage calculator teaser immediately after hero and before services. Scoped transform and existing homepage planning stylesheet used; gold CTA to calculator, no imagery changes. TypeScript and desktop/mobile visual checks passed; no overflow, section order and destination verified. Not committed/pushed/deployed.
