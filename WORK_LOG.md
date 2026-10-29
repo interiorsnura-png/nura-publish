@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-29: Owner approved concise hero: retained service H1, Designed around you, and Request a free consultation. Removed hero eyebrow/trust repetition, moved London/Dubai description immediately below hero and restored mobile image overlay with gradient. Preview review required; browser visual checks unavailable.
+
 - 2026-10-29: Owner-selected golden kitchen homepage photograph prepared on an isolated preview branch rebased onto 426a419, retaining current homepage SEO and accessibility changes. Optimized WebP variants at 480/640/1080px, aligned preload/social/licensing, full-width uncropped mobile image with copy below. No production release authorized. Desktop/mobile visual review remains pending; no browser tool in this session.
 
 - 2026-10-29: Accessibility request addresses the two owner-reported audit issues. Scoped Journal label color avoids inherited alpha; social footer icons now use empty alt with existing aria-label and visible link text preserved. Added source contrast and accessible-name regression tests.

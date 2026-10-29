@@ -9,9 +9,16 @@ export function improveHomeSeo(html:string){
   .replace(/(<meta\s+(?:name|property)="(?:og:title|twitter:title)"\s+content=")[^"]*("[^>]*>)/g,`$1${title}$2`)
   .replace(/(<meta\s+(?:name|property)="(?:description|og:description|twitter:description)"\s+content=")[^"]*("[^>]*>)/g,`$1${description}$2`)
   .replace('<h1 id="hero-title">A room can<br><em>change a life.</em></h1>','<h1 id="hero-title">Bespoke kitchens<br><em>and joinery.</em></h1>')
-  .replace('Kitchens and joinery made around the way you live, with a quiet confidence that lasts.','<span class="hero-slogan">A room can change a life.</span> <span class="hero-description">Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.</span>')
+  .replace('Kitchens and joinery made around the way you live, with a quiet confidence that lasts.','<span class="hero-slogan">Designed around you.</span>')
   .replace('<section class="hero" aria-labelledby="hero-title">','<section class="hero hero-service" aria-labelledby="hero-title">')
   .replace('</head>','<link rel="stylesheet" href="/nura-home-hero.css"/></head>');
+ // Keep the hero focused on one message and move location context below it.
+ html=html.replace(/(<section class="hero hero-service"[\s\S]*?<\/section>)/,hero=>hero
+  .replace(/<p class="eyebrow">[\s\S]*?<\/p>/,'')
+  .replace(/<p class="hero-trust">[\s\S]*?<\/p>/,'')
+  .replace('Begin a conversation','Request a free consultation')
+ )
+ .replace(/(<section class="hero hero-service"[\s\S]*?<\/section>)/,'$1<section class="hero-location" aria-label="Our studios"><p>Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.</p></section>');
  // Owner-selected project photograph; preserve the immutable migration snapshot.
  const heroAlt='Nura kitchen with gold-toned cabinetry and a white veined stone island';
  html=html.replace(/<img\b[^>]*class="hero-image"[^>]*>/,`<img class="hero-image" width="1080" height="608" src="/assets/selected/nura-golden-kitchen-1080.webp" srcset="/assets/selected/nura-golden-kitchen-480.webp 480w, /assets/selected/nura-golden-kitchen-640.webp 640w, /assets/selected/nura-golden-kitchen-1080.webp 1080w" sizes="100vw" alt="${heroAlt}" fetchpriority="high">`)

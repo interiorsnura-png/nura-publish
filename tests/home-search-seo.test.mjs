@@ -37,8 +37,8 @@ test('homepage search, social and schema descriptions consistently identify serv
 test('one visible service-led H1 uses the selected hero and retains the enquiry form',()=>{
  assert.equal($('h1').length,1);
  assert.match($('h1').text(),/Bespoke kitchens.*and joinery/);
- assert.match($('.hero-lede').text(),/London showroom in Fulham/);
- assert.match($('.hero-lede').text(),/Dubai studio/);
+ assert.match($('.hero-location').text(),/London showroom in Fulham/);
+ assert.match($('.hero-location').text(),/Dubai studio/);
  assert.equal($('.hero-image').attr('src'),'/assets/selected/nura-golden-kitchen-1080.webp');
  assert.deepEqual($('main img:not(.hero-image)').map((_,el)=>$(el).attr('src')).get(),before('main img:not(.hero-image)').map((_,el)=>before(el).attr('src')).get());
  // The pre-existing overlay adds a budget option and privacy link; preserve submission fields.
@@ -74,9 +74,13 @@ test('selected testimonials are not represented as a business aggregate rating',
 test('service hero separates the slogan and scopes responsive typography without changing SEO copy',()=>{
  assert.equal($('.hero.hero-service').length,1);
  assert.equal($('#hero-title').html(),'Bespoke kitchens<br><em>and joinery.</em>');
- assert.equal($('.hero-slogan').text(),'A room can change a life.');
- assert.equal($('.hero-description').text(),'Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.');
- assert.equal($('.hero-lede').text(),'A room can change a life. Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.');
+ assert.equal($('.hero-slogan').text(),'Designed around you.');
+ assert.equal($('.hero-description').length,0);
+ assert.equal($('.hero-lede').text(),'Designed around you.');
+ assert.equal($('.hero .eyebrow, .hero-trust').length,0);
+ assert.equal($('.hero .button').text().replace('↗','').trim(),'Request a free consultation');
+ assert.equal($('.hero .button').attr('href'),'#contact');
+ assert.equal($('.hero').next().attr('class'),'hero-location');
  assert.equal($('link[href="/nura-home-hero.css"]').length,1);
  const css=fs.readFileSync(new URL('public/nura-home-hero.css',root),'utf8');
  assert.match(css,/font-size: clamp\(2\.75rem, 5\.1vw, 4\.75rem\)/);
@@ -115,8 +119,9 @@ test('selected project hero has matching responsive preload, social preview and 
  }
  const css=fs.readFileSync(new URL('public/nura-home-hero.css',root),'utf8');
  assert.match(css,/object-position: center center/);
- assert.match(css,/object-fit: contain/);
- assert.match(css,/padding-top: 80px/);
- assert.match(css,/height: auto/);
- assert.match(css,/bottom: auto/);
+ assert.match(css,/object-fit: cover/);
+ assert.match(css,/position: absolute/);
+ assert.match(css,/rgba\(8,13,10,\.78\)/);
+ assert.match(css,/height: min\(760px, 100svh\)/);
+ assert.doesNotMatch(css,/bottom: auto/);
 });
