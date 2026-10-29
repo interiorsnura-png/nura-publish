@@ -1,5 +1,7 @@
 # NURA Backlog
 
+- 2026-10-29: Owner authorised local homepage calculator teaser immediately after hero and before services. Scoped transform and existing homepage planning stylesheet used; gold CTA to calculator, no imagery changes. TypeScript and desktop/mobile visual checks passed; no overflow, section order and destination verified. Not committed/pushed/deployed.
+
 - 2026-10-29: Owner authorised publication of calculator UX iteration, country flags and editorial links. Pre-publication132tests/fullbuild/205SEO routes passed on final source; dedicated regression tests preserve editable/empty briefs and unrelated-page opening. Hero image unchanged. Production action and exact release evidence recorded privately in ../kitchen-calculator-run/ux-release-result.json. Paused article queues unchanged.
 
 - 2026-10-29: Owner authorised local calculator UX upgrades except imagery. Three steps, mobile budget bar, explicit brief-only layout, retained selections and editable consultation summary implemented; guide/FAQ moved before research.132tests/fullbuild/205SEO routes/licensing passed. Browser desktop/mobile and no-submit form flow verified, deliberate empty edits retained. Hero asset unchanged. No commit, push or new deployment. Evidence ../kitchen-calculator-run/ux-upgrade-report.json.
@@ -297,3 +299,4 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 
 2026-10-27 B2B wall-mounted joinery guide: hypothetical W21 relocation ties actual wall records and concealed-provision coverage to revised cabinet position. One original credited room concept, actual Google leading content/media research and independent source reviews in workspace wall-mounted-run. Rejected draft dimensions, role defaults and unsupported service promises. No universal fixing selection, sizes, loads, measured installation or structural design service claim. Preserve full QC/PDCA/responsive/build/exact-SHA/live/official gates and actual first READY timestamp correction. Index/Discover/field CWV/analytics monitoring remain open.
 2026-10-28: Local Journal redesign ready for owner visual review. Production publication is outside this local-only task.
+2026-10-29 homepage release: confirm exact production source/READY/domain after push. Verify compact privacy panel in production because analytics consent UI intentionally does not initialise on localhost. Preserve paused editorial automation.

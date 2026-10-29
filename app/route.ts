@@ -5,6 +5,7 @@ import {improveHomePerformance} from '../lib/home-performance';
 import {improveHomeJourney} from '../lib/home-journey.mjs';
 import {improveHomePlanningLinks} from '../lib/home-planning-links.mjs';
 import {enhanceHome} from '../lib/guarantee-preview.mjs';
+import {addHomeCalculatorLink} from '../lib/home-calculator-link.mjs';
 export const dynamic='force-static';
 export function GET(){
  const schema=JSON.stringify(homeSchema).replace(/</g,'\\u003c');
@@ -24,6 +25,6 @@ export function GET(){
  if(process.env.SITE_ENV==='production')html=html.replace('</head>','<link rel="alternate" type="application/rss+xml" title="Nura Interiors Journal" href="https://www.nura-interiors.com/rss.xml"/></head>');
  html=html.replace('</head>','<link rel="stylesheet" href="/nura-header.css"/></head>');
  html=html.replace('</body>','<script src="/nura-header.js" defer></script></body>');
- html=enhanceHome(improveHomePerformance(html));
+ html=addHomeCalculatorLink(enhanceHome(improveHomePerformance(html)));
  return new Response(html,{headers:{'Content-Type':'text/html; charset=utf-8'}});
 }
