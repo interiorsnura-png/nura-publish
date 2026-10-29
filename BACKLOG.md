@@ -1,5 +1,9 @@
 # NURA Backlog
 
+- 2026-10-29: Owner authorised publication of calculator UX iteration, country flags and editorial links. Pre-publication132tests/fullbuild/205SEO routes passed on final source; dedicated regression tests preserve editable/empty briefs and unrelated-page opening. Hero image unchanged. Production action and exact release evidence recorded privately in ../kitchen-calculator-run/ux-release-result.json. Paused article queues unchanged.
+
+- 2026-10-29: Owner authorised local calculator UX upgrades except imagery. Three steps, mobile budget bar, explicit brief-only layout, retained selections and editable consultation summary implemented; guide/FAQ moved before research.132tests/fullbuild/205SEO routes/licensing passed. Browser desktop/mobile and no-submit form flow verified, deliberate empty edits retained. Hero asset unchanged. No commit, push or new deployment. Evidence ../kitchen-calculator-run/ux-upgrade-report.json.
+
 - 2026-10-29: Owner authorised calculator production release. Removed local route guard/draft label, added environment-aware robots, representative social image, sitemap and footer discovery. Six estimator tests and independent source review passed; pricing remains a disclosed benchmark model with unit scaling, gross VAT uncertainty range and a7400planning floor. Owner-confirmed migrated4.9/44rating provenance recorded privately. Exact release evidence in ../kitchen-calculator-run/. Earlier local-only notes are historical.
 
 - 2026-10-29: Bespoke cabinet tier now scales by unit count from disclosed assumed12unit reference. All displayed ranges use standard20percent gross VAT uncertainty envelope, covering unconfirmed source net/gross interpretations instead of asserting tax confirmation. Five focused tests and build passed; browser8/16unit cabinet ranges8000-20000 and16000-40000 verified. Local only; calibration/source tax confirmation pending. Evidence ../kitchen-calculator-run/scaling-vat-review.json.

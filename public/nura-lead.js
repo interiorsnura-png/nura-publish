@@ -29,7 +29,7 @@
  if(wardrobePage){trigger.querySelector('span').textContent='Discuss your wardrobe project';trigger.removeAttribute('aria-haspopup');trigger.removeAttribute('aria-controls');}
  const homeRequestSections=location.pathname==='/'?[...document.querySelectorAll('main section')].filter(section=>[...section.querySelectorAll('a,button')].some(control=>/request.*consultation/i.test(control.textContent||''))):[];
  const articleTables=['/post/dining-bench-cushions','/post/ducted-vs-recirculating-cooker-hood'].includes(location.pathname)?[...document.querySelectorAll('.article-table-wrap')]:[];
- const inlineActions=[...new Set([contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq'),location.pathname==='/london'?document.querySelector('.london-welcome'):null,...homeRequestSections,...articleTables].filter(Boolean))];
+ const inlineActions=[...new Set([contact,document.querySelector('.nura-footer'),document.querySelector('.nura-faq'),location.pathname==='/london'?document.querySelector('.london-welcome'):null,...homeRequestSections,...articleTables,...(calculatorPage?[...document.querySelectorAll("[data-calculator-inline-cta]")]:[])].filter(Boolean))];
  // IntersectionObserver already supplies visibility without a synchronous layout read.
  const visible=new Set();
  const observer=new IntersectionObserver(entries=>{
@@ -46,7 +46,21 @@
  });inlineActions.forEach(el=>observer.observe(el));
  const dialog=holder.querySelector('dialog'),form=holder.querySelector('form'),submit=holder.querySelector('.nura-lead-submit'),status=holder.querySelector('.nura-lead-status');
  let returnFocus=null;
- const openDialog=()=>{returnFocus=document.activeElement;dialog.showModal();};
+ let calculatorBriefField=null,lastGeneratedBrief='',briefInitialised=false;
+ if(calculatorPage){
+  const label=document.createElement('label');label.textContent='Your kitchen selections (editable)';
+  calculatorBriefField=document.createElement('textarea');calculatorBriefField.className='nura-calculator-brief';calculatorBriefField.rows=7;calculatorBriefField.maxLength=5000;label.append(calculatorBriefField);
+  form.querySelector('[name="message"]').maxLength=4000;
+  const refresh=document.createElement('button');refresh.type='button';refresh.textContent='Use latest calculator choices';refresh.className='nura-calculator-refresh';
+  refresh.addEventListener('click',()=>{lastGeneratedBrief=document.querySelector('[data-calculator-brief]')?.textContent||'';calculatorBriefField.value=lastGeneratedBrief;briefInitialised=true;});
+  const note=document.createElement('p');note.className='nura-lead-note';note.textContent='Review this summary before sending. Reopening keeps your edits. Use the button to replace them with your latest calculator choices.';
+  form.querySelector('.nura-lead-trap').before(label,refresh,note);
+ }
+ const openDialog=()=>{
+  returnFocus=document.activeElement;
+  if(calculatorBriefField&&(!briefInitialised||calculatorBriefField.value===lastGeneratedBrief)){lastGeneratedBrief=document.querySelector('[data-calculator-brief]')?.textContent||'';calculatorBriefField.value=lastGeneratedBrief;briefInitialised=true;}
+  dialog.showModal();
+ };
  dialog.addEventListener('close',()=>{if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true});});
  holder.querySelector('.nura-lead-trigger').addEventListener('click',()=>{if((wardrobePage||location.pathname==='/london')&&contact){contact.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});contact.focus({preventScroll:true});}else openDialog();});
  document.addEventListener('click',e=>{if(e.target.closest('[data-nura-enquiry]')){e.preventDefault();openDialog();}});
@@ -57,6 +71,7 @@
   e.preventDefault();if(sending||!form.reportValidity())return;
   sending=true;submit.disabled=true;status.textContent='Sending your enquiry…';
   let fields=Object.fromEntries(new FormData(form));
+  if(calculatorBriefField?.value.trim())fields.message+='\n\n'+calculatorBriefField.value.trim();
   fields.message+='\n\nEnquiry page: '+location.origin+location.pathname;
   fields=window.nuraEnquiry.prepare(form,fields);
   try{const response=await fetch('/api/enquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(fields),signal:AbortSignal.timeout(60000)});const data=await response.json();if(!response.ok||!data.ok)throw new Error('Enquiry not accepted');window.nuraEnquiry.complete(form,data,{form_location:'floating',enquiry_type:'consultation'});status.textContent='Thank you. Your enquiry has been sent to the NURA studio.';form.reset();}
