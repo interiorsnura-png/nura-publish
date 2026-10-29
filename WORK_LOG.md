@@ -1,5 +1,11 @@
 # NURA Work Log
 
+- 2026-10-29: Owner requested final hero cleanup. Removed standalone location strip and its CSS, moved approved London/Dubai copy into existing Nura introduction. Selected photo, concise overlay H1/tagline/free-consultation CTA and independent calculator preserved. Browser visual review remains pending.
+
+- 2026-10-29: Owner approved concise hero: retained service H1, Designed around you, and Request a free consultation. Removed hero eyebrow/trust repetition, moved London/Dubai description immediately below hero and restored mobile image overlay with gradient. Preview review required; browser visual checks unavailable.
+
+- 2026-10-29: Owner-selected golden kitchen homepage photograph prepared on an isolated preview branch rebased onto 426a419, retaining current homepage SEO and accessibility changes. Optimized WebP variants at 480/640/1080px, aligned preload/social/licensing, full-width uncropped mobile image with copy below. No production release authorized. Desktop/mobile visual review remains pending; no browser tool in this session.
+
 - 2026-10-29: Accessibility request addresses the two owner-reported audit issues. Scoped Journal label color avoids inherited alpha; social footer icons now use empty alt with existing aria-label and visible link text preserved. Added source contrast and accessible-name regression tests.
 
 - 2026-10-29: User reported oversized/crowded service-led hero. Root cause: legacy slogan CSS retained 7.3vw desktop / 16vw mobile heading sizing with sub-1 line-height. Scoped hero-service CSS reduces scale, sets balanced wrapping and line-height above 1, and separates unchanged supporting text into block spans. Existing SEO/schema files unchanged.

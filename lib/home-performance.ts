@@ -4,7 +4,7 @@ import {join} from 'node:path';
 // Homepage is an HTML route. Inline its small local styles in their existing
 // cascade order, removing serial stylesheet requests without a flash of layout.
 export function improveHomePerformance(html:string){
- html=html.replace('<head>','<head><link rel="preload" as="image" href="/assets/selected/3e30b0a15f5f-640.webp" imagesrcset="/assets/selected/3e30b0a15f5f-640.webp 640w, /assets/selected/3e30b0a15f5f-1280.webp 1280w, /assets/selected/3e30b0a15f5f-1600.webp 1600w" imagesizes="100vw" fetchpriority="high"/>');
+ html=html.replace('<head>','<head><link rel="preload" as="image" href="/assets/selected/nura-golden-kitchen-1080.webp" imagesrcset="/assets/selected/nura-golden-kitchen-480.webp 480w, /assets/selected/nura-golden-kitchen-640.webp 640w, /assets/selected/nura-golden-kitchen-1080.webp 1080w" imagesizes="100vw" fetchpriority="high"/>');
  const analytics=readFileSync(join(process.cwd(),'public','nura-analytics.js'),'utf8');
  const consentContent=analytics.match(/banner\.innerHTML='([^']+)';/)?.[1];
  if(!consentContent)throw new Error('Consent markup missing');
