@@ -15,6 +15,11 @@
     "permanent": true
   },
   {
+    "source": "/our-process",
+    "destination": "/process",
+    "permanent": true
+  },
+  {
     "source": "/our-philisophy",
     "destination": "/about",
     "permanent": true
