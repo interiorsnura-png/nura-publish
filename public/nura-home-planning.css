@@ -24,3 +24,6 @@
 @media(min-width:601px) and (max-width:1000px){#home-kitchen-budget .budget-symbol{position:absolute;left:0;top:28px;margin:0}}
 
 #home-kitchen-budget{grid-template-columns:minmax(0,1fr) minmax(260px,430px);column-gap:55px;row-gap:24px;padding-top:44px;padding-bottom:44px}#home-kitchen-budget .budget-intro{grid-column:1;grid-row:1;padding-left:0}#home-kitchen-budget .budget-symbol{position:static;display:block;width:62px;height:62px;margin:0 0 20px}#home-kitchen-budget .budget-photo{grid-column:2;grid-row:1 / span 2;width:100%;height:auto;display:block;border-radius:3px;border:1px solid #ded6c7;box-sizing:border-box}#home-kitchen-budget>a{grid-column:1;grid-row:2;justify-self:start;margin-left:0}#home-kitchen-budget h2{font-size:clamp(2rem,3vw,3rem)}@media(max-width:800px){#home-kitchen-budget{grid-template-columns:minmax(0,1fr);gap:24px;padding:32px 6vw}#home-kitchen-budget .budget-intro{grid-row:1}#home-kitchen-budget .budget-photo{grid-column:1;grid-row:2;max-width:520px}#home-kitchen-budget>a{grid-row:3}#home-kitchen-budget .budget-symbol{width:58px;height:58px;margin-bottom:18px}}
+
+/* Opaque text on the planning section paper background; avoid inherited muted alpha. */
+#home-planning .section-mark{color:#4a4238;opacity:1}

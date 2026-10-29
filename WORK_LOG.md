@@ -1,5 +1,18 @@
 # NURA Work Log
 
+- 2026-10-29: Owner requested final hero cleanup. Removed standalone location strip and its CSS, moved approved London/Dubai copy into existing Nura introduction. Selected photo, concise overlay H1/tagline/free-consultation CTA and independent calculator preserved. Browser visual review remains pending.
+
+- 2026-10-29: Owner approved concise hero: retained service H1, Designed around you, and Request a free consultation. Removed hero eyebrow/trust repetition, moved London/Dubai description immediately below hero and restored mobile image overlay with gradient. Preview review required; browser visual checks unavailable.
+
+- 2026-10-29: Owner-selected golden kitchen homepage photograph prepared on an isolated preview branch rebased onto 426a419, retaining current homepage SEO and accessibility changes. Optimized WebP variants at 480/640/1080px, aligned preload/social/licensing, full-width uncropped mobile image with copy below. No production release authorized. Desktop/mobile visual review remains pending; no browser tool in this session.
+
+- 2026-10-29: Accessibility request addresses the two owner-reported audit issues. Scoped Journal label color avoids inherited alpha; social footer icons now use empty alt with existing aria-label and visible link text preserved. Added source contrast and accessible-name regression tests.
+
+- 2026-10-29: User reported oversized/crowded service-led hero. Root cause: legacy slogan CSS retained 7.3vw desktop / 16vw mobile heading sizing with sub-1 line-height. Scoped hero-service CSS reduces scale, sets balanced wrapping and line-height above 1, and separates unchanged supporting text into block spans. Existing SEO/schema files unchanged.
+
+- 2026-10-29: Homepage SEO request traced through app/route.ts and existing overlays. Four regression tests reproduced metadata, heading and schema issues; implementation adds shared metadata and retains existing journeys. Updated the planning-links test loader for the new dependency without weakening its assertions. Pull-request review and live/browser validation remain separate. See docs/evidence/homepage-seo-2026-10-29.md.
+- Verification for the homepage SEO branch: 136 tests, production build/TypeScript, 205 route SEO checks and all build:verified runtime/licensing/journey checks passed locally. Built homepage metadata/schema inspected. Browser and production checks remain pending.
+
 - 2026-10-29: Owner authorised local homepage calculator teaser immediately after hero and before services. Scoped transform and existing homepage planning stylesheet used; gold CTA to calculator, no imagery changes. TypeScript and desktop/mobile visual checks passed; no overflow, section order and destination verified. Not committed/pushed/deployed.
 
 - 2026-10-29: Owner authorised publication of calculator UX iteration, country flags and editorial links. Pre-publication132tests/fullbuild/205SEO routes passed on final source; dedicated regression tests preserve editable/empty briefs and unrelated-page opening. Hero image unchanged. Production action and exact release evidence recorded privately in ../kitchen-calculator-run/ux-release-result.json. Paused article queues unchanged.
