@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-29: Accessibility request addresses the two owner-reported audit issues. Scoped Journal label color avoids inherited alpha; social footer icons now use empty alt with existing aria-label and visible link text preserved. Added source contrast and accessible-name regression tests.
+
 - 2026-10-29: User reported oversized/crowded service-led hero. Root cause: legacy slogan CSS retained 7.3vw desktop / 16vw mobile heading sizing with sub-1 line-height. Scoped hero-service CSS reduces scale, sets balanced wrapping and line-height above 1, and separates unchanged supporting text into block spans. Existing SEO/schema files unchanged.
 
 - 2026-10-29: Homepage SEO request traced through app/route.ts and existing overlays. Four regression tests reproduced metadata, heading and schema issues; implementation adds shared metadata and retains existing journeys. Updated the planning-links test loader for the new dependency without weakening its assertions. Pull-request review and live/browser validation remain separate. See docs/evidence/homepage-seo-2026-10-29.md.

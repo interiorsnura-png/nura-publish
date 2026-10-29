@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-29: Accessibility follow-up: corrected homepage Journal label to opaque #4a4238 and made LinkedIn/Instagram footer images decorative while preserving named links. Lighthouse 100 remains a target, not a measured result.
+
 - 2026-10-29: PR 7 hero typography follow-up preserves H1 wording, metadata and JSON-LD. Added homepage-only responsive heading scale, readable line-height/width, separate slogan/description hierarchy and short-screen spacing. Awaiting updated preview and browser visual review; no production publication.
 
 - 2026-10-29: Homepage SEO prepared on a review branch: shared search/social/WebPage metadata, service-led H1 with Fulham/Dubai context, corrected studio image URLs, removed placeholder Dubai postcode and selected-review aggregate. Migration snapshot, hero assets and enquiry fields preserved. No production merge or deployment. Evidence: docs/evidence/homepage-seo-2026-10-29.md.
