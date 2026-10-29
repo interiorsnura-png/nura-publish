@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
 import ts from 'typescript';
 import {load} from 'cheerio';
@@ -113,7 +114,7 @@ test('selected project hero has matching responsive preload, social preview and 
  const {default:sharp}=await import('sharp');
  for(const candidate of image.attr('srcset').split(', ')){
   const [path,width]=candidate.split(' ');
-  const metadata=await sharp(new URL('public'+path,root).pathname).metadata();
+  const metadata=await sharp(fileURLToPath(new URL('public'+path,root))).metadata();
   assert.equal(metadata.width,Number(width.slice(0,-1)));
   assert.ok(metadata.width<=1080);assert.equal(metadata.format,'webp');
  }
