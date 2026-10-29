@@ -21,7 +21,7 @@ if(!production){
  const publicPaths=sitemap('loc').map((_,e)=>sitemap(e).text()).get().filter(url=>url.startsWith(origin+'/post/'));
  assert.deepEqual([...links].sort(),[...publicPaths].sort(),'Feed and public article sitemap agree');
  let previous=Infinity;
- const pendingPaths=new Set(JSON.parse(await fs.readFile(new URL('../lib/published-editorial.json',import.meta.url))).filter(e=>['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions'].includes(e.path)&&e.content?.publication_event_pending===true&&e.content.published_date===undefined&&e.content.modified_date===undefined).map(e=>origin+e.path));
+ const pendingPaths=new Set(JSON.parse(await fs.readFile(new URL('../lib/published-editorial.json',import.meta.url))).filter(e=>['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions','/post/ducted-vs-recirculating-cooker-hood'].includes(e.path)&&e.content?.publication_event_pending===true&&e.content.published_date===undefined&&e.content.modified_date===undefined).map(e=>origin+e.path));
  for(const item of items){const link=rss(item).find('link').text(),raw=rss(item).find('pubDate').text();if(pendingPaths.has(link)){assert.equal(rss(item).find('pubDate').length,0);continue;}const date=Date.parse(raw);assert.ok(Number.isFinite(date)&&date<=Date.now());assert.ok(date<=previous);previous=date;}
  for(const path of ['/','/journal','/post/the-power-of-porcelain','/post/kitchen-larder-cupboard']){
   const r=await fetch(base+path);assert.equal(r.status,200);const $=load(await r.text());

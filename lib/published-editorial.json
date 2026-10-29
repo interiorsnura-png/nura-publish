@@ -35779,4 +35779,425 @@
     "modified_date": "2026-10-28T21:53:31.989Z"
   }
 }
+,
+{
+  "path": "/post/ducted-vs-recirculating-cooker-hood",
+  "source": {
+    "collection": "nura-editorial",
+    "id": "/post/ducted-vs-recirculating-cooker-hood"
+  },
+  "content": {
+    "component": "article",
+    "title": "Ducted vs Recirculating Cooker Hoods: Map the Air Route",
+    "category": "Planning",
+    "summary": "Follow the hood air route, check moisture expectations and keep filter access in the cabinetry plan.",
+    "seo_title": "Ducted vs Recirculating Cooker Hoods: Air Routes | NURA",
+    "seo_description": "Compare ducted and recirculating cooker hoods by the air route, moisture limits and filter access, then prepare the details for your kitchen plan.",
+    "hero": {
+      "filename": "/assets/editorial/nura-ducted-vs-recirculating-cooker-hood-hero.webp",
+      "alt": "Ducted cooker hood sending air outdoors beside a recirculating hood returning air to the room, with gold direction arrows",
+      "width": 1536,
+      "height": 864,
+      "caption": "Conceptual air routes: outside at left, back into the room at right. Not an installation drawing or a documented NURA project. Nura Interiors."
+    },
+    "social_image": {
+      "filename": "/assets/editorial/nura-ducted-vs-recirculating-cooker-hood-hero.webp",
+      "alt": "Ducted cooker hood sending air outdoors beside a recirculating hood returning air to the room, with gold direction arrows",
+      "width": 1536,
+      "height": 864,
+      "caption": "Conceptual air routes: outside at left, back into the room at right. Not an installation drawing or a documented NURA project. Nura Interiors."
+    },
+    "large_image_preview": true,
+    "author_name": "Joanne H",
+    "image_rights_status": "owned",
+    "source_publish_status": "published",
+    "publication_event_pending": true,
+    "body_nodes": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A ducted cooker hood sends extracted air outside through ducting. A recirculating hood passes air through grease and odour filters before returning it to the kitchen. To choose between them, look beyond the visible hood: establish where the air will go, what the selected model needs and how that route fits the cabinetry. Keep the room's ventilation requirements as a separate part of the design conversation."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Conceptual air routes: outside at left, back into the room at right. Not an installation drawing or a documented NURA project. Nura Interiors. "
+          },
+          {
+            "type": "text",
+            "text": "View the full-size air-route comparison",
+            "link": "/assets/editorial/nura-ducted-vs-recirculating-cooker-hood-hero.webp"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Trace the route beyond the hood"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For a ducted option, ask the kitchen designer and installer to identify a suitable exterior discharge point and the proposed route to it. A line on a kitchen elevation is only a starting point. The actual duct route, bends, connections and space in cabinets or ceilings need checking against the chosen appliance and the building. Do not assume an existing opening or chimney is suitable."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For recirculation, ask where the filtered air is intended to re-enter the room. Depending on the model, a compatible kit, internal connection or return outlet may still occupy space. An unspecified sealed cupboard is not a return-air plan. "
+          },
+          {
+            "type": "text",
+            "text": "Elica's hood guidance",
+            "link": "https://www.elica.com/GB-en/service/faq/hoods"
+          },
+          {
+            "type": "text",
+            "text": " describes different configurations and makes the appliance instructions important; the pictured chimney outlet is a concept, not the arrangement for every hood."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Confirm that the exact hood supports the proposed operating mode. Keep the accessory references with its model number, rather than treating a charcoal filter bought separately as proof that any hood can be converted."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Separate odour filtering from moisture ventilation"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Recirculation can be useful when a suitable external duct route is impractical, but it returns air to the room. "
+          },
+          {
+            "type": "text",
+            "text": "Whirlpool's UK guidance",
+            "link": "https://www.whirlpool.co.uk/frequently-asked-questions/i-cannot-install-external-ducting-for-my-cooker-hood.-is-recirculation-a-good-idea"
+          },
+          {
+            "type": "text",
+            "text": " explains that recirculation does not reduce humidity. Do not choose it on the assumption that an odour filter will remove cooking moisture or make the kitchen steam-free."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ask the installer or ventilation designer how the room's ventilation is provided, alongside the proposed hood. An open-plan layout, existing ventilation system and any fuel-burning appliances belong in that discussion. Hood style or a headline airflow figure alone cannot establish that the whole arrangement is suitable. Keep duct sizing, hob clearances and installation decisions tied to the exact manuals and the competent installer."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Give filters room to come out"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ducted does not mean maintenance-free. "
+          },
+          {
+            "type": "text",
+            "text": "Bosch's operating-mode guide",
+            "link": "https://www.bosch-home.co.uk/customer-service/get-support/cooker-hoods/how-do-i-use-the-air-extraction-and-recirculation-modes-on-a-bosch-cooker-hood"
+          },
+          {
+            "type": "text",
+            "text": " shows grease filtration before external discharge, and grease plus odour filtration for recirculation. Both choices need the relevant care instructions."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Before fixing surrounding cabinetry, ask how each filter is removed and where a hand, panel or cover must move. The "
+          },
+          {
+            "type": "text",
+            "text": "Miele UK manual for the DAH 4xx0 range",
+            "link": "https://media.miele.com/downloads/c9/59/00_C7F138386ED91EEEBE96383EDB78C959.pdf"
+          },
+          {
+            "type": "text",
+            "text": " shows particular removal directions, illustrating why access needs to be checked for the selected model. It is not a fitting guide for another hood."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Record whether the chosen odour filter is replaced or has a supported regeneration process, and obtain the correct part reference and care schedule. A universal six-month rule will not cover every filter type. "
+          },
+          {
+            "type": "text",
+            "text": "Bosch's filter guide",
+            "link": "https://www.bosch-home.co.uk/customer-service/get-support/cooker-hoods/filter-buying-guide"
+          },
+          {
+            "type": "text",
+            "text": " distinguishes several options with different care and replacement needs."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Put the air route in the kitchen brief"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Imagine you want wall cabinets to form an uninterrupted line above the worktop. A canopy hood may look discreet from the front, yet the proposal still needs space for its air route and filter access. Compare a ducted route that uses part of an upper cabinet with a recirculating arrangement that needs a defined room-return opening. Record what each option changes in the elevation and storage. This is a hypothetical design discussion, not a confirmed installation."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Keep this air-route record with the appliance references",
+        "children": [
+          {
+            "type": "thead",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "th",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Ask before the cabinet order"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tbody",
+            "children": [
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hood and hob models"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Which operating mode and accessories are compatible?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Air destination"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Where is the suitable exterior outlet or intended room return?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Cabinet and ceiling space"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "What part of the route is shown and what remains to be confirmed?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Filter access and care"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "How does each filter come out, and what instructions apply?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tr",
+                "children": [
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Room ventilation"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "td",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Who confirms the wider arrangement and any required permissions?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Bring the hood and hob references, installation manuals, room plan and unresolved route questions to a "
+          },
+          {
+            "type": "text",
+            "text": "NURA kitchen design conversation",
+            "link": "/services/bespoke-kitchens"
+          },
+          {
+            "type": "text",
+            "text": ". For a narrow room, our "
+          },
+          {
+            "type": "text",
+            "text": "galley kitchen guide",
+            "link": "/post/planning-a-galley-kitchen-in-london"
+          },
+          {
+            "type": "text",
+            "text": " connects appliance planning with the wider layout. "
+          },
+          {
+            "type": "text",
+            "text": "Contact NURA",
+            "link": "/contact"
+          },
+          {
+            "type": "text",
+            "text": " to discuss how the hood choice sits alongside cabinetry and the way you want to use the kitchen. "
+          }
+        ]
+      }
+    ],
+    "body": "A ducted cooker hood sends extracted air outside through ducting. A recirculating hood passes air through grease and odour filters before returning it to the kitchen. To choose between them, look beyond the visible hood: establish where the air will go, what the selected model needs and how that route fits the cabinetry. Keep the room's ventilation requirements as a separate part of the design conversation.\n\n## Trace the route beyond the hood\n\nFor a ducted option, ask the kitchen designer and installer to identify a suitable exterior discharge point and the proposed route to it. A line on a kitchen elevation is only a starting point. The actual duct route, bends, connections and space in cabinets or ceilings need checking against the chosen appliance and the building. Do not assume an existing opening or chimney is suitable.\n\nFor recirculation, ask where the filtered air is intended to re-enter the room. Depending on the model, a compatible kit, internal connection or return outlet may still occupy space. An unspecified sealed cupboard is not a return-air plan. Elica's hood guidance describes different configurations and makes the appliance instructions important; the pictured chimney outlet is a concept, not the arrangement for every hood.\n\nConfirm that the exact hood supports the proposed operating mode. Keep the accessory references with its model number, rather than treating a charcoal filter bought separately as proof that any hood can be converted.\n\n## Separate odour filtering from moisture ventilation\n\nRecirculation can be useful when a suitable external duct route is impractical, but it returns air to the room. Whirlpool's UK guidance explains that recirculation does not reduce humidity. Do not choose it on the assumption that an odour filter will remove cooking moisture or make the kitchen steam-free.\n\nAsk the installer or ventilation designer how the room's ventilation is provided, alongside the proposed hood. An open-plan layout, existing ventilation system and any fuel-burning appliances belong in that discussion. Hood style or a headline airflow figure alone cannot establish that the whole arrangement is suitable. Keep duct sizing, hob clearances and installation decisions tied to the exact manuals and the competent installer.\n\n## Give filters room to come out\n\nDucted does not mean maintenance-free. Bosch's operating-mode guide shows grease filtration before external discharge, and grease plus odour filtration for recirculation. Both choices need the relevant care instructions.\n\nBefore fixing surrounding cabinetry, ask how each filter is removed and where a hand, panel or cover must move. The Miele UK manual for the DAH 4xx0 range shows particular removal directions, illustrating why access needs to be checked for the selected model. It is not a fitting guide for another hood.\n\nRecord whether the chosen odour filter is replaced or has a supported regeneration process, and obtain the correct part reference and care schedule. A universal six-month rule will not cover every filter type. Bosch's filter guide distinguishes several options with different care and replacement needs.\n\n## Put the air route in the kitchen brief\n\nImagine you want wall cabinets to form an uninterrupted line above the worktop. A canopy hood may look discreet from the front, yet the proposal still needs space for its air route and filter access. Compare a ducted route that uses part of an upper cabinet with a recirculating arrangement that needs a defined room-return opening. Record what each option changes in the elevation and storage. This is a hypothetical design discussion, not a confirmed installation.\n\n| Record | Ask before the cabinet order |\n| --- | --- |\n| Hood and hob models | Which operating mode and accessories are compatible? |\n| Air destination | Where is the suitable exterior outlet or intended room return? |\n| Cabinet and ceiling space | What part of the route is shown and what remains to be confirmed? |\n| Filter access and care | How does each filter come out, and what instructions apply? |\n| Room ventilation | Who confirms the wider arrangement and any required permissions? |\n\nBring the hood and hob references, installation manuals, room plan and unresolved route questions to a NURA kitchen design conversation. For a narrow room, our galley kitchen guide connects appliance planning with the wider layout. Contact NURA to discuss how the hood choice sits alongside cabinetry and the way you want to use the kitchen.\n"
+  }
+}
 ]

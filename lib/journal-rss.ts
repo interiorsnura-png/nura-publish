@@ -7,7 +7,7 @@ const xml=(value:string)=>value
 const mimeTypes:Record<string,string>={webp:'image/webp',jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',avif:'image/avif',gif:'image/gif'};
 
 export function renderJournalRss(entries:Entry[],site:string,resolveImage:(filename?:string)=>string|undefined,now=new Date()):string{
- const pending=(entry:Entry)=>['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions'].includes(entry.path)&&entry.content.publication_event_pending===true&&entry.content.published_date===undefined&&entry.content.modified_date===undefined;
+ const pending=(entry:Entry)=>['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions','/post/ducted-vs-recirculating-cooker-hood'].includes(entry.path)&&entry.content.publication_event_pending===true&&entry.content.published_date===undefined&&entry.content.modified_date===undefined;
  const origin=new URL(site).origin;
  if(!/^https?:$/.test(new URL(site).protocol))throw Error('RSS requires an HTTP site URL');
  const seen=new Set<string>();

@@ -61,7 +61,7 @@ test('route checks catch wrong canonical, restrictive headers, metadata drift an
  assert.equal(inspectHtml(html,{...entry,content:{...entry.content,publication_event_pending:true}}).pass,false);
 });
 test('pending date checks permit only explicit undated routes and reject every rendered date channel',()=>{
- for(const route of ['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions']){
+ for(const route of ['/post/single-or-double-kitchen-oven','/post/dining-bench-cushions','/post/ducted-vs-recirculating-cooker-hood']){
   const entry={path:route,content:{title:'Test',seo_title:'Test',seo_description:'Useful test',publication_event_pending:true,image_rights_status:'owned',hero:{filename:'/assets/hero.webp'},body_nodes:[]}};
   const image=POLICY.origin+'/assets/hero.webp',article={'@type':'Article',image,author:{name:POLICY.author,url:POLICY.profile}};
   const html=`<title>Test</title><meta name="description" content="Useful test"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${POLICY.origin+route}"><meta property="og:image" content="${image}"><meta name="twitter:image" content="${image}"><meta property="og:title" content="Test"><meta property="og:description" content="Useful test"><meta name="twitter:title" content="Test"><meta name="twitter:description" content="Useful test"><h1>Test</h1><div class="article-byline"><a href="${POLICY.profile}">${POLICY.author}</a></div><script type="application/ld+json">${JSON.stringify({'@graph':[article,{'@type':'BreadcrumbList'}]})}</script>`;
