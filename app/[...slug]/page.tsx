@@ -1,5 +1,6 @@
 import JournalLanding from '../../components/JournalLanding';
 import ServicesLanding from '../../components/ServicesLanding';
+import {journalPageURL,journalPageNumber,validJournalCategory,journalCategoryContent} from '../../lib/journal-browse';
 import LightingInspiration from '../../components/LightingInspiration';
 import InteractivePortfolio from '../../components/InteractivePortfolio';
 import {orderProjects} from '../../lib/project-order';
@@ -19,22 +20,26 @@ import StudioDetails from '../../components/StudioDetails';
 import JsonLd from '../../components/JsonLd';
 import {siteUrl,organization,absoluteImage,listingMetadata,articleTitleOverrides} from '../../lib/seo';
 import {articleRobots,selectArticleImage,articleSchemaImage} from '../../lib/article-discovery';
-type Props={params:Promise<{slug:string[]}>;searchParams:Promise<{category?:string;q?:string}>};
+type Props={params:Promise<{slug:string[]}>;searchParams:Promise<{category?:string;q?:string;page?:string}>};
 export const dynamic='force-dynamic';
 const localAsset=(filename:string):Asset=>({filename:'/assets/selected/'+filename,alt:''});
 const pageImages:Record<string,string>={'/about':'nura-approach-new.jpg','/process':'nura-process-workshop.webp','/for-professionals':'nura-cta-joinery.jpg','/services/bespoke-kitchens':'elm-park-road.jpg','/services/architectural-joinery':'nura-cta-joinery.jpg','/services/wardrobes-dressing-rooms':'nura-cta-joinery.jpg','/services/living-spaces':'nura-approach-new.jpg','/london':'elm-park-road.jpg','/dubai':'nura-approach-new.jpg','/contact':'nura-hero-shot.jpeg','/consultation':'nura-hero-shot.jpeg'};
 const listingTitles:Record<string,string>={'/projects':'Our work.','/journal':'Stories & perspectives.','/services':'Considered interiors.','/inspiration':'Material possibilities.'};
-export async function generateMetadata({params}:Props):Promise<Metadata>{
+export async function generateMetadata({params,searchParams}:Props):Promise<Metadata>{
  const {slug}=await params;const path='/'+slug.join('/');const entry=(await getEntries()).find(x=>x.path===path);const listing=listingMetadata[path];
- const title=path==='/services/wardrobes-dressing-rooms'?wardrobeTitle:articleTitleOverrides[path]||entry?.content.seo_title||listing?.title||entry?.content.title||'Nura Interiors';
- const description=path==='/services/wardrobes-dressing-rooms'?wardrobeDescription:entry?.content.seo_description||listing?.description||entry?.content.summary||'Explore bespoke kitchens and architectural joinery with Nura Interiors.';
+ const journalSearch=path==='/journal'?await searchParams:undefined;
+ const categoryCopy=journalSearch?journalCategoryContent[validJournalCategory(journalSearch.category)]:undefined;
+ const title=categoryCopy?categoryCopy.title+' | NURA Journal':path==='/services/wardrobes-dressing-rooms'?wardrobeTitle:articleTitleOverrides[path]||entry?.content.seo_title||listing?.title||entry?.content.title||'Nura Interiors';
+ const description=categoryCopy?.description||(path==='/services/wardrobes-dressing-rooms'?wardrobeDescription:entry?.content.seo_description||listing?.description||entry?.content.summary||'Explore bespoke kitchens and architectural joinery with Nura Interiors.');
  const image=path==='/services/wardrobes-dressing-rooms'?siteUrl+'/assets/archive/58c6cefb8485754a-local.webp':absoluteImage(entry?.content.hero?.filename)||siteUrl+'/assets/selected/nura-hero-shot.jpeg';
  const isArticle=entry?.content.component==='article';
  const social=entry?selectArticleImage(entry.content,absoluteImage):undefined;
+ const journalParams=path==='/journal'?await searchParams:undefined;
+ const canonical=journalParams?journalPageURL(validJournalCategory(journalParams.category),journalParams.q||'',journalPageNumber(journalParams.page)):path;
  return {title:{absolute:title},description,
-  alternates:{canonical:path,...(process.env.SITE_ENV==='production'?{types:{'application/rss+xml':siteUrl+'/rss.xml'}}:{})},
+  alternates:{canonical,...(process.env.SITE_ENV==='production'?{types:{'application/rss+xml':siteUrl+'/rss.xml'}}:{})},
   ...(isArticle||path==='/inspiration/lighting'?{robots:articleRobots(process.env.SITE_ENV==='production')}:{}),
-  openGraph:{title,description,url:siteUrl+path,type:isArticle?'article':'website',
+  openGraph:{title,description,url:siteUrl+canonical,type:isArticle?'article':'website',
    ...(isArticle?{publishedTime:entry.content.published_date,modifiedTime:entry.content.modified_date||entry.content.published_date}:{}),
    images:isArticle&&social?[social]:entry?.content.social_image&&social?[social]:[image]},
   twitter:{card:'summary_large_image',title,description,images:social&&(isArticle||entry?.content.social_image)?[{url:social.url,alt:social.alt}]:[image]}};
@@ -49,7 +54,7 @@ function PageSchema({path,title,content}:{path:string;title:string;content?:impo
 }
 function Paragraphs({body}:{body?:string}){return <>{body?.split(/\n\s*\n/).filter(p=>p.trim().length>4).map((p,i)=><p key={i}>{p}</p>)}</>;}
 export default async function Page({params,searchParams}:Props){const {slug}=await params;const path='/'+slug.join('/');const entries=await getEntries();const projects=entries.filter(x=>x.content.component==='project').sort((a,b)=>(b.content.source_rank||0)-(a.content.source_rank||0));const entry=entries.find(x=>x.path===path);
- if(path==='/journal'){const {category,q}=await searchParams;return <main id="main"><PageSchema path={path} title={listingTitles[path]}/><JournalLanding entries={entries} category={category} query={q}/></main>;}
+ if(path==='/journal'){const {category,q,page}=await searchParams;return <main id="main"><PageSchema path={path} title="The NURA Journal"/><JournalLanding entries={entries} category={category} query={q} page={journalPageNumber(page)}/></main>;}
  if(path==='/services')return <main id="main"><PageSchema path={path} title="Bespoke Kitchens & Architectural Joinery"/><ServicesLanding/></main>;
  if(listingTitles[path]){const {category}=await searchParams;const items=path==='/projects'?orderProjects(projects.filter(x=>!category||x.content.category===category)):path==='/journal'?entries.filter(x=>x.content.component==='article'):path==='/inspiration'?entries.filter(x=>x.content.component==='inspiration'):entries.filter(x=>x.path.startsWith('/services/'));return <main id="main"><PageSchema path={path} title={listingTitles[path]}/><Hero title={listingTitles[path]} kicker={'Nura / '+(path==='/projects'?'Collection':path.slice(1))} asset={localAsset(path==='/journal'?'nura-featured-study.jpg':path==='/services'?'nura-cta-joinery.jpg':path==='/inspiration'?'nura-approach-new.jpg':'nura-hero-shot.jpeg')}/>{path==='/projects'?<InteractivePortfolio/>:null}<section className="collection section-pad"><div className="section-mark">{path==='/projects'?'Spaces, shaped around life.':path==='/journal'?'Ideas from the studio.':path==='/inspiration'?'Materials, finishes and details.':'Design, detail and delivery.'}</div>{path==='/projects'?<nav className="inner-filters" aria-label="Project categories"><a href="/projects" aria-current={!category?'page':undefined}>All work</a><a href="/projects?category=Kitchens" aria-current={category==='Kitchens'?'page':undefined}>Kitchens</a><a href="/projects?category=Architectural%20Joinery" aria-current={category==='Architectural Joinery'?'page':undefined}>Joinery</a></nav>:null}<div className="inner-project-grid">{items.map((x,i)=><Card key={x.path} entry={pageImages[x.path]?{...x,content:{...x.content,hero:localAsset(pageImages[x.path])}}:x} index={i}/>)}</div></section><Cta/></main>;}
  if(!entry)notFound();const c=entry.content;const hero=pageImages[path]?localAsset(pageImages[path]):c.hero;

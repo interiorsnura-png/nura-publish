@@ -1,3 +1,4 @@
+import {findJournalEntry} from './journal-pagination-check.mjs';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
 const base=process.env.SEO_BASE_URL||'http://127.0.0.1:3011';
@@ -51,15 +52,7 @@ assert.equal($('.hero a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-journey li').last().find('a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-sidebar-guide a').attr('href'),'/london#london-enquiry-showroom');
 assert.equal($('.article-meta a').attr('href'),'https://www.linkedin.com/in/joanne-h/');
-for(const filter of ['', '?category=planning']){
- const journal=await page('/journal'+filter);
- assert.ok(journal(`a[href="${path}"]`).length>=1);
- const graph=journal('script[type="application/ld+json"]').toArray().map(el=>JSON.parse(journal(el).text())).find(s=>s['@graph'])['@graph'];
- const list=graph.find(s=>s['@type']==='ItemList');
- assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
- assert.equal(list.numberOfItems,list.itemListElement.length);
- if(!filter)assert.ok(list.numberOfItems>=19);
-}
+for(const filter of ['', '?category=planning'])await findJournalEntry(page,filter,path,origin);
 const london=await page('/london');
 assert.equal(london('#london-enquiry-showroom').length,1);
 assert.equal(london('#london-enquiry-showroom form').length,1);

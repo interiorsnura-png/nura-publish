@@ -314,3 +314,5 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 2026-10-29 homepage release: confirm exact production source/READY/domain after push. Verify compact privacy panel in production because analytics consent UI intentionally does not initialise on localhost. Preserve paused editorial automation.
 2026-10-29 services release: validate merged production source, push and confirm exact SHA/READY/domain plus services rendering. Preserve paused content workflows.
 2026-10-29 process release: complete exact-SHA release check, confirm Vercel READY/source/domain and live process rendering. No editorial automation restart authorised.
+Journal local redesign: owner review/publication pending. Proposed meta-description replacement still unspecified; current value preserved. KPI conversion measurement remains unverified, no engagement or CTR improvement claimed.
+Taxonomy local preview ready; production unchanged. Full ten-result-per-market metadata extraction and quantitative keyword demand remain unverified; bounded actual UK Google evidence supports current content-matched labels. No analytics-receipt or conversion lift claimed.

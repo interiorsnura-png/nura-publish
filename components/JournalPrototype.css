@@ -259,6 +259,19 @@ body:has(.nura-journal) .site-header a[aria-current=page]{text-decoration:underl
 @media(max-width:767px){.nura-journal .topic-hint{display:block}.nura-journal .card-title,.nura-journal .card-excerpt{display:block;overflow:visible;-webkit-line-clamp:unset}.nura-journal .card-title{font-size:26px;line-height:1.2}.nura-journal .card-body{padding:20px}.nura-journal .card-meta{font-size:13px}.nura-journal .card-excerpt{font-size:14px}.nura-journal .category-list{padding-bottom:8px}.nura-journal .journal-directory{padding-inline:20px}}
 
 /* Original Journal concept hero, full image retained at each breakpoint. */
+.nura-journal .journal-section-title{font-family:var(--serif);font-size:clamp(30px,3vw,44px);font-weight:400;margin:0 0 26px;line-height:1.15}
+.nura-journal .journal-featured{padding-block:38px 20px}
+.nura-journal .curated-paths{padding-block:30px 38px;border-bottom:1px solid var(--line)}
+.nura-journal .curated-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:26px}
+.nura-journal .curated-grid article{border-top:1px solid var(--line);padding-top:20px;min-width:0}
+.nura-journal .curated-grid h2{font:400 25px/1.15 var(--serif);margin:0 0 16px}
+.nura-journal .curated-grid a{color:inherit;text-underline-offset:4px;font-size:13px;line-height:1.6}
+.nura-journal .curated-grid ul{padding-left:17px;margin:18px 0 0}.nura-journal .curated-grid li{margin-bottom:10px}
+.nura-journal .journal-page-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:25px}
+.nura-journal .journal-page-links a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px;color:var(--ink);border:1px solid var(--line);box-sizing:border-box;text-decoration:none}
+.nura-journal .journal-page-links a[aria-current=page]{background:var(--ink);color:#fff}
+.nura-journal .journal-tools .search-form{max-width:460px}.nura-journal .journal-tools .full-tools{gap:20px}
+@media(max-width:767px){.nura-journal .journal-featured{padding-block:24px 10px}.nura-journal .journal-featured .article-card:not(:first-child){display:none}.nura-journal .curated-paths{padding-block:20px}.nura-journal .curated-grid{display:flex;overflow-x:auto;gap:18px;scroll-snap-type:x proximity;padding-bottom:12px}.nura-journal .curated-grid article{flex:0 0 72%;scroll-snap-align:start}.nura-journal .curated-grid h2{font-size:23px}.nura-journal .curated-grid ul{display:none}.nura-journal .journal-hero h1{font-size:44px!important}.nura-journal .journal-tools .search-form{width:100%;max-width:none}.nura-journal .results-section{padding-top:28px}}
 body:has(.nura-journal) #main>.breadcrumbs{position:absolute;top:118px;left:max(40px,calc((100vw - 1240px)/2));padding:0;margin:0;max-width:80%;background:none;color:#fff;z-index:3}
 .nura-journal .journal-hero{position:relative;isolation:isolate;background:#252b25;color:white;overflow:hidden}
 .nura-journal .journal-hero>.inner-photo{width:100%;height:auto;aspect-ratio:1672/941}
@@ -269,3 +282,6 @@ body:has(.nura-journal) #main>.breadcrumbs{position:absolute;top:118px;left:max(
 .nura-journal .journal-hero h1{font-size:clamp(64px,8vw,112px);font-weight:400;line-height:1.06;color:#fff;margin-bottom:22px}
 .nura-journal .journal-hero p{color:#fff;font-size:17px;line-height:1.6;max-width:390px}
 @media(max-width:767px){body:has(.nura-journal) #main>.breadcrumbs{top:94px;left:20px;padding:0;max-width:85%}.nura-journal .journal-hero>.inner-photo{margin-top:0}.nura-journal .journal-hero .intro{position:relative;padding:30px 20px 36px}.nura-journal .journal-hero h1{font-size:58px;margin-bottom:14px}.nura-journal .journal-hero p{font-size:15px;max-width:340px}.nura-journal .journal-hero-shade{background:linear-gradient(180deg,rgba(8,15,10,.25),transparent 65%)} }
+@media(max-width:767px){.nura-journal .article-grid{grid-template-columns:minmax(0,1fr)}}
+.nura-journal .journal-more-topics{position:relative;font-size:13px;flex:0 0 auto}.nura-journal .journal-more-topics summary{cursor:pointer;min-height:44px;display:flex;align-items:center}.nura-journal .journal-more-topics a{display:block;padding:12px;color:var(--ink)}.nura-journal .journal-hero h1{font-size:clamp(44px,6vw,80px)}@media(max-width:767px){.nura-journal .journal-more-topics{align-self:flex-start}.nura-journal .journal-more-topics summary{min-height:36px}.nura-journal .journal-hero h1{font-size:38px!important}}
+@media(min-width:768px){.nura-journal .journal-tools .full-tools{flex-wrap:wrap}.nura-journal .journal-tools .category-list{flex-basis:100%;flex-wrap:wrap;overflow:visible}.nura-journal .journal-more-topics{margin-left:auto}}

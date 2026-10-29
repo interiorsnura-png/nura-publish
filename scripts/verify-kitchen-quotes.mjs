@@ -1,3 +1,4 @@
+import {findJournalEntry} from './journal-pagination-check.mjs';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
 const base=process.env.SEO_BASE_URL||'http://127.0.0.1:3011';
@@ -27,14 +28,7 @@ assert.ok($('.article-content a[href="/consultation"],.article-content a[href="h
 assert.equal($('.article-journey li').last().find('a').attr('href'),'/consultation');
 const crumb=schemas.find(s=>s['@type']==='BreadcrumbList');
 assert.deepEqual(crumb.itemListElement.map(i=>i.item),[origin+'/',origin+'/journal',origin+path]);
-for(const filter of ['', '?category=planning']){
- const journal=await page('/journal'+filter);
- assert.ok(journal(`a[href="${path}"]`).length>=1);
- const graph=journal('script[type="application/ld+json"]').toArray().map(el=>JSON.parse(journal(el).text())).find(s=>s['@graph'])['@graph'];
- const list=graph.find(s=>s['@type']==='ItemList');
- assert.equal(list.itemListElement.filter(i=>i.url===origin+path).length,1);
- assert.equal(list.numberOfItems,list.itemListElement.length);
-}
+for(const filter of ['', '?category=planning'])await findJournalEntry(page,filter,path,origin);
 assert.equal((await fetch(base+article.image.url.replace(origin,''))).status,200);
 const sitemapResponse=await fetch(base+'/sitemap.xml');assert.equal(sitemapResponse.status,200);
 const sitemap=await sitemapResponse.text();
