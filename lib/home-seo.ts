@@ -12,13 +12,12 @@ export function improveHomeSeo(html:string){
   .replace('Kitchens and joinery made around the way you live, with a quiet confidence that lasts.','<span class="hero-slogan">Designed around you.</span>')
   .replace('<section class="hero" aria-labelledby="hero-title">','<section class="hero hero-service" aria-labelledby="hero-title">')
   .replace('</head>','<link rel="stylesheet" href="/nura-home-hero.css"/></head>');
- // Keep the hero focused on one message and move location context below it.
+ // Keep the hero focused on one message; studio context belongs in the introduction.
  html=html.replace(/(<section class="hero hero-service"[\s\S]*?<\/section>)/,hero=>hero
   .replace(/<p class="eyebrow">[\s\S]*?<\/p>/,'')
   .replace(/<p class="hero-trust">[\s\S]*?<\/p>/,'')
   .replace('Begin a conversation','Request a free consultation')
- )
- .replace(/(<section class="hero hero-service"[\s\S]*?<\/section>)/,'$1<section class="hero-location" aria-label="Our studios"><p>Discover kitchens and architectural joinery designed around you, from our London showroom in Fulham and Dubai studio.</p></section>');
+ );
  // Owner-selected project photograph; preserve the immutable migration snapshot.
  const heroAlt='Nura kitchen with gold-toned cabinetry and a white veined stone island';
  html=html.replace(/<img\b[^>]*class="hero-image"[^>]*>/,`<img class="hero-image" width="1080" height="608" src="/assets/selected/nura-golden-kitchen-1080.webp" srcset="/assets/selected/nura-golden-kitchen-480.webp 480w, /assets/selected/nura-golden-kitchen-640.webp 640w, /assets/selected/nura-golden-kitchen-1080.webp 1080w" sizes="100vw" alt="${heroAlt}" fetchpriority="high">`)
@@ -56,7 +55,7 @@ export function improveHomeSeo(html:string){
   .replace('</head>','<link rel="stylesheet" href="/nura-navigation.css"/><link rel="stylesheet" href="/nura-footer.css"/></head>')
   .replace('</body>','<script src="/nura-navigation.js" defer></script></body>')
   .replace('We design spaces that feel inevitable: considered from the first line, resolved down to the last hinge.',
-   'A room can change a life when it is designed around the people who use it. Our bespoke kitchens and joinery are considered from the first line, resolved down to the last hinge.')
+   'Bespoke kitchens and architectural joinery. From first ideas to installation, our teams in London and Dubai bring your space to life.')
   .replace('</head>','<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon.png"/><style>.proof-row .nura-display-number{font:31px var(--serif);font-weight:400}.outcome-grid .nura-display-number{font-size:10px;letter-spacing:.15em}.nura-link-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}@media(max-width:800px){.proof-row .nura-display-number{font-size:27px}}</style></head>')
   .replace(/<strong>(0[123]|∞)<\/strong>/g,'<span class="nura-display-number">$1</span>')
   .replaceAll('class="nura-review-stars" aria-label=', 'class="nura-review-stars" role="img" aria-label=')

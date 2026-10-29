@@ -58,8 +58,6 @@
 /* Concise copy stays over the photograph at every viewport size. */
 .hero.hero-service .hero-image { object-position: center center; }
 .hero.hero-service .hero-aurora { display: none; }
-.hero-location { padding: 28px 6vw; background: var(--paper); color: var(--ink); }
-.hero-location p { max-width: 60rem; margin: 0 auto; text-align: center; }
 @media (max-width: 800px) {
   .hero.hero-service {
     height: min(760px, 100svh);

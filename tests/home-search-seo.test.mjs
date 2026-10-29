@@ -37,8 +37,8 @@ test('homepage search, social and schema descriptions consistently identify serv
 test('one visible service-led H1 uses the selected hero and retains the enquiry form',()=>{
  assert.equal($('h1').length,1);
  assert.match($('h1').text(),/Bespoke kitchens.*and joinery/);
- assert.match($('.hero-location').text(),/London showroom in Fulham/);
- assert.match($('.hero-location').text(),/Dubai studio/);
+ assert.match($('#approach .approach-copy').text(),/our teams in London and Dubai/);
+ assert.equal($('.hero-location').length,0);
  assert.equal($('.hero-image').attr('src'),'/assets/selected/nura-golden-kitchen-1080.webp');
  assert.deepEqual($('main img:not(.hero-image)').map((_,el)=>$(el).attr('src')).get(),before('main img:not(.hero-image)').map((_,el)=>before(el).attr('src')).get());
  // The pre-existing overlay adds a budget option and privacy link; preserve submission fields.
@@ -80,7 +80,7 @@ test('service hero separates the slogan and scopes responsive typography without
  assert.equal($('.hero .eyebrow, .hero-trust').length,0);
  assert.equal($('.hero .button').text().replace('↗','').trim(),'Request a free consultation');
  assert.equal($('.hero .button').attr('href'),'#contact');
- assert.equal($('.hero').next().attr('class'),'hero-location');
+ assert.equal($('#approach .approach-copy p').first().text(),'Bespoke kitchens and architectural joinery. From first ideas to installation, our teams in London and Dubai bring your space to life.');
  assert.equal($('link[href="/nura-home-hero.css"]').length,1);
  const css=fs.readFileSync(new URL('public/nura-home-hero.css',root),'utf8');
  assert.match(css,/font-size: clamp\(2\.75rem, 5\.1vw, 4\.75rem\)/);
