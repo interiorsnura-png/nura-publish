@@ -58,6 +58,9 @@
 
 /* Keep the quotation article artwork and embedded credit intact. */
 .hero-image[src*="nura-bespoke-kitchen-quotes-variance-hero"]{object-fit:contain;object-position:center top;background:#53584c}
+.article-photo:has(img[src*="elm-park-road-kitchen-project"]) .inner-photo{aspect-ratio:3/2}
+.article-photo:has(img[src*="elm-park-road-cabinet-detail"]) .inner-photo{aspect-ratio:2/3}
+.article-photo:has(img[src*="elm-park-road-"]) .inner-photo img{object-fit:contain}
 
 .article-photo.article-photo-concept .inner-photo{aspect-ratio:3/2}
 .article-photo.article-photo-concept .inner-photo img{object-fit:contain}

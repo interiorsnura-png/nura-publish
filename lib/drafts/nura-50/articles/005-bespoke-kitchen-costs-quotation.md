@@ -97,6 +97,14 @@ The useful next question is whether each addition earns its place in your brief.
 
 The published [Elm Park Road kitchen in Chelsea](/kitchens/elm-park-road) combines oak veneer, dark metallic-effect lacquer, handleless cabinetry and Dekton surfaces. Its project record also states that site restrictions required flat-packed tall units. This shows why a quotation needs to describe both the furniture and how it will reach the room.
 
+![Oak cabinetry around dark wall cabinets and a pale worktop at NURA's Elm Park Road kitchen](../images/elm-park-road-kitchen-project.webp)
+
+Elm Park Road, Chelsea: the oak and darker cabinet finishes form one coordinated kitchen composition. Project photography: Nura Interiors.
+
+![Integrated oven framed by oak cabinetry beside dark cabinet fronts and a pale splashback at Elm Park Road](../images/elm-park-road-cabinet-detail.webp)
+
+Elm Park Road: a closer view of the appliance housing and adjoining cabinet finishes. Project photography: Nura Interiors. [Explore the full project](/kitchens/elm-park-road).
+
 The project page does not publish its cost, so it cannot establish a premium, saving or price per cabinet. For your own proposal, ask which finish details are specified, how tall units will be delivered and assembled, and who has allowed for the access conditions. Bring photographs of the delivery route alongside the kitchen plan so those questions can be discussed before an order is finalised.
 
 ## Separate four reasons for a different total
