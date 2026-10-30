@@ -32,9 +32,30 @@ Hero: plans, samples and internal storage in an imagined kitchen design, not a c
 
 There is no single price that describes every bespoke kitchen. Published market guides cover different project sizes and inclusions, so their figures need to be read alongside their assumptions.
 
+As a broad UK market reference, Checkatrade's October 2026 guide puts a bespoke kitchen at approximately £20,000 to £75,000, depending on size, materials, appliances and customisation. This is the publisher's indicative range, not a NURA price list or a budget guarantee for a London property. Confirm the inclusions and VAT treatment before comparing it with an individual proposal.
+
 [Checkatrade's bespoke kitchen cost guide](https://www.checkatrade.com/blog/cost-guides/bespoke-kitchen-cost/) distinguishes cabinetry, appliances, design and fitting, and warns that its separate estimates should not simply be added together. The public notes in [Which?'s kitchen cost guide](https://www.which.co.uk/reviews/fitted-kitchens/article/fitted-kitchens/kitchen-costs-aNKz99x2RUQy) define the work included in its renovation examples and explain that it does not provide a bespoke cabinetry figure because prices vary too much.
 
 These are market references, not NURA quotations. For an initial planning exercise, explore the [NURA kitchen cost calculator](/bespoke-kitchen-cost-calculator), then read its calculation notes and exclusions. Its indicative UK market model does not replace a quotation for your design, specification and site requirements.
+
+## A practical example: why two kitchen quotes can be £15,000 apart
+
+Imagine receiving two proposals for a room of similar dimensions and a comparable visual style. Quote A totals £25,000 and Quote B £40,000. The following invented figures show how that £15,000 difference can be distributed across the specification and scope.
+
+| Component | Quote A | Quote B |
+| --- | --- | --- |
+| Cabinetry | £18,000 | £23,000 |
+| Worktops | £3,000 | £5,000 |
+| Internal fittings and hardware | £1,000 | £3,000 |
+| Design and technical development | No separate line; confirm scope | £3,000 |
+| Delivery and installation | £3,000 | £6,000 |
+| Total of listed items, excluding VAT | £25,000 | £40,000 |
+
+These figures are hypothetical, exclude VAT and demonstrate arithmetic only. They are not NURA prices, actual customer quotations or researched market rates. For this example, the cabinetry line excludes the separately listed internal fittings and hardware. Appliances, plumbing, electrical work and other renovation work are outside both totals.
+
+The £15,000 difference comprises £5,000 in cabinetry, £2,000 in worktops, £2,000 in fittings, a £3,000 design line and £3,000 in delivery and installation. A missing design fee does not establish that no design is provided: Quote A's design deliverables remain unconfirmed and might be included elsewhere. Ask for clarification rather than treating that line as a free service or a confirmed exclusion.
+
+The table does not prove that Quote B is better value. If your architect has already completed the technical design and you have separately appointed installers, a narrower package might suit your project. If you still need those services, obtain the missing prices and responsibilities before comparing the total cost of the same agreed result. Do not turn the example's allowances into an estimate for your own room.
 
 ## Bespoke, made-to-measure and modular describe different choices
 
@@ -72,6 +93,12 @@ The second proposal involves different fittings, fabrication and service interfa
 
 The useful next question is whether each addition earns its place in your brief. Would the drawers improve access to everyday cookware? Is the sink position important to preparation, or would keeping it on the perimeter better suit your room? Ask for an identified alternative so you can see what changes in both the design and the quoted scope.
 
+## A real NURA example: specification and access at Elm Park Road
+
+The published [Elm Park Road kitchen in Chelsea](/kitchens/elm-park-road) combines oak veneer, dark metallic-effect lacquer, handleless cabinetry and Dekton surfaces. Its project record also states that site restrictions required flat-packed tall units. This shows why a quotation needs to describe both the furniture and how it will reach the room.
+
+The project page does not publish its cost, so it cannot establish a premium, saving or price per cabinet. For your own proposal, ask which finish details are specified, how tall units will be delivered and assembled, and who has allowed for the access conditions. Bring photographs of the delivery route alongside the kitchen plan so those questions can be discussed before an order is finalised.
+
 ## Separate four reasons for a different total
 
 | Price driver | What may differ | Evidence to request |
@@ -82,6 +109,18 @@ The useful next question is whether each addition earns its place in your brief.
 | Coordination | Survey, technical development, trade interfaces and installation arrangements | Written deliverables and named responsibilities |
 
 An exclusion is not necessarily a hidden charge. It may reflect work you intend to arrange separately. The important point is to include that work in your overall budget and establish who will carry it out. A blank or ambiguous line needs clarification, rather than an assumption that it is included.
+
+## Compare three service scopes, not just three totals
+
+These are descriptions of possible market packages, not standardised contracts or a statement that NURA offers every service listed. Suppliers use the labels differently. The written scope takes priority over the package name.
+
+| Package label | What the proposal may cover | What you still need to clarify |
+| --- | --- | --- |
+| Cabinetry only | Manufacture of the agreed cabinets, fronts and panels | Design deliverables, hardware, delivery, fitting, worktops and separately appointed trades |
+| Kitchen design and installation, sometimes marketed as Design & Build | Agreed kitchen design, technical development, supply and cabinet fitting | Appliance connections, service alterations, worktop coordination and any building work; the label alone does not include them |
+| Full renovation | A broader room refurbishment with named building and finishing work | Exact contractor responsibilities, exclusions, required approvals, site preparation, waste and handover |
+
+For NURA, confirm the design, technical coordination, manufacture and installation responsibilities in your project agreement. Do not infer that a kitchen appointment includes the full renovation or management of every trade. Use the table to identify gaps, then ask each supplier to describe its actual commitments in writing.
 
 ## Installation depends on the building as well as the furniture
 
@@ -134,6 +173,18 @@ It should make its tax treatment and scope clear. Ask for the amount payable, ap
 ### What should I bring to a kitchen budget conversation?
 
 Bring available plans, the project location, material references, your priorities and any proposals you are considering. Include the questions still unanswered, such as appliance choices or installation responsibilities. These inputs help establish what needs defining before a meaningful quotation can be developed.
+
+### How much should I allow for kitchen installation?
+
+Ask for an installation price against your drawings, specification and site conditions. Checkatrade's October 2026 guide gives a general kitchen-fitter reference of £280 to £360 per day, but that is not a complete project allowance or a NURA rate. Confirm whether the price covers one fitter or a team, how many visits are allowed, the VAT treatment and which trades are separate. A day rate alone cannot establish the total fitting cost.
+
+### How should payments be staged?
+
+Request the actual payment schedule before committing. Ask what each payment covers, when it becomes due, how it relates to design, manufacture, delivery or installation, and what the cancellation and refund terms say. NURA's terms must come from your proposal and agreement; there is no universal deposit percentage to infer from a market guide.
+
+### Can the price change after I approve the kitchen?
+
+Check what the approval fixes and what remains provisional. A changed appliance, revised finish, additional work or newly identified site condition may require a revised proposal, depending on the agreement. Request a written variation identifying the changed scope, price and programme effect, and agree it before the additional work proceeds. Keep the original approved specification and subsequent revisions together.
 
 ## Bring the differences into focus with NURA
 
