@@ -316,3 +316,5 @@ Canister decor tip,2026-10-24: distinct lid-finish/body-colour comparison and ow
 2026-10-29 process release: complete exact-SHA release check, confirm Vercel READY/source/domain and live process rendering. No editorial automation restart authorised.
 Journal local redesign: owner review/publication pending. Proposed meta-description replacement still unspecified; current value preserved. KPI conversion measurement remains unverified, no engagement or CTR improvement claimed.
 Taxonomy local preview ready; production unchanged. Full ten-result-per-market metadata extraction and quantitative keyword demand remain unverified; bounded actual UK Google evidence supports current content-matched labels. No analytics-receipt or conversion lift claimed.
+
+- 2026-10-30 Journal: original catalogue film upload timestamps and full speech/caption accessibility audit remain unverified; no Google video rich-result eligibility claimed. Measure new Journal hero/poster assets in lib/journal-image-facts.json when adding them; missing measurements intentionally fail preparation rather than fabricate metadata. External schema validation and analytics outcomes remain unverified.

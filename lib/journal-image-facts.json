@@ -1,0 +1,932 @@
+{
+  "/assets/editorial/nura-journal-header-concept.webp": {
+    "width": 1672,
+    "height": 941,
+    "encodingFormat": "image/webp",
+    "contentSize": "136392 bytes"
+  },
+  "/assets/editorial/nura-ducted-vs-recirculating-cooker-hood-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "134974 bytes"
+  },
+  "/assets/editorial/nura-dining-bench-cushions-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "178444 bytes"
+  },
+  "/assets/editorial/nura-single-or-double-kitchen-oven-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "142806 bytes"
+  },
+  "/assets/editorial/nura-kitchen-noticeboard-display-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "140160 bytes"
+  },
+  "/assets/editorial/nura-fridge-freezer-split-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "125126 bytes"
+  },
+  "/assets/editorial/nura-wall-mounted-joinery-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "88096 bytes"
+  },
+  "/assets/editorial/nura-kitchen-shelf-bracket-appearance-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "108472 bytes"
+  },
+  "/assets/editorial/nura-fully-or-semi-integrated-dishwasher-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "78644 bytes"
+  },
+  "/assets/editorial/nura-joinery-stone-interface-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "101716 bytes"
+  },
+  "/assets/editorial/nura-round-tablecloth-shape-repaired-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "123626 bytes"
+  },
+  "/assets/editorial/nura-shaker-vs-slab-kitchen-doors-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "29902 bytes"
+  },
+  "/assets/editorial/nura-joinery-service-access-panels-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "91980 bytes"
+  },
+  "/assets/editorial/nura-kitchen-dining-mirror-v2-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "55408 bytes"
+  },
+  "/assets/editorial/nura-kitchen-worktop-joints-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "112290 bytes"
+  },
+  "/assets/editorial/nura-kitchen-curtain-heading-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "252360 bytes"
+  },
+  "/assets/editorial/nura-kitchen-dining-bench-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "103328 bytes"
+  },
+  "/assets/editorial/nura-joinery-delivery-access-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "140550 bytes"
+  },
+  "/assets/editorial/nura-kitchen-bread-bin-shape-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "128804 bytes"
+  },
+  "/assets/editorial/nura-kitchen-wall-cabinet-doors-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "89650 bytes"
+  },
+  "/assets/editorial/nura-joinery-site-survey-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "159036 bytes"
+  },
+  "/assets/editorial/nura-clear-or-reeded-cabinet-glass-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "70458 bytes"
+  },
+  "/assets/editorial/nura-integrated-fridge-door-hinges-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "100198 bytes"
+  },
+  "/assets/editorial/nura-kitchen-table-shape-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "149020 bytes"
+  },
+  "/assets/editorial/nura-built-in-oven-height-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "74698 bytes"
+  },
+  "/assets/editorial/nura-joinery-snagging-handover-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "131314 bytes"
+  },
+  "/assets/editorial/nura-kitchen-wallpaper-pattern-scale-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "60246 bytes"
+  },
+  "/assets/editorial/nura-undermount-vs-inset-kitchen-sink-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "101170 bytes"
+  },
+  "/assets/editorial/nura-whole-home-joinery-supplier-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "142946 bytes"
+  },
+  "/assets/editorial/nura-glass-kitchen-cabinet-styling-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "87172 bytes"
+  },
+  "/assets/editorial/nura-kitchen-tap-reach-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "84862 bytes"
+  },
+  "/assets/editorial/nura-joinery-samples-mock-ups-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "85482 bytes"
+  },
+  "/assets/editorial/nura-kitchen-wall-tile-finish-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "111398 bytes"
+  },
+  "/assets/editorial/nura-kitchen-sink-drainer-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "166008 bytes"
+  },
+  "/assets/editorial/nura-kitchen-utensil-holder-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "138094 bytes"
+  },
+  "/assets/editorial/nura-kitchen-filler-panels-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "108592 bytes"
+  },
+  "/assets/editorial/nura-joinery-schedule-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "174176 bytes"
+  },
+  "/assets/editorial/nura-kitchen-plate-display-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "124220 bytes"
+  },
+  "/assets/editorial/nura-value-engineering-bespoke-joinery-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "146546 bytes"
+  },
+  "/assets/editorial/nura-joinery-tender-package-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "164082 bytes"
+  },
+  "/assets/editorial/nura-kitchen-plinth-height-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "110370 bytes"
+  },
+  "/assets/editorial/nura-kitchen-placemat-colours-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "206202 bytes"
+  },
+  "/assets/editorial/nura-comparing-bespoke-joinery-quotes-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "184048 bytes"
+  },
+  "/assets/editorial/nura-kitchen-splashback-height-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "183294 bytes"
+  },
+  "/assets/editorial/nura-kitchen-dining-chair-colours-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "171246 bytes"
+  },
+  "/assets/editorial/nura-ceiling-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "91770 bytes"
+  },
+  "/assets/editorial/nura-tiledirection-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "130580 bytes"
+  },
+  "/assets/editorial/nura-peninsula-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "189430 bytes"
+  },
+  "/assets/editorial/nura-books-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "112270 bytes"
+  },
+  "/assets/editorial/nura-garage-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "107044 bytes"
+  },
+  "/assets/editorial/nura-tablecloth-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "154622 bytes"
+  },
+  "/assets/editorial/nura-drawercompare-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "96908 bytes"
+  },
+  "/assets/editorial/nura-blind-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "112224 bytes"
+  },
+  "/assets/editorial/nura-timeline-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "131090 bytes"
+  },
+  "/assets/editorial/nura-clock-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "127226 bytes"
+  },
+  "/assets/editorial/nura-dims-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "183924 bytes"
+  },
+  "/assets/editorial/nura-table-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "195262 bytes"
+  },
+  "/assets/editorial/nura-fit-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "145990 bytes"
+  },
+  "/assets/editorial/nura-can-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "110292 bytes"
+  },
+  "/assets/editorial/nura-small-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "110634 bytes"
+  },
+  "/assets/editorial/nura-fruit-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "121636 bytes"
+  },
+  "/assets/editorial/nura-costs-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "179708 bytes"
+  },
+  "/assets/editorial/nura-rug-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "169900 bytes"
+  },
+  "/assets/editorial/nura-fridge-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "141956 bytes"
+  },
+  "/assets/editorial/nura-pendant-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "167328 bytes"
+  },
+  "/assets/editorial/nura-island-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "147706 bytes"
+  },
+  "/assets/editorial/nura-grout-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "137266 bytes"
+  },
+  "/assets/editorial/nura-dishwasher-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "176412 bytes"
+  },
+  "/assets/editorial/nura-stools-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "163066 bytes"
+  },
+  "/assets/editorial/nura-larder-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "145400 bytes"
+  },
+  "/assets/editorial/nura-sill-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "135726 bytes"
+  },
+  "/assets/editorial/nura-handleless-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "138782 bytes"
+  },
+  "/assets/editorial/nura-woods-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "209076 bytes"
+  },
+  "/assets/editorial/nura-edges-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "113156 bytes"
+  },
+  "/assets/editorial/nura-textile-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "177540 bytes"
+  },
+  "/assets/editorial/nura-sinks-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "122792 bytes"
+  },
+  "/assets/editorial/nura-art-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "177206 bytes"
+  },
+  "/assets/editorial/nura-corners-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "156940 bytes"
+  },
+  "/assets/editorial/nura-trays-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "131822 bytes"
+  },
+  "/assets/editorial/nura-bins-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "231344 bytes"
+  },
+  "/assets/editorial/nura-shelves-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "101268 bytes"
+  },
+  "/assets/editorial/nura-drawers-hero.webp": {
+    "width": 1536,
+    "height": 1024,
+    "encodingFormat": "image/webp",
+    "contentSize": "187050 bytes"
+  },
+  "/assets/archive/9669c488d9075902.jpg": {
+    "width": 1920,
+    "height": 1281,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "108075 bytes"
+  },
+  "/assets/editorial/nura-handles-hero.webp": {
+    "width": 1536,
+    "height": 1024,
+    "encodingFormat": "image/webp",
+    "contentSize": "168792 bytes"
+  },
+  "/assets/editorial/media-wall-preview.webp": {
+    "width": 2000,
+    "height": 1493,
+    "encodingFormat": "image/webp",
+    "contentSize": "200474 bytes"
+  },
+  "/assets/editorial/nura-50/article-050-a-bded6b25f9.webp": {
+    "width": 2500,
+    "height": 1406,
+    "encodingFormat": "image/webp",
+    "contentSize": "384886 bytes"
+  },
+  "/assets/selected/5ac97f1b40d0-1334.webp": {
+    "width": 1334,
+    "height": 2000,
+    "encodingFormat": "image/webp",
+    "contentSize": "76544 bytes"
+  },
+  "/assets/selected/nura-fulham-showroom-sign.webp": {
+    "width": 900,
+    "height": 1200,
+    "encodingFormat": "image/webp",
+    "contentSize": "135640 bytes"
+  },
+  "/assets/selected/62ee06975f86-1920.webp": {
+    "width": 1920,
+    "height": 1339,
+    "encodingFormat": "image/webp",
+    "contentSize": "82346 bytes"
+  },
+  "/assets/guides/nura-guide-kitchen-layout.webp": {
+    "width": 1600,
+    "height": 1067,
+    "encodingFormat": "image/webp",
+    "contentSize": "90088 bytes"
+  },
+  "/assets/case-studies/nura-island-overview.webp": {
+    "width": 980,
+    "height": 551,
+    "encodingFormat": "image/webp",
+    "contentSize": "41092 bytes"
+  },
+  "/assets/editorial/nura-50/nura-developer-joinery-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "117088 bytes"
+  },
+  "/assets/editorial/nura-50/nura-kitchen-trade-coordination-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "126290 bytes"
+  },
+  "/assets/editorial/nura-50/article-047-a-d20df1afc9.webp": {
+    "width": 1181,
+    "height": 1575,
+    "encodingFormat": "image/webp",
+    "contentSize": "203454 bytes"
+  },
+  "/assets/archive/88a8a64dd67d8a75.jpg": {
+    "width": 1344,
+    "height": 768,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "178011 bytes"
+  },
+  "/assets/editorial/nura-50/article-046-a-349c626e0e.webp": {
+    "width": 780,
+    "height": 650,
+    "encodingFormat": "image/webp",
+    "contentSize": "36282 bytes"
+  },
+  "/assets/editorial/nura-50/article-045-a-cce42415a1.webp": {
+    "width": 4032,
+    "height": 3024,
+    "encodingFormat": "image/webp",
+    "contentSize": "1643078 bytes"
+  },
+  "/assets/editorial/nura-50/article-044-a-e812121bf5.webp": {
+    "width": 1080,
+    "height": 720,
+    "encodingFormat": "image/webp",
+    "contentSize": "131226 bytes"
+  },
+  "/assets/editorial/nura-50/article-043-a-30fea1c396.webp": {
+    "width": 1024,
+    "height": 746,
+    "encodingFormat": "image/webp",
+    "contentSize": "143398 bytes"
+  },
+  "/assets/editorial/nura-50/article-042-a-b7dfe41ee1.webp": {
+    "width": 2500,
+    "height": 1667,
+    "encodingFormat": "image/webp",
+    "contentSize": "445194 bytes"
+  },
+  "/assets/editorial/nura-50/article-041-a-13794564b9.webp": {
+    "width": 1200,
+    "height": 1800,
+    "encodingFormat": "image/webp",
+    "contentSize": "197680 bytes"
+  },
+  "/assets/editorial/nura-50/article-040-a-ed5446b722.webp": {
+    "width": 600,
+    "height": 600,
+    "encodingFormat": "image/webp",
+    "contentSize": "54578 bytes"
+  },
+  "/assets/editorial/nura-50/article-039-a-37bc7ed801.webp": {
+    "width": 1200,
+    "height": 800,
+    "encodingFormat": "image/webp",
+    "contentSize": "144754 bytes"
+  },
+  "/assets/editorial/nura-50/article-038-a-207279896a.webp": {
+    "width": 1200,
+    "height": 799,
+    "encodingFormat": "image/webp",
+    "contentSize": "142888 bytes"
+  },
+  "/assets/editorial/nura-50/article-037-a-ede203e9d5.webp": {
+    "width": 846,
+    "height": 590,
+    "encodingFormat": "image/webp",
+    "contentSize": "39198 bytes"
+  },
+  "/assets/archive/701462643eef552e.jpg": {
+    "width": 1800,
+    "height": 1200,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "403953 bytes"
+  },
+  "/assets/archive/3002e94a860222fd.jpg": {
+    "width": 1920,
+    "height": 1443,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "459776 bytes"
+  },
+  "/assets/editorial/nura-50/article-036-a-e9cb25b738.webp": {
+    "width": 456,
+    "height": 608,
+    "encodingFormat": "image/webp",
+    "contentSize": "68778 bytes"
+  },
+  "/assets/editorial/nura-50/article-035-a-ab902ad763.webp": {
+    "width": 1024,
+    "height": 768,
+    "encodingFormat": "image/webp",
+    "contentSize": "121374 bytes"
+  },
+  "/assets/editorial/nura-50/article-034-a-0a97fd793b.webp": {
+    "width": 1800,
+    "height": 1200,
+    "encodingFormat": "image/webp",
+    "contentSize": "568494 bytes"
+  },
+  "/assets/editorial/nura-50/article-033-a-1a6b567538.webp": {
+    "width": 1920,
+    "height": 1440,
+    "encodingFormat": "image/webp",
+    "contentSize": "662530 bytes"
+  },
+  "/assets/editorial/nura-50/nura-plinth-storage-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "110370 bytes"
+  },
+  "/assets/editorial/nura-50/article-030-a-c86a3f8801.webp": {
+    "width": 1920,
+    "height": 1280,
+    "encodingFormat": "image/webp",
+    "contentSize": "88956 bytes"
+  },
+  "/assets/editorial/nura-50/article-029-a-c244039f7e.webp": {
+    "width": 1000,
+    "height": 730,
+    "encodingFormat": "image/webp",
+    "contentSize": "130826 bytes"
+  },
+  "/assets/editorial/nura-50/article-028-a-0e6ecd5776.webp": {
+    "width": 567,
+    "height": 794,
+    "encodingFormat": "image/webp",
+    "contentSize": "34482 bytes"
+  },
+  "/assets/editorial/nura-50/article-027-a-ae43e17a24.webp": {
+    "width": 560,
+    "height": 420,
+    "encodingFormat": "image/webp",
+    "contentSize": "39804 bytes"
+  },
+  "/assets/editorial/nura-50/article-026-a-62711cbc30.webp": {
+    "width": 500,
+    "height": 600,
+    "encodingFormat": "image/webp",
+    "contentSize": "38274 bytes"
+  },
+  "/assets/editorial/nura-50/article-025-a-4b8c0017e1.webp": {
+    "width": 740,
+    "height": 555,
+    "encodingFormat": "image/webp",
+    "contentSize": "71030 bytes"
+  },
+  "/assets/editorial/nura-50/article-024-a-ca9d5d7b0c.webp": {
+    "width": 658,
+    "height": 444,
+    "encodingFormat": "image/webp",
+    "contentSize": "107418 bytes"
+  },
+  "/assets/editorial/nura-50/article-023-a-f63f7a26eb.webp": {
+    "width": 1000,
+    "height": 666,
+    "encodingFormat": "image/webp",
+    "contentSize": "131160 bytes"
+  },
+  "/assets/editorial/nura-50/article-022-a-a3ce1cb8e1.webp": {
+    "width": 1680,
+    "height": 885,
+    "encodingFormat": "image/webp",
+    "contentSize": "166848 bytes"
+  },
+  "/assets/editorial/nura-50/nura-kitchen-shop-drawings-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "137840 bytes"
+  },
+  "/assets/editorial/nura-50/article-020-a-f3b8cf3a7d.webp": {
+    "width": 1024,
+    "height": 768,
+    "encodingFormat": "image/webp",
+    "contentSize": "77834 bytes"
+  },
+  "/assets/editorial/nura-50/article-019-a-b7c5cea69d.webp": {
+    "width": 1200,
+    "height": 1800,
+    "encodingFormat": "image/webp",
+    "contentSize": "192532 bytes"
+  },
+  "/assets/editorial/nura-50/article-018-a-92e89474ff.webp": {
+    "width": 1024,
+    "height": 755,
+    "encodingFormat": "image/webp",
+    "contentSize": "122346 bytes"
+  },
+  "/assets/editorial/nura-50/article-016-a-7b3b1615cb.webp": {
+    "width": 1920,
+    "height": 1280,
+    "encodingFormat": "image/webp",
+    "contentSize": "349742 bytes"
+  },
+  "/assets/editorial/nura-50/article-015-a-f9ef721224.webp": {
+    "width": 3864,
+    "height": 2576,
+    "encodingFormat": "image/webp",
+    "contentSize": "807602 bytes"
+  },
+  "/assets/editorial/nura-50/article-014-a-ab22d36a35.webp": {
+    "width": 1920,
+    "height": 1440,
+    "encodingFormat": "image/webp",
+    "contentSize": "338024 bytes"
+  },
+  "/assets/editorial/nura-50/article-013-a-c8ee0e7d00.webp": {
+    "width": 1024,
+    "height": 853,
+    "encodingFormat": "image/webp",
+    "contentSize": "54682 bytes"
+  },
+  "/assets/editorial/nura-50/article-012-a-6d14626211.webp": {
+    "width": 2500,
+    "height": 1669,
+    "encodingFormat": "image/webp",
+    "contentSize": "360952 bytes"
+  },
+  "/assets/editorial/nura-50/article-017-a-fbf92da7fd.webp": {
+    "width": 1200,
+    "height": 1800,
+    "encodingFormat": "image/webp",
+    "contentSize": "199280 bytes"
+  },
+  "/assets/editorial/nura-50/article-011-a-39da34279a.webp": {
+    "width": 1000,
+    "height": 714,
+    "encodingFormat": "image/webp",
+    "contentSize": "161976 bytes"
+  },
+  "/assets/editorial/nura-50/article-010-a-85ac0e5bcd.webp": {
+    "width": 600,
+    "height": 450,
+    "encodingFormat": "image/webp",
+    "contentSize": "47330 bytes"
+  },
+  "/assets/editorial/nura-50/article-009-a-3f5ad957ac.webp": {
+    "width": 1700,
+    "height": 1200,
+    "encodingFormat": "image/webp",
+    "contentSize": "280168 bytes"
+  },
+  "/assets/editorial/nura-50/article-008-a-e9d66cb1dc.webp": {
+    "width": 1533,
+    "height": 914,
+    "encodingFormat": "image/webp",
+    "contentSize": "161126 bytes"
+  },
+  "/assets/editorial/nura-50/article-007-a-867e0fc382.webp": {
+    "width": 600,
+    "height": 400,
+    "encodingFormat": "image/webp",
+    "contentSize": "59652 bytes"
+  },
+  "/assets/editorial/nura-50/article-032-a-85663efdfe.webp": {
+    "width": 660,
+    "height": 660,
+    "encodingFormat": "image/webp",
+    "contentSize": "74612 bytes"
+  },
+  "/assets/editorial/nura-50/article-006-a-56d7f62444.webp": {
+    "width": 600,
+    "height": 400,
+    "encodingFormat": "image/webp",
+    "contentSize": "16682 bytes"
+  },
+  "/assets/editorial/nura-50/nura-bespoke-kitchen-quotes-variance-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "151660 bytes"
+  },
+  "/assets/editorial/nura-50/article-004-a-8e6c52b78f.webp": {
+    "width": 2400,
+    "height": 2880,
+    "encodingFormat": "image/webp",
+    "contentSize": "385772 bytes"
+  },
+  "/assets/editorial/nura-50/article-003-a-a1a6b731d5.webp": {
+    "width": 900,
+    "height": 600,
+    "encodingFormat": "image/webp",
+    "contentSize": "81076 bytes"
+  },
+  "/assets/editorial/nura-50/article-002-a-d7d6e25288.webp": {
+    "width": 800,
+    "height": 450,
+    "encodingFormat": "image/webp",
+    "contentSize": "33978 bytes"
+  },
+  "/assets/editorial/nura-50/article-001-a-a5826b2547.webp": {
+    "width": 2000,
+    "height": 1334,
+    "encodingFormat": "image/webp",
+    "contentSize": "268658 bytes"
+  },
+  "/assets/archive/f496af13343d42f9.jpg": {
+    "width": 1553,
+    "height": 1065,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "79951 bytes"
+  },
+  "/assets/editorial/nura-sustainable-interiors-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "204750 bytes"
+  },
+  "/assets/archive/313a79d63b29a351.jpg": {
+    "width": 1281,
+    "height": 1920,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "288693 bytes"
+  },
+  "/assets/editorial/nura-designer-collaboration-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "174678 bytes"
+  },
+  "/assets/archive/2681870927571703.jpg": {
+    "width": 1920,
+    "height": 1920,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "577967 bytes"
+  },
+  "/assets/editorial/nura-worktops-hero.webp": {
+    "width": 1536,
+    "height": 864,
+    "encodingFormat": "image/webp",
+    "contentSize": "175668 bytes"
+  },
+  "/assets/archive/569be442d308d450.jpg": {
+    "width": 394,
+    "height": 406,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "36498 bytes"
+  },
+  "/assets/archive/9d2b8ed4b8161148.jpg": {
+    "width": 1920,
+    "height": 1600,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "604283 bytes"
+  },
+  "/assets/archive/cd277309612ca1d5.jpg": {
+    "width": 1920,
+    "height": 1200,
+    "encodingFormat": "image/jpeg",
+    "contentSize": "389362 bytes"
+  },
+  "/assets/portfolio/films/film-1.webp": {
+    "width": 900,
+    "height": 508,
+    "encodingFormat": "image/webp",
+    "contentSize": "28156 bytes"
+  },
+  "/assets/portfolio/films/film-2.webp": {
+    "width": 900,
+    "height": 506,
+    "encodingFormat": "image/webp",
+    "contentSize": "32102 bytes"
+  },
+  "/assets/portfolio/films/film-3.webp": {
+    "width": 900,
+    "height": 506,
+    "encodingFormat": "image/webp",
+    "contentSize": "15186 bytes"
+  }
+}

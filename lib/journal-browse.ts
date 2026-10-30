@@ -36,3 +36,14 @@ export function journalTopics(title:string,category:string,tags:string[],path?:s
  return [...(topics.size?topics:new Set(['kitchens']))];
 }
 export function matchesJournal(item:{title:string;description:string;category:string;topics:string[];primaryCategory?:string},category:string,query:string){return (category==='all'||(item.primaryCategory&&journalCategoryContent[category]?item.primaryCategory===category:item.topics.includes(category)))&&(!query.trim()||normaliseJournal(item.title+' '+item.description+' '+item.category+' '+item.topics.join(' ')).includes(normaliseJournal(query.trim())));}
+
+export function journalCuratedGroups<T extends {path:string;title:string;description:string;category:string;topics:string[];primaryCategory?:string;minutes:number;isGuide:boolean}>(items:T[]){
+ const used=new Set(journalFeaturedItems(items).map(item=>item.path));
+ return [['planning','Planning Your Project'],['materials','Materials & Finishes'],['layout','Layout & Everyday Living'],['joinery','Architectural Joinery'],['styling','Styling & Details'],['stories','Project Stories']].map(([id,title])=>{const pool=items.filter(i=>!used.has(i.path)&&matchesJournal(i,id,'')),chosen:T[]=[];for(const candidate of [pool.find(i=>i.isGuide),pool.find(i=>i.minutes>=5),...pool]){if(candidate&&!used.has(candidate.path)&&chosen.length<4){chosen.push(candidate);used.add(candidate.path);}}return {id,title,items:chosen};});
+}
+
+export function journalFeaturedItems<T extends {path:string}>(items:T[]){
+ const paths=['/post/one-tonne-porcelain-kitchen-island','/guides/bespoke-kitchens','/post/solid-wood-or-veneer'];
+ const selected=paths.flatMap(path=>items.filter(item=>item.path===path));
+ return [...selected,...items.filter(item=>!paths.includes(item.path)).slice(0,2)];
+}
