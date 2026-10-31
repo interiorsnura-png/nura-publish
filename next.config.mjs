@@ -8,5 +8,5 @@ export default {
   async rewrites(){return {beforeFiles:[{source:'/projects/catalogue',destination:'/portfolio/index.html'}],afterFiles:[{source:'/_functions/enquiry',destination:'/api/enquiry'}],fallback:[]};},
   images: {formats:['image/avif','image/webp'],remotePatterns:[{protocol:'https',hostname:'static.wixstatic.com',pathname:'/media/**'},{protocol:'https',hostname:'a.storyblok.com',pathname:'/f/**'}]},
   async redirects(){return [{source:"/index.html",destination:"/",permanent:true},...redirects];},
-  async headers(){return [{source:'/:path*',headers:[{key:'X-Content-Type-Options',value:'nosniff'},{key:'Referrer-Policy',value:'strict-origin-when-cross-origin'},...(siteEnv==='production'?[]:[{key:'X-Robots-Tag',value:'noindex, nofollow'}])]}];}
+  async headers(){return [{source:'/:path*',headers:[{key:'Vary',value:'Accept'},{key:'X-Content-Type-Options',value:'nosniff'},{key:'Referrer-Policy',value:'strict-origin-when-cross-origin'},...(siteEnv==='production'?[]:[{key:'X-Robots-Tag',value:'noindex, nofollow'}])]}];}
 };

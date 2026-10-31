@@ -6,8 +6,12 @@ export const articleTitleOverrides:Record<string,string>={
   '/post/what-are-some-of-the-biggest-problems-faced-for-customers-working-with-kitchen-designers':"Problems with Kitchen Designers? 3 Areas to Clarify | NURA"
 };
 export const organization = {
-  '@context':'https://schema.org', '@type':'ProfessionalService', '@id':siteUrl+'/#organization',
+  '@context':'https://schema.org', '@type':['Organization','ProfessionalService'], '@id':siteUrl+'/#organization',
   name:'Nura Interiors', url:siteUrl+'/', email:'studio@nura-interiors.com', telephone:'+44 20 7123 6949',
+  contactPoint:[{
+    '@type':'ContactPoint', telephone:'+44 20 7123 6949', contactType:'customer support',
+    email:'studio@nura-interiors.com', areaServed:['GB','AE'], availableLanguage:['en']
+  }],
   address:{'@type':'PostalAddress',streetAddress:'367 Fulham Palace Road',addressLocality:'London',postalCode:'SW6 6TA',addressCountry:'GB'},
   image:siteUrl+'/assets/selected/nura-hero-shot.jpeg', priceRange:'Quoted individually according to the brief and specification',
   description:'Bespoke kitchens and architectural joinery for private homes, architects and interior designers.',

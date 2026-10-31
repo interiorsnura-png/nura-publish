@@ -8,7 +8,15 @@ const clientReviews=[
  {author:'Adam Tariq',body:'What impressed us just as much was the service throughout the project.'}
 ].map((review,index)=>({
  '@type':'Quotation','@id':siteUrl+'/#client-review-'+(index+1),
- author:{'@type':'Person',name:review.author},text:review.body,
+ author:{
+   '@type':'Person',
+   name:review.author,
+   jobTitle:'Client',
+   worksFor:{'@id':organization['@id']},
+   description:'Private residential client of Nura Interiors',
+   url:siteUrl+'/#client-review-'+(index+1)
+ },
+ text:review.body,
  about:{'@id':organization['@id']},isPartOf:{'@id':siteUrl+'/#webpage'}
 }));
 const hours=[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday'],opens:'09:30',closes:'18:00'}];
