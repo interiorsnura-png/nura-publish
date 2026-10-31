@@ -6,7 +6,16 @@ const path='/post/how-to-compare-bespoke-kitchen-quotes-in-london',origin='https
 async function page(path){const r=await fetch(base+path);assert.equal(r.status,200,path);return cheerio.load(await r.text());}
 const $=await page(path);
 assert.equal($('h1').length,1);
-assert.equal($('h1').text(),'Comparing Kitchen Quotes: A Line-by-Line Checklist');
+assert.equal($('h1').text(),'How to Compare Bespoke Kitchen Quotes in London');
+const expectedTitle='How to Compare Bespoke Kitchen Quotes in London | NURA';
+const expectedDescription='Compare bespoke kitchen quotes line by line: cabinetry, worktops, installation, VAT, access and payment terms. A practical checklist for London homeowners.';
+assert.equal($('title').text(),expectedTitle);
+assert.equal($('meta[name="description"]').attr('content'),expectedDescription);
+for(const property of ['og:title','twitter:title'])assert.equal($(`meta[property="${property}"],meta[name="${property}"]`).attr('content'),expectedTitle);
+for(const property of ['og:description','twitter:description'])assert.equal($(`meta[property="${property}"],meta[name="${property}"]`).attr('content'),expectedDescription);
+assert.equal($('.article-content a[href="/post/bespoke-kitchen-costs-quotation"]').length,1);
+assert.equal($('.article-content a[href="/consultation"]').filter((_,a)=>$(a).text()==='Discuss Your Kitchen Brief').length,1);
+assert.match($('.article-content').text(),/payment milestones/);
 assert.equal($('link[rel="canonical"]').attr('href'),origin+path);
 assert.equal($('meta[property="og:type"]').attr('content'),'article');
 const schemas=$('script[type="application/ld+json"]').toArray().map(el=>JSON.parse($(el).text()));

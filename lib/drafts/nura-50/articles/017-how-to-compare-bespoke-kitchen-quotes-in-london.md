@@ -1,8 +1,8 @@
 ---
 slug: "how-to-compare-bespoke-kitchen-quotes-in-london"
-title: "Comparing Kitchen Quotes: A Line-by-Line Checklist"
-seo_title: "Comparing Kitchen Quotes: A Line-by-Line Checklist"
-seo_description: "Learn how to compare bespoke kitchen quotes fairly, line by line, from carcass spec and hardware to VAT, access costs and change provisions."
+title: "How to Compare Bespoke Kitchen Quotes in London"
+seo_title: "How to Compare Bespoke Kitchen Quotes in London | NURA"
+seo_description: "Compare bespoke kitchen quotes line by line: cabinetry, worktops, installation, VAT, access and payment terms. A practical checklist for London homeowners."
 canonical: "https://www.nura-interiors.com/post/how-to-compare-bespoke-kitchen-quotes-in-london"
 published_date: "2025-06-15"
 modified_date: "2026-10-20"
@@ -17,7 +17,7 @@ search_intent: "commercial"
 status: "needs-review"
 ---
 
-# Comparing Kitchen Quotes: A Line-by-Line Checklist
+# How to Compare Bespoke Kitchen Quotes in London
 
 Two kitchen quotations can differ substantially even when their drawings look similar. The difference may sit in the cabinet schedule, an appliance allowance, installation scope or a finish that has not yet been selected. Working through each quotation line by line helps you understand what is actually being offered. The aim is to put the proposals onto a common basis before deciding whether a price difference represents useful value, a changed specification or work that still needs a separate budget.
 
@@ -61,9 +61,21 @@ Certain items reliably separate quotes that look similar on the surface. It is w
 4. **Plinth and cornice**, Plinths, cornices, and light pelmets are sometimes priced separately. Where a 30 mm plinth is offered as an option (feasibility depending on the specific installation), confirm whether that is within the quoted figure.
 5. **Change provisions**, What happens if you alter a unit size or switch a door profile after sign-off? Some suppliers include a defined number of amendments; others charge from the first revision. Understanding this before you commit can save a meaningful sum.
 
+### Before You Compare the Totals
+
+Two kitchen proposals may describe different scopes, even when the finished designs appear similar. Review cabinetry construction, named hardware, worktop allowances, installation responsibilities and exclusions before comparing prices.
+
+For a closer look at what drives the difference between quotations, read our [guide to bespoke kitchen costs](/post/bespoke-kitchen-costs-quotation).
+
+If you are planning a kitchen in London, bring your drawings, proposed specifications and outstanding questions to an initial conversation with NURA. We can discuss which details need clarification before the project scope is agreed.
+
+[Discuss Your Kitchen Brief](/consultation)
+
 ## Fitting, Programme, and Handover
 
 Installation cost and programme are rarely comparable without scrutiny. Ask whether fitting is included, subcontracted, or excluded. Confirm the anticipated lead time from deposit to delivery, different suppliers may count design, production, dispatch and fitting differently, though start and end dates will depend on when your slot is confirmed and your site is ready. A quote with a shorter headline timeline may be assuming conditions your project cannot meet.
+
+Compare payment terms alongside the scope. Ask each supplier to record the deposit, subsequent amounts, payment milestones and the event that makes each payment due. Confirm how changes and any outstanding work will be handled in the agreed payment schedule, rather than assuming every proposal uses the same terms.
 
 ## Snagging, Aftercare, and What Happens Next
 
