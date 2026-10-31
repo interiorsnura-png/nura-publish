@@ -18,7 +18,7 @@ export function journalCollectionSchema(entries:Entry[],category:string|undefine
   ...groups.filter(g=>g.entries.length).map(g=>list(url+'#category-'+g.id,g.title,g.entries)),
   {'@type':'DefinedTermSet','@id':base+'#topics',name:'NURA Journal topics',url:base,hasDefinedTerm:terms.map(([id])=>ref(base+'#topic-'+id))},
   ...terms.map(([id,name])=>({'@type':'DefinedTerm','@id':base+'#topic-'+id,name,termCode:id,url:siteUrl+journalPageURL(id,''),description:journalCategoryContent[id]?.description,inDefinedTermSet:ref(base+'#topics')})),
-  ...(featured.length?journalVideos.map(video=>({'@type':'VideoObject','@id':siteUrl+video.src+'#video',name:video.title,contentUrl:siteUrl+video.src,thumbnailUrl:siteUrl+video.poster,duration:video.duration,width:video.width,height:video.height,publisher:ref(organization['@id']),isPartOf:ref(url+'#webpage')})):[]),
+  ...(featured.length?journalVideos.map(video=>({'@type':'VideoObject','@id':siteUrl+video.src+'#video',name:video.title,contentUrl:siteUrl+video.src,thumbnailUrl:siteUrl+video.poster,duration:video.duration,uploadDate:video.uploadDate,width:video.width,height:video.height,publisher:ref(organization['@id']),isPartOf:ref(url+'#webpage')})):[]),
   ...images
  ]};
 }

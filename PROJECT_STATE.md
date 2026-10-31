@@ -1,5 +1,7 @@
 # NURA Project State
 
+- 2026-10-31: Technical SEO review branch adds Journal page-specific search/social metadata, the calculator's free GBP Offer, and uploadDate on all three Journal films. Film dates use the documented native publication date 2026-10-07, not an invented original Wix upload time. No production merge or manual deployment performed. Verification and follow-up are recorded in docs/evidence/technical-seo-2026-10-31.md.
+
 - 2026-10-29: Owner requested final hero cleanup. Removed standalone location strip and its CSS, moved approved London/Dubai copy into existing Nura introduction. Selected photo, concise overlay H1/tagline/free-consultation CTA and independent calculator preserved. Browser visual review remains pending.
 
 - 2026-10-29: Owner approved concise hero: retained service H1, Designed around you, and Request a free consultation. Removed hero eyebrow/trust repetition, moved London/Dubai description immediately below hero and restored mobile image overlay with gradient. Preview review required; browser visual checks unavailable.

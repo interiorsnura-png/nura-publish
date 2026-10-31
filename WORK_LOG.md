@@ -1,5 +1,7 @@
 # NURA Work Log
 
+- 2026-10-31: Reproduced all three requested SEO defects with focused regressions before implementing a bounded fix. Reused the Journal page-number parser and preserved first-page/category metadata and canonical filters. Calculator emits a zero-price GBP Offer; Journal films share the documented native-site publication date with date-only precision. All 146 tests passed; full build/runtime verification is tracked in docs/evidence/technical-seo-2026-10-31.md. Production remains unchanged.
+
 - 2026-10-29: Owner requested final hero cleanup. Removed standalone location strip and its CSS, moved approved London/Dubai copy into existing Nura introduction. Selected photo, concise overlay H1/tagline/free-consultation CTA and independent calculator preserved. Browser visual review remains pending.
 
 - 2026-10-29: Owner approved concise hero: retained service H1, Designed around you, and Request a free consultation. Removed hero eyebrow/trust repetition, moved London/Dubai description immediately below hero and restored mobile image overlay with gradient. Preview review required; browser visual checks unavailable.

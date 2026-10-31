@@ -1,5 +1,8 @@
 # NURA Backlog
 
+- 2026-10-31: Review and merge the technical SEO PR before production activation; then verify exact production SHA and rendered Journal pagination/calculator/video schema and run the official Google Rich Results Test. Local JSON-LD checks are not external rich-results validation. Original Wix film upload timestamps remain undocumented; native publication dates are used without invented times.
+- 2026-10-31: Dependency installation/audit reports existing vulnerabilities, including critical advisories against pinned Next.js 16.3.8. Assess and patch in a separate dependency-security change; no dependencies were changed for this SEO task.
+
 - 2026-10-29: Owner requested final hero cleanup. Removed standalone location strip and its CSS, moved approved London/Dubai copy into existing Nura introduction. Selected photo, concise overlay H1/tagline/free-consultation CTA and independent calculator preserved. Browser visual review remains pending.
 
 - 2026-10-29: Owner approved concise hero: retained service H1, Designed around you, and Request a free consultation. Removed hero eyebrow/trust repetition, moved London/Dubai description immediately below hero and restored mobile image overlay with gradient. Preview review required; browser visual checks unavailable.

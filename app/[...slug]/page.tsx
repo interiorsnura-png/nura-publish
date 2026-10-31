@@ -29,8 +29,9 @@ export async function generateMetadata({params,searchParams}:Props):Promise<Meta
  const {slug}=await params;const path='/'+slug.join('/');const entry=(await getEntries()).find(x=>x.path===path);const listing=listingMetadata[path];
  const journalSearch=path==='/journal'?await searchParams:undefined;
  const categoryCopy=journalSearch?journalCategoryContent[validJournalCategory(journalSearch.category)]:undefined;
- const title=categoryCopy?categoryCopy.title+' | NURA Journal':path==='/services/wardrobes-dressing-rooms'?wardrobeTitle:articleTitleOverrides[path]||entry?.content.seo_title||listing?.title||entry?.content.title||'Nura Interiors';
- const description=categoryCopy?.description||(path==='/services/wardrobes-dressing-rooms'?wardrobeDescription:entry?.content.seo_description||listing?.description||entry?.content.summary||'Explore bespoke kitchens and architectural joinery with Nura Interiors.');
+ const journalPage=journalPageNumber(journalSearch?.page);
+ const title=journalSearch&&journalPage>1?`Kitchen & Joinery Design Journal - Page ${journalPage} | Nura Interiors`:categoryCopy?categoryCopy.title+' | NURA Journal':path==='/services/wardrobes-dressing-rooms'?wardrobeTitle:articleTitleOverrides[path]||entry?.content.seo_title||listing?.title||entry?.content.title||'Nura Interiors';
+ const description=journalSearch&&journalPage>1?`Explore page ${journalPage} of the Nura design journal covering bespoke kitchens, joinery, and architectural details.`:categoryCopy?.description||(path==='/services/wardrobes-dressing-rooms'?wardrobeDescription:entry?.content.seo_description||listing?.description||entry?.content.summary||'Explore bespoke kitchens and architectural joinery with Nura Interiors.');
  const image=path==='/services/wardrobes-dressing-rooms'?siteUrl+'/assets/archive/58c6cefb8485754a-local.webp':absoluteImage(entry?.content.hero?.filename)||siteUrl+'/assets/selected/nura-hero-shot.jpeg';
  const isArticle=entry?.content.component==='article';
  const social=entry?selectArticleImage(entry.content,absoluteImage):undefined;
